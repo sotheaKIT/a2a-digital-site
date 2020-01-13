@@ -1,5 +1,10 @@
 <template>
   <div id="home-page">
+  <AboutPage/>
+  <ContactPage/>
+  <JobsPage/>
+  <ProductsPage/>
+  <ServicesPage/>
      
   </div>
 </template>
