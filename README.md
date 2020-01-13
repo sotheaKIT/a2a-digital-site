@@ -7,16 +7,9 @@
 
 <h4 align="center">A2A Digital for industry version 4.0
 
-
-## Preview
-[![Netlify Status](https://api.netlify.com/api/v1/badges/5f974d27-23b8-4a70-89ca-b9418b6a45bf/deploy-status)](https://app.netlify.com/sites/stupefied-shirley-15d2ab/deploys)  
-
-![image](https://user-images.githubusercontent.com/5694308/67919702-f5155d00-fbd3-11e9-9b17-1f77f5a60623.png)
-Demo: https://whynot.earth/
-
 ## Design File:
 
-https://www.figma.com/file/M3U8SfOgvNiPkRHPBooBtcGQ/Why-Not-Earth?node-id=0%3A1
+https://www.figma.com/file/0MgVJmtcbTRyA1XwKouVGp/A2A-Digital-UI-Prototype?node-id=0%3A1
 
 ## Frontend:
   - Vue 
@@ -41,4 +34,4 @@ For detailed explanation on how things work, checkout the [guide](http://vuejs-t
 
 ## License
 
-why-not-earth is licensed under the [Apache License, Version 2.0](LICENSE).
+A2A Digital is licensed under the [ A2A Digital ](LICENSE).
