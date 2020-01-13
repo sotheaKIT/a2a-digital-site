@@ -11,7 +11,7 @@ import HomePage from './views/HomePage.vue'
 
 
 export default {
-  name: 'app',
+  name: 'App',
   components: {
     HomePage
   }
