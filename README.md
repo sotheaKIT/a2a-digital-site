@@ -18,13 +18,13 @@ https://www.figma.com/file/0MgVJmtcbTRyA1XwKouVGp/A2A-Digital-UI-Prototype?node-
 
 ``` bash
 # install dependencies
-yarn install
+yarn install or npm install
 
 # serve with hot reload at localhost:8080
- yarn serve dev
+ yarn serve dev or npm run dev
 
 # build for production with minification
-yarn build
+yarn build or npm build 
 
 For detailed explanation on how things work, checkout the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
 ```
