@@ -7,6 +7,7 @@
   <ContactPage/>
   <JobsPage/>
   <ProductsPage/>
+  <PartnersPage/>
   <ServicesPage/>
    <!-- End -->
   <Footer/>
@@ -20,6 +21,7 @@ import ContactPage from '../views/ContactPage'
 import JobsPage  from '../views/JobsPage'
 import ProductsPage from '../views/Products'
 import ServicesPage from '../views/ServicesPage'
+import PartnersPage from '../views/PartnersPage'
 import Navigator from '../components/navigator/navigator.vue'
 import Footer from '../components/footer/footer.vue'
 import Slide from '../components/slide/slide.vue'
@@ -31,6 +33,7 @@ export default {
     ContactPage,
     JobsPage,
     ProductsPage,
+    PartnersPage,
     ServicesPage,
     Navigator,
     Footer,
