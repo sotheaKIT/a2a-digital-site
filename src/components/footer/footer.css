@@ -1,0 +1,26 @@
+body{
+    margin: 0;
+}
+.l-footer{
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+}
+.c-footer{
+    width: 100%;
+    height: 80px;
+    background-color: cadetblue;
+}
+.c-footer--logo{
+    padding: 16px 320px;
+}
+.c-logo {
+    width: 165px;
+    height: 43px;
+    float: left;
+}
+.c-sm {
+    width: 39px;
+    height: 39px;
+    float: right;
+}
