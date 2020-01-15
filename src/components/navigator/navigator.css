@@ -1,0 +1,38 @@
+body {
+    margin: 0;
+}
+
+#nav {
+   padding: 18px 320px;
+   height: 38px;
+   box-shadow: 0 10px 20px rgba(0,0,0,0.1), 0 6px 6px rgba(0,0,0,0);   
+}
+
+.c_logo {
+    width: 164px;
+    height: 43px;
+    float: left;
+
+}
+#nav-right {
+    float: right;
+}
+.c_search {
+    width: 16px;
+    height: 16px;
+    fill: #303030;
+}
+.c_dropdown {
+    display: inline;
+    padding-left: 10px;
+}
+.c_navigate_right + .c_navigate_right {
+    padding-left: 40px;
+}
+.c_navigate_right {
+    text-decoration: none;
+    color: #303030;
+    font-size: 20px;
+}
+
+
