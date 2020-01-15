@@ -1,0 +1,73 @@
+h1 {
+    color: #303030;
+    font-size: 40px;
+    font-family: SFProText-Medium;
+}
+.c_service__title{
+    width: 100%;
+    text-align: center;
+}
+.c_service__title h1{
+    color: #303030;
+    font-size: 40px;
+    font-family: SFProText-Medium;
+    margin-bottom: -40px;
+}
+.c_card__service {
+    width: 68%;
+    height: auto;
+    padding-top: 143px;
+    margin-left: 16%;
+    display: flex;
+    align-items: center;
+}
+
+.l_card__text {
+    width: 80%;
+    float: left;
+}
+article.l_card__text a{
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: small;
+    color: #138690;
+}
+article.l_card__text img{
+    width: 18px;
+    vertical-align: bottom;
+}
+
+.l_article__wrapper{
+    width: 50%;
+    display: block;
+    float: left;
+
+}
+/* .l_article__wrapper.left article{
+    margin-left: 0;
+} */
+.l_article__wrapper.right article{
+    margin-left: 20%;
+}
+
+.l_card__img{
+    width: 50%;
+    height: 400px;
+    background-color: #D0ACE8;
+    float: left;
+}
+.l_clear{
+    clear: both;
+}
+@font-face {
+    font-family: SFProText-Bold;
+    src: url("../assets/fonts/SFProText-Bold.ttf");
+}
+@font-face {
+    font-family: SFProText-Medium;
+    src: url("../assets/fonts/SFProText-Medium.ttf");
+}
+@font-face {
+    font-family: SSFProText-Regular;
+    src: url("../assets/fonts/SFProText-Regular.ttf");
+}
