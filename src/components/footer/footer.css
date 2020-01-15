@@ -2,7 +2,7 @@
 .l_footer{
     position: absolute;
     width: 100%;
-    bottom: 0;
+    top: 5000px;
 }
 .c_footer{
     width: 100%;
