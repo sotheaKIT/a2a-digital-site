@@ -14,14 +14,12 @@
                 <a href="">Read More <img src="../assets/img/icon/read_more.svg"></a>
             </article>
         </div>
-        <div class="l_card__img">
-        </div>
+        <div class="l_card__img"></div>
     </section>
     <div class="l_clear"></div>
 
     <section class="c_card__service">
-        <div class="l_card__img">
-        </div>
+        <div class="l_card__img"></div>
         <div class="l_article__wrapper right">
             <article class="l_card__text">
                 <h1>Make the change to channels</h1>
@@ -44,14 +42,12 @@
                 <a href="">Read More <img src="../assets/img/icon/read_more.svg"></a>
             </article>
         </div>
-        <div class="l_card__img">
-        </div>
+        <div class="l_card__img"></div>
     </section>
     <div class="l_clear"></div>
 
     <section class="c_card__service">
-        <div class="l_card__img">
-        </div>
+        <div class="l_card__img"></div>
         <div class="l_article__wrapper right">
             <article class="l_card__text">
                 <h1>Make the change to channels</h1>
