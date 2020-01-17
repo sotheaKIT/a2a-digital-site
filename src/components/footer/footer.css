@@ -1,6 +1,6 @@
 
 .l_footer {
-    position: fixed;
+    position: absolute;
     width: 100%;
     top: 5000px;
 }
@@ -11,8 +11,8 @@
 }
 .c_footer__logo {
     padding: 22px 6.66%;
-    padding-left: calc(16.67% - 100px);
-    padding-right: calc(16.67% - 100px);
+    padding-left: calc(16.67% - 50px);
+    padding-right: calc(16.67% - 50px);
 }
 .c_logo__left {
     float: left;
