@@ -1,29 +1,31 @@
 /* This is the share value of slide feature */
 #slide h1,i,p {
+
     font-family: SF Pro Text;
     font-style: normal;
     color: #303030;
 }
 #slide p,i{
+
     font-weight: 500;
 }
 .l_slide_intro, .l_slide_info{
+
     padding-left: calc(6.66% - 50px);
 }
-
 /* Applying value to the slide div tage */
 #slide{
 
     background-color: #BDFFF0;
      /* background-image: url("../../assets/components/slide/water-1330252__340.webp"); */
      position: absolute;
-     
      left: 0%;
      right: 0%;
      top: 0%;
      bottom: 0%;
 }
 .c_slide__header h1{
+
     margin-bottom: 0%;
     padding-top: calc(13% - 100px);
     text-align: justify;
@@ -32,6 +34,7 @@
     line-height: 76px;
     }
 .c_slide__description p{
+
     margin-top: 0.5%;
     font-weight: normal;
     font-size: 20px;
@@ -40,6 +43,7 @@
 }
 /* Set value to contact button tage */
 .c_slide__contactbtn{
+
     float: left;
     width: 177px;
     border: 2px solid #138690;
@@ -47,25 +51,26 @@
     border-radius: 4px;
 }
 .c_slide__contactbtn p{
+
     font-family: SF Pro Text;
     font-style: normal;
     font-size: 25px;
     line-height: 0px;
     /* Green */
-
     color: #138690;
 }
-
 /* Set value to video tage */
 .l_slide__video{
+
     float: left;
 }
 .c_btn__playvideo{
+
     padding-left: 14px;
     width: 58px;
 }
-
 .l_slide__video i{
+    
     float: right;
     padding-left: 12.5px;
     padding-top: 12.0px;
