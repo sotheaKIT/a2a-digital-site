@@ -6,7 +6,7 @@
 }
 .c_service__title h1{
     color: #303030;
-    font-size: 40px;
+    font-size: 35px;
     font-family: SFProText-Medium;
     margin-bottom: -40px;
 }
@@ -16,7 +16,9 @@
     font-size: 40px;
     font-family: SFProText-Medium;
 }
-
+.l_card__text p{
+    font-size: 16px;
+}
 
 .c_card__service {
     width: 68%;
@@ -31,13 +33,13 @@
 .l_card__text {
     width: 80%;
 }
-article.l_card__text a{
+.l_card__text a{
     text-decoration: none;
     text-transform: uppercase;
     font-size: small;
     color: #138690;
 }
-article.l_card__text img{
+.l_card__text img{
     width: 18px;
     vertical-align: bottom;
 }
@@ -84,7 +86,22 @@ article.l_card__text img{
     clear: both;
 }
 
-
+@media only screen and (max-width: 1366px) {
+    .c_card__service{
+        margin-left: 95px;
+        width: calc(100% - 180px);
+    }
+    .l_card__text{
+        margin-left: 90px;
+    }
+    .txt_left div.l_article__wrapper {
+        width: 53.5%;
+    }
+    .txt_left .l_card__img{
+        width: 34.5%;
+        float: right;
+    }
+}
 @media only screen and (max-width: 980px) {
     .c_card__service div.l_article__wrapper{
         height: auto;
