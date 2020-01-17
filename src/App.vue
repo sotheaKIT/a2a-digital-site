@@ -5,11 +5,8 @@
     <HomePage msg="A2A-digital"/>
   </div>
 </template>
-
 <script>
 import HomePage from './views/HomePage.vue'
-
-
 export default {
   name: 'App',
   components: {
@@ -17,4 +14,3 @@ export default {
   }
 }
 </script>
-
