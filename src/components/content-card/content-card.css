@@ -1,0 +1,106 @@
+/* Title for one page topic*/
+/* One page topic locaion*/
+.c_service__title{
+    width: 100%;
+    text-align: center;
+}
+.c_service__title h1{
+    color: #303030;
+    font-size: 40px;
+    font-family: SFProText-Medium;
+    margin-bottom: -40px;
+}
+/*--------------------------------------- Card Format----------------------------------------------- */
+.l_card__text h1 {
+    color: #303030;
+    font-size: 40px;
+    font-family: SFProText-Medium;
+}
+
+
+.c_card__service {
+    width: 68%;
+    padding-top: 120px;
+    margin-left: 16%;
+}
+
+
+.c_card__service .l_card__img + .l_article__wrapper{ 
+    display: none; /* For mobile the text after img will not shown */
+}
+.l_card__text {
+    width: 80%;
+}
+article.l_card__text a{
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: small;
+    color: #138690;
+}
+article.l_card__text img{
+    width: 18px;
+    vertical-align: bottom;
+}
+/* ---------------------------------Card with text go left, image go right-------------------------- */
+/* For text go to left */
+.txt_left div.l_article__wrapper{
+    width: 50%;
+    height: 400px;
+    display: flex;
+    float: left;
+    align-items: center;
+}
+
+/* For image to go left */
+.txt_left .l_card__img{
+    width: 50%;
+    height: 400px;
+    background-color: #D0ACE8;
+    float: left;
+}
+/* ----------------------------------Card with text go right, image go left------------------------------ */
+/* For right text */
+.txt_right article.l_card__text {
+    width: 80%;
+    margin-left: 20%;
+}
+/* Position for text to right  */
+/* for text to right  */
+.txt_right div.l_article__wrapper{
+    width: 50%;
+    display: flex;
+    float: right;
+    height: 400px;
+    align-items: center;
+}
+/* For Image go to left */
+.txt_right div.l_card__img{
+    width: 50%;
+    height: 400px;
+    background-color: #D0ACE8;
+    float: left;
+}
+.l_clear{
+    clear: both;
+}
+
+
+@media only screen and (max-width: 980px) {
+    .c_card__service div.l_article__wrapper{
+        height: auto;
+    }
+    .c_card__service div.l_card__img{
+        width: 100%;
+    }
+    .c_card__service .l_card__img + .l_article__wrapper{ 
+        display: block; /* For mobile the text after img will show up */
+        width: 100%;
+    }
+    .c_card__service div.l_pc{
+        display: none; /* text befor img will not show */
+    }  
+    section.c_card__service article.l_card__text {
+        width: 100%;
+        margin-left: 0% ;
+    }  
+}
