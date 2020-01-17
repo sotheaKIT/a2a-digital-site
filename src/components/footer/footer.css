@@ -6,11 +6,11 @@
 }
 .c_footer {
     width: 100%;
-    height: 80px;
+    height: 70px;
     background-color: #138690;
 }
 .c_footer__logo {
-    padding: 20px 16.67%;
+    padding: 22px 6.66%;
     padding-left: calc(16.67% - 100px);
     padding-right: calc(16.67% - 100px);
 }
@@ -19,13 +19,14 @@
 
 }
 .c_logo {
-    width: 165px;
-    height: 43px;
+    width: 138.37px;
+    height: 25px;
 }
 .c_sm_right {
     float: right;
 }
 .c_sm {
-    width: 39px;
-    height: 39px;
+    width: 25px;
+    height: 25px;
+    padding-left: 20px;
 }
