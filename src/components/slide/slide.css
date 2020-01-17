@@ -5,6 +5,7 @@
     font-style: normal;
     color: #303030;
 }
+<<<<<<< HEAD
 #slide p,i{
 
     font-weight: 500;
@@ -12,6 +13,18 @@
 .l_slide_intro, .l_slide_info{
 
     padding-left: calc(6.66% - 50px);
+=======
+
+#slide{
+
+    background-color: #BDFFF0;
+    /* background-image: url("https://www.hd-freewallpapers.com/latest-wallpapers/desktop-image-of-a-parrot-wallpaper.jpg"); */
+    position: absolute;
+    left: 0%;
+    right: 0%;
+    top: 7%;
+    height: 900px;
+>>>>>>> 69c230e02f566a69fbfc0b766f99cb2a6124e180
 }
 /* Applying value to the slide div tage */
 #slide{
