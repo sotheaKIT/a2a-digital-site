@@ -1,4 +1,4 @@
-<style src="../styles/service.css" scoped></style>
+<style src="../styles/service.css" scope></style>
 <template>
   <div id="services-page">
       <header class="c_service__title">

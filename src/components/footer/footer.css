@@ -2,6 +2,8 @@
 .l_footer {
     width: 100%;
     top: 900px;
+    position: absolute;
+    top: 3700px;
 }
 .c_footer {
     width: 100%;
@@ -17,7 +19,7 @@
     float: left;
 
 }
-.c_logo {
+.c_logo_footer {
     width: 138.37px;
     height: 25px;
 }
