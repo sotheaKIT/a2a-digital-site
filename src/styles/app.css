@@ -9,3 +9,15 @@
 body{
   margin: 0;
 }
+@font-face {
+  font-family: SFProText-Bold;
+  src: url("../assets/fonts/SFProText-Bold.ttf");
+}
+@font-face {
+  font-family: SFProText-Medium;
+  src: url("../assets/fonts/SFProText-Medium.ttf");
+}
+@font-face {
+  font-family: SSFProText-Regular;
+  src: url("../assets/fonts/SFProText-Regular.ttf");
+}
