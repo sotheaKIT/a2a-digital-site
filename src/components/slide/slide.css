@@ -1,0 +1,80 @@
+/* This is the share value of slide feature */
+#slide h1,i,p {
+    font-family: SF Pro Text;
+    font-style: normal;
+    color: #303030;
+}
+
+#slide{
+
+    background-color: #BDFFF0;
+    /* background-image: url("https://www.hd-freewallpapers.com/latest-wallpapers/desktop-image-of-a-parrot-wallpaper.jpg"); */
+    position: absolute;
+    left: 0%;
+    right: 0%;
+    top: 7%;
+    height: 900px;
+}
+
+/* Applying value to the slide div tage */
+#slide{
+
+    background-color: #BDFFF0;
+     /* background-image: url("../../assets/components/slide/water-1330252__340.webp"); */
+     position: absolute;
+     
+     left: 0%;
+     right: 0%;
+     top: 0%;
+     bottom: 0%;
+}
+.c_slide__header h1{
+    margin-bottom: 0%;
+    padding-top: calc(13% - 100px);
+    text-align: justify;
+    font-weight: bold;
+    font-size: 64px;
+    line-height: 76px;
+    }
+.c_slide__description p{
+    margin-top: 0.5%;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: left;
+}
+/* Set value to contact button tage */
+.c_slide__contactbtn{
+    float: left;
+    width: 177px;
+    border: 2px solid #138690;
+    box-sizing: border-box;
+    border-radius: 4px;
+}
+.c_slide__contactbtn p{
+    font-family: SF Pro Text;
+    font-style: normal;
+    font-size: 25px;
+    line-height: 0px;
+    /* Green */
+
+    color: #138690;
+}
+
+/* Set value to video tage */
+.l_slide__video{
+    float: left;
+}
+.c_btn__playvideo{
+    padding-left: 14px;
+    width: 58px;
+}
+
+.l_slide__video i{
+    float: right;
+    padding-left: 12.5px;
+    padding-top: 12.0px;
+    font-size: 25px;
+    line-height: 30px;
+    color: rgb(19, 134, 144);
+} 

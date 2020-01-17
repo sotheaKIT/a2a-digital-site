@@ -2,13 +2,13 @@
   <div id="home-page">
   <Navigator/>
   <Slide/>
+  <ServicesPage/>
   <!-- Just show Page only Example :  <AboutPage/>  -->
   <AboutPage/>
   <ContactPage/>
   <JobsPage/>
   <ProductsPage/>
   <PartnersPage/>
-  <ServicesPage/>
    <!-- End -->
   <Footer/>
   </div>
