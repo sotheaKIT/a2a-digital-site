@@ -1,15 +1,21 @@
+
+<style src="../styles/home.css" scoped></style>
 <template>
   <div id="home-page">
-  <Navigator/>
-  <Slide/>
-  <ServicesPage/>
-  <!-- Just show Page only Example :  <AboutPage/>  -->
-  <AboutPage/>
-  <ContactPage/>
-  <JobsPage/>
-  <ProductsPage/>
-  <PartnersPage/>
-   <!-- End -->
+   <div class="l_header">
+      <Navigator/>
+   </div>
+   <div class="l_wrapper">
+      <Slide/>
+      <ServicesPage/>
+      <!-- Just show Page only Example :  <AboutPage/>  -->
+      <AboutPage/>
+      <ContactPage/>
+      <JobsPage/>
+      <ProductsPage/>
+      <PartnersPage/>
+      <!-- End -->
+   </div>
   <Footer/>
   </div>
 </template>
@@ -19,7 +25,7 @@
 import AboutPage from '../views/AboutPage'
 import ContactPage from '../views/ContactPage'
 import JobsPage  from '../views/JobsPage'
-import ProductsPage from '../views/Products'
+import ProductsPage from '../views/ProductsPage'
 import ServicesPage from '../views/ServicesPage'
 import PartnersPage from '../views/PartnersPage'
 import Navigator from '../components/navigator/navigator.vue'
