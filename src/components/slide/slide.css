@@ -11,16 +11,15 @@
 }
 
 #slide > .center{
-
     position: absolute;
     padding-top: 6%;
     padding-right: 50%;
     left: 20%;
 }
 #slide>.center h1{
-
+    font-family: SFProText-Bold;
+    src: url("../../assets/fonts/SFProText-Bold.ttf");
     text-align: justify;
-    font-family: SF Pro Text;
     font-style: normal;
     font-weight: bold;
     font-size: 64px;
@@ -29,7 +28,6 @@
 
 #slide>.center p{
     text-align: left;
-    font-family: SF Pro Text;
     font-style: normal;
     font-weight: normal;
     font-size: 20px;
