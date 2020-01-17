@@ -5,6 +5,11 @@
  
   export default {
     name: 'Footer',
+    // data : function () {
+    //   return {
+    //     icon : "ddd"
+    //   }
+    // }
    
   }
 </script>
