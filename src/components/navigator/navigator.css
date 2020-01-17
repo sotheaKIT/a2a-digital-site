@@ -1,10 +1,18 @@
+body{
+    width: 100%;
+    margin: 0;
+}
+#navigation {
+ position: fixed;
+ top: 0;
+ width: 100%;
+}
 #nav {
-   padding: 20px 16.67%;
+   padding: 20px;
    height: 80px;
    box-shadow: 0 10px 20px rgba(0,0,0,0.1), 0 6px 6px rgba(0,0,0,0);
    padding-left: calc(16.67% - 100px);
-   padding-right: calc(16.67% - 100px);
-      
+   padding-right: calc(16.67% - 100px);  
 }
 
 .c_logo {
@@ -27,53 +35,6 @@
     padding-left: 10px;
 }
 .c_navigate_right + .c_navigate_right {
-    padding-left: 40px;
-}
-.c_navigate_right {
-    text-decoration: none;
-    color: #303030;
-    font-size: 20px;
-}
-
-
-
-
-
-
-
-.navigator {
-    position: absolute;
-    width: 100%;
-    top: 0;
-}
-.l_navigator {
-    width: 100%;
-    height: 80px;
-    background-color: white;
-    box-shadow: 0 10px 20px rgba(0,0,0,0.1), 0 6px 6px rgba(0,0,0,0);
-}
-.c_navigator {
-    padding: 20px 16.67%;
-    padding-left: calc(16.67% - 100px);
-    padding-right: calc(16.67% - 100px);
-}
-.c_navigator__logo {
-    float: left;
-}
-
-.c_navigator__list {
-    float: right;
-}
-.c_search {
-    width: 16px;
-    height: 16px;
-    fill: #303030;
-}
-.c_dropdown {
-    display: inline;
-    padding-left: 10px;
-}
-.c_navigate_right {
     padding-left: 40px;
 }
 .c_navigate_right {
