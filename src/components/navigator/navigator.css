@@ -1,19 +1,16 @@
-body{
-    width: 100%;
-    margin: 0;
-}
 #navigation {
  position: fixed;
  top: 0;
  width: 100%;
+ background-color: #ffffff;
+ z-index: 2;
 
 }
 #nav {
-   padding: 20px;
    height: 80px;
    box-shadow: 0 10px 20px rgba(0,0,0,0.1), 0 6px 6px rgba(0,0,0,0);
-   padding-left: calc(6.66% - 50px);
-   padding-right: calc(6.66% - 50px);  
+   padding-left: calc(10.32% - 50px);
+   padding-right: calc(10.32% - 50px); 
 }
 
 .c_logo {

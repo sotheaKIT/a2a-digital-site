@@ -1,7 +1,6 @@
 /* This is the share value of slide feature */
 #slide h1,i,p {
 
-    font-family: SF Pro Text;
     font-style: normal;
     color: #303030;
 }
@@ -11,25 +10,22 @@
 }
 .l_slide_intro, .l_slide_info{
 
-    padding-left: calc(6.66% - 50px);
+    padding-left: calc(10.32% - 50px);
 }
 /* Applying value to the slide div tage */
 #slide{
-
     background-color: #BDFFF0;
      /* background-image: url("../../assets/components/slide/water-1330252__340.webp"); */
-     position: absolute;
-     left: 0%;
-     right: 0%;
-     top: 10%;
-     bottom: 0%;
+    width: 100%;
+    height: 583px;
+    
 }
 .c_slide__header h1{
 
     margin-bottom: 0%;
-    padding-top: calc(13% - 100px);
+    padding-top: calc(15.73% - 100px);
     text-align: justify;
-    font-weight: bold;
+    font-family: SFProText-Bold;
     font-size: 64px;
     line-height: 76px;
 }

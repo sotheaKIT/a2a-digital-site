@@ -4,6 +4,8 @@
   -moz-osx-font-smoothing: grayscale;
   font-family:  SSFProText-Regular;
   src: url("../assets/fonts/SFProText-Regular.ttf");
+  background-color: #ffffff;
+  height: 3574px;
   
 }
 body{
