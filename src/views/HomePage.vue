@@ -2,12 +2,13 @@
   <div id="home-page">
   <Navigator/>
   <Slide/>
+  <ServicesPage/>
   <!-- Just show Page only Example :  <AboutPage/>  -->
   <AboutPage/>
   <ContactPage/>
   <JobsPage/>
   <ProductsPage/>
-  <ServicesPage/>
+  <PartnersPage/>
    <!-- End -->
   <Footer/>
   </div>
@@ -20,6 +21,7 @@ import ContactPage from '../views/ContactPage'
 import JobsPage  from '../views/JobsPage'
 import ProductsPage from '../views/Products'
 import ServicesPage from '../views/ServicesPage'
+import PartnersPage from '../views/PartnersPage'
 import Navigator from '../components/navigator/navigator.vue'
 import Footer from '../components/footer/footer.vue'
 import Slide from '../components/slide/slide.vue'
@@ -31,6 +33,7 @@ export default {
     ContactPage,
     JobsPage,
     ProductsPage,
+    PartnersPage,
     ServicesPage,
     Navigator,
     Footer,
