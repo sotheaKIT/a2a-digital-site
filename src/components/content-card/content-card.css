@@ -15,14 +15,16 @@
     color: #303030;
     font-size: 40px;
     font-family: SFProText-Medium;
+    margin-top: 0;
 }
 .l_card__text p{
     font-size: 16px;
+    line-height: 19px;
 }
 
 .c_card__service {
     width: 68%;
-    padding-top: 120px;
+    padding-top: 100px;
     margin-left: 16%;
 }
 
@@ -47,7 +49,7 @@
 /* For text go to left */
 .txt_left div.l_article__wrapper{
     width: 50%;
-    height: 400px;
+    height: 370px;
     display: flex;
     float: left;
     align-items: center;
@@ -56,7 +58,7 @@
 /* For image to go left */
 .txt_left .l_card__img{
     width: 50%;
-    height: 400px;
+    height: 370px;
     background-color: #D0ACE8;
     float: left;
 }
@@ -72,13 +74,13 @@
     width: 50%;
     display: flex;
     float: right;
-    height: 400px;
+    height: 370px;
     align-items: center;
 }
 /* For Image go to left */
 .txt_right div.l_card__img{
     width: 50%;
-    height: 400px;
+    height: 370px;
     background-color: #D0ACE8;
     float: left;
 }
@@ -88,18 +90,26 @@
 
 @media only screen and (max-width: 1366px) {
     .c_card__service{
-        margin-left: 95px;
+        margin-left: 90px;
         width: calc(100% - 180px);
     }
     .l_card__text{
         margin-left: 90px;
+        width: 75%;
     }
     .txt_left div.l_article__wrapper {
-        width: 53.5%;
+        width: 65.5%;
+    }
+    .txt_right div.l_article__wrapper {
+        width: 65.5%;
     }
     .txt_left .l_card__img{
         width: 34.5%;
         float: right;
+    }
+    .txt_right div.l_card__img{
+        width: 34.5%;
+        float: left;
     }
 }
 @media only screen and (max-width: 980px) {
@@ -120,4 +130,29 @@
         width: 100%;
         margin-left: 0% ;
     }  
+}
+
+@media only screen and (min-width: 1367px) {
+    .c_card__service{
+        margin-left: calc((100% - 1186px)/2);
+        width: 1186px;
+    }
+    .l_card__text{
+        margin-left: 90px;
+        width: 75%;
+    }
+    .txt_left div.l_article__wrapper {
+        width: 65.5%;
+    }
+    .txt_right div.l_article__wrapper {
+        width: 65.5%;
+    }
+    .txt_left .l_card__img{
+        width: 34.5%;
+        float: right;
+    }
+    .txt_right div.l_card__img{
+        width: 34.5%;
+        float: left;
+    }
 }
