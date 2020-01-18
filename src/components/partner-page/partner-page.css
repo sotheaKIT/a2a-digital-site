@@ -2,16 +2,16 @@
   width: 100%;
   height: 170px;
   left: 0px;
+  padding-top: 100px;
 }
 
 .l_partnerPage h1 {
-  font-family: SF Pro Text;
   font-size: 35px;
   text-align: center;
 }
 
 .l_groupPartners {
-  margin: 80px 163px 80px 163px;
+  margin: 80px 163px 80px 360px;
 }
 
 .l_partnerPartners:after {
