@@ -5,10 +5,6 @@
 
 <h4 align="center">A2A Digital for industry version 4.0
   
-## Preview
-[![Netlify Status](https://api.netlify.com/api/v1/badges/5f974d27-23b8-4a70-89ca-b9418b6a45bf/deploy-status)](https://app.netlify.com/sites/stupefied-shirley-15d2ab/deploys)  
-
-
 
 ## Design File:
 
