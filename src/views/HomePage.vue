@@ -11,6 +11,7 @@
       <!-- Just show Page only Example :  <AboutPage/>  -->
       <AboutPage/>
       <ContactPage/>
+      <CardProduct/>
       <JobsPage/>
       <ProductsPage/>
       <PartnersPage/>
@@ -31,6 +32,7 @@ import PartnersPage from '../views/PartnersPage'
 import Navigator from '../components/navigator/navigator.vue'
 import Footer from '../components/footer/footer.vue'
 import Slide from '../components/slide/slide.vue'
+// import CardProduct from '../components/card-product/card-product.vue'
 
 export default {
   name: 'Home',
@@ -43,7 +45,8 @@ export default {
     ServicesPage,
     Navigator,
     Footer,
-    Slide
+    Slide,
+    // CardProduct
   }
 }
 </script>
