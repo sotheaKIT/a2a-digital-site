@@ -1,15 +1,18 @@
 <h1 align="center">
   <br>
-  <br>
-  A2A Digital
-  <br>
+  <a href="https://user-images.githubusercontent.com/5694308/67922376-2e05ff80-fbdd-11e9-8e9e-58b52ca151b9"><img src="https://a2a-digital-site.netlify.com//img/logo_A2A.73e89357.svg" alt="Why Not Earth" width="200"></a>
 </h1>
 
 <h4 align="center">A2A Digital for industry version 4.0
+  
 
 ## Design File:
 
 https://www.figma.com/file/0MgVJmtcbTRyA1XwKouVGp/A2A-Digital-UI-Prototype?node-id=0%3A1
+
+
+![image]()
+Demo: https://a2a-digital-site.netlify.com/
 
 ## Frontend:
   - Vue 
