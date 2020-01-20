@@ -2,36 +2,36 @@
     padding: 90px;
 }
 
-.row:after {
+.l_jobform_container:after {
     content: "";
     display: table;
     clear: both;
 }
 
-hr {
+.l_jobform_container > hr {
    margin-bottom: 50px;
    margin-top: 50px;
    opacity: 0.5;
 }
 
-.col-25 {
+.c_jobform_col_25{
     float: left;
     width: 25%;
     margin-top: 20px;
     margin-left: 50px;
 }
 
-.col-100 {
+.c_jobform_col_100 {
     display: flex;
     justify-content: center;
     width: 100%;
 }
 
-h2 {
+.c_jobform_col_25 > h2 {
     font-size: 20px;
 }
 
-label{
+.c_jobform_col_25 > label{
     font-family: SF Pro Text;
     font-style: normal;
     font-size: 16px;
@@ -39,12 +39,35 @@ label{
     padding: 12px 12px 12px 0;
     display: inline-block;
 }
-.text-muted {
+
+.c_jobform_col_25 > button {
+    border-radius: 4px;
+    background-color: #E6F0F6;
+    box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.25);
+    width: 84px;
+    height: 40px;
+    font-size: 16px;
+    font-family: SF Pro Text;
+    font-style: normal;
+    font-weight: bold;
+    line-height: 19px;
+    text-align: center;
+}
+
+.c_jobform_col_25 > textarea {
+    resize: none;
+    border-radius: 4px;
+    border: 1px solid #BCCDD7;
+    width: 400px;
+    height: 148px;
+}
+
+.c_jobform_textmuted {
     color: #BCCDD7;
     font-size: 16px;
 }
 
-.noted {
+.c_jobform_noted {
    width: 280px;
    margin-left: 20px;
 }
@@ -53,14 +76,14 @@ label{
     color: red;
 }
 
-input[type=text] {
+.c_jobform_col_25 > input[type=text] {
     width: 400px;
     padding: 12px;
     border: 1px solid #BCCDD7;
     border-radius: 4px;
     resize: vertical;
 }
-input[type=submit] {
+.c_jobform_col_100 > input[type=submit] {
     background-color: #138690;
     color: white;
     text-align: center;
@@ -79,30 +102,8 @@ input[type=submit] {
     font-size: 14px;
 }
 
-button {
-    border-radius: 4px;
-    background-color: #E6F0F6;
-    box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.25);
-    width: 84px;
-    height: 40px;
-    font-size: 16px;
-    font-family: SF Pro Text;
-    font-style: normal;
-    font-weight: bold;
-    line-height: 19px;
-    text-align: center;
-}
-
-textarea {
-    resize: none;
-    border-radius: 4px;
-    border: 1px solid #BCCDD7;
-    width: 400px;
-    height: 148px;
-}
-
-@media screen and (max-width: 600px) {
-  .col-25, .col-75, textarea, input[type=submit], input[type=text], .label {
+@media screen and (max-width: 768px) {
+  .c_jobform_col_25,.c_jobform_col_100, textarea, input[type=submit], input[type=text], .label {
     width: 100%;
     margin-top: 0;
     margin-left: 0;
