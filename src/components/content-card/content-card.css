@@ -7,14 +7,14 @@
 .c_service__title h1{
     color: #303030;
     font-size: 35px;
-    font-family: SFProText-Medium;
+    font-family: SFProText-Bold;
     margin-bottom: -40px;
 }
 /*--------------------------------------- Card Format----------------------------------------------- */
 .l_card__text h1 {
     color: #303030;
     font-size: 40px;
-    font-family: SFProText-Medium;
+    font-family: SFProText-Bold;
     margin-top: 0;
 }
 .l_card__text p{
