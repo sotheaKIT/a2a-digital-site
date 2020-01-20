@@ -1,0 +1,66 @@
+<div class="l_applicationForm">
+    <form id="job-form" action="" method="">
+        <div class="c_formGroup">
+            <div class="row">
+                <hr class="text-muted">
+                <div class="col-25">
+                    <h2>Personal Information<br/>
+                        <span class="text-muted">Tell us something about yourself</span>
+                    </h2>
+                </div>
+                <div class="col-25">
+                    <label>Full name</label><span class="asterisk">*</span>
+                    <input type="text" name="name" class="" id="name" placeholder="Your full name" required/>
+                    <label>Email address</label><span class="asterisk">*</span>
+                    <input type="text" name="email" class="" id="email" placeholder="Your email address" required/>
+                    <label>Phone number</label><span class="asterisk">*</span>
+                    <input type="text" name="mobile" class="" id="phonenumber" placeholder="Your phone number" required/>
+                </div>
+            </div>
+            <div class="row">
+                <hr class="text-muted">
+                <div class="col-25">
+                    <h2>CV / Resume <span class="asterisk">*</span><br/>
+                        <span class="text-muted">Upload yur CV or resume file</span>
+                    </h2>
+                </div>
+                <div class="col-25">
+                    <button type="submit">Add file</button>
+                    <!--input type="file" name="cvfile" class="" id="cvinputfile" accept=".pdf,.doc,.docx" required/-->
+                    <span class="text-muted noted">We accpet PDF, DOC and DOCX files</span>
+
+                </div>
+            </div>
+            <div class="row">
+                <hr class="text-muted">
+                <div class="col-25">
+                    <h2>Cover letter<br/>
+                        <span class="text-muted">Insert your cover letter here</span>
+                    </h2>
+                </div>
+                <div class="col-25">
+                    <textarea name="coverletter"></textarea>
+                </div>
+            </div>
+
+            <div class="row" id="portfolio">
+                <hr class="text-muted">
+                <div class="col-25">
+                    <h2>Portfolio <span class="asterisk">*</span><br/>
+                        <span class="text-muted">Add a link to your portfolio</span>
+                    </h2>
+                </div>
+                <div class="col-25">
+                    <input type="text" name="portfolio" class="" id="linkportfolio" required/>
+                </div>
+            </div>
+
+            <div class="row">
+                <hr class="text-muted">
+                <div class="col-100">
+                    <input type="submit" name="submitcv" value="Submit application">
+                </div>
+            </div>
+        </div>
+    </form>
+</div>
