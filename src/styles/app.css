@@ -1,11 +1,12 @@
 #app {
-  font-family: 'Avenir', Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
   font-family:  SSFProText-Regular;
-  src: url("../assets/fonts/SFProText-Regular.ttf");
   background-color: #ffffff;
   height: 3574px;
+  position: relative;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
   
 }
 body{
