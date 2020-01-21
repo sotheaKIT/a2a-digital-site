@@ -1,0 +1,145 @@
+#c_form {
+    width: 100%;
+}
+#c_form_left {
+    float: left;
+    width: 48%;
+    /* overflow: hidden; */
+    height: 759px;
+    padding-top: 80px;
+    background-color: #BDFFF0;
+  }
+  
+  #c_form_right {
+    /* overflow: hidden; */
+    float: right;
+    width: 52%;
+    height: 759px;
+    padding-top: 80px;
+
+  }
+  .c_information {
+      padding-top: 180px;
+      padding-left: 90px;
+  }
+ #c_form_logo {
+     width: 16px;
+     height: 16px;
+     margin-right: 15px;
+ }
+ .infor {
+     padding-left: 33px;
+     padding-right: 46px;
+ }
+#c_form_title {
+
+    padding:140px 60px    
+}
+h1 {
+    font-family: SF Pro Text;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 60px;
+}
+#c_form_register {
+    padding-top: 330px;
+    padding-left: 200px;
+    float: left;
+
+
+
+}
+#c_input_info {
+    margin-top: 30px;
+    display: flex;
+    border: 0;
+}
+
+.c_form_username {
+    display: flex;
+    flex-direction: column;
+    width: 218px;
+    float: left;
+    padding-top: 20px;
+    color: #BABABA;
+    border-bottom: 1px solid #303030;
+
+
+  }
+#c_form_username_mail {
+    display: flex;
+
+
+}
+.c_form_mail {
+ 
+    display: flex;
+    flex-direction: column;
+    width: 315px;
+    margin-left: 30px;
+    padding-top: 20px;
+    color: #BABABA;
+    float: left;
+    border-bottom: 1px solid #303030;
+
+
+
+  }
+
+.c_form_country {
+    display: flex;
+    flex-direction: column;
+    width: 563px;
+    padding-top: 20px;
+    color: #BABABA;
+    float: left;
+    border-bottom: 1px solid #303030;
+
+
+}
+.c_form_feedback {
+    display: flex;
+    flex-direction: column;
+    width: 563px;
+    padding-top: 20px;
+    color: #BABABA;
+    float: left; 
+    border-bottom: 1px solid #303030;
+}
+  
+#input_username {
+    padding-top: 23px;
+}
+
+
+.button {
+    color: black;
+    padding: 20px 20px;
+    cursor: pointer;
+    width: 563px;
+    font-size: 20px;
+    background-color: #ffffff;
+    font-family: "SF Pro Text";
+
+  }  
+#c_input_sumit {
+    border:1px;
+    border-style: solid;
+    margin-top: 40px;
+    border-radius: 4px;
+    float: left;
+  
+
+}
+
+input {
+    background-color: transparent;
+    border: 0 ;
+    outline: 0;
+    font-size: 1em;
+    padding: 8px 1px;
+    margin-top: 0.1em;
+
+
+  }
