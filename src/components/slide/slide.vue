@@ -1,5 +1,6 @@
-<style src="./slide.css"></style>
+<style src="./slide.css" scope></style>
 <template src="./slide.html"></template>
+
 
 <script>
  
