@@ -2,22 +2,16 @@
 <template>
   <div id="app">
     <!-- <img alt="Vue logo" src="./assets/A2A-digital-logo.svg"> -->
-    <!-- <HomePage></HomePage> -->
-    <ServicePage></ServicePage>
-    <AboutPage msg="A2A-digital"/>
-    
-    
+    <HomePage></HomePage>
   </div>
 </template>
 <script>
-// import HomePage from './views/HomePage.vue'
-import AboutPage from './views/AboutPage'
-import ServicePage from './views/ServicesPage'
+import HomePage from './views/HomePage.vue'
+
 export default {
   name: 'App',
   components: {
-    ServicePage,
-    AboutPage
+    HomePage
 
   }
 }

@@ -5,7 +5,7 @@
   <Slide/>
   <ServicesPage/>
   <!-- Just show Page only Example :  <AboutPage/>  -->
-  <AboutPage/>
+  <!-- <AboutPage/> -->
   <ContactPage/>
   <JobsPage/>
   <ProductsPage/>
@@ -18,7 +18,7 @@
 
 <script>
 
-import AboutPage from '../views/AboutPage'
+// import AboutPage from '../views/AboutPage'
 import ContactPage from '../views/ContactPage'
 import JobsPage  from '../views/JobsPage'
 import ProductsPage from '../views/ProductsPage'
@@ -33,7 +33,7 @@ import CardProduct from '../components/card-product/card-product'
 export default {
   name: 'Home',
   components: {
-    AboutPage,
+    // AboutPage,
     ContactPage,
     JobsPage,
     ProductsPage,
