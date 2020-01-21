@@ -30,9 +30,6 @@
 </template>
 
 <script>
-
-
-
 import Navigator from '../components/navigator/navigator.vue'
 import Footer from '../components/footer/footer.vue'
 
