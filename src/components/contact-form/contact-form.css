@@ -1,5 +1,7 @@
 #c_form {
-    width: 100%;
+    /* width: 100%;
+    height: 759px; */
+
 }
 #c_form_left {
     float: left;
@@ -23,17 +25,32 @@
       padding-left: 90px;
   }
  #c_form_logo {
-     width: 16px;
-     height: 16px;
+     width: 24px;
+     height: 24px;
      margin-right: 15px;
  }
+.logo {
+    margin: 0;
+}
+ .c_address {
+     display: flex;
+ }
+ .c_phone_logo {
+     margin: 0;
+ }
+ .c_mail_logo {
+     margin: 0;
+ }
+
  .infor {
-     padding-left: 33px;
+     padding-left: 34px;
      padding-right: 46px;
  }
 #c_form_title {
 
-    padding:140px 60px    
+    padding:140px 60px;
+    /* padding-left: calc(10.32% - 50px);
+   padding-right: calc(10.32% - 50px);   */
 }
 h1 {
     font-family: SF Pro Text;
@@ -112,25 +129,32 @@ h1 {
     padding-top: 23px;
 }
 
-
-.button {
-    color: black;
+.c_form_sumit {
+    padding: 10px 20px;
+  background-color: dodgerblue;
+  border: 1px solid #ddd;
+  color: white;
+  cursor: pointer;
+    
+}
+.submit_btn {
+    /* color: black; */
     padding: 20px 20px;
     cursor: pointer;
-    width: 563px;
     font-size: 20px;
-    background-color: #ffffff;
+    background:none;
     font-family: "SF Pro Text";
-
+    border:none;
+    width: 100%;
   }  
 #c_input_sumit {
+    width: 563px;
     border:1px;
     border-style: solid;
     margin-top: 40px;
     border-radius: 4px;
     float: left;
-  
-
+    cursor: pointer;
 }
 
 input {
@@ -140,6 +164,50 @@ input {
     font-size: 1em;
     padding: 8px 1px;
     margin-top: 0.1em;
+  }
 
+
+  @media only screen and (max-width: 980px) {
+   
+    #c_form_left {
+        /* float: left; */
+        /* overflow: hidden; */
+        height: unset;
+        width: 100%;
+       
+      }
+      .c_info_all { 
+        width: 980px;
+
+          height: 335px;
+        background-color: #BDFFF0;
+
+        
+    }
+      .c_information {
+        padding: 30px 90px;
+    }
+    
+    #c_form_right {
+        /* overflow: hidden; */
+        width: 100%;
+        padding-top: 40px;
+        padding-left: 90px;
+    
+      }
+      #c_form_title {
+          width: 50%;
+          margin: 0 auto;
+        padding: unset;
+        /* padding-left: calc(10.32% - 50px);
+       padding-right: calc(10.32% - 50px);   */
+    }
+    #c_form_massage
+    {
+        width: 297px;
+        
+        text-align: center;
+    }
 
   }
+  

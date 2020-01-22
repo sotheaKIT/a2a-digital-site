@@ -1,9 +1,5 @@
 .l_partnerPage {
-  position: relative;
-  width: 100%;
-  height: 170px;
-  left: 0px;
-  top: 300px;
+  margin-top: 300px;
 }
 
 .l_partnerPage h1 {
@@ -11,51 +7,33 @@
   text-align: center;
 }
 
-.l_groupPartners {
-  margin: 80px 163px 80px 360px;
+.l_logo_container {
+  justify-content: center;
+  padding-left: 20%;
+  padding-top: 60px;
+  padding-bottom: 80px;
 }
 
-.l_partnerPartners:after {
-  content: "";
-  display: table;
-  clear: both;
+.l_logo_container:after {
+    content: "";
+    display: table;
+    clear: both;
 }
 
-.l_groupPartners .c_partner {
-  float: left;
-  width: 25%;
-
+.c_logo_partner{
+    float: left;
+    width: 25%;
 }
 
-.l_groupPartners .c_partner img {
+.c_logo_partner > img {
   max-width: 127px;
   height: 70px;
 }
 
-@media only screen and (max-width: 800px) {
-  .l_groupPartners {
-    margin: 80px 163px 80px 163px;
-  }
-
-  .l_groupPartners .c_partner {
-    float: left;
+@media screen and (max-width: 600px) {
+  .c_logo_partner {
     width: 50%;
-  }
-
-  .l_groupPartners .c_partner img {
-    max-width: 120px;
-    height: 70px;
-  }
-}
-
-@media only screen and (max-width: 500px) {
-  .l_groupPartners .c_partner {
-    float: left;
-    width: 100%;
-  }
-
-  .l_groupPartners .c_partner img {
-    max-width: 127px;
-    height: 70px;
+    margin-top: 0;
+    margin-left: 0;
   }
 }
