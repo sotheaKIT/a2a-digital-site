@@ -1,18 +1,17 @@
 <style src="../styles/home.css" scoped></style>
 <template>
   <div id="home-page">
-  <Navigator/>
-  <Slide/>
-  <ServicesPage/>
-  <!-- Just show Page only Example :  <AboutPage/>  -->
-  <!-- <AboutPage/> -->
-  <ContactPage/>
-  <JobsPage/>
-  <ProductsPage/>
-  <CardProduct />
-  <PartnersPage/>
-   <!-- End -->
-  <Footer/>
+    <Navigator/>
+    <div class="l_contrainer">
+      <Slide/>
+      <ServicesPage/>
+      <ContactPage/>
+      <JobsPage/>
+      <ProductsPage/>
+      <CardProduct />
+      <PartnersPage/>
+       <Footer/>
+    </div>
   </div>
 </template>
 
@@ -33,7 +32,6 @@ import CardProduct from '../components/card-product/card-product'
 export default {
   name: 'Home',
   components: {
-    // AboutPage,
     ContactPage,
     JobsPage,
     ProductsPage,

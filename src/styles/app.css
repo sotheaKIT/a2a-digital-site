@@ -1,16 +1,24 @@
-#app {
-  font-family:  SSFProText-Regular;
-  background-color: #ffffff;
-  position: relative;
-  top: 0;
-  left: 0;
-  bottom: 0;
-  right: 0;
-  
+html {
+  min-height: 100vh;
 }
-body{
+
+body {
+  min-height: 100vh;
   margin: 0;
+  padding: 0;
+  font-family: SSFProText-Regular; 
 }
+
+#app {
+   position: relative;
+   top: 0;
+   left: 0;
+   bottom: 0;
+   right: 0;
+}
+ 
+
+
 @font-face {
   font-family: SFProText-Bold;
   src: url("../assets/fonts/sf-pro-display-bold-webfont.woff");
