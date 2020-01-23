@@ -32,7 +32,6 @@
 }
 .c_dropdown {
     display: inline;
-    padding-left: 10px;
 }
 .c_navigate_right + .c_navigate_right {
     padding-left: 40px;

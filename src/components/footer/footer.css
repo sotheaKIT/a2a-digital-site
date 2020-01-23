@@ -5,11 +5,8 @@
     margin: 10px 0;
   }
   
-  .l_footer {
-    position: relative;
+  .l_footer { 
     width: 100%;
-    bottom: 0;
-    
   }
   
   .c_footer {
@@ -31,9 +28,13 @@
   }
   
   .c_icon {
-    width: 50px;
-    height: 45px;
-    
+    width: 40px;
+    height: 40px;
+    margin-left: 10px;
+  }
+  .t_follow_us {
+      margin: 0px;
+      padding: 10px 0;
   }
   .c_text {
     font-family: SF Pro Text;
@@ -42,8 +43,45 @@
     font-size: 16px;
     line-height: 19px;
   }
-  .c_follow{
-      color : white;
-      margin-bottom: 30px;
-      padding-right: 10px;
+  .responsive_c_footer {
+      display: none;
+  }
+
+  @media screen and (max-width : 530px) {
+    .c_logo_footer {
+        width: 110px;
+        height: 20px;
+        float: none;
+        margin: 0 auto;
+        padding: 5px 40px;
+        
+      }
+
+    .c_footer {
+        width: 100%;
+        height: 138px;
+        background-color: #138690;
+        position: relative;
+      }
+    .c_footer__logo {
+        display: flex;
+        width: 50%;
+        margin: 0 auto;
+    }
+    .c_footer_layout {
+        display: -webkit-box;
+        width: 100%;
+    }
+    .c_socialMedia_footer {
+        display: table;
+        float: none;
+        position: absolute;
+        bottom: 15px;
+        left: 30%;
+    }
+      
+    .t_follow_us {
+        text-align: center;
+        padding: 10px;
+    }
   }

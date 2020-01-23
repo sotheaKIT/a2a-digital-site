@@ -3,7 +3,6 @@ html {
 }
 
 body {
-  min-height: 100vh;
   margin: 0;
   padding: 0;
   font-family: SSFProText-Regular; 
@@ -17,8 +16,6 @@ body {
    right: 0;
 }
  
-
-
 @font-face {
   font-family: SFProText-Bold;
   src: url("../assets/fonts/sf-pro-display-bold-webfont.woff");

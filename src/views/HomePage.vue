@@ -6,7 +6,6 @@
       <Slide/>
       <ServicesPage/>
       <ContactPage/>
-      <JobsPage/>
       <ProductsPage/>
       <CardProduct />
       <PartnersPage/>
@@ -19,7 +18,6 @@
 
 // import AboutPage from '../views/AboutPage'
 import ContactPage from '../views/ContactPage'
-import JobsPage  from '../views/JobsPage'
 import ProductsPage from '../views/ProductsPage'
 import ServicesPage from '../views/ServicesPage'
 import PartnersPage from '../views/PartnersPage'
@@ -33,7 +31,6 @@ export default {
   name: 'Home',
   components: {
     ContactPage,
-    JobsPage,
     ProductsPage,
     PartnersPage,
     ServicesPage,

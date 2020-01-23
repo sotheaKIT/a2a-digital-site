@@ -14,8 +14,9 @@
 }
 /* Applying value to the slide div tage */
 #slide{
-    background-color: #BDFFF0;
-     /* background-image: url("../../assets/components/slide/water-1330252__340.webp"); */
+    background-size:     cover; 
+    background-position: center; 
+    background-image: url("../../assets/components/slide/background.png");
     width: 100%;
     min-height: 100vh;
     
