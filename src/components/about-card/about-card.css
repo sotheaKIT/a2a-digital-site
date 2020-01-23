@@ -68,7 +68,7 @@
 /* ----------------------------------------------------mobile layout------------------------------------------ */
 @media only screen and (max-width: 980px) {       
 
-    .c_profile__card__container[data-v-99ad67e2] {
+    .c_profile__card__container {
         padding: 0;
     }
     .c_about_title h1 {

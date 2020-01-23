@@ -3,7 +3,6 @@
   <div id="home-page">
       <Slide/>
       <ServicesPage/>
-      <ContactPage/>
       <ProductsPage/>
       <CardProduct />
       <PartnersPage/>
@@ -12,8 +11,6 @@
 
 <script>
 
-// import AboutPage from '../views/AboutPage'
-import ContactPage from '../views/ContactPage'
 import ProductsPage from '../views/ProductsPage'
 import ServicesPage from '../views/ServicesPage'
 import PartnersPage from '../views/PartnersPage'
@@ -24,7 +21,6 @@ import CardProduct from '../components/card-product/card-product'
 export default {
   name: 'Home',
   components: {
-    ContactPage,
     ProductsPage,
     PartnersPage,
     ServicesPage,
