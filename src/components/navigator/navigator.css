@@ -1,12 +1,13 @@
-#navigation {
- position: fixed;
- top: 0;
- width: 100%;
- background-color: #ffffff;
- z-index: 2;
-
+.l_navigation {
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: #ffffff;
+    z-index: 2;
+    width: 100%;
 }
-#nav {
+
+.l_nav {
    height: 80px;
    box-shadow: 0 10px 20px rgba(0,0,0,0.1), 0 6px 6px rgba(0,0,0,0);
    padding-left: calc(10.32% - 50px);
@@ -19,7 +20,8 @@
     float: left;
     padding-top: 20px;
 }
-#nav-right {
+
+.l_nav_right {
     float: right;
     padding-top: 30px;
 }
@@ -30,7 +32,6 @@
 }
 .c_dropdown {
     display: inline;
-    padding-left: 10px;
 }
 .c_navigate_right + .c_navigate_right {
     padding-left: 40px;

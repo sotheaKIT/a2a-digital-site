@@ -2,9 +2,7 @@
 .l_slide_intro {
     padding-left: 91px;
 }
-.l_slide_info{
-    padding-left: 91px;
-}
+
 /* Applying value to the slide div tage */
 .slide{
     background: url("../../assets/components/slide/background-desktop.png"), #E8E8EA ;

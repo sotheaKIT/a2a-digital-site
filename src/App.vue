@@ -1,25 +1,23 @@
 <style src="./styles/app.css"></style>
 <template>
   <div id="app">
-    <!-- <Navigator></Navigator>  -->
-    <HomePage></HomePage>
-    <!-- <JobPage></JobPage> -->
-     <!-- <Footer></Footer> -->
+    <div class="l_contrainer">
+      <Navigator/>
+      <router-view/>
+      <Footer/>
+    </div>
   </div>
 </template>
 <script>
-import HomePage from './views/HomePage.vue'
-// import Navigator from './components/navigator/navigator'
-// import Footer from './components/footer/footer'
-// import JobPage from './views/JobsPage'
+import Navigator from './components/navigator/navigator.vue'
+import Footer from './components/footer/footer.vue'
 
 export default {
   name: 'App',
   components: {
-     HomePage,
-    // JobPage,
-    // Navigator,
-    // Footer
+    Navigator,
+    Footer
   }
 }
+
 </script>
