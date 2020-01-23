@@ -4,18 +4,6 @@
 <script>
 export default {
     name : "ContentCard",
-    // props: {
-    //     right : { type : String}
-    // },
-    // data : function () {
-    //     return {
-    //          : "@ssss",
-    //     }
-        
-    // },
-    // mounted : function () {
-    //    console.log("dd")
-    // }
     
     
 }
