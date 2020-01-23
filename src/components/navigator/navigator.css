@@ -1,28 +1,35 @@
-.l_navigation {
-    position: fixed;
-    top: 0;
-    left: 0;
-    background-color: #ffffff;
-    z-index: 2;
-    width: 100%;
-}
+#navigation {
+ position: fixed;
+ top: 0;
+ width: 100%;
+ background-color: #ffffff;
+ z-index: 2;
+ height: 80px;
 
-.l_nav {
+}
+#nav {
    height: 80px;
    box-shadow: 0 10px 20px rgba(0,0,0,0.1), 0 6px 6px rgba(0,0,0,0);
    padding-left: calc(10.32% - 50px);
    padding-right: calc(10.32% - 50px); 
 }
+#nav_button {
+    float: left;
+    padding-left: 30px;
+    height: 20px;
+    display: flex;
+    /* box-shadow: 0 10px 20px rgba(0,0,0,0.1), 0 6px 6px rgba(0,0,0,0); */
+    /* padding-left: calc(10.32% - 50px); */
+    /* padding-right: calc(10.32% - 50px);  */
+}
 
 .c_logo {
-    position: relative;
     width: 164px;
     height: 43px;
     float: left;
-    top: 25px;
+    padding-top: 20px;
 }
-
-.l_nav_right {
+#nav_right {
     float: right;
     padding-top: 30px;
 }
@@ -33,6 +40,8 @@
 }
 .c_dropdown {
     display: inline;
+    padding-left: 10px;
+    padding-top: 10px;
 }
 .c_navigate_right + .c_navigate_right {
     padding-left: 40px;
@@ -41,4 +50,6 @@
     text-decoration: none;
     color: #303030;
     font-size: 20px;
+    display: flex;
 }
+
