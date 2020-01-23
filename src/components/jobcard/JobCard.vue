@@ -17,8 +17,6 @@
           {title:"Back-end Developer", location: "Phnom Penh", department:"Engineering"},
           {title:"Sales Account Executive", location: "Phnom Penh", department:"Sale"},
           {title:"Junoir Marketing Designer", location: "Phnom Penh", department:"Marketing"},
-
-
         ]
       }
     }
