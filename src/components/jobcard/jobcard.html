@@ -1,0 +1,20 @@
+<div class="l_job__container">
+    <a href="/jobsdetail"><div class="l_jobcolumn" v-for="card in cards":key = "card.id">
+        <div class="l_jobcard">
+            <h5 class="c_jobtitle">
+              {{card.title}}          
+              </h5>
+              <div class="l_jobinfo">
+                  <ul>
+                      <li class="c_joblocation">
+                          {{card.location}}
+                      </li>
+                </ul>
+                <div class="c_jobdepartment">
+                  {{card.department}}                 
+                </div>
+              </div>
+        </div>
+    </div>
+    </a>
+</div>

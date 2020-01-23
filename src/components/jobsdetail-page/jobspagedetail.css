@@ -1,0 +1,221 @@
+.l_jobspage_detail {
+    /* width: 100%;      */
+    padding: 0 90px;
+}
+
+.c_jobspage_title {
+    
+    /* width: 1385px; */
+    padding-top: 28px;
+    padding-bottom: 23px;
+    /* position: absolute; */
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+    border-bottom: 1px solid #BCCDD7;
+}
+#c_text {
+    padding-left: 10px;
+    color: #138690;
+}
+#c_icon {
+    width: 7.52px;
+    height: 10px;
+    padding-left: 10px;
+}
+.c_jobspage_container {
+    width: 100%;
+    padding-top: 150px;
+    content: "";
+    display: table;
+    clear: both;
+    display: inline-flex;
+}
+.c_jobspage_detail__left {
+    float: left;
+    width: 65%;
+    padding-right: 22px;
+    border-right: 1px solid #BCCDD7;
+}
+
+.job_title {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 29px;
+    color: #138690;
+}
+.job_sub_title {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 19px;
+    color: #303030;
+}
+p {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+}
+.b_apply_now {
+    width: 277.63px;
+    height: 50px;
+    background-color: #138690;
+    border-radius: 4px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 19px;
+    color: white;
+}
+
+.c_apply__right {
+    display: inline-flex;
+    float: right;
+    width: 35%;
+    display: block;
+    padding-left: 46.57px;
+}
+
+.l_socialMedia {
+    margin-top: 20px;
+    
+}
+
+.c_socialMedia {
+    width: 278px;
+    height: 115px;
+    padding-top: 13px;
+    border-radius: 4px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.share_now {
+    text-align: center;
+    margin: 0;
+    font-size: 16px;
+    color: #303030;
+    font-family: SF Pro Text;
+    font-style: normal;
+    font-weight: normal;
+}
+
+.l_social__icon {
+    margin-top: 20px;
+}
+
+.c_social__icon {
+    display: inline-flex;
+    margin: 0 auto;
+    width: 50%;
+    display: flex;
+}
+
+.c_icon__media {
+    width: 40px;
+    height: 40px;
+    border-radius: 4px;
+
+}
+
+.button_icon_socialMedia {
+    padding: 0;
+    margin: 0;
+    border: none;
+    margin-right: 10px;
+    background-color: #ffffff;
+}
+
+.responsive_apply__right {
+    display: none;
+    margin: 0 auto;
+    
+}
+.c_location {
+    width: auto;
+    height: 350px;
+}
+
+@media screen and (max-width : 980px){
+    .l_jobspage_detail {
+
+        padding: 0 20px;
+    }
+    .c_jobspage_detail__left {
+        width: 100%;
+        border: none;
+        padding-right: 0;
+    }
+    .responsive_apply__right {
+        display: block;
+        margin: 50px 0;
+        width: 100%;
+    }
+    .c_socialMedia {
+        width: auto;
+        height: 115px;
+        padding-top: 13px;
+        border-radius: 4px;
+        box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    }
+    .b_apply_now {
+       display: block;
+       margin: 0 auto;
+    }
+    .c_social__icon {
+        display: table;
+        margin: auto auto;
+        width: auto;
+    }
+    .c_apply__right {
+        display: none;
+    }
+    .c_location {
+        width: auto;
+    }
+    .c_jobspage_container {
+        padding-top: 50px;
+    }
+}
+@media screen and (max-width : 375px){
+    .c_jobspage_detail__left {
+        width: 100%;
+        border: none;
+    }
+    .responsive_apply__right {
+        display: block;
+        margin: 50px 0;
+        width: 100%;
+    }
+    .c_socialMedia {
+        width: auto;
+        height: 115px;
+        padding-top: 13px;
+        border-radius: 4px;
+        box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    }
+    .b_apply_now {
+       display: block;
+       margin: 0 auto;
+       width: auto;
+    }
+    .c_social__icon {
+        display: table;
+        margin: auto auto;
+        width: auto;
+    }
+    .c_apply__right {
+        display: none;
+    }
+    .c_location {
+        width: 250px;
+        height: auto;
+    }
+    .c_jobspage_container {
+        padding-top: 50px;
+    }
+}
