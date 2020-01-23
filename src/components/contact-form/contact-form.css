@@ -23,6 +23,8 @@
   .c_information {
       padding-top: 180px;
       padding-left: 90px;
+      padding-right: 55px;
+
   }
  #c_form_logo {
      width: 24px;
@@ -59,14 +61,7 @@ h1 {
     font-size: 30px;
     line-height: 60px;
 }
-#c_form_register {
-    padding-top: 330px;
-    padding-left: 200px;
-    float: left;
 
-
-
-}
 #c_input_info {
     margin-top: 30px;
     display: flex;
@@ -185,7 +180,7 @@ input {
         
     }
       .c_information {
-        padding: 30px 90px;
+        padding: 30px 113px;
     }
     
     #c_form_right {
@@ -195,18 +190,17 @@ input {
         padding-left: 90px;
     
       }
-      #c_form_title {
-          width: 50%;
-          margin: 0 auto;
+      #c_form_title {       
         padding: unset;
-        /* padding-left: calc(10.32% - 50px);
-       padding-right: calc(10.32% - 50px);   */
     }
     #c_form_massage
     {
-        width: 297px;
-        
+        width: 50%;
+        margin: 0 auto;
         text-align: center;
+    }
+    #c_form_register {
+        padding: 40px 113px;
     }
 
   }
