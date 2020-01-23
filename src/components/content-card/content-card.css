@@ -105,7 +105,6 @@ section.c_card__service.txt_right {
 }
 @media only screen and (max-width: 1366px) {
     .l_service__container{
-        width: 100%;
         padding-left: 90px;
         padding-right: 90px;
         display: table;

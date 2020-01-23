@@ -1,25 +1,21 @@
 <style src="./styles/app.css"></style>
 <template>
   <div id="app">
-    <!-- <img alt="Vue logo" src="./assets/A2A-digital-logo.svg"> -->
-    <!-- <HomePage msg="A2A-digital"/> -->
-    <ContactPage msg="A2A-digital"/>
+    <div class="l_contrainer">
+      <Navigator/>
+      <router-view/>
+      <Footer/>
+    </div>
   </div>
 </template>
 <script>
-
-import ContactPage from './views/ContactPage'
+import Navigator from './components/navigator/navigator.vue'
+import Footer from './components/footer/footer.vue'
 export default {
   name: 'App',
   components: {
-    ContactPage
+    Navigator,
+    Footer
   }
 }
-// import HomePage from './views/HomePage.vue'
-// export default {
-//   name: 'App',
-//   components: {
-//     HomePage
-//   }
-// }
 </script>

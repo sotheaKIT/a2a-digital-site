@@ -1,6 +1,9 @@
 <style src="../styles/service.css" scope></style>
 <template>
-  <ContentCard></ContentCard>
+  <div>
+    <ContentCard></ContentCard>
+  </div>
+  
 </template>
 
 <script>
