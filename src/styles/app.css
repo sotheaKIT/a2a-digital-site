@@ -1,5 +1,6 @@
+
 #app {
-  font-family:  SSFProText-Regular;
+  font-family:  SFProText-Regular;
   background-color: #ffffff;
   position: relative;
  
@@ -13,6 +14,6 @@ body{
   src: url("../assets/fonts/sf-pro-display-bold-webfont.woff");
 }
 @font-face {
-  font-family: SSFProText-Regular;
+  font-family: SFProText-Regular;
   src: url("../assets/fonts/sfprotext-regular-webfont.woff");
 }

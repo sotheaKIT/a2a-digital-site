@@ -1,0 +1,164 @@
+/* Title for one page topic*/
+/* One page topic locaion*/
+.c_service__title{
+    width: 100%;
+    text-align: center;
+}
+.c_service__title h1{
+    color: #303030;
+    font-size: 35px;
+    font-family: SFProText-Bold;
+    margin-bottom: -40px;
+}
+/*--------------------------------------- Card Format----------------------------------------------- */
+.l_card__text h1 {
+    color: #303030;
+    font-size: 40px;
+    font-family: SFProText-Bold;
+    margin-top: 0;
+}
+.l_card__text p{
+    font-size: 16px;
+    line-height: 19px;
+}
+
+.c_card__service {
+    width: 100%;
+    padding-top: 100px;
+    display: flex;
+    align-items: center;
+}
+/* For mobile the text after img will not shown */
+.c_card__service .l_card__img + .l_article__wrapper{ 
+    display: none; 
+}
+.l_card__text {
+    width: 85%;
+}
+.l_card__text a{
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: small;
+    color: #138690;
+}
+.l_card__text img{
+    width: 18px;
+    vertical-align: bottom;
+}
+
+.l_card__img img{
+    width: 100%;
+    border-radius: 10px;
+}
+.l_card__img{
+    min-width: 300px;
+    /* flex-basis: 50%; */
+}
+div.l_article__wrapper {
+    width: 62%;
+}
+/* ---------------------------------Card with text go left, image go right-------------------------- */
+/* For text go to left */
+.txt_left div.l_article__wrapper {
+    padding-left: 90px;
+}
+/* For image to go left */
+.txt_left .l_card__img{
+    width: 38%;
+    float: left;
+}
+
+/* ----------------------------------Card with text go right, image go left------------------------------ */
+/* For right text */
+.txt_right article.l_card__text {
+    margin-left: 15%;
+}
+section.c_card__service.txt_right {
+    flex-direction: row-reverse;
+}
+/* Position for text to right  */
+/* for text to right  */
+.txt_right div.l_article__wrapper{
+    float: right;
+    padding-right: 90px;
+}
+/* For Image go to left */
+.txt_right div.l_card__img{
+    width: 38%;
+    float: left;
+}
+.l_clear{
+    clear: both;
+}
+@media only screen and (min-width: 1367px) {
+    .c_card__service{
+        margin-left: calc((100% - 1186px)/2);
+        width: 1186px;
+    }
+    .l_card__text{
+        width: 85%;
+    }
+    .txt_right div.l_card__img{
+        width: 38%;
+        float: left;
+    }
+}
+@media only screen and (max-width: 1366px) {
+    .l_service__container{
+        width: calc( 100% - 180px);
+        padding-left: 90px;
+        padding-right: 90px;
+        display: table;
+    }
+    .txt_right div.l_card__img{
+        width: 38%;
+        float: left;
+    }
+}
+@media only screen and (max-width: 980px) {
+    .c_service__title h1{
+        margin: 30px;
+    }
+    .l_card__text h1 {
+        margin: 0;
+    }
+    .l_service__container{
+        width: 90%;
+        padding-left: 5%;
+        padding-right: 5%;
+        padding-bottom: 70px;
+    }
+    .c_card__service{
+        display: block;
+        padding-top: 0;
+    }
+    .c_card__service div.l_article__wrapper{
+        width: 100%;
+        padding-top: 30px;
+    }
+    .c_card__service div.l_card__img{
+        width: 100%;
+    }
+    .c_card__service .l_card__img + .l_article__wrapper{ 
+        display: inline-block; /* For mobile the text after img will show up */
+        width: 100%;
+    }
+    .txt_left div.l_article__wrapper{
+        padding-left: 0;
+    }
+    .txt_right div.l_article__wrapper{
+        padding-right: 0px;
+    }
+    /* text befor img will not show */
+    .c_card__service div.l_pc{
+        display: none; 
+    }  
+    section.c_card__service.txt_right {
+        flex-direction: row;
+    }
+    section.c_card__service article.l_card__text {
+        width: 100%;
+        margin-left: 0% ;
+    }  
+}
+
