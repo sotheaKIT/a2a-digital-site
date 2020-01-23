@@ -15,10 +15,11 @@
 }
 
 .c_logo {
+    position: relative;
     width: 164px;
     height: 43px;
     float: left;
-    padding-top: 20px;
+    top: 25px;
 }
 
 .l_nav_right {

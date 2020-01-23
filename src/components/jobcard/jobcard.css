@@ -24,6 +24,7 @@
 }
 
 .l_jobcolumn {
+    cursor: pointer;
     float: left;
     width: 48%;
     margin-left: auto;

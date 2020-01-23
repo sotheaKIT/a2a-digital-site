@@ -1,16 +1,12 @@
 <style src="../styles/home.css" scoped></style>
 <template>
   <div id="home-page">
-    <Navigator/>
-    <div class="l_contrainer">
       <Slide/>
       <ServicesPage/>
       <ContactPage/>
       <ProductsPage/>
       <CardProduct />
       <PartnersPage/>
-       <Footer/>
-    </div>
   </div>
 </template>
 
@@ -21,8 +17,6 @@ import ContactPage from '../views/ContactPage'
 import ProductsPage from '../views/ProductsPage'
 import ServicesPage from '../views/ServicesPage'
 import PartnersPage from '../views/PartnersPage'
-import Navigator from '../components/navigator/navigator.vue'
-import Footer from '../components/footer/footer.vue'
 import Slide from '../components/slide/slide.vue'
 import CardProduct from '../components/card-product/card-product'
 
@@ -34,8 +28,6 @@ export default {
     ProductsPage,
     PartnersPage,
     ServicesPage,
-    Navigator,
-    Footer,
     Slide,
     CardProduct
   }
