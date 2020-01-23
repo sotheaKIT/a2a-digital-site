@@ -7,6 +7,7 @@ import AboutPage from  './views/AboutPage.vue'
 import ContactPage from './views/AboutPage.vue'
 import JobsPage  from './views/JobsPage.vue'
 import JobsPageDetail from './views/JobsPageDetail.vue'
+import JobsSubmitPage from './views/JobsSubmitPage.vue'
 
 
 
@@ -50,6 +51,11 @@ export default new Router({
       path: '/jobsdetail',
       name: 'jobsdetail',
       component: JobsPageDetail
+    },
+    {
+      path: '/jobform',
+      name: 'jobform',
+      component: JobsSubmitPage
     },
   ]
 })

@@ -1,13 +1,8 @@
-
 .l_jobspage_detail {
     /* width: 100%;      */
     padding: 0 90px;
 }
-.c_jobspage_detail {
-    /* width: 100%;
-    padding-left: 90px;
-    padding-right: 91px; */
-}
+
 .c_jobspage_title {
     
     /* width: 1385px; */
@@ -46,7 +41,6 @@
 }
 
 .job_title {
-    font-family: SF Pro Text;
     font-style: normal;
     font-weight: bold;
     font-size: 24px;
@@ -54,7 +48,6 @@
     color: #138690;
 }
 .job_sub_title {
-    font-family: SF Pro Text;
     font-style: normal;
     font-weight: bold;
     font-size: 16px;
@@ -62,12 +55,10 @@
     color: #303030;
 }
 p {
-    font-family: SF Pro Text;
     font-style: normal;
     font-weight: normal;
     font-size: 16px;
     line-height: 19px;
-
 }
 .b_apply_now {
     width: 277.63px;

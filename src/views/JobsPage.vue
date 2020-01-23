@@ -4,8 +4,10 @@
     <div class="l_jobslide">
       <h1>We are hiring</h1> 
     </div>
+    <div class="l_job__container">
       <JobHeaderBtn/>
       <JobCard/>
+    </div>
   </div>
 </template>
 
