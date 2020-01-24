@@ -4,28 +4,6 @@ body, html {
   height: 100%;
 }
 
-body::-webkit-scrollbar {
-  display: none;
-}
-
-a,a:visited,a:focus {
-  text-decoration: none;
-  color: initial;
-}
-
-a:focus,
-button:focus {
-  outline: none !important;
-}
-
-button, input, select, textarea {
-  font-family : inherit;
-  font-size   : 100%;
-  margin: 0;
-  padding: 0;
-  background: transparent;
-}
-
 #app {
   font-family:  SFProText-Regular;
   background-color: #ffffff;
@@ -34,10 +12,11 @@ button, input, select, textarea {
   left: 0;
   bottom: 0;
   right: 0;
+  color : #303030;
 }
 
 .l_contrainer {
-  margin-top: 80px;
+  margin-top: 70px;
 }
 
 @font-face {
