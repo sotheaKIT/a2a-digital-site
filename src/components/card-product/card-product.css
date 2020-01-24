@@ -1,5 +1,7 @@
 .l_product {
   margin-top: 60px;
+  margin-left: 90px;
+  margin-right: 90px;
 }
 
 .c_product {
@@ -104,7 +106,7 @@
 
 .l_bullet {
   margin-top: 150px;
-  margin-left: 50%;
+  margin-left: 47%;
 }
 
 .c_bullet {

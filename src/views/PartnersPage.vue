@@ -1,7 +1,5 @@
 <template>
-  <div id="partners-page">
-    <PartnersPage/>
-  </div>
+  <PartnersPage/>
 </template>
 
 <script>

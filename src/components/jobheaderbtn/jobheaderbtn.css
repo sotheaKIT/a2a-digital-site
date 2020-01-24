@@ -1,0 +1,75 @@
+.l_jobheader {
+    position: relative;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    border-top: 1px solid #e6f0f6;
+    background-color: #ffffff;
+}
+h3.c_jobtitle {
+    font-family: SF Pro Text;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 35px;
+    line-height: 42px;
+    text-align: center;
+    text-transform: uppercase;
+
+    color: #303030;
+    margin-top: 0;
+    margin-bottom: 12px;
+}
+h4.c_subtitle {
+    font-family: SF Pro Text;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+.c_jobbtn {
+    display: inline-block;
+    cursor: pointer;
+    border: 1px solid transparent;
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    border-radius: 4px;
+}
+.jobbtn_primary {
+    font-family: SF Pro Text;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+    text-decoration: none;
+    border: 0.5px solid #138690;
+    box-sizing: border-box;
+    border-radius: 50px;
+
+    /* main */
+    color: #138690;
+}
+.jobbtn_revered {
+    background: #fff;
+    font-family: SF Pro Text;
+    font-style: normal;
+    font-weight: normal;
+    text-decoration: none;
+    font-size: 16px;
+    line-height: 19px;
+
+    /* text */
+
+    color: #303030;
+}
+.c_jobbtn:hover{
+    color: #FF6900;
+}
