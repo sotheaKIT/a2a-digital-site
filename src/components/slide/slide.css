@@ -102,19 +102,19 @@ h1,h2,h3,h4,h5,h6,p {
     }
     .l_slide_intro h1{
         padding-top: 199px;
-        width: 425px;
+        max-width: 425px;
         height: 120px;
     }
     .l_slide_intro p{
         margin-top: 16px;
-        width: 425px;
+        max-width: 425px;
         height: 42px;
     }
     
 
     .c_slide__contactbtn{
         margin-top: 37px;
-        width: 212px;
+        min-width: 212px;
         height: 50px;
     }
     .l_slide__video{
@@ -160,7 +160,7 @@ h1,h2,h3,h4,h5,h6,p {
         font-family: SF Pro Text;
         font-style: normal;
         font-weight: bold;
-        width: 20px;
+        max-width: 20px;
         padding-top: 70px;
         font-size: 50px;
         line-height: 60px;
@@ -175,7 +175,7 @@ h1,h2,h3,h4,h5,h6,p {
         padding-top: 15px;
         margin-left: auto;
         margin-right: auto;
-        width: 300px;
+        max-width: 300px;
     }
 
     .c_slide__contactbtn{
@@ -183,7 +183,7 @@ h1,h2,h3,h4,h5,h6,p {
         margin-top: 30px;
         margin-left: auto;
         margin-right: auto;
-        width: 320px;
+        min-width: 320px;
     }
     .l_slide__video{
         position: absolute;  
