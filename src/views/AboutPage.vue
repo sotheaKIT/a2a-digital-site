@@ -8,8 +8,7 @@
 </template>
 
 <script>
-// import Navigator from '../components/navigator/navigator.vue'
-// import Footer from '../components/footer/footer.vue'
+
 import AboutCard from '../components/about-card/about-card.vue'
 import AboutContentCard from '../components/about-content-card/about-content-card.vue'
 import AboutHero from '../components/about-hero/about-hero.vue'

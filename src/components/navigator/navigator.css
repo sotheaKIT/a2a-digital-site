@@ -37,6 +37,7 @@
     width: 16px;
     height: 16px;
     fill: #303030;
+    padding-top: 5px;
 }
 .c_dropdown {
     display: inline;

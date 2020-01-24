@@ -1,6 +1,6 @@
 <template>
   <div id="contact-page">
-        <ContactForm/>
+      <ContactForm/>
   </div>
 </template>
 
