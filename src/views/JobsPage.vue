@@ -4,6 +4,7 @@
     <div class="l_jobslide">
       <h1>We are hiring</h1> 
     </div>
+    <JobJoinTeam/>
     <div class="l_job__container">
       <JobHeaderBtn/>
       <JobCard/>
@@ -15,11 +16,13 @@
 
 import JobHeaderBtn from '../components/jobheaderbtn/JobHeaderBtn'
 import JobCard from '../components/jobcard/JobCard'
+import JobJoinTeam from '../components/jobjointeam/JobJoinTeam'
 export default {
   name: 'JobsPage',
   components: {
     JobHeaderBtn,
-    JobCard
+    JobCard,
+    JobJoinTeam
   }
 }
 </script>

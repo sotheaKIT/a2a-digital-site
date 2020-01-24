@@ -2,22 +2,22 @@
 <template>
   <div id="app">
     <!-- <Navigator></Navigator>  -->
-    <HomePage></HomePage>
-    <!-- <JobPage></JobPage> -->
+    <!-- <HomePage></HomePage> -->
+    <JobPage></JobPage>
      <!-- <Footer></Footer> -->
   </div>
 </template>
 <script>
-import HomePage from './views/HomePage.vue'
+// import HomePage from './views/HomePage.vue'
 // import Navigator from './components/navigator/navigator'
 // import Footer from './components/footer/footer'
-// import JobPage from './views/JobsPage'
+import JobPage from './views/JobsPage'
 
 export default {
   name: 'App',
   components: {
-     HomePage,
-    // JobPage,
+    //  HomePage,
+    JobPage,
     // Navigator,
     // Footer
   }
