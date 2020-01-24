@@ -2,8 +2,6 @@ body, html {
   margin: 0;
   padding: 0;
   height: 100%;
-  word-wrap: break-word;
-  overflow-wrap: break-word;
 }
 
 body::-webkit-scrollbar {
@@ -36,6 +34,10 @@ button, input, select, textarea {
   left: 0;
   bottom: 0;
   right: 0;
+}
+
+.l_contrainer {
+  margin-top: 80px;
 }
 
 @font-face {
