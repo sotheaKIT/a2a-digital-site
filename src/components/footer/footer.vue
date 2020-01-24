@@ -4,12 +4,6 @@
 <script>
  
   export default {
-    name: 'Footer',
-    // data : function () {
-    //   return {
-    //     icon : "ddd"
-    //   }
-    // }
-   
+    name: 'Footer',   
   }
 </script>
