@@ -15,11 +15,14 @@
     color: #303030;
     font-size: 40px;
     font-family: SFProText-Bold;
-    margin-top: 0;
+    margin: 0;
+    margin-bottom: 12px;
 }
 .l_card__text p{
     font-size: 16px;
     line-height: 19px;
+    margin: 0px;
+    color: #303030;
 }
 
 .c_card__service {
@@ -40,6 +43,8 @@
     text-transform: uppercase;
     font-size: small;
     color: #138690;
+    display: block;
+    margin-top: 12px;
 }
 .l_card__text img{
     width: 18px;
@@ -105,7 +110,7 @@ section.c_card__service.txt_right {
 }
 @media only screen and (max-width: 1366px) {
     .l_service__container{
-        width: 100%;
+        width: calc(100% - 180px);
         padding-left: 90px;
         padding-right: 90px;
         display: table;
@@ -123,7 +128,7 @@ section.c_card__service.txt_right {
         margin: 0;
     }
     .l_service__container{
-        width: 100%;
+        width: 90%;
         padding-left: 5%;
         padding-right: 5%;
         padding-bottom: 70px;

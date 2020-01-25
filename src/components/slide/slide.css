@@ -1,58 +1,69 @@
-/* This is the share value of slide feature */
-#slide h1,i,p {
 
-    font-style: normal;
-    color: #303030;
-}
-#slide p,i{
-
-    font-weight: 500;
-}
-.l_slide_intro, .l_slide_info{
-
-    padding-left: calc(10.32% - 50px);
-}
-/* Applying value to the slide div tage */
-#slide{
-    background-color: #BDFFF0;
-     /* background-image: url("../../assets/components/slide/water-1330252__340.webp"); */
-    width: 100%;
-    height: 583px;
+.slide {
     
 }
-.c_slide__header h1{
 
-    margin-bottom: 0%;
-    padding-top: calc(15.73% - 100px);
-    text-align: justify;
+.slide h1,h2,h3,h4,h5,h6,p {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* This is the share value of slide feature */
+.l_slide_intro {
+    padding-left: 90px;
+}
+.l_slide_info{
+    margin-left: 90px;
+    margin-top: 42px;
+}
+/* Applying value to the slide div tage */
+.l_slide{
+    background: url("../../assets/components/slide/background-desktop.png"), #E8E8EA ;
+    background-repeat: no-repeat;
+    background-size: contain, cover;
+    background-position: top right; 
+    width: 100%;
+    min-height: 100vh;
+    
+}
+.l_slide_intro h1{
+
     font-family: SFProText-Bold;
+    font-style: normal;
+    font-weight: bold;
     font-size: 64px;
     line-height: 76px;
+    color: #303030;
+    padding-top: 201px;
 }
-.c_slide__description p{
-    margin-top: 0.5%;
+.l_slide_intro p{
+    font-style: normal;
     font-weight: normal;
     font-size: 16px;
-    line-height: 24px;
-    text-align: left;
+    line-height: 19px;
+    color: #303030;
+    padding-top: 16px;
 }
 /* Set value to contact button tage */
 .c_slide__contactbtn{
 
     float: left;
-    width: 177px;
+    width: 168px;
+    height: 50px;
     border: 2px solid #138690;
     box-sizing: border-box;
     border-radius: 4px;
 }
 .c_slide__contactbtn p{
-
-    font-family: SF Pro Text;
     font-style: normal;
-    font-size: 25px;
-    line-height: 0px;
+    padding-top: 14px;
     text-align: center;
-    /* Green */
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
     color: #138690;
 }
 /* Set value to video tage */
@@ -62,15 +73,83 @@
 }
 .c_btn__playvideo{
 
-    padding-left: 14px;
-    width: 58px;
+    margin-left: 20px;
+    width: 50px;
+    height: 50px;
 }
 .l_slide__video i{
-    
+    padding-left: 10px;
+    padding-top: 16px;
     float: right;
-    padding-left: 12.5px;
-    padding-top: 14px;
-    font-size: 25px;
-    line-height: 30px;
-    color: rgb(19, 134, 144);
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    color: #138690;
 } 
+
+
+@media screen and (max-width:719px) and (min-width: 480px){
+    .slide {
+        background-image:url("../../assets/components/slide/background-mobile.png");
+      }
+      
+      .l_slide_intro h1{
+        text-align: left;
+        padding-top: 120px;
+        padding-left: 30px;
+      }
+    
+}
+@media screen and (max-width: 480px) {
+    .slide {
+        background-image:url("../../assets/components/slide/background-mobile.png");
+        background-size: contain, cover;
+      }
+      .l_slide_intro{
+        padding-left: 28px;
+    }
+    .l_slide_info{
+        padding-left: 0px;
+
+    }
+    .l_slide_intro h1{
+        font-family: SF Pro Text;
+        font-style: normal;
+        font-weight: bold;
+        max-width: 20px;
+        padding-top: 70px;
+        font-size: 50px;
+        line-height: 60px;
+        color: #303030;
+    }
+
+    .l_slide_intro p{
+        font-size: 18px;
+        line-height: 21px;
+        color: #303030;
+        text-align: left;
+        padding-top: 15px;
+        margin-left: auto;
+        margin-right: auto;
+        max-width: 300px;
+    }
+
+    .c_slide__contactbtn{
+        float: none;
+        margin-top: 30px;
+        margin-left: auto;
+        margin-right: auto;
+        min-width: 320px;
+    }
+    .l_slide__video{
+        position: absolute;  
+        float: none;
+        top: 442px;  
+        left: 97px;
+    }
+    .l_slide__video i{
+        padding-left: 9px;
+    }
+    
+  }
