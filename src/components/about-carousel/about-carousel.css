@@ -1,8 +1,8 @@
 .c_profile__card__container{
-    /* width: 100%; */
-    display: table;
+    display: flex;
     margin-top: 30px;
-    padding-left: calc((100% - 1186px) / 2);
+    /* padding-left: calc((100% - 1186px) / 2); */
+    justify-content: center;
 }
 .c_about_title h1{
     font-size: 45px;
@@ -10,6 +10,9 @@
     width: 100%;
     text-align: center;
     padding-top: 50px;
+}
+.l_card__about h1{
+    line-height: 0;
 }
 .l_card__about{
     width: 281px;
@@ -90,19 +93,24 @@
         padding-right: 15px;
     }
 }
+@media only screen and (max-width: 1186px) { 
+    div.c_profile__card__container div.l_profile__card__center {
+        max-width: 889.5px;
+    }
+}
 @media only screen and (min-width: 1367px) { 
-    .c_profile__card__container{
+    /* .c_profile__card__container{
         padding-left: calc((100% - 1186px) / 2);
-    }      
+    }       */
     .c_profile__card__container {
         /* position: relative; */
         /* width: 100%; */
-        display: inline-block;
+        display: flex;
         align-items: center;
         margin: auto;
     }
-    .l_profile__card__center {
-        display: inline-block;
+    div .c_profile__card__container div.l_profile__card__center {
+        /* display: inline-block; */
         max-width: 1186px;
     }
 }

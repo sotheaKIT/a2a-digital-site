@@ -15,11 +15,14 @@
     color: #303030;
     font-size: 40px;
     font-family: SFProText-Bold;
-    margin-top: 0;
+    margin: 0;
+    margin-bottom: 12px;
 }
 .l_card__text p{
     font-size: 16px;
     line-height: 19px;
+    margin: 0px;
+    color: #303030
 }
 
 .c_card__service {
