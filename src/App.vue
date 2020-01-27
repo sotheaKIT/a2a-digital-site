@@ -11,7 +11,6 @@
 <script>
 import Navigator from './components/navigator/navigator.vue'
 import Footer from './components/footer/footer.vue'
-
 export default {
   name: 'App',
   components: {
@@ -19,5 +18,4 @@ export default {
     Footer
   }
 }
-
 </script>

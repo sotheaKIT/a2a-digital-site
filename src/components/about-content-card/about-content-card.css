@@ -22,7 +22,7 @@
     font-size: 16px;
     line-height: 19px;
     margin: 0px;
-    color: #303030;
+    color: #303030
 }
 
 .c_card__service {
@@ -43,8 +43,6 @@
     text-transform: uppercase;
     font-size: small;
     color: #138690;
-    display: block;
-    margin-top: 12px;
 }
 .l_card__text img{
     width: 18px;
@@ -110,7 +108,7 @@ section.c_card__service.txt_right {
 }
 @media only screen and (max-width: 1366px) {
     .l_service__container{
-        width: calc(100% - 180px);
+        width: calc( 100% - 180px);
         padding-left: 90px;
         padding-right: 90px;
         display: table;

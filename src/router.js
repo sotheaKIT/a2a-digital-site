@@ -5,7 +5,7 @@ import ServicesPage from './views/ServicesPage.vue'
 import ProductsPage from './views/ProductsPage.vue'
 import ProductDetail from './views/ProductDetail.vue'
 import AboutPage from  './views/AboutPage.vue'
-import ContactPage from './views/AboutPage.vue'
+import ContactPage from './views/ContactPage.vue'
 import JobsPage  from './views/JobsPage.vue'
 import JobsPageDetail from './views/JobsPageDetail.vue'
 import JobsSubmitPage from './views/JobsSubmitPage.vue'
@@ -28,11 +28,7 @@ export default new Router({
       name: 'services',
       component: ServicesPage
     },
-    {
-      path: '/products',
-      name: 'products',
-      component: ProductsPage
-    },
+
     {
       path: '/productdetail',
       name: 'productdetail',

@@ -54,7 +54,7 @@
     line-height: 19px;
     color: #303030;
 }
-p {
+.l_jobspage_detail p {
     font-style: normal;
     font-weight: normal;
     font-size: 16px;
@@ -71,6 +71,7 @@ p {
     font-size: 16px;
     line-height: 19px;
     color: white;
+    cursor: pointer;
 }
 
 .c_apply__right {
