@@ -12,20 +12,25 @@
 https://www.figma.com/file/0MgVJmtcbTRyA1XwKouVGp/Home---A2A-Digital?node-id=38%3A2
 
 + About
+
 https://www.figma.com/file/18HLoYfUa947LuFzkHJMj0/About%2F-Team?node-id=59%3A0
 + Contact
+
 https://www.figma.com/file/pL5Zq0HHGyFAzrgTbgN23O/Contact?node-id=1%3A3
 
 + Jobs
+
 https://www.figma.com/file/lyNBb4CWBgfsPektGViQ36/A2A-Digital-Website-Design---Metheany?node-id=70%3A347
 
 + 404 Error
+
 https://www.figma.com/file/0MgVJmtcbTRyA1XwKouVGp/Home---A2A-Digital?node-id=912%3A0
 
 + Service type
 
 https://www.figma.com/file/0MgVJmtcbTRyA1XwKouVGp/Home---A2A-Digital?node-id=912%3A375
-Service detail
++ Service detail
+
 https://www.figma.com/file/lyNBb4CWBgfsPektGViQ36/A2A-Digital-Website-Design---Metheany?node-id=320%3A357
 
 + Product Type
