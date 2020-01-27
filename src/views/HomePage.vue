@@ -14,8 +14,6 @@ import ServicesPage from '../views/ServicesPage'
 import PartnersPage from '../views/PartnersPage'
 import Slide from '../components/slide/slide.vue'
 
-
-
 export default {
   name: 'Home',
   components: {

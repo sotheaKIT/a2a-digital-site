@@ -8,8 +8,8 @@
 }
 #nav {
    /* box-shadow: 0 10px 20px rgba(0,0,0,0.1), 0 6px 6px rgba(0,0,0,0); */
-   padding-left: calc(10.32% - 50px);
-   padding-right: calc(10.32% - 50px); 
+   padding-left: 90px;
+   padding-right: 90px;
    height: 70px;
 }
 #nav_button {
@@ -48,5 +48,11 @@
     color: #303030;
     font-size: 16px;
    
+}
+
+@media screen and (max-width:719px) {
+    #nav {
+        padding-left : 30px
+    }
 }
 
