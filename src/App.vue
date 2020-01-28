@@ -3,7 +3,9 @@
   <div id="app">
     <!-- <Navigator></Navigator>  -->
     <!-- <HomePage></HomePage> -->
-    <JobPage></JobPage>
+    <!-- <JobPage></JobPage> -->
+    <SolutionPage/>
+
      <!-- <Footer></Footer> -->
   </div>
 </template>
@@ -11,15 +13,18 @@
 // import HomePage from './views/HomePage.vue'
 // import Navigator from './components/navigator/navigator'
 // import Footer from './components/footer/footer'
-import JobPage from './views/JobsPage'
+// import JobPage from './views/JobsPage'
+import SolutionPage from './views/SolutionPage'
+
 
 export default {
   name: 'App',
   components: {
     //  HomePage,
-    JobPage,
+    // JobPage,
     // Navigator,
     // Footer
+    SolutionPage
   }
 }
 </script>
