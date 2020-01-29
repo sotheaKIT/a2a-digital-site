@@ -16,7 +16,7 @@
     font-size: 40px;
     font-family: SFProText-Bold;
     margin: 0;
-    margin-bottom: 12px;
+    margin-bottom: 72px;
 }
 .l_card__text p{
     font-size: 16px;
@@ -44,7 +44,7 @@
     font-size: small;
     color: #138690;
     display: block;
-    margin-top: 12px;
+    margin-top: 15px;
 }
 .l_card__text img{
     width: 18px;

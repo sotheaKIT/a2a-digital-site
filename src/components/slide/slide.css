@@ -14,12 +14,11 @@
     background-size: contain, cover;
     background-position: top right; 
     width: 100%;
-    min-height: 100vh;
+    height: 65vh;
     
 }
 
 .slide .l_contrainer {
-    height: 60vh;
     padding-left: 90px;
 }
 /* This is the share value of slide feature */
@@ -36,7 +35,7 @@
     font-size: 64px;
     line-height: 76px;
     color: #303030;
-    padding-top: 201px;
+    padding-top: 120px;
 }
 .l_slide_intro p{
     font-style: normal;
@@ -50,7 +49,7 @@
 .c_slide__contactbtn{
 
     float: left;
-    width: 168px;
+    width: 212px;
     height: 50px;
     border: 2px solid #138690;
     box-sizing: border-box;
@@ -88,18 +87,19 @@
 } 
 
 
-@media screen and (max-width:719px) and (min-width: 480px){
+@media screen and (max-width:768px) {
     .slide {
-        background-image:url("../../assets/components/slide/background-mobile.png");
+        background-image:url("../../assets/components/slide/Background-tablet.png");
+        height: 70vh;
       }
       
       .l_slide_intro h1{
         text-align: left;
         padding-top: 120px;
+        font-size : 50px;
       }
 
       .slide .l_contrainer {
-        height: 60vh;
         padding-left: 30px;
     }
     .slide .l_slide_info {
@@ -111,7 +111,7 @@
     }
     
 }
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 600px) {
     .slide {
         background-image:url("../../assets/components/slide/background-mobile.png");
         background-size: contain, cover;
@@ -126,7 +126,6 @@
 
     }
     .l_slide_intro h1{
-        font-family: SF Pro Text;
         font-style: normal;
         font-weight: bold;
         max-width: 20px;
@@ -150,14 +149,14 @@
         margin-top: 30px;
         margin-left: auto;
         margin-right: auto;
-        min-width: 320px;
+        min-width: 250px;
     }
-    .l_slide__video{
-        position: absolute;  
+    /* .l_slide__video{
+        position: absolute;
         float: none;
-        top: 442px;  
-        left: 97px;
-    }
+        top: 446px;
+        left: 17%;
+    } */
     .l_slide__video i{
         padding-left: 9px;
     }

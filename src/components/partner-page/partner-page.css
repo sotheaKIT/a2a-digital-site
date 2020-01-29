@@ -1,17 +1,24 @@
 .l_partnerPage {
-  margin-top: 300px;
+  margin-bottom: 100px;
 }
 
-.l_partnerPage h1 {
-  font-size: 35px;
+.l_partnerPage .l_head h1 {
   text-align: center;
+  margin-bottom: 50px;
+  color: #303030;
+  font-size: 35px;
+  font-family: SFProText-Bold;
 }
 
 .l_logo_container {
   justify-content: center;
-  padding-left: 20%;
-  padding-top: 60px;
   padding-bottom: 80px;
+}
+
+.l_groupPartners {
+  display: flex;
+  margin-left: calc((100% - 986px)/2);;
+  
 }
 
 .l_logo_container:after {
@@ -20,20 +27,46 @@
     clear: both;
 }
 
-.c_logo_partner{
-    float: left;
-    width: 25%;
-}
 
-.c_logo_partner > img {
-  max-width: 127px;
+.l_groupPartners > img {
   height: 70px;
+  padding-right: 15%;
+  padding-top: 30px;
 }
 
-@media screen and (max-width: 600px) {
-  .c_logo_partner {
-    width: 50%;
-    margin-top: 0;
-    margin-left: 0;
+@media screen and (max-width:1100px) { 
+  .l_groupPartners {
+    margin-left: 100px;
   }
 }
+
+@media screen and (max-width:980px) { 
+  .l_groupPartners {
+    margin-left: 40px;
+  }
+}
+
+@media screen and (max-width:600px) { 
+  .l_groupPartners {
+    display: block;
+    margin-left: 45%;
+  }
+
+  .l_last__logo {
+    padding-left: 0px;
+  }
+
+  .l_groupPartners > img {
+    padding-right: 100px;
+  }
+}
+
+
+
+
+
+
+
+
+
+

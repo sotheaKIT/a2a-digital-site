@@ -7,7 +7,7 @@ import ContactPage from './views/ContactPage.vue'
 import JobsPage  from './views/JobsPage.vue'
 import JobsPageDetail from './views/JobsPageDetail.vue'
 import JobsSubmitPage from './views/JobsSubmitPage.vue'
-
+import ErrorPage from './views/ErrorPage.vue'
 
 
 Vue.use(Router)
@@ -52,6 +52,10 @@ export default new Router({
       name: 'jobform',
       component: JobsSubmitPage
     },
-
+    {
+      path: '/404',
+      name: '404',
+      component: ErrorPage
+    },
   ]
 })

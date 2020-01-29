@@ -2,22 +2,21 @@ body, html {
   margin: 0;
   padding: 0;
   height: 100%;
+  overflow-x: hidden;
 }
 
 #app {
   font-family:  SFProText-Regular;
   background-color: #ffffff;
-  position: relative;
-  top: 0;
-  left: 0;
-  bottom: 0;
-  right: 0;
   color : #303030;
 }
 
 .l_contrainer {
   margin-top: 70px;
+  max-width: calc(1600px + 10%);
+  margin: 0 auto;
 }
+
 
 @font-face {
   font-family: SFProText-Bold;

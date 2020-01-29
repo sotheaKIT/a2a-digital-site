@@ -1,5 +1,4 @@
 #navigation {
- position: fixed;
  top: 0;
  width: 100%;
  background-color: #ffffff;
@@ -17,42 +16,70 @@
     padding-left: 30px;
     height: 20px;
     display: flex;
-   
 }
 
 .c_logo {
-    width: 138px;
-    height: 25px;
-    float: left;
-    padding-top: 22px;
+       width: 138px;
+       height: 25px;
+       float: left;
+       padding-top: 22px;
 }
-#nav_right {
-    float: right;
-    padding-top: 22px;
-}
-.c_search {
-    width: 16px;
-    height: 16px;
-    fill: #303030;
-    padding-top: 5px;
-}
-.c_dropdown {
-    display: inline;
-    padding-top: 10px;
-}
-.c_navigate_right + .c_navigate_right {
-    padding-left: 40px;
-}
-.c_navigate_right {
-    text-decoration: none;
-    color: #303030;
-    font-size: 16px;
+   #nav_right {
+       float: right;
+       padding-top: 22px;
+   }
+   .c_search {
+       width: 16px;
+       height: 16px;
+       fill: #303030;
+       padding-top: 5px;
+   }
+   .c_dropdown {
+       display: inline;
+       padding-top: 10px;
+   }
+   .c_navigate_right + .c_navigate_right {
+       padding-left: 40px;
+   }
+   .c_navigate_right {
+       text-decoration: none;
+       color: #303030;
+       font-size: 16px;
+      
+   }
+   .bm-burger-button {
+       position: absolute;
+       width: 36px;
+       height: 30px;
+       left: 36px;
+       top: 36px;
+       cursor: pointer;
+     }
+     /* .bm-burger-button.hidden {
+       display: none;
+     } */
    
-}
+     
+   @media only screen and (max-width: 980px) {
+   
+   #nav_only_button {
+       display: none;
+   }
+   }
+   @media only screen and (min-width: 980px) {
+   
+   #nav_menu_btn {
+       display: none;
+   }   
+   
+   }
 
-@media screen and (max-width:719px) {
+
+   @media screen and (max-width:719px) {
     #nav {
-        padding-left : 30px
+        padding-left : 30px;
+        padding-right: 30px;
     }
 }
 
+   
