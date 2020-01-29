@@ -61,9 +61,6 @@
     .l_card_product {
         position: relative;
     }
-    .l_card_product h1 {
-        text-align: center;
-    }
     .c_card_product {
         margin: auto auto;
         display: flex;
@@ -115,7 +112,7 @@
             display: grid;
             margin: auto;
         }
-    @media screen and (max-width: 1023px) {
+    @media screen and (max-width: 1170px) {
         .c_card_detail {
             width: 50%;
             display: grid;
@@ -126,9 +123,9 @@
             margin: auto;
         }
     }
-    @media screen and (max-width: 767px) {
+    @media screen and (max-width: 770px) {
         .c_card_detail {
-            width: 70%;
+            width: 60%;
         }
     }
     
