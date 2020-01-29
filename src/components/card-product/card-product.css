@@ -1,118 +1,73 @@
-.l_product {
-  margin-top: 60px;
-  margin-left: 90px;
-  margin-right: 90px;
+.l_card_product {
+  position: relative;
 }
-
-.c_product {
-  height: 200px;
+.l_card_product h1 {
+  text-align: center;
 }
-
-.c_row:after {
-  content: "";
-  display: table;
-  clear: both;
-}
-
-.c_row {
+.c_card_product {
+  margin: auto auto;
   display: flex;
+  overflow-x :auto;
+  scroll-snap-type: x mandatory;
 }
-
-.c_column {
+::-webkit-scrollbar {
+  display: none;
+}
+.c_arrow_left {
+  width: 5%;
   float: left;
-  padding: 10px;
-  height: 200px;
-}
-
-.c_arrow__left {
-  width: 2%;
+  margin: auto;
   position: relative;
+  height: 392px;
 }
-
-.c_middle {
-  width: -webkit-fill-available;
+.c_card_detail {
+  display: grid;
+  width: 25%;
+  flex-shrink: 0;
+  height: 100%;
+  scroll-behavior: smooth;
 }
-
-.middle_inner {
-  display: flex;
-}
-
-.c_arrow__right {
-  width: 2%;
-  position: relative;
-}
-
-.c_icon__arrowleft {
-  width: 30px;
-  height: 30px;
-  fill: #303030;
-  position: absolute;
-  top: 40%;
-}
-
-.c_icon__arrowright {
-  width: 30px;
-  height: 30px;
-  fill: #303030;
+.c_arrow_right {
   float: right;
+  width: 5%;
+  position: relative;
+  margin: auto;
+  right: 0%;
+  background-color: white;
+  height: 392px;
+}
+.c_img_arrow {
+  width: 17px;
+  height: 35px;
   position: absolute;
-  top: 40%
+  top: 25%;
+  left: 40%;
+  
 }
-
-.c_card {
-  display: inline-flex;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-  width: 200px;
-  height: 200px;
+.c_img_product {
+  width: 230px;
+  height: 230px;
+  margin: auto;
   border-radius: 4px;
 }
-
-.c_title__product {
-  word-break: break-all;
-  white-space: normal;
-  width: 200px;
+.c_title__product{
+      width: 230px;
+      display: grid;
+      margin: auto;
+  }
+@media screen and (max-width: 1023px) {
+  .c_card_detail {
+      width: 50%;
+      display: grid;
+      margin: auto;
+  }
+  .c_img_product {
+      display: grid;
+      margin: auto;
+  }
 }
-
-.c_icon__product {
-  width: 60px;
-  height: 60px;
-  margin: auto auto;
-}
-
-.c_card + .c_card {
-  margin-left: 20px;
-}
-
-.c_align__margin {
-  margin: auto auto;
-  display: table;
-}
-
-.bg_purple {
-  background-color: #D0ACE8;
-}
-
-.bg_pink {
-  background-color: #FFDBC9;
-}
-
-.bg_yellow {
-  background-color: #E8E7AC;
-}
-
-.bg_lightblue {
-  background-color: #BDFFF0;
-}
-
-.l_bullet {
-  margin-top: 150px;
-  margin-left: 47%;
-}
-
-.c_bullet {
-  display: inline-flex;
-  width: 15px;
-  height: 15px;
-  border-radius: 4px;
-  padding: 10px;
+@media screen and (max-width: 767px) {
+  .c_card_detail {
+      width: 70%;
+  }
 }
