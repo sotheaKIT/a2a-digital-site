@@ -1,10 +1,26 @@
-/* This is the share value of slide feature */
-.l_slide_intro {
-    padding-left: 91px;
+
+.slide {
+    
 }
 
+.slide h1,h2,h3,h4,h5,h6,p {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* This is the share value of slide feature */
+.l_slide_intro {
+    padding-left: 90px;
+}
+.l_slide_info{
+    margin-left: 90px;
+    margin-top: 42px;
+}
 /* Applying value to the slide div tage */
-.slide{
+.l_slide{
     background: url("../../assets/components/slide/background-desktop.png"), #E8E8EA ;
     background-repeat: no-repeat;
     background-size: contain, cover;
@@ -15,7 +31,7 @@
 }
 .l_slide_intro h1{
 
-    font-family: SF Pro Text;
+    font-family: SFProText-Bold;
     font-style: normal;
     font-weight: bold;
     font-size: 64px;
@@ -24,7 +40,6 @@
     padding-top: 201px;
 }
 .l_slide_intro p{
-    font-family: SF Pro Text;
     font-style: normal;
     font-weight: normal;
     font-size: 16px;
@@ -36,17 +51,15 @@
 .c_slide__contactbtn{
 
     float: left;
-    width: 168.18px;
+    width: 168px;
     height: 50px;
-    margin-top: 42px;
     border: 2px solid #138690;
     box-sizing: border-box;
     border-radius: 4px;
 }
 .c_slide__contactbtn p{
-    font-family: SF Pro Text;
     font-style: normal;
-    padding-top: 16px;
+    padding-top: 14px;
     text-align: center;
     font-weight: 500;
     font-size: 16px;
@@ -60,16 +73,14 @@
 }
 .c_btn__playvideo{
 
-    margin-top: 42px;
     margin-left: 20px;
     width: 50px;
     height: 50px;
 }
 .l_slide__video i{
     padding-left: 10px;
-    padding-top: 58px;
+    padding-top: 16px;
     float: right;
-    font-family: SF Pro Text;
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
@@ -77,60 +88,16 @@
     color: #138690;
 } 
 
-  @media screen and (max-width:1365px) and (min-width: 720px){
 
-    .slide{
-        background:url("../../assets/components/slide/Background-tablet.png"), #E8E8EA;
-        background-repeat: no-repeat;
-        background-size: contain, cover;
-        background-position: top right; 
-        width: 100%;
-        min-height: 100vh;
-    }
-    .l_slide_intro,.l_slide_info{
-        padding-left: 30px;
-    }
-    .l_slide_intro h1{
-        padding-top: 199px;
-        width: 425px;
-        height: 120px;
-    }
-    .l_slide_intro p{
-        margin-top: 16px;
-        width: 425px;
-        height: 42px;
-    }
-    
-
-    .c_slide__contactbtn{
-        margin-top: 37px;
-        width: 212px;
-        height: 50px;
-    }
-    .l_slide__video{
-        position: absolute;  
-        top: 472px; 
-        left: 48px;
-    }
-    .l_slide__video i{
-        padding-left: 10px;
-    }
-}
 @media screen and (max-width:719px) and (min-width: 480px){
     .slide {
         background-image:url("../../assets/components/slide/background-mobile.png");
-        background-repeat: no-repeat;
-        background-size: contain, cover;
-        background-position: top right; 
-        width: 100%;
-        min-height: 100vh;
       }
-      .l_slide_intro,.l_slide_info{
-          padding-left: 30px;
-      }
+      
       .l_slide_intro h1{
         text-align: left;
-        padding-top: 80px;
+        padding-top: 120px;
+        padding-left: 30px;
       }
     
 }
@@ -150,7 +117,7 @@
         font-family: SF Pro Text;
         font-style: normal;
         font-weight: bold;
-        width: 20px;
+        max-width: 20px;
         padding-top: 70px;
         font-size: 50px;
         line-height: 60px;
@@ -165,7 +132,7 @@
         padding-top: 15px;
         margin-left: auto;
         margin-right: auto;
-        width: 300px;
+        max-width: 300px;
     }
 
     .c_slide__contactbtn{
@@ -173,7 +140,7 @@
         margin-top: 30px;
         margin-left: auto;
         margin-right: auto;
-        width: 320px;
+        min-width: 320px;
     }
     .l_slide__video{
         position: absolute;  
@@ -182,7 +149,7 @@
         left: 97px;
     }
     .l_slide__video i{
-        padding-left: 9.82px;
+        padding-left: 9px;
     }
     
   }

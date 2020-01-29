@@ -2,7 +2,7 @@ import Vue from 'vue'
 import Router from 'vue-router'
 import HomePage from './views/HomePage.vue'
 import ServicesPage from './views/ServicesPage.vue'
-import ProductsPage from './views/ProductsPage.vue'
+// import ProductsPage from './views/ProductsPage.vue'
 import ProductDetail from './views/ProductDetail.vue'
 import CardProduct from './views/CardProduct.vue'
 import AboutPage from  './views/AboutPage.vue'
@@ -29,11 +29,11 @@ export default new Router({
       name: 'services',
       component: ServicesPage
     },
-    {
-      path: '/products',
-      name: 'products',
-      component: ProductsPage
-    },
+    // {
+    //   path: '/products',
+    //   name: 'products',
+    //   component: ProductsPage
+    // },
     {
       path: '/productdetail',
       name: 'productdetail',

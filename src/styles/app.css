@@ -2,30 +2,6 @@ body, html {
   margin: 0;
   padding: 0;
   height: 100%;
-  word-wrap: break-word;
-  overflow-wrap: break-word;
-}
-
-body::-webkit-scrollbar {
-  display: none;
-}
-
-a,a:visited,a:focus {
-  text-decoration: none;
-  color: initial;
-}
-
-a:focus,
-button:focus {
-  outline: none !important;
-}
-
-button, input, select, textarea {
-  font-family : inherit;
-  font-size   : 100%;
-  margin: 0;
-  padding: 0;
-  background: transparent;
 }
 
 #app {
@@ -36,6 +12,11 @@ button, input, select, textarea {
   left: 0;
   bottom: 0;
   right: 0;
+  color : #303030;
+}
+
+.l_contrainer {
+  margin-top: 70px;
 }
 
 @font-face {
