@@ -1,5 +1,6 @@
 .l_partnerPage {
-  margin-bottom: 100px;
+  margin-bottom: 80px;
+  margin-top: 80px;
 }
 
 .l_partnerPage .l_head h1 {
@@ -27,7 +28,6 @@
     clear: both;
 }
 
-
 .l_groupPartners > img {
   height: 70px;
   padding-right: 15%;
@@ -49,7 +49,7 @@
 @media screen and (max-width:600px) { 
   .l_groupPartners {
     display: block;
-    margin-left: 45%;
+    margin-left: 40%;
   }
 
   .l_last__logo {

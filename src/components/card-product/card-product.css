@@ -1,11 +1,16 @@
 .l_card_product {
   position: relative;
+  margin-top: 80px;
 }
+
 .l_card_product h1 {
+  color: #303030;
+  font-size: 35px;
+  font-family: SFProText-Bold;
   text-align: center;
 }
 .c_card_product {
-  margin: auto auto;
+  margin: 50px auto auto;
   display: flex;
   overflow-x :auto;
   scroll-snap-type: x mandatory;
@@ -55,7 +60,7 @@
       display: grid;
       margin: auto;
   }
-@media screen and (max-width: 1023px) {
+@media screen and (max-width: 1170px) {
   .c_card_detail {
       width: 50%;
       display: grid;
@@ -66,8 +71,8 @@
       margin: auto;
   }
 }
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 770px) {
   .c_card_detail {
-      width: 70%;
+      width: 60%;
   }
 }

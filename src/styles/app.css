@@ -1,7 +1,7 @@
 body, html {
   margin: 0;
   padding: 0;
-  height: 100%;
+  height: 100vh;
   overflow-x: hidden;
 }
 
@@ -11,12 +11,28 @@ body, html {
   color : #303030;
 }
 
+
+
 .l_contrainer {
-  margin-top: 70px;
   max-width: calc(1600px + 10%);
   margin: 0 auto;
 }
 
+#contact-page {
+   height: 100vh;
+   
+}
+
+#jobs-page {
+  height: 100vh;
+}
+
+
+@media screen and (max-width: 350px) {
+  .l_contrainer {
+    width: 350px;
+  }
+}
 
 @font-face {
   font-family: SFProText-Bold;
