@@ -4,6 +4,7 @@ import HomePage from './views/HomePage.vue'
 import ServicesPage from './views/ServicesPage.vue'
 import ProductsPage from './views/ProductsPage.vue'
 import ProductDetail from './views/ProductDetail.vue'
+import CardProduct from './views/CardProduct.vue'
 import AboutPage from  './views/AboutPage.vue'
 import ContactPage from './views/AboutPage.vue'
 import JobsPage  from './views/JobsPage.vue'
@@ -37,6 +38,11 @@ export default new Router({
       path: '/productdetail',
       name: 'productdetail',
       component: ProductDetail
+    },
+    {
+      path: '/cardproduct',
+      name: 'cardproduct',
+      component: CardProduct
     },
     {
       path: '/about',
