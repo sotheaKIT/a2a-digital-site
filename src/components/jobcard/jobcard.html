@@ -1,5 +1,5 @@
 <div class="l_job__container">
-    <div class="l_jobcolumn" v-for="card in cards":key = "card.id">
+    <a href="/jobsdetail"><div class="l_jobcolumn" v-for="card in cards":key = "card.id">
         <div class="l_jobcard">
             <h5 class="c_jobtitle">
               {{card.title}}          
@@ -16,4 +16,5 @@
               </div>
         </div>
     </div>
+    </a>
 </div>

@@ -1,13 +1,8 @@
-
 .l_jobspage_detail {
     /* width: 100%;      */
     padding: 0 90px;
 }
-.c_jobspage_detail {
-    /* width: 100%;
-    padding-left: 90px;
-    padding-right: 91px; */
-}
+
 .c_jobspage_title {
     
     /* width: 1385px; */
@@ -32,7 +27,6 @@
 }
 .c_jobspage_container {
     width: 100%;
-
     padding-top: 150px;
     content: "";
     display: table;
@@ -47,7 +41,6 @@
 }
 
 .job_title {
-    font-family: SF Pro Text;
     font-style: normal;
     font-weight: bold;
     font-size: 24px;
@@ -55,20 +48,17 @@
     color: #138690;
 }
 .job_sub_title {
-    font-family: SF Pro Text;
     font-style: normal;
     font-weight: bold;
     font-size: 16px;
     line-height: 19px;
     color: #303030;
 }
-p {
-    font-family: SF Pro Text;
+.l_jobspage_detail p {
     font-style: normal;
     font-weight: normal;
     font-size: 16px;
     line-height: 19px;
-
 }
 .b_apply_now {
     width: 277.63px;
@@ -81,6 +71,7 @@ p {
     font-size: 16px;
     line-height: 19px;
     color: white;
+    cursor: pointer;
 }
 
 .c_apply__right {
@@ -151,17 +142,81 @@ p {
 }
 
 @media screen and (max-width : 980px){
+    .l_jobspage_detail {
+
+        padding: 0 20px;
+    }
     .c_jobspage_detail__left {
         width: 100%;
         border: none;
+        padding-right: 0;
     }
     .responsive_apply__right {
         display: block;
+        margin: 50px 0;
+        width: 100%;
+    }
+    .c_socialMedia {
+        width: auto;
+        height: 115px;
+        padding-top: 13px;
+        border-radius: 4px;
+        box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    }
+    .b_apply_now {
+       display: block;
+       margin: 0 auto;
+    }
+    .c_social__icon {
+        display: table;
+        margin: auto auto;
+        width: auto;
     }
     .c_apply__right {
         display: none;
     }
     .c_location {
         width: auto;
+    }
+    .c_jobspage_container {
+        padding-top: 50px;
+    }
+}
+@media screen and (max-width : 375px){
+    .c_jobspage_detail__left {
+        width: 100%;
+        border: none;
+    }
+    .responsive_apply__right {
+        display: block;
+        margin: 50px 0;
+        width: 100%;
+    }
+    .c_socialMedia {
+        width: auto;
+        height: 115px;
+        padding-top: 13px;
+        border-radius: 4px;
+        box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    }
+    .b_apply_now {
+       display: block;
+       margin: 0 auto;
+       width: auto;
+    }
+    .c_social__icon {
+        display: table;
+        margin: auto auto;
+        width: auto;
+    }
+    .c_apply__right {
+        display: none;
+    }
+    .c_location {
+        width: 250px;
+        height: auto;
+    }
+    .c_jobspage_container {
+        padding-top: 50px;
     }
 }
