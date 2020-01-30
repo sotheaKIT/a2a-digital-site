@@ -20,7 +20,7 @@
            </div>
             <a href="#">
                 <i class="fa fa-fw fa-envelope-o"></i>
-                <span>Products</span>
+                <span>Solutions</span>
             </a>
             <a href="#">
                 <i class="fa fa-fw fa-comment-o"></i>
@@ -49,7 +49,6 @@ export default {
   name: 'App',
   data() {
         return {
-          
           side: 'right',
           currentMenu: 'slide'
         };

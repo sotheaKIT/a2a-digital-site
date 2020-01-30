@@ -1,6 +1,7 @@
 /* Applying value to the slide div tage */
 .slide {
-    background: url("../../assets/components/slide/background-desktop.png"), #E8E8EA ;
+    background-image: url("../../assets/components/slide/background-desktop.png") ;
+    background-color:  #E8E8EA;
     background-repeat: no-repeat;
     background-size: contain, cover;
     background-position: top right; 
@@ -19,7 +20,7 @@
 }
 
 .l_slide_intro h1{
-    font-family: SFProText-Bold;
+    font-family:SFProText-Bold;
     font-style: normal;
     font-weight: bold;
     font-size: 64px;
@@ -53,6 +54,7 @@
     font-size: 16px;
     line-height: 19px;
     color: #138690;
+    margin-top: 12px;
 }
 /* Set value to video tage */
 .l_slide__video{

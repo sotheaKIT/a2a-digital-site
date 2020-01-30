@@ -11,7 +11,9 @@ body, html {
   color : #303030;
 }
 
-
+a {
+  text-decoration: none;
+}
 
 .l_contrainer {
   max-width: calc(1600px + 10%);
@@ -27,6 +29,9 @@ body, html {
   height: 100vh;
 }
 
+#services-page {
+  margin-top: 100px;
+}
 
 @media screen and (max-width: 350px) {
   .l_contrainer {
@@ -36,9 +41,9 @@ body, html {
 
 @font-face {
   font-family: SFProText-Bold;
-  src: url("../assets/fonts/sf-pro-display-bold-webfont.woff");
+  src: url("../assets/fonts/sf-pro-display-bold-webfont.woff")  format("woff");
 }
 @font-face {
   font-family: SFProText-Regular;
-  src: url("../assets/fonts/sfprotext-regular-webfont.woff");
+  src: url("../assets/fonts/sfprotext-regular-webfont.woff")  format("woff");
 }
