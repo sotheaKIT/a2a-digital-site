@@ -1,14 +1,27 @@
-.c_logo_footer {
+  .c_logo_footer {
     width: 138px;
     height: 25px;
     float: left;
     margin: 10px 0;
   }
-  
+  .c_footer_service {
+    height: 340px;
+    font-family: SF Pro Text;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+  }
   .l_footer { 
     width: 100%;
+    border-top: 1px solid #BDFFF0 ;
   }
-  
+  .c_footer_service_float {
+    float: left;
+    width: 25%;
+    padding: 80px 90px;
+    color: #696969;
+  }
   .c_footer {
     width: 100%;
     height: 70px;
@@ -42,11 +55,32 @@
     font-size: 16px;
     line-height: 19px;
   }
+  .c_title {
+    color: black;
+  }
   .responsive_c_footer {
       display: none;
   }
-
-  @media screen and (max-width : 530px) {
+  li {
+    margin-bottom: 10px;
+  }
+  @media screen and (max-width : 960px) {
+    .c_footer_service {
+      height: 270px;
+    }
+    .c_footer_service_float {
+      padding: 60px 30px;
+    }
+  }
+  @media screen and (max-width : 560px) {
+    .c_footer_service {
+      height: 580;
+    }
+    .c_footer_service_float {
+      padding: 60px 15px;
+      width: 50%;
+      padding-bottom: 0;
+    }
     .c_logo_footer {
         width: 110px;
         height: 20px;
