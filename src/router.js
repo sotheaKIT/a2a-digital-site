@@ -1,14 +1,14 @@
 import Vue from 'vue'
 import Router from 'vue-router'
 import HomePage from './views/HomePage.vue'
-import ServicesPage from './views/ServicesPage.vue'
+import SolutionDetail from './views/SolutionDetail.vue'
 import AboutPage from  './views/AboutPage.vue'
 import ContactPage from './views/ContactPage.vue'
 import JobsPage  from './views/JobsPage.vue'
 import JobsPageDetail from './views/JobsPageDetail.vue'
 import JobsSubmitPage from './views/JobsSubmitPage.vue'
+import ErrorPage from './views/ErrorPage.vue'
 import ServiceDetailPage from './views/ServiceDetailPage.vue'
-
 
 
 Vue.use(Router)
@@ -23,11 +23,10 @@ export default new Router({
       component: HomePage
     },
     {
-      path: '/services',
-      name: 'services',
-      component: ServicesPage
+      path: '/solutiondetail',
+      name: 'solutiondetail',
+      component: SolutionDetail
     },
-
     {
       path: '/about',
       name: 'about',
@@ -54,9 +53,15 @@ export default new Router({
       component: JobsSubmitPage
     },
     {
+      path: '/404',
+      name: '404',
+      component: ErrorPage
+    },
+    {
       path: '/servicedetail',
       name: 'servicedetail',
       component: ServiceDetailPage
     },
+
   ]
 })

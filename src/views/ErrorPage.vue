@@ -18,22 +18,19 @@
     </div>
 </template>
 <style scoped>
-h1 {
-    font-family: SF Pro Text;
+.l_error_page h1 {
     font-style: normal;
     font-weight: bold;
     font-size: 100px;
     line-height: 119px;
 }
-h2 {
-    font-family: SF Pro Text;
+.l_error_page h2 {
     font-style: normal;
     font-weight: bold;
     font-size: 35px;
     line-height: 42px;
 }
-p {
-    font-family: SF Pro Text;
+.l_error_page p {
     font-style: normal;
     font-weight: normal;
     font-size: 18px;

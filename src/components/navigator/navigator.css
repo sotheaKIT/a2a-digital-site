@@ -1,78 +1,212 @@
 #navigation {
-    position: fixed;
+ top: 0;
+ width: 100%;
+ background-color: #ffffff;
+ z-index: 2;
+
+}
+#nav {
+   /* box-shadow: 0 10px 20px rgba(0,0,0,0.1), 0 6px 6px rgba(0,0,0,0); */
+   padding-left: 90px;
+   padding-right: 90px;
+   height: 70px;
+}
+
+#nav_button {
+    float: left;
+    padding-left: 30px;
+    height: 20px;
+    display: flex; 
+}
+
+.c_logo {
+    width: 138px;
+    height: 25px;
+    float: left;
+    padding-top: 22px;
+}
+#nav_right {
+    float: right;
+    padding-top: 22px;
+}
+.c_search {
+    width: 16px;
+    height: 16px;
+    fill: #303030;
+    padding-top: 5px;
+}
+.c_dropdown {
+    display: inline;
+    padding-top: 10px;
+}
+.c_navigate_right + .c_navigate_right {
+    padding-left: 40px;
+}
+.c_navigate_right {
+    text-decoration: none;
+    color: #303030;
+    font-size: 16px;
+   
+}  
+  .line-style {
+    position: absolute;
+    height: 10%;
+    left: 0;
+    right: 0;
+  }
+  .cross-style {
+    position: absolute;
+    top: 20px;
+    right: 30px;
+    cursor: pointer;
+  }
+  .bm_icon_close {
+    width: 20px;
+    height: 20px;
+  }
+ 
+  .bm-cross-button {
+    height: 20px;
+    width: 20px;
+  }
+  /* .bm-cross-button.hidden {
+    display: none;
+  } */
+  .bm-menu {
+    height: 100%; /* 100% Full-height */
+    width: 0; /* 0 width - change this with JavaScript */
+    position: fixed; /* Stay in place */
+    z-index: 1000; /* Stay on top */
     top: 0;
-    width: 100%;
-    background-color: #ffffff;
-    z-index: 2;
-   
-   }
-   #nav {
-      /* box-shadow: 0 10px 20px rgba(0,0,0,0.1), 0 6px 6px rgba(0,0,0,0); */
-      padding-left: calc(10.32% - 50px);
-      padding-right: calc(10.32% - 50px); 
-      height: 70px;
-   }
-   #nav_button {
-       float: left;
-       padding-left: 30px;
-       height: 20px;
-       display: flex;
-      
-   }
-   
-   .c_logo {
-       width: 138px;
-       height: 25px;
-       float: left;
-       padding-top: 22px;
-   }
-   #nav_right {
-       float: right;
-       padding-top: 22px;
-   }
-   .c_search {
-       width: 16px;
-       height: 16px;
-       fill: #303030;
-       padding-top: 5px;
-   }
-   .c_dropdown {
-       display: inline;
-       padding-top: 10px;
-   }
-   .c_navigate_right + .c_navigate_right {
-       padding-left: 40px;
-   }
-   .c_navigate_right {
-       text-decoration: none;
-       color: #303030;
-       font-size: 16px;
-      
-   }
-   .bm-burger-button {
-       position: absolute;
-       width: 36px;
-       height: 30px;
-       left: 36px;
-       top: 36px;
-       cursor: pointer;
-     }
-     /* .bm-burger-button.hidden {
-       display: none;
-     } */
-   
-     
-   @media only screen and (max-width: 980px) {
-   
-   #nav_only_button {
-       display: none;
-   }
-   }
-   @media only screen and (min-width: 980px) {
-   
-   #nav_menu_btn {
-       display: none;
-   }   
-   
-   }
-   
+    left: 0;
+    background-color: white; /* Black*/
+    overflow-x: hidden; /* Disable horizontal scroll */
+    transition: 0.5s; /*0.5 second transition effect to slide in the sidenav*/
+  }
+
+  .bm-overlay {
+    background: rgba(0, 0, 0, 0.3);
+  }
+  .bm-item-list {
+    /* color: #b8b7ad; */
+    padding-left: 30px;
+    font-size: 20px;
+    /* padding-top: 60px; Place content 60px from the top */
+  }
+  .bm-item-list > * {
+    display: flex;
+    text-decoration: none;
+    padding-top: 18px;
+    padding-right: 35px;
+  }
+  .bm-item-list > * > span {
+    font-weight: 700;
+    color:#138690
+    ;
+  }
+
+  #slide_content {
+ float: left;
+    
+  }
+#bm_click {
+  height: 60px;
+  float: right;
+  width: 80px;
+  border-left: 1px solid #BDFFF0;
+}
+#sideNav_logo {
+  padding-left: 15px;
+  height: 60px;
+  border-bottom: 1px solid #BDFFF0;
+}
+
+
+#service_vector {
+  /* float: right; */
+}
+#vector {
+  float: right;
+}
+/* Style The Dropdown Button */
+.dropbtn {
+  color: black;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+  text-decoration: none;
+}
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  opacity: 0.9;
+  min-width: 590px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  left: -200%;
+  top: 24px;
+  background-color: #ffffff;
+  
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: inline-block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content .dropbtn:hover {
+  background-color: black;
+}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+  display: inline-block;
+}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {
+  background-color: white;
+}
+
+.drp2 {
+  width: 50%;
+  float: right;
+}
+
+.drp1 {
+  display: inline-flex;
+}
+@media only screen and (max-width: 980px) {
+
+#nav_only_button {
+    display: none;
+}
+.bm-burger-button {
+    display: unset;
+    position: absolute;
+    width: 25px;
+    height: 12px;
+    /* left: 36px; */
+    /* top: 36px; */
+    cursor: pointer;
+  }
+
+}
+@media only screen and (min-width: 980px) {
+
+    .bm-burger-button {
+        display: none;
+    }
+
+  
+}
