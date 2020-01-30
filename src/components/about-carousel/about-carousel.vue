@@ -4,19 +4,10 @@
 
 
 <script>
-import Slick from 'vue-slick';
+// import Slick from 'vue-slick';
 export default {
     name : "AboutCarouse",
-    components: { Slick },
-    data() {
-        return {
-            slickOptions: {
-                slidesToShow: 3,
-                // Any other options that can be got from plugin documentation
-            },
-        };
-    },   
-       
+          
 }
 
 </script>

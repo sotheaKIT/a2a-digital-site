@@ -1,20 +1,31 @@
-.c_profile__card__container{
+.c_team__card__container{
     display: flex;
     margin-top: 30px;
     /* padding-left: calc((100% - 1186px) / 2); */
     justify-content: center;
 }
-.c_about_title h1{
+.c_team_title h1{
     font-size: 45px;
     display: block;
     width: 100%;
     text-align: center;
     padding-top: 50px;
 }
-.l_card__about h1{
-    line-height: 0;
+.l_card__team h1{
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 24px;
+    color: #000000;
 }
-.l_card__about{
+.l_card__team p{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    color: #4E4D4D;
+    margin-bottom: 19px;
+}
+.l_card__team{
     width: 281px;
     position: relative;
     box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.25);
@@ -22,37 +33,31 @@
     float: left;
     margin: 7.75px;
 }
-.l_card__about:hover{
+.l_card__team:hover{
     box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.25);
 }
-.l_card__about:hover a{
+.l_card__team:hover a{
     background-color: #138690;
     color: white;
 }
-.l_card__about:hover a svg{
+.l_card__team:hover a svg{
     fill : white;
 }
-.l_card__about .c_profile__card__caption{
+.l_card__team .c_team__card__caption{
     padding-left: 30px;
     padding-right: 30px;
     line-height: 19px;
     padding-top: 15px;
 }
-.c_profile__card__img {
+.c_team__card__img {
     display: block;
     position: relative;
 }
-.c_profile__card__img img{
+.c_team__card__img img{
     width: 100%;
 }
-.l_card__about h1{
-    font-size: 20px;
-}
-.l_card__about p{
-    font-size: 16px;
-    color: #4E4D4D
-}
-.l_card__about a{
+
+.l_card__team a{
     font-size: 24px;
     padding-left: 30px;
     padding-right: 30px;
@@ -61,7 +66,7 @@
     display: block;
     color: #138690;
 }
-.l_card__about a svg{
+.l_card__team a svg{
     width: 20px;
     height: 34px;
     fill: #138690;
@@ -71,45 +76,45 @@
 /* ----------------------------------------------------mobile layout------------------------------------------ */
 @media only screen and (max-width: 980px) {       
 
-    .c_profile__card__container[data-v-99ad67e2] {
+    .c_team__card__container[data-v-99ad67e2] {
         padding: 0;
     }
-    .c_about_title h1 {
+    .c_team_title h1 {
         font-size: 32px;
     }
     
-    .l_card__about{
+    .l_card__team{
         width: 46%;
         margin: 2%;
     }
-    .l_card__about .c_profile__card__caption{
+    .l_card__team .c_team__card__caption{
         padding-left: 15px;
         padding-right: 15px;
         line-height: 9px;
         padding-top: 8px;
     }
-    .l_card__about a {
+    .l_card__team a {
         padding-left: 15px;
         padding-right: 15px;
     }
 }
 @media only screen and (max-width: 1186px) { 
-    div.c_profile__card__container div.l_profile__card__center {
+    div.c_team__card__container div.l_team__card__center {
         max-width: 889.5px;
     }
 }
 @media only screen and (min-width: 1187px) { 
-    /* .c_profile__card__container{
+    /* .c_team__card__container{
         padding-left: calc((100% - 1186px) / 2);
     }       */
-    .c_profile__card__container {
+    .c_team__card__container {
         /* position: relative; */
         /* width: 100%; */
         display: flex;
         align-items: center;
         margin: auto;
     }
-    div .c_profile__card__container div.l_profile__card__center {
+    div .c_team__card__container div.l_team__card__center {
         /* display: inline-block; */
         max-width: 1186px;
     }

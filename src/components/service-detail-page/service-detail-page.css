@@ -30,8 +30,7 @@
 }
 
 .c_service__section__artical{
-    max-width: 1186px;
-    padding: 30px calc((100% - 1186px)/2);
+    padding: 30px 0px;
     display: flex;
     align-items: center;
     /* flex-direction: row-reverse; */
@@ -83,7 +82,7 @@
     }
 }
 
-@media only screen and (max-width: 1186px) {
+@media only screen and (max-width: 1366px) {
     .c_section__wrapper{
         padding: 0 90px;
         width: calc(100% - 180px);
