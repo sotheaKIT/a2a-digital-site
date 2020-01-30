@@ -5,17 +5,54 @@
     </div>
     <div id="nav_right">
         <div id="nav_only_button">
-          <div id="nav_button">
-            <a href="/services" class="c_navigate_right">Services
+          <div class="dropdown" id="nav_button">
+            <a href="#" class="dropbtn c_navigate_right">Services
               <svg class="c_dropdown" width="14" height="9" viewBox="0 0 14 9" fill="none" xmlns="http://www.w3.org/2000/svg">
               <path d="M11.873 0L6.73 5.143L1.587 0L0 1.587L6.73 8.317L13.46 1.587L11.873 0Z" fill="#138690"/></svg>
             </a>
+            <div class="dropdown-content">
+              <div class="drp1">
+                <ul>
+                  <li><a href="/servicedetail">AI development</a></li>
+                  <li><a href="#">IOT development</a></li>
+                  <li><a href="#">Cloud Computing</a></li>
+                  <li><a href="#">RPA install support</a></li>
+                  <li><a href="#">Block Chain development</a></li>
+                </ul>
+              </div>
+              <div class="drp2">
+                <ul>
+                  <li><a href="">PWA development</a></li>
+                  <li><a href="#">VR/AR development</a></li>
+                  <li><a href="#">Odoo ERP custormize </a></li>
+                  <li><a href="#">Cyber Security</a></li>
+                  <li><a href="#">Digital Marketing</a></li>
+                </ul>
+              </div>
+            </div>
           </div> 
-          <div id="nav_button">
-            <a href="/products" class="c_navigate_right">Products
+          <div class="dropdown" id="nav_button">
+            <a href="/products" class="dropbtn c_navigate_right">Solutions
               <svg class="c_dropdown" width="14" height="9" viewBox="0 0 14 9" fill="none" xmlns="http://www.w3.org/2000/svg">
               <path d="M11.873 0L6.73 5.143L1.587 0L0 1.587L6.73 8.317L13.46 1.587L11.873 0Z" fill="#138690"/></svg>
             </a>
+            <div class="dropdown-content">
+              <div class="drp1">
+                <ul>
+                  <li><a href="/solutiondetail">Security System</a></li>
+                  <li><a href="#">KPI Dashboard System</a></li>
+                  <li><a href="#">QR Code System</a></li>
+                  <li><a href="#">Contact Center</a></li>
+                </ul>
+              </div>
+              <div class="drp2">
+                <ul>
+                  <li><a href="#">Human Resource Management</a></li>
+                  <li><a href="#">Logistic System</a></li>
+                  <li><a href="#">School Management System</a></li>
+                </ul>
+              </div>
+            </div>
           </div>
           <div id="nav_button">
             <a href="/about" class="c_navigate_right">About</a>
@@ -25,11 +62,11 @@
           </div>
           <div id="nav_button">
             <a href="/jobs"class="c_navigate_right">Jobs</a>
-            <a href="#" class="c_navigate_right"> 
+            <!-- <a href="#" class="c_navigate_right"> 
               <svg class="c_search" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16">
               <path class="icon_search" d="M15.9,14.9l-4.6-4.7c0.9-1.1,1.5-2.5,1.5-4C12.8,2.8,9.9,0,6.4,0S0,2.8,0,6.2s2.9,6.2,6.4,6.2
               c1.4,0,2.6-0.4,3.7-1.1l4.7,4.7L15.9,14.9z M1.6,6.2c0-2.5,2.2-4.6,4.8-4.6s4.8,2.1,4.8,4.6S9,10.8,6.4,10.8S1.6,8.7,1.6,6.2z" /></svg>
-            </a>
+            </a> -->
           </div>
         </div>  
         <div class="c_sideNav">
@@ -103,7 +140,6 @@
           </div>
              
           </div>
-
           <div ref="bmBurgerButton" class="bm-burger-button" @click="openMenu" :class="{ hidden: !burgerIcon }">
               <span class="bm-burger-bars">
                 <svg width="25" height="15" viewBox="0 0 25 15" fill="none" xmlns="http://www.w3.org/2000/svg">

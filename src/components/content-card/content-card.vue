@@ -3,8 +3,6 @@
 
 <script>
 export default {
-    name : "ContentCard",
-    
-    
+    name : "ContentCard",  
 }
 </script>

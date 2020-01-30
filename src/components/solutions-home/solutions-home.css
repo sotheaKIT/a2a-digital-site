@@ -20,7 +20,6 @@ h1,h2,h3,h4,h5,h6,p {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    font-family: SF Pro Text;
     font-style: normal;
     font-weight: bold;
     font-size: 64px;
@@ -38,7 +37,6 @@ h1,h2,h3,h4,h5,h6,p {
 }
 .l_solution__header h1{
     padding-bottom: 50px;
-    font-family: SF Pro Text;
     font-style: normal;
     font-weight: bold;
     font-size: 35px;
@@ -52,7 +50,6 @@ h1,h2,h3,h4,h5,h6,p {
     color: #303030;
 }
 .l_solution__header p{
-    font-family: SF Pro Text;
     font-style: normal;
     font-weight: normal;
     font-size: 16px;
@@ -96,7 +93,6 @@ h1,h2,h3,h4,h5,h6,p {
     text-align: left;
   }
   .l_solution__decription h1{
-    font-family: SF Pro Text;
     font-style: normal;
     font-weight: bold;
     font-size: 30px;
@@ -106,7 +102,6 @@ h1,h2,h3,h4,h5,h6,p {
     margin-bottom: 10px;
   }
   .l_solution__decription p{
-    font-family: SF Pro Text;
     font-style: normal;
     font-weight: normal;
     font-size: 16px;
@@ -116,7 +111,6 @@ h1,h2,h3,h4,h5,h6,p {
   }
  .c_solution__readmore p{
     margin-top: 10px;
-    font-family: SF Pro Text;
     font-style: normal;
     font-weight: normal;
     font-size: 16px;

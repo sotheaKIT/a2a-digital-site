@@ -1,5 +1,4 @@
 #navigation {
- position: fixed;
  top: 0;
  width: 100%;
  background-color: #ffffff;
@@ -8,16 +7,16 @@
 }
 #nav {
    /* box-shadow: 0 10px 20px rgba(0,0,0,0.1), 0 6px 6px rgba(0,0,0,0); */
-   padding-left: calc(10.32% - 50px);
-   padding-right: calc(10.32% - 50px); 
+   padding-left: 90px;
+   padding-right: 90px;
    height: 70px;
 }
+
 #nav_button {
     float: left;
     padding-left: 30px;
     height: 20px;
-    display: flex;
-   
+    display: flex; 
 }
 
 .c_logo {
@@ -191,7 +190,64 @@
 #vector {
   float: right;
 }
+/* Style The Dropdown Button */
+.dropbtn {
+  color: black;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+  text-decoration: none;
+}
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
 
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  opacity: 0.9;
+  min-width: 590px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  left: -200%;
+  top: 24px;
+  background-color: #ffffff;
+  
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: inline-block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content .dropbtn:hover {
+  background-color: black;
+}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+  display: inline-block;
+}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {
+  background-color: white;
+}
+
+.drp2 {
+  width: 50%;
+  float: right;
+}
+
+.drp1 {
+  display: inline-flex;
+}
 @media only screen and (max-width: 980px) {
 
 #nav_only_button {
