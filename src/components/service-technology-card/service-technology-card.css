@@ -21,7 +21,7 @@
     display: flex;
     margin-top: 20px;
 }
-.c_card__img{
+.c_service__technology__flex__container div.c_card__img{
     width: 100px;
     height: 100px;
     background: #FFFFFF;
@@ -29,7 +29,7 @@
     border-radius: 4px;
     padding: 12px;
 }
-.c_card__img img{
+.c_service__technology__flex__container div.c_card__img img{
     width: 100%;
     height: 100%;
 }

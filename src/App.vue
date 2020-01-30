@@ -8,7 +8,7 @@
     </div>
   </div>
 </template>
-<script>
+<script>  
 import Footer from './components/footer/footer.vue'
 import slide from './components/navigator/Menu/slide.vue'
   

@@ -18,6 +18,7 @@ a {
 .l_contrainer {
   max-width: calc(1600px + 10%);
   margin: 0 auto;
+  margin-top: 70px;
 }
 
 #contact-page {
