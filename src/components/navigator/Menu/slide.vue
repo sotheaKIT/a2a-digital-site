@@ -7,11 +7,11 @@
 </template>
 
 <script>
-    import Menu from '../navigator';
+    import Navigator from '../navigator.vue';
     export default {
       name: 'slide',
       components: {
-        Menu: Menu
+        Menu: Navigator
       },
       methods: {
         openMenu() {
