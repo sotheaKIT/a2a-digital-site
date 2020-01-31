@@ -58,7 +58,6 @@
 
 .c_left {
     display: inline;
-    width: 50%;
 }
 
 .c_right {

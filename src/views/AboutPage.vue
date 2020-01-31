@@ -3,7 +3,7 @@
   <div id="about-page">
     <AboutHero></AboutHero>
     <AboutContentCard></AboutContentCard>
-    <AboutCard>/</AboutCard>
+    <AboutCard></AboutCard>
     <AboutCarousel></AboutCarousel>
   </div>
 </template>
