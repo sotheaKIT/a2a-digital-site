@@ -16,9 +16,6 @@ export const ServiceStore = {
   actions: { 
     load ({ commit }) {
       var payload = api.loadServiceContent()
-      for ( var i in payload) {
-        alert(i.title)
-      }
       commit('LOAD', payload)
     },
   },
