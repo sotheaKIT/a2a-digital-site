@@ -1,3 +1,6 @@
+
+import api from '../API/APIClient'
+
 export const ServiceStore = {
   namespaced: true,
   state: {
@@ -12,7 +15,11 @@ export const ServiceStore = {
 
   actions: { 
     load ({ commit }) {
-      commit('LOAD')
+      var payload = api.loadServiceContent()
+      for ( var i in payload) {
+        alert(i.title)
+      }
+      commit('LOAD', payload)
     },
   },
 
