@@ -1,0 +1,114 @@
+/* ------------------------------------------format------------------ */
+.l_service__technology__section{
+    margin-top: 50px;
+}
+.c_service__section__header{
+    margin-bottom: 30px;
+    margin-top: 50px;
+}
+.c_service__section__header h1{
+    font-weight: bold;
+    font-size: 35px;
+    line-height: 42px;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+.c_service__technology__flex__container{
+    display: flex;
+}
+.c_service__technology__flex__container div.center{
+    display: flex;
+    margin-top: 20px;
+}
+.c_service__technology__flex__container div.c_card__img{
+    width: 100px;
+    height: 100px;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.25);
+    border-radius: 4px;
+    padding: 12px;
+}
+.c_service__technology__flex__container div.c_card__img img{
+    width: 100%;
+    height: 100%;
+}
+.c_service__technology__flex__container div.c_card__img{
+    float: left;
+}
+.c_service__technology__flex__container div.c_text_card{
+    float: left;
+    width: calc(100% - 145px);
+    margin-left: 21px;
+}
+.c_service__technology__flex__container div.flex-item:nth-of-type(1) {
+    margin-right: 23px;
+}
+
+.c_service__technology__flex__container div.c_text_card h1{
+    margin-top: 0;
+    margin-bottom: 20px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 29px;
+    color: #138690;
+}
+.c_service__technology__flex__container div.flex-item{
+    width: calc(50% - 11.5px);
+    background: #FFFFFF;    
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 4px;
+    padding: 15px;
+}
+
+@media only screen and (min-width: 1367px) {
+    .c_service__technology__flex__container{
+        padding-left: calc((100% - 1186px)/2);
+    }
+    .c_service__technology__flex__container div.center{
+        width: 1186px;
+    }
+}
+@media only screen and (max-width: 1366px) {
+    .l_service__technology__section{
+        margin: 0 90px;
+        /* width: calc(100% - 180px); */
+    }
+}
+@media only screen and (max-width: 980px) {
+    
+    .c_service__technology__flex__container div.center{
+        display: block;
+        margin-top: 0;
+    }
+    .c_service__technology__flex__container div.flex-item:nth-of-type(1) {
+        margin-right: 0;
+    }
+    .c_service__technology__flex__container div.flex-item{
+        width: calc(100% - 30px);
+        display: inline-block;
+        margin-top: 25px;
+    }
+}
+@media only screen and (max-width: 768px) {
+    .l_service__technology__section {
+        margin: 0 20px;
+    }
+}
+@media only screen and (max-width: 414px) {
+    .c_service__technology__flex__container div.c_card__img {
+        margin: auto;
+        float: none;
+    }
+    .c_service__technology__flex__container div.c_text_card{
+        float: none;
+        width: auto;
+        margin: 0;
+        margin-top: 13px;
+        text-align: center  ;
+    }
+    .c_service__technology__flex__container div.c_text_card p{
+        text-align: left  ;
+    }
+}

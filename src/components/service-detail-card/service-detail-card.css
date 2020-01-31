@@ -1,0 +1,106 @@
+/* Change the screen size to see the content adapt but columns stay same height. By default, flexbox will do this unless you define a different align-items declaration on the flex container. */
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;  
+  }
+  
+  /* html, body {
+    margin: 0;
+    padding: 0;
+  } */
+  .c_service__card__container{
+      margin-top: 50px;
+  }
+  .c_service__card__container div.center{
+    /* width: 1186px; */
+    display: flex;
+    justify-content: center;
+}
+  .c_service__card__container div.flex-container {
+    display: -webkit-flex;
+    display: flex;
+    padding-left: calc((100% - 1186px )/2);
+  }
+  
+  .c_service__card__container div.flex-item {
+    width: 375px;
+    padding: 32px 15px;
+    color: #303030;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 4px;
+    text-align: center;
+    margin-bottom: 25px;
+    float: left;
+  }
+    .c_service__card__container div.flex-item img{
+        width: 70px;
+    }
+    .c_service__card__container div.flex-item h1{
+        font-style: normal;
+        font-weight: bold;
+        font-size: 24px;
+        line-height: 29px;
+        text-align: center;
+    }
+    .c_service__card__container div.flex-item p{
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 19px;
+        /* text */
+        color: #303030;
+        text-align: left;
+    }
+  
+  
+  .c_service__card__container div.flex-item:nth-of-type(1) {
+    margin-right: 25px;
+  }
+  
+  .c_service__card__container div.flex-item:nth-of-type(2) {
+    margin-right: 25px;
+  }
+  
+  .c_service__card__container div.flex-item:nth-of-type(4) {
+    margin-right: 25px;
+  }
+  .c_service__card__container div.flex-item:nth-of-type(5) {
+    margin-right: 25px;
+  }
+  
+  /* .flex-item:nth-of-type(4) {
+    background-color: #542437;
+  }  */
+
+@media only screen and (max-width: 1366px) {
+    .c_service__card__container div.flex-container{
+        padding: 0 90px;
+    }
+    .c_service__card__container div.flex-item {
+        width: calc((100%/3) - 17.5px);
+    }
+    .c_service__card__container div.center{
+        justify-content: flex-start;
+        /* padding-left: calc(10% - 50px); */
+    }
+    
+}
+@media only screen and (max-width: 768px) {
+    .c_service__card__container div.flex-container{
+        padding: 0 20px;
+    }
+    .c_service__card__container div.center{
+        padding: 0;
+        display: block;
+    }
+    .c_service__card__container div.flex-item{
+        width: 100%;
+    }
+    
+}

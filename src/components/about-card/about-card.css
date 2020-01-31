@@ -20,7 +20,18 @@
     margin: 7.75px;
 }
 .l_card__about h1{
-    line-height: 0;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 24px;
+    color: #000000;
+}
+.l_card__about p{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    color: #4E4D4D;
+    margin-bottom: 19px;
 }
 .l_card__about:hover{
     box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.25);
@@ -45,13 +56,7 @@
 .c_profile__card__img img{
     width: 100%;
 }
-.l_card__about h1{
-    font-size: 20px;
-}
-.l_card__about p{
-    font-size: 16px;
-    color: #4E4D4D
-}
+
 .l_card__about a{
     font-size: 24px;
     padding-left: 30px;
@@ -98,10 +103,7 @@
         max-width: 889.5px;
     }
 }
-@media only screen and (min-width: 1367px) { 
-    /* .c_profile__card__container{
-        padding-left: calc((100% - 1186px) / 2);
-    }       */
+@media only screen and (min-width: 1187px) { 
     .c_profile__card__container {
         /* position: relative; */
         /* width: 100%; */

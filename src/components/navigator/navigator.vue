@@ -13,7 +13,6 @@
           styleCheck_product: 'none',
           background_service: 'unset',
           background_product: 'unset'
-
         };
       },
       props: {
@@ -65,7 +64,6 @@
         openMenu() {
           this.$emit('openMenu');
           this.isSideBarOpen = true;
-
           if (!this.noOverlay) {
             document.body.classList.add('bm-overlay');
           }
@@ -79,20 +77,16 @@
               : '300px';
           });
         },
-
         closeMenu() {
           this.$emit('closeMenu');
           this.isSideBarOpen = false;
           document.body.classList.remove('bm-overlay');
           this.$refs.sideNav.style.width = '0px';
-
         },
-
         closeMenuOnEsc(e) {
           e = e || window.event;
           if (e.key === 'Escape' || e.keyCode === 27) {
             this.closeMenu();
-
           }
         },
         documentClick(e) {
@@ -102,38 +96,28 @@
               this.background_service = 'green'
               this.styleCheck_product = 'none'
                             this.background_product = 'unset'
-
-
             
             }  else if(e.target.id === 'slide_service' && this.styleCheck_service == 'block') {
               
               this.styleCheck_service = 'none'
               this.background_service = 'unset'
-
-
             }
             if ( e.target.id === 'slide_product' && this.styleCheck_product == 'none' ) {
               this.styleCheck_product = 'block'
                this.background_product = 'green'
                this.styleCheck_service = 'none'
               this.background_service = 'unset'
-
-
             
             }  else if(e.target.id === 'slide_product' && this.styleCheck_product == 'block') {
               this.styleCheck_product = 'none'
                             this.background_product = 'unset'
-
-
             }
             
             
           
-
         }
         
       },
-
       mounted() {
         if (!this.disableEsc) {
           document.addEventListener('keyup', this.closeMenuOnEsc);

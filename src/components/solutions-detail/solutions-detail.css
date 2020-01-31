@@ -1,11 +1,3 @@
-h1,h2,h3,h4,h5,h6,p {
-	margin: 0;
-	padding: 0;
-	border: 0;
-	font-size: 100%;
-	font: inherit;
-	vertical-align: baseline;
-}
 .l_solution__detail{
     background: url("../../assets/components/solutions/solution-detail/service-type-background.png") ;
     background-repeat: no-repeat;
@@ -13,19 +5,15 @@ h1,h2,h3,h4,h5,h6,p {
     background-position: center center; 
     width: 100%;
     height: 40vh;
-    position: relative;
 }
 .l_solution__detail h1{
-    position: absolute;
-    top: 50%;
-    left: 26%;;
-    transform: translate(-50%, -50%);
-    font-family: SF Pro Text;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 64px;
-    line-height: 76px;
-    color: #303030;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 64px;
+  line-height: 76px;
+  color: #303030;
+  padding-top: 120px;
+  margin: 0px;
 }
 .c_solution__detail___description{
     width: 100%;
@@ -36,7 +24,6 @@ h1,h2,h3,h4,h5,h6,p {
     margin-bottom: 50px;
 }
 .c_solution__detail___description p{
-    font-family: SF Pro Text;
     font-style: normal;
     font-weight: normal;
     font-size: 16px;
@@ -82,7 +69,6 @@ h1,h2,h3,h4,h5,h6,p {
     text-align: left;
   }
   .l_solution__decription h1{
-    font-family: SF Pro Text;
     font-style: normal;
     font-weight: bold;
     font-size: 30px;
@@ -92,7 +78,6 @@ h1,h2,h3,h4,h5,h6,p {
     margin-bottom: 10px;
   }
   .l_solution__decription p{
-    font-family: SF Pro Text;
     font-style: normal;
     font-weight: normal;
     font-size: 16px;
@@ -102,7 +87,6 @@ h1,h2,h3,h4,h5,h6,p {
   }
  .c_solution__readmore p{
     margin-top: 10px;
-    font-family: SF Pro Text;
     font-style: normal;
     font-weight: normal;
     font-size: 16px;

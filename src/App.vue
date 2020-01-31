@@ -8,7 +8,7 @@
     </div>
   </div>
 </template>
-<script>
+<script>  
 import Footer from './components/footer/footer.vue'
 import slide from './components/navigator/Menu/slide.vue'
   
@@ -16,7 +16,6 @@ export default {
   name: 'App',
   data() {
         return {
-          
           side: 'right',
           currentMenu: 'slide'
         };

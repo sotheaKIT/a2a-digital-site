@@ -7,7 +7,7 @@
     float: left;
     width: 48%;
     /* overflow: hidden; */
-    height: 759px;
+    height: 88vh;
     padding-top: 80px;
     background-color: #BDFFF0;
   }
@@ -50,7 +50,7 @@
  }
 #c_form_title {
 
-    padding:140px 60px;
+    padding:157px 60px;
     /* padding-left: calc(10.32% - 50px);
    padding-right: calc(10.32% - 50px);   */
 }
@@ -137,7 +137,6 @@
     cursor: pointer;
     font-size: 20px;
     background:none;
-    font-family: "SF Pro Text";
     border:none;
     width: 100%;
   }  

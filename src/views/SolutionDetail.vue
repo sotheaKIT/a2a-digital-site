@@ -1,5 +1,6 @@
 <template>
     <div id="product-detail">
+        <Slide/>
         <div class="l_product_detail">
             <div class="c_product_detail">
                 <p>Artificial Intelligence became one of the most prevalent topics in 2019.AI is here to stay thanks to its practical applications in many industries and in our daily life. That’s why you should prepare better for our technological future by reading top Artificial Intelligence books.I have divided them into 3 main categories: sociological, philosophical andbusiness-oriented.Artificial Intelligence became one of the most prevalent topics in 2019.AI is here to stay thanks to its practical applications in many industries and in our daily life.</p>
@@ -28,14 +29,12 @@
                 </div>
             </div>
         </div>
-        <!-- <Slide/>
-        <Cardproduct/> -->
+        <Cardproduct/> 
     </div>
 </template>
 <style scoped>
     
     #product-detail {
-        font-family: SF Pro Text;
         font-style: normal;
         font-weight: normal;
     }
@@ -122,13 +121,15 @@
     }
 </style>
 <script>
-// import Slide from '../components/slide/slide.vue'
-// import Cardproduct from '../components/card-product/card-product.vue'
+import Slide from '../components/slide/slide.vue'
+import Cardproduct from '../components/card-product/card-product.vue'
+
+
 export default {
-    name: 'ProductDetail',
+    name: 'SolutionDetail',
     components: {
-    // Slide,
-    // Cardproduct    
+    Slide,
+    Cardproduct    
   }
 }
 </script>

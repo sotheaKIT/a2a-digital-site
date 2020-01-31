@@ -32,7 +32,6 @@
 }
 
 .c_jobform_col_25 > label{
-    font-family: SF Pro Text;
     font-style: normal;
     font-size: 16px;
     font-weight: bold;
@@ -47,7 +46,6 @@
     width: 84px;
     height: 40px;
     font-size: 16px;
-    font-family: SF Pro Text;
     font-style: normal;
     font-weight: bold;
     line-height: 19px;
@@ -96,7 +94,6 @@
 }
 
 ::placeholder{
-    font-family: SF Pro Text;
     font-style: normal;
     color: #BCCDD7;
     font-size: 14px;
