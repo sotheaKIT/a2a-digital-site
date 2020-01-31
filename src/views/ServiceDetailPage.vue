@@ -5,6 +5,7 @@
     <ServiceDetailCard></ServiceDetailCard>
     <ServiceTechnologyCard></ServiceTechnologyCard>
     <ServiceWorkResult></ServiceWorkResult>
+    <ServiceAIImportant></ServiceAIImportant>
   </div>
   
 </template>
@@ -14,13 +15,15 @@ import ServiceDetailPageComp from '../components/service-detail-page/service-det
 import ServiceDetailCard from '../components/service-detail-card/service-detail-card.vue'
 import ServiceTechnologyCard from '../components/service-technology-card/service-technology-card.vue'
 import ServiceWorkResult from '../components/service-work-result/service-work-result.vue'
+import ServiceAIImportant from '../components/service-ai-important/service-ai-important.vue'
 export default {
   name: 'ServiceDetailPage',
   components: {
     ServiceDetailPageComp,
     ServiceDetailCard,
     ServiceTechnologyCard,
-    ServiceWorkResult
+    ServiceWorkResult,
+    ServiceAIImportant
   }
 }
 </script>

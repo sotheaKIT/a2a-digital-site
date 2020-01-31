@@ -7,7 +7,7 @@
 .c_service_work_card div.center{
     width: 100%;
     display: flex;
-    margin-bottom: 100px;
+    margin-bottom: 50px;
 }
 .c_service_work_card div.flex-item{
     display: inline-block;

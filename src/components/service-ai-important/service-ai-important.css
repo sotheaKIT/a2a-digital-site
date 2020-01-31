@@ -1,0 +1,78 @@
+.c_ai__description__container{
+    background-color: #138690;
+    padding: 80px 90px;
+}
+.l_ai_description__wrapper{
+    max-width: 1186px;
+    margin: auto;
+}
+.l_description__header h1{
+    font-size: 35px;
+    line-height: 42px;
+    color: #FFFFFF;
+}
+.l_ai_description__wrapper p{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+    color: #FFFFFF;
+}
+
+.l_ai__impartant__wrapper{
+    max-width: 1186px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+  
+}
+.l_ai__important__header{
+    margin: 50px 0;
+}
+.l_ai__important__header h1{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 35px;
+    line-height: 42px;
+    text-align: center;
+    color: #303030;
+    margin: 0;
+}
+.l_important__img{
+    width: 50%;
+
+}
+.l_important__img img{
+    width: 100%;
+}
+.l_why__ai {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+    color: #303030;
+    margin-left: 1em;
+}
+.l_why__ai li::before {
+    content: "\2022";  /* Add content: \2022 is the CSS Code/unicode for a bullet */
+    color:rgba(19, 134, 144, 0.5); /* Change the color */
+    font-weight: bold; /* If you want it to be bold */
+    display: inline-block; /* Needed to add space between the bullet and the text */
+    width: 1em; /* Also needed for space (tweak if needed) */
+    font-size: 22px;
+    margin-left: -1em; /* Also needed for space (tweak if needed) */
+  }
+@media only screen and (max-width: 768px) {
+    .c_ai__description__container{
+        padding: 80px 25px;
+    }
+    .c_ai__important__point__container{
+        padding: 0 25px;
+    }
+    .l_ai__impartant__wrapper {
+        display: block;
+    }
+    .l_important__img {
+        margin: auto;
+    }
+}
