@@ -12,7 +12,13 @@
           styleCheck_service: 'none',
           styleCheck_product: 'none',
           background_service: 'unset',
-          background_product: 'unset'
+          background_product: 'unset',
+          color_service: '',
+          color_product: '',
+          color_click_serivce: '',
+          color_click_product: '',
+          rotate_click_service: '',
+          rotate_click_product: ''
         };
       },
       props: {
@@ -93,27 +99,48 @@
    
             if ( e.target.id === 'slide_service' && this.styleCheck_service == 'none' ) {
               this.styleCheck_service = 'block'
-              this.background_service = 'green'
+              this.background_service = '#138690'
               this.styleCheck_product = 'none'
-                            this.background_product = 'unset'
+              this.background_product = 'unset'
+              this.color_service ='#FFFFFF'
+              this.color_product ='#138690'
+              this.color_click_product = '#138690'
+              this.rotate_click_product ='rotate(0)'
+              this.rotate_click_service ='rotate(90deg)'
+              this.color_click_serivce= '#FFFFFF'
             
             }  else if(e.target.id === 'slide_service' && this.styleCheck_service == 'block') {
               
               this.styleCheck_service = 'none'
               this.background_service = 'unset'
+              this.color_service ='#138690'
+               this.color_click_serivce= '#138690'
+              this.rotate_click_service ='rotate(0)'
+
             }
             if ( e.target.id === 'slide_product' && this.styleCheck_product == 'none' ) {
               this.styleCheck_product = 'block'
-               this.background_product = 'green'
-               this.styleCheck_service = 'none'
+              this.background_product = '#138690'
+              this.styleCheck_service = 'none'
               this.background_service = 'unset'
+              this.color_product ='#FFFFFF'
+              this.rotate_click_product ='rotate(90deg)'
+              this.color_service ='#138690'
+               this.color_click_product = '#FFFFFF'
+              this.color_click_serivce= '#138690'
+              this.rotate_click_service ='rotate(0)'
+
             
             }  else if(e.target.id === 'slide_product' && this.styleCheck_product == 'block') {
               this.styleCheck_product = 'none'
-                            this.background_product = 'unset'
-            }
-            
-            
+              this.background_product = 'unset'
+              this.color_product ='#138690'
+              this.rotate_click_product ='rotate(0)'
+                this.color_click_product = '#138690'
+                           
+
+
+            }    
           
         }
         
