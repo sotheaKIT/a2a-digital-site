@@ -13,31 +13,33 @@
             <div class="dropdown-content">
               <div class="drp1">
                 <ul>
-                  <li><a href="#">Security System</a></li>
-                  <li><a href="#">KPI Dashboard System</a></li>
-                  <li><a href="#">QR Code System</a></li>
-                  <li><a href="#">Contact Center</a></li>
+                  <li><a href="/servicedetail">AI development</a></li>
+                  <li><a href="#">IOT development</a></li>
+                  <li><a href="#">Cloud Computing</a></li>
+                  <li><a href="#">RPA install support</a></li>
+                  <li><a href="#">Block Chain development</a></li>
                 </ul>
               </div>
               <div class="drp2">
                 <ul>
-                  <li><a href="#">Human Resource Management</a></li>
-                  <li><a href="#">Human Resource Management</a></li>
-                  <li><a href="#">Logistic System</a></li>
-                  <li><a href="#">School Management System</a></li>
+                  <li><a href="">PWA development</a></li>
+                  <li><a href="#">VR/AR development</a></li>
+                  <li><a href="#">Odoo ERP custormize </a></li>
+                  <li><a href="#">Cyber Security</a></li>
+                  <li><a href="#">Digital Marketing</a></li>
                 </ul>
               </div>
             </div>
           </div> 
           <div class="dropdown" id="nav_button">
-            <a href="/products" class="dropbtn c_navigate_right">Products
+            <a href="/products" class="dropbtn c_navigate_right">Solutions
               <svg class="c_dropdown" width="14" height="9" viewBox="0 0 14 9" fill="none" xmlns="http://www.w3.org/2000/svg">
               <path d="M11.873 0L6.73 5.143L1.587 0L0 1.587L6.73 8.317L13.46 1.587L11.873 0Z" fill="#138690"/></svg>
             </a>
             <div class="dropdown-content">
               <div class="drp1">
                 <ul>
-                  <li><a href="#">Security System</a></li>
+                  <li><a href="/solutiondetail">Security System</a></li>
                   <li><a href="#">KPI Dashboard System</a></li>
                   <li><a href="#">QR Code System</a></li>
                   <li><a href="#">Contact Center</a></li>
@@ -45,7 +47,6 @@
               </div>
               <div class="drp2">
                 <ul>
-                  <li><a href="#">Human Resource Management</a></li>
                   <li><a href="#">Human Resource Management</a></li>
                   <li><a href="#">Logistic System</a></li>
                   <li><a href="#">School Management System</a></li>
@@ -61,11 +62,11 @@
           </div>
           <div id="nav_button">
             <a href="/jobs"class="c_navigate_right">Jobs</a>
-            <a href="#" class="c_navigate_right"> 
+            <!-- <a href="#" class="c_navigate_right"> 
               <svg class="c_search" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16">
               <path class="icon_search" d="M15.9,14.9l-4.6-4.7c0.9-1.1,1.5-2.5,1.5-4C12.8,2.8,9.9,0,6.4,0S0,2.8,0,6.2s2.9,6.2,6.4,6.2
               c1.4,0,2.6-0.4,3.7-1.1l4.7,4.7L15.9,14.9z M1.6,6.2c0-2.5,2.2-4.6,4.8-4.6s4.8,2.1,4.8,4.6S9,10.8,6.4,10.8S1.6,8.7,1.6,6.2z" /></svg>
-            </a>
+            </a> -->
           </div>
         </div>  
         <div class="c_sideNav">
@@ -76,25 +77,69 @@
             <div>
               <img alt="Vue logo" class= "c_logo" src="../../assets/logo_A2A.svg">
             </div>  
+            
             <div id="bm_click">
               <span class="bm-cross-button cross-style" @click="closeMenu" :class="{ hidden: !crossIcon }">
-                <span class="bm-close">
-                  <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                
+                  <svg width="20" height="20" class="bm-close" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <path d="M11.4887 10.001L19.6917 1.79796C20.1028 1.38686 20.1028 0.720381 19.6917 0.309327C19.2806 -0.101766 18.6141 -0.101766 18.2031 0.309327L9.99998 8.51236L1.79695 0.309327C1.38586 -0.101766 0.719374 -0.101766 0.30832 0.309327C-0.102734 0.72042 -0.102773 1.3869 0.30832 1.79796L8.51135 10.001L0.30832 18.204C-0.102773 18.6151 -0.102773 19.2816 0.30832 19.6926C0.719413 20.1037 1.3859 20.1037 1.79695 19.6926L9.99998 11.4896L18.203 19.6926C18.6141 20.1037 19.2806 20.1037 19.6916 19.6926C20.1027 19.2816 20.1027 18.6151 19.6916 18.204L11.4887 10.001Z" fill="#138690"/>
                   </svg>
-                </span>
+                
               </span>
             </div> 
 
           </div>
-          <div>
-              <nav class="bm-item-list">
-                  <slot></slot>
-              </nav>
+          <div id="bm_nav_scroller">
+            <ul>
+             
+                <li id="slide_service" v-bind:style="{background: background_service}" >
+                   
+                        Services
+                        <svg class="bm_list_down" width="9" height="17" viewBox="0 0 9 17" fill="none" xmlns="http://www.w3.org/2000/svg">
+                          <path d="M8.65039 8.74568L0.860939 16.8937C0.791212 16.9668 0.698244 17.0033 0.605276 17.0033C0.515626 17.0033 0.429298 16.9701 0.359571 16.9037C0.220118 16.7676 0.213478 16.5451 0.349611 16.4023L7.90664 8.49998L0.349609 0.597635C0.213476 0.458182 0.216797 0.2324 0.35957 0.0995878C0.502343 -0.0365449 0.724805 -0.0299043 0.860937 0.109549L8.65039 8.25427C8.7832 8.39041 8.7832 8.60623 8.65039 8.74568Z" fill="#138690"/>
+                        </svg>
+
+                        <div class="bm_tree__service" v-bind:style="{ display: styleCheck_service }" >
+                          <li class="bm_tree_submenu"> <a href="/contact" class="bm_tree_servic_content">Artificial Intelligence</a></liclass="bm_tree_submenu" >
+                            <li class="bm_tree_submenu"><a href="/contact"class="bm_tree_servic_content">Digital Marketing</a></li>
+                      
+                        </div>
+                </li>
+                
+                
+                 
+                <li id="slide_product" v-bind:style="{background: background_product}">
+                      Products
+                      <svg class="bm_list_down"  width="9" height="17" viewBox="0 0 9 17" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M8.65039 8.74568L0.860939 16.8937C0.791212 16.9668 0.698244 17.0033 0.605276 17.0033C0.515626 17.0033 0.429298 16.9701 0.359571 16.9037C0.220118 16.7676 0.213478 16.5451 0.349611 16.4023L7.90664 8.49998L0.349609 0.597635C0.213476 0.458182 0.216797 0.2324 0.35957 0.0995878C0.502343 -0.0365449 0.724805 -0.0299043 0.860937 0.109549L8.65039 8.25427C8.7832 8.39041 8.7832 8.60623 8.65039 8.74568Z" fill="#138690"/>
+                      </svg>
+                    <div class="bm_tree__product" v-bind:style="{ display: styleCheck_product}" >
+                      <li class="bm_tree_submenu"> <a href="/contact" class="bm_tree_servic_content">Artificial Intelligence</a></liclass="bm_tree_submenu" >
+                        <li class="bm_tree_submenu"><a href="/contact"class="bm_tree_servic_content">Digital Marketing</a></li>
+                  
+                    </div>
+                   
+                </li>
+                
+                
+                <li class="bm_primary_scroller">
+                  <a href="#" class="scroller_text"> <span>About</span></a>
+                </li>
+
+                <li class="bm_primary_scroller">
+                  <a href="#" class="scroller_text"> <span>Contact</span></a>
+                </li>
+
+                <li class="bm_primary_scroller">
+                  <a href="#" class="scroller_text"> <span>Jobs</span></a>
+                </li>
+
+
+            </ul>
+              
           </div>
              
           </div>
-
           <div ref="bmBurgerButton" class="bm-burger-button" @click="openMenu" :class="{ hidden: !burgerIcon }">
               <span class="bm-burger-bars">
                 <svg width="25" height="15" viewBox="0 0 25 15" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -108,4 +153,37 @@
     </div>
   </div>
 </div>
-<!-- <span v-for="(x, index) in 2" :key="x" class="bm-cross" :style="{ position: 'absolute', width: '3px', height: '14px',transform: index === 1 ? 'rotate(45deg)' : 'rotate(-45deg)'}"> -->
+<!-- <nav class="bm-item-list">
+
+              
+  <div id="vector">     
+    <svg  width="9" height="17" viewBox="0 0 9 17" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <path d="M8.65039 8.74568L0.860939 16.8937C0.791212 16.9668 0.698244 17.0033 0.605276 17.0033C0.515626 17.0033 0.429298 16.9701 0.359571 16.9037C0.220118 16.7676 0.213478 16.5451 0.349611 16.4023L7.90664 8.49998L0.349609 0.597635C0.213476 0.458182 0.216797 0.2324 0.35957 0.0995878C0.502343 -0.0365449 0.724805 -0.0299043 0.860937 0.109549L8.65039 8.25427C8.7832 8.39041 8.7832 8.60623 8.65039 8.74568Z" fill="#138690"/>
+    </svg>
+</div>
+<a href="#">
+    <i class="fa fa-fw fa-bell-o"></i>
+    <span>Services</span>
+  </a> 
+<div id="vector">     
+    <svg  width="9" height="17" viewBox="0 0 9 17" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <path d="M8.65039 8.74568L0.860939 16.8937C0.791212 16.9668 0.698244 17.0033 0.605276 17.0033C0.515626 17.0033 0.429298 16.9701 0.359571 16.9037C0.220118 16.7676 0.213478 16.5451 0.349611 16.4023L7.90664 8.49998L0.349609 0.597635C0.213476 0.458182 0.216797 0.2324 0.35957 0.0995878C0.502343 -0.0365449 0.724805 -0.0299043 0.860937 0.109549L8.65039 8.25427C8.7832 8.39041 8.7832 8.60623 8.65039 8.74568Z" fill="#138690"/>
+    </svg>
+</div>
+<a href="#">
+    <i class="fa fa-fw fa-envelope-o"></i>
+    <span>Products</span>
+</a>
+<a href="#">
+    <i class="fa fa-fw fa-comment-o"></i>
+    <span>About</span>
+</a>
+<a href="#">
+    <i class="fa fa-fw fa-bar-chart-o"></i>
+    <span>Contact</span>
+</a>
+<a href="#">
+    <i class="fa fa-fw fa-newspaper-o"></i>
+    <span>Jobs</span>
+</a>
+</nav> -->

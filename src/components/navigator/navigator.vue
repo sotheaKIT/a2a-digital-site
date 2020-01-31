@@ -8,7 +8,12 @@
     name: 'Navigator',
       data() {
         return {
-          isSideBarOpen: false
+          isSideBarOpen: false,
+          styleCheck_service: 'none',
+          styleCheck_product: 'none',
+          background_service: 'unset',
+          background_product: 'unset'
+
         };
       },
       props: {
@@ -51,9 +56,12 @@
           type: Boolean,
           required: false,
           default: false
-        }
+        },
+       
+      
       },
       methods: {
+    
         openMenu() {
           this.$emit('openMenu');
           this.isSideBarOpen = true;
@@ -77,32 +85,53 @@
           this.isSideBarOpen = false;
           document.body.classList.remove('bm-overlay');
           this.$refs.sideNav.style.width = '0px';
+
         },
 
         closeMenuOnEsc(e) {
           e = e || window.event;
           if (e.key === 'Escape' || e.keyCode === 27) {
             this.closeMenu();
+
           }
         },
         documentClick(e) {
-          let element = this.$refs.bmBurgerButton;
-          let target = null;
-          if (e && e.target) {
-            target = e.target;
-          }
+   
+            if ( e.target.id === 'slide_service' && this.styleCheck_service == 'none' ) {
+              this.styleCheck_service = 'block'
+              this.background_service = 'green'
+              this.styleCheck_product = 'none'
+                            this.background_product = 'unset'
 
-          if (
-            element &&
-            element !== target &&
-            !element.contains(target) &&
-            e.target.className !== 'bm-menu' &&
-            this.isSideBarOpen &&
-            !this.disableOutsideClick
-          ) {
-            this.closeMenu();
-          }
+
+            
+            }  else if(e.target.id === 'slide_service' && this.styleCheck_service == 'block') {
+              
+              this.styleCheck_service = 'none'
+              this.background_service = 'unset'
+
+
+            }
+            if ( e.target.id === 'slide_product' && this.styleCheck_product == 'none' ) {
+              this.styleCheck_product = 'block'
+               this.background_product = 'green'
+               this.styleCheck_service = 'none'
+              this.background_service = 'unset'
+
+
+            
+            }  else if(e.target.id === 'slide_product' && this.styleCheck_product == 'block') {
+              this.styleCheck_product = 'none'
+                            this.background_product = 'unset'
+
+
+            }
+            
+            
+          
+
         }
+        
       },
 
       mounted() {
@@ -143,7 +172,7 @@
                 this.$refs.sideNav.style.left = 'auto';
                 this.$refs.sideNav.style.right = '0px';
                 document.querySelector('.bm-burger-button').style.left = 'auto';
-                document.querySelector('.bm-burger-button').style.right = '36px';
+                document.querySelector('.bm-burger-button').style.right = '0px';
                 document.querySelector('.bm-menu').style.left = 'auto';
                 document.querySelector('.bm-menu').style.right = '0px';
                 document.querySelector('.cross-style').style.right='250px';

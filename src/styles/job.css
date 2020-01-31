@@ -11,12 +11,9 @@
     background-repeat:   no-repeat;
     background-position: center center; 
     min-height: 100vh;
-    padding-top: 80px;
-    margin-top: -80px;
 }
 .l_jobslide h1{
     background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.3) 100%), rgba(0, 0, 0, 0.3);
-    font-family: SF Pro Text;
     font-style: normal;
     font-weight: bold;
     font-size: 64px;
@@ -27,4 +24,5 @@
     justify-content: center;
     text-align: center;
     color: #FFFFFF;
+    margin: 0px;
 }

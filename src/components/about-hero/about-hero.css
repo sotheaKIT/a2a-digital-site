@@ -3,7 +3,7 @@
 .c_about__hero__container{
     display: flex;
     width: 100%;
-    height: 100vh;
+    height: 70vh;
     background: url('../../assets/img/about/platform-slide.png'), #BDFFF0;
     background-repeat: no-repeat;
     background-position: 80% center;
@@ -18,7 +18,6 @@
 }
 /* ----------------------------------Text Format-------------------------- */
 .l_about__hero__caption h1{
-    font-family: SFProText-Bold;
     font-style: normal;
     font-weight: bold;
     font-size: 64px;
@@ -42,7 +41,7 @@
 }
 @media only screen and (min-width: 1367px){
     .l_about__hero__caption{
-        margin-left: calc((100% - 1186px)/2);
+        margin-left: calc((100% - 1186px) / 2);
     }
     
 }
