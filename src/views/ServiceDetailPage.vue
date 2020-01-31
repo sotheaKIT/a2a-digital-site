@@ -6,6 +6,7 @@
     <ServiceTechnologyCard></ServiceTechnologyCard>
     <ServiceWorkResult></ServiceWorkResult>
     <ServiceAIImportant></ServiceAIImportant>
+    <ServiceContactForm></ServiceContactForm>
   </div>
   
 </template>
@@ -16,6 +17,7 @@ import ServiceDetailCard from '../components/service-detail-card/service-detail-
 import ServiceTechnologyCard from '../components/service-technology-card/service-technology-card.vue'
 import ServiceWorkResult from '../components/service-work-result/service-work-result.vue'
 import ServiceAIImportant from '../components/service-ai-important/service-ai-important.vue'
+import ServiceContactForm from '../components/service-contact-form/service-contact-form.vue'
 export default {
   name: 'ServiceDetailPage',
   components: {
@@ -23,7 +25,8 @@ export default {
     ServiceDetailCard,
     ServiceTechnologyCard,
     ServiceWorkResult,
-    ServiceAIImportant
+    ServiceAIImportant,
+    ServiceContactForm
   }
 }
 </script>
