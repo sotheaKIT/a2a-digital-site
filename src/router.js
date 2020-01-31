@@ -9,6 +9,7 @@ import JobsPageDetail from './views/JobsPageDetail.vue'
 import JobsSubmitPage from './views/JobsSubmitPage.vue'
 import ErrorPage from './views/ErrorPage.vue'
 import ServiceDetailPage from './views/ServiceDetailPage.vue'
+import ServiceCloudDetailPage from './views/ServiceCloudDetailPage.vue'
 
 
 Vue.use(Router)
@@ -61,6 +62,11 @@ export default new Router({
       path: '/servicedetail',
       name: 'servicedetail',
       component: ServiceDetailPage
+    },
+    {
+      path: '/serviceclouddetail',
+      name: 'serviceclouddetail',
+      component: ServiceCloudDetailPage
     },
 
   ]
