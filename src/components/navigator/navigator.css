@@ -162,7 +162,7 @@
    }
    .bm_list_down {
      position: absolute;
-     right: 50px;
+     right: 35px;
    }
    .scroller_text {
      text-decoration: none;
@@ -170,7 +170,8 @@
      color: #138690;
  
    }
- 
+
+
  .bm_tree__content {
    display: none;
  }
@@ -185,20 +186,32 @@
    display: none;
    width: 100%;
    float: left;
-   padding:20px;
+   padding:10px;
  }
  
  .bm_tree_submenu {
    padding-top: 12px;
+   text-decoration: none;
  
   
  }
  .bm_tree_servic_content {
-   font-size: 16px;
-   color: #138690;
    text-decoration: none;
-   font-weight: bold;
+   color: #138690;
+   font-size: 16px;
+
+   
  
+ }
+ .bm_primary_scroller {
+    font-size: 18px;
+    padding: 13px 30px;
+    font-family: SFProText-Bold;
+    color: #138690;
+  
+ }
+ .bm_ul {
+   margin: unset;
  }
  
  
