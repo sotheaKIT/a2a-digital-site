@@ -73,6 +73,14 @@
 }
 @media screen and (max-width: 770px) {
   .c_card_detail {
-      width: 60%;
+      width: 100%;
+  }
+
+  .c_arrow_right{ 
+    display: none;
+  }
+
+  .c_arrow_left{ 
+    display: none;
   }
 }
