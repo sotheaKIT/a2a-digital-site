@@ -6,21 +6,21 @@
     </div>
     <JobJointeam/>
     <div class="l_job__container">
-      <JobHeaderBtn/>
+      <!-- <JobHeaderBtn/> -->
       <!-- <JobCard/> -->
     </div>
   </div>
 </template>
 
 <script>
-import JobHeaderBtn from '../components/jobheaderbtn/JobHeaderBtn'
+// import JobHeaderBtn from '../components/jobheaderbtn/JobHeaderBtn'
 // import JobCard from '../components/jobcard/JobCard'
 import JobJointeam from '../components/jobjointeam/JobJoinTeam.vue';
 
 export default {
   name: 'JobsPage',
   components: {
-    JobHeaderBtn,
+    // JobHeaderBtn,
     // JobCard,
     JobJointeam
   }

@@ -136,13 +136,10 @@
               this.background_product = 'unset'
               this.color_product ='#138690'
               this.rotate_click_product ='rotate(0)'
-                this.color_click_product = '#138690'
-                           
-
-
+              this.color_click_product = '#138690'
             }    
           
-        }
+        },
         
       },
       mounted() {
