@@ -1,13 +1,12 @@
 <style src="../styles/service-detail.css" scope></style>
 <template>
-  <div >
-
-    <ServiceDetailPageComp></ServiceDetailPageComp>
-    <ServiceDetailCard></ServiceDetailCard>
-    <ServiceTechnologyCard></ServiceTechnologyCard>
-    <ServiceWorkResult></ServiceWorkResult>
-    <ServiceAIImportant></ServiceAIImportant>
-    <ServiceContactForm></ServiceContactForm>
+  <div>
+      <ServiceDetailPageComp></ServiceDetailPageComp>
+      <ServiceDetailCard></ServiceDetailCard>
+      <ServiceTechnologyCard></ServiceTechnologyCard>
+      <ServiceWorkResult></ServiceWorkResult>
+      <ServiceAIImportant></ServiceAIImportant>
+      <ServiceContactForm></ServiceContactForm>
   </div>
   
 </template>

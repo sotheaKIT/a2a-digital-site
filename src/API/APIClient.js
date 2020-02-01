@@ -3,8 +3,14 @@ function loadServiceContent (){
   return json
 }
 
+function loadServiceDetailContent (){
+  var json = require('../../contents/service-detail-content.json'); 
+  return json
+}
+
 export default {
-  loadServiceContent
+  loadServiceContent,
+  loadServiceDetailContent
 }
 
 
