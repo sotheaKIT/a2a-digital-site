@@ -1,6 +1,6 @@
 /* Applying value to the slide div tage */
 .slide {
-    background-image: url("../../assets/components/slide/background-desktop.png") ;
+    background-image: url("../../assets/component/slide/background-desktop.png") ;
     background-color:  #E8E8EA;
     background-repeat: no-repeat;
     background-size: contain, cover;
@@ -81,7 +81,7 @@
 
 @media screen and (max-width:768px) {
     .slide {
-        background-image:url("../../assets/components/slide/Background-tablet.png");
+        background-image:url("../../assets/component/slide/Background-tablet.png");
       }
       
       .l_slide_intro h1{
@@ -173,7 +173,7 @@
 
 @media screen and (max-width: 600px) {
     .slide {
-        background-image:url("../../assets/components/slide/background-mobile.png");
+        background-image:url("../../assets/component/slide/background-mobile.png");
         background-size: contain, cover;
         height: 100vh;
       }
