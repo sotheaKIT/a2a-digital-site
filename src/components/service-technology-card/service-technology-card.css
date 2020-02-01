@@ -86,7 +86,7 @@
         margin-right: 0;
     }
     .c_service__technology__flex__container div.flex-item{
-        width: calc(100% - 30px);
+        width: 100%;
         display: inline-block;
         margin-top: 25px;
     }
