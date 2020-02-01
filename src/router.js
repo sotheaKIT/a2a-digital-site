@@ -65,7 +65,7 @@ export default new Router({
     {
       path: '/serviceclouddetail',
       name: 'serviceclouddetail',
-      component: ServiceCloudDetailPage
+      // component: ServiceCloudDetailPage
     },
 
     {
