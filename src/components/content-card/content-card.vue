@@ -9,7 +9,7 @@ export default {
     computed: {
     ...mapGetters({
       //content server 
-        serviceContent : 'serviceContent/content'
+        serviceContents : 'serviceContent/content'
       }),
     },
 

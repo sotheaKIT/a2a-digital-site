@@ -4,7 +4,7 @@
 <script>
  
  
-  export default {
+export default {
     name: 'Navigator',
       data() {
         return {
