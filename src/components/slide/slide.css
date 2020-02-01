@@ -6,8 +6,9 @@
     background-size: contain, cover;
     background-position: top right;
     width: 100%;
-    height: 70vh;
-    
+    max-height: 100vh;
+    min-height: 100vh;
+    margin-top: -70px;
 }
 
 .slide .l_contrainer {
