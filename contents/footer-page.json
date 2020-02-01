@@ -1,0 +1,25 @@
+{
+    "service":[
+        {"title":"Artificial Intelligence"},
+        {"title":"Digital Marketing"},
+        {"title":"Service"}
+
+    ],
+    "product":[
+        {"title":"Home Smart Meter"},
+        {"title":"AI Book"},
+        {"title":"Logo"},
+        {"title":"Brochure"}
+    ],
+    "about":[
+        {"title":"What we can do?"},
+        {"title":"History"},
+        {"title":"Mission and Vision"},
+        {"title":"Manager"},
+        {"title":"Advisors"}
+    ],
+    "career":[
+        {"title":"Join Our Team"},
+        {"title":"Careers Opportunity"}
+    ]
+}

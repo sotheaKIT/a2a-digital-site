@@ -1,0 +1,142 @@
+{
+    "aboutCompany":[
+        {
+            "header":"",
+            "description":"",
+            "imageUrl":"../../assets/component/about-hero/platform-slide.png"
+        },
+        {
+            "header":"",
+            "description":"",
+            "imageUrl":"../../assets/component/about-card/img1.jpg"
+        },
+        {
+            "header":"",
+            "description":"",
+            "imageUrl":"../../assets/component/about-card/img1.jpg"
+        },
+        {
+            "header":"",
+            "description":"",
+            "imageUrl":"../../assets/component/about-card/img1.jpg"
+        }
+    ],
+    "ourProjectManager":[
+        {
+            "name":"",
+            "position":"",
+            "imageUrl":"../../assets/component/about-card/img1.jpg",
+            "button":
+            {
+                "imageIcon":"",
+                "text":"Read More",
+                "link":""
+            }
+            
+        },
+        {
+            "name":"",
+            "position":"",
+            "imageUrl":"../../assets/component/about-card/img1.jpg",
+            "button":
+            {
+                "imageIcon":"",
+                "text":"Read More",
+                "link":""
+            }
+            
+        }
+    ],
+    "ourProjectAdviser":[
+        {
+            "name":"",
+            "position":"",
+            "imageUrl":"../../assets/component/about-card/img1.jpg",
+            "button":
+            {
+                "imageIcon":"",
+                "text":"Read More",
+                "link":""
+            }
+            
+        },
+        {
+            "name":"",
+            "position":"",
+            "imageUrl":"../../assets/component/about-card/img1.jpg",
+            "button":
+            {
+                "imageIcon":"",
+                "text":"Read More",
+                "link":""
+            }
+            
+        },
+        {
+            "name":"",
+            "position":"",
+            "imageUrl":"../../assets/component/about-card/img1.jpg",
+            "button":
+            {
+                "imageIcon":"",
+                "text":"Read More",
+                "link":""
+            }
+            
+        },
+        {
+            "name":"",
+            "position":"",
+            "imageUrl":"../../assets/component/about-card/img1.jpg",
+            "button":
+            {
+                "imageIcon":"",
+                "text":"Read More",
+                "link":""
+            }
+            
+        }
+    ],
+    "ourTeam":[
+        {
+            "header":"",
+            "description":"",
+            "imageUrl":"../../assets/component/about-card/img1.jpg"
+        },
+        {
+            "header":"",
+            "description":"",
+            "imageUrl":"../../assets/component/about-card/img1.jpg"
+        },
+        {
+            "header":"",
+            "description":"",
+            "imageUrl":"../../assets/component/about-card/img1.jpg"
+        },
+        {
+            "header":"",
+            "description":"",
+            "imageUrl":"../../assets/component/about-card/img1.jpg"
+        },
+        {
+            "header":"",
+            "description":"",
+            "imageUrl":"../../assets/component/about-card/img1.jpg"
+        },
+        {
+            "header":"",
+            "description":"",
+            "imageUrl":"../../assets/component/about-card/img1.jpg"
+        },
+        {
+            "header":"",
+            "description":"",
+            "imageUrl":"../../assets/component/about-card/img1.jpg"
+        },
+        {
+            "header":"",
+            "description":"",
+            "imageUrl":"../../assets/component/about-card/img1.jpg"
+        }
+    ]
+}
