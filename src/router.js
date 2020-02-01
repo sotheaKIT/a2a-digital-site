@@ -62,11 +62,6 @@ export default new Router({
       name: 'servicedetail',
       component: ServiceDetailPage
     },
-    {
-      path: '/serviceclouddetail',
-      name: 'serviceclouddetail',
-      component: ServiceCloudDetailPage
-    },
 
     {
       path: '/profile',

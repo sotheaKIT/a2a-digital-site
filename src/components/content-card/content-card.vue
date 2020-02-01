@@ -3,19 +3,13 @@
 
 <script>
 // Util
-import getImgUrl from '../../util/getImageUrl'
+import getImgUrl from '../../util/getImageUrl.js'
 
 // Map
 import {mapGetters ,mapActions} from 'vuex'
 
 export default {
     name : "ContentCard",  
-    data : function() {
-      return {
-        getImageUrl : getImgUrl()
-      }
-        
-    },
     computed: {
     ...mapGetters({
       //content server 
@@ -31,6 +25,13 @@ export default {
     ...mapActions({
         actionLoadContent : 'serviceContent/load'
     }),
+
+    getImageUrl(pic) {
+      var photo = getImgUrl(pic)
+      return photo
+    }
+    
+
     }
 
 

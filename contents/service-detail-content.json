@@ -1,0 +1,894 @@
+{
+    "AIDevelopment": [
+      {    "header":"AI Development page",
+          "textDecription":"Artificial intelligence (AI) is the simulation of human intelligence processes by machines, especially computer systems. It can be enhanced the customer experience in recognition object, chatbot for chat automation, voice detection with technology, GAN AI (Generative Adversarial Network) and more. With AI Services from A2A Digital solution, you can improve the business and automation the interaction with customers and increase work efficiency for business."
+       },
+       
+       {"ourFocusArea": [
+            {
+               "header":"Our Focus Areas",
+               "description":"A2A Digital is an IT solution company growing with cutting edge technology service provider. Among that, we provide artificial Intelligence service, we aim to deliver artificial Intelligence solutions into different business verticals and sectors while enhancing business performance." 
+            },
+            {
+                "OurFocusAreaComponent":[
+                    {"title":"Object Detection",
+                     "imageUrl" : "",
+                     "text":"Object detection is a common computer vision problem which deals with identifying and locating objects of certain classes in the image. Interpreting the object localization can be done in various ways, including creating a bounding box around the object or marking every pixel in the image which contains the object."
+                    },
+                    {
+                       "title":"Voice Recognition",
+                       "imageUrl" :"",
+                       "text":"Voice Recognition is alternatively referred to as speech recognition, voice recognition is a computer software program or hardware device with the ability to decode the human voice. It is commonly used to operate a device, perform commands, or write without having a keyboard, mouse or press any button."
+                    },
+                    {
+                        "title":"Chatbot Development",
+                        "imageUrl" :"",
+                        "text":"Our company aims to be the best chatbot development solution to contribute and help business to bridge the gap with the customer. Our chatbot service provides constant performance to customer queries. It has the expertise to automate the conversation in forms that are simple, reliable and secure with immediate responses."
+                     },
+                     {
+                        "title":"GAN",
+                        "imageUrl" :"",
+                        "text":" Generative Adversarial Network AI is a two-part AI model consisting of a generator that creates samples and a discriminator that attempts to differentiate between the generated sample and real-world samples. It’s been used to produce problematic content like deepfakes, which is media that takes a person in existing media and replace them with someone else’s likeness. Our company aims to provide the best solution for GAN AI."
+                     },
+                     {
+                        "title":"Predictive Analytics",
+                        "imageUrl" :"",
+                        "text":"This advanced technique encompasses a variety of statistical techniques from data mining to predictive modeling. Our company provides the service and contribute to the business and make the improvement. Using this technology, we help you analyze, design, and search for new possibilities in business while making full use of advanced technologies."
+                     }
+
+                ]
+            }
+        ]
+     },
+       
+     {"toolAndTechnologyAI": [
+          {
+             "header":"Tools and Technologies used for AI Development",
+             "description":null 
+          },
+          {
+              "toolAndTechnologyAIComponent":[
+                  {"title":"TensorFlow",
+                   "imageUrl" : "",
+                   "text":"TensorFlow is an open-source library that was originally developed by researchers and engineers working with google brain team. It has APIs available in several languages both for constructing and executing a TensorFlow graph. It’s a numerical computation, data using TensorFlow developers for data graphs."
+                  },
+                  {
+                     "title":"DialogFlow",
+                     "imageUrl" :"",
+                     "text":"DialogFLow is a natural language understanding platform that makes it easy to design and integrate a conversational user interface into your mobile app, web application, device, bot, interactive voice response system, and more. Using DialogFlow, you can engaging ways for users to interact with your product."
+                  },
+                  {
+                      "title":"OpenCV",
+                      "imageUrl" :"",
+                      "text":"OpenCV is an open source computer vision and machine learning software library. It was built to provide a common infrastructure for computer vision applications and to accelerate the use of machine perception in the commercial products. It makes it easy for businesses to utilize and modify the code."
+                   },
+                   {
+                      "title":"Dlib",
+                      "imageUrl" :"",
+                      "text":"Dlib is a modern C++ toolkit containing machine learning algorithms and tools for creating complex software i n C++ to solve real world problems. We used python to wrapping on it which to provide python api."
+                   }
+
+              ]
+          }
+      ]
+   },
+       
+   {"workedResults": [
+        {
+           "header":"Worked Results",
+           "description":null 
+        },
+        {
+            "workedResultsComponent":[
+                {"title":"License Plate Recognition",
+                 "imageUrl" : "",
+                 "text":"We have developed AI system to detect number plate of vehicles in Surveillance System is a system that can detect and capture vehicles, plate numbers of vehicles, uniquely identify them, count the number of vehicles and store the records of vehicles entering or leaving a location."
+                },
+                {
+                   "title":"Face Recognition",
+                   "imageUrl" :"",
+                   "text":"This system is being developed in the purpose of “Multi-face detection and attendance checking system for classroom”. We developed using dlib library for detection and opencv library for controlling the camera."
+                },
+                {
+                    "title":"Chatbot",
+                    "imageUrl" :"",
+                    "text":"Chatbot is a software applications that use artificial intelligence & natural language processing to understand what a human wants, and guides them to their desired outcome with as little work for the end user as possible. Like a virtual assistant for your customer experience touchpoints."
+                 }
+
+            ]
+        }
+    ]
+ },
+       
+ {"A2AaiService": 
+      {
+         "header":"Why A2A Digital gives the best AI service",
+         "urlImage":null,
+         "description":"A2A Digital provides a handful advanced artificial intelligent software while keeping the quality and security in mind. We aim to reach the highest number of users in Cambodia and provide a more comprehensive user experience. With our skilled team we develop AI service for our clients and ensure the quality of the service." 
+      }
+  
+},
+{"AIforBusiness": 
+   {
+      "header":"AI benefits for Business",
+      "urlImage":"",
+      "description": [
+         {"text":"AI helps in increasing work efficiency and reshape business efficiency"},
+         {"text":"Artificial Intelligence automates customer interaction by analyzing complete data"},
+         {"text":"Get real-time assistance using AI and communicate with millions of customers"},
+         {"text":"Artificial intelligence is used for data mining and to discover relevant data"},
+         {"text":"Increase productivity by stopping repetitive tasks using AI"},
+         {"text":" Improve security system with the help of AI Technology"}
+      ]
+   }
+
+}
+  ],
+  "IOT": [
+    {   "header":"Internet of Thing (IoT) Development page",
+        "textDecription":"Internet of Things is a system of interrelated computing devices, mechanical and digital machines, objects, animals or people that are provided with unique identifiers and the ability to transfer data over a network without requiring human-to-human or human-to-computer interaction. The interconnection via the Internet of computing devices embedded in everyday objects, enabling them to send and receive data. A thing in the internet of things can be a person with a heart monitor implant, a farm animal with biochip transponder, an automobile that has built-in sensors to alert the driver when tire pressure is low or any other natural or man-made object that can be assigned an IP address and is able to transfer data over a network."
+     },
+     
+     {"workedResults": [
+          {
+             "header":"Worked Results",
+             "description":null 
+          },
+          {
+              "workedResultsComponent":[
+                  {"title":"Smart Lock",
+                   "imageUrl" : "",
+                   "text":"Smart Lock is the new modern system for hotel or resort make it easier in Check-in and Check-out process with QR Code as a ‘Digital Key’. The system helps the business more efficient and spent less time."
+                  },
+                  {
+                     "title":"Smart Locker",
+                     "imageUrl" :"",
+                     "text":"Smart Locker is a new system that introduces the concept of ‘Digital  Key’ to the business. The system includes the development of hardware and software which is operated on various types of smartphones and computers. The majority components of the system are the physical locker and web application which is integrated together through web-API, and microprocessor."
+                  },
+                  {
+                      "title":"Home Smart Meter",
+                      "imageUrl" :"",
+                      "text":"This is a system makes people easy by checking the value of water and electricity by using the web application. The system will automatically get water and electricity data from sensor and send to the web application so that users can check on the web."
+                   }
+              ]
+          }
+      ]
+   },
+     
+   {"toolAndTechnologyIoT": [
+        {
+           "header":"Tools and Technologies used for IoT Development",
+           "description":null 
+        },
+        {
+            "OurFocusAreaComponent":[
+                {"title":"Raspberry Pi",
+                 "imageUrl" : "",
+                 "text":"The Raspberry Pi is a series of small single-board computers made by the Raspberry Pi Foundation. It is a very cheap computer that runs Linux, but it also providers a set of GPIO (general purpose input/output) pins that allow you to control electronic components for physical computing and explore the Internet of Things (IoT). It operates in the open source ecosystem and its main supported operating system, Raspbian, is open source and runs a suite of open source software."
+                },
+                {
+                   "title":"VueJS",
+                   "imageUrl" :"",
+                   "text":"Vue is a progressive framework for building user interfaces. Unlike other monolithic frameworks, Vue is designed from the ground up to be incrementally adoptable. The core library is focused on the view layer only, and it is easy to pick up and integrate with other libraries or existing project. On the other hand, Vue is also perfectly capable of powering sophisticated Single-Page Applications when used in combination."
+                },
+                {
+                    "title":"Firebase",
+                    "imageUrl" :"",
+                    "text":"Firebase is a mobile and web application development platform developed by Firebase, Inc. It gives you functionality like analytics, databases, messaging and crash reporting so you can move quickly and focus on your users. Firebase is built on Google infrastructure and scales automatically, for even the largest apps. Its products work great individually but share data and insights, so they work even better together."
+                 },
+                 {
+                    "title":"Python",
+                    "imageUrl" :"",
+                    "text":"Python is an interpreted, high-level, general-purpose programming language with dynamic semantics. Its high-level built in data structures, combined with dynamic typing and dynamic binding, make it very attractive for Rapid Application Development, as well as for use as a scripting or glue language to connect existing components together. Python is simple, easy to learn syntax emphasizes readability and therefore reduces the cost of program maintenance."
+                 },
+                 {
+                    "title":"Django Framework",
+                    "imageUrl" :"",
+                    "text":"Django is a high-level Python web framework that encourages rapid development and clean, pragmatic design. Built by experienced developers, it takes care of much of the hassle of Web development, so you can focus on writing your app without needing to reinvent the wheel"
+                 },
+                 {
+                    "title":"PostgreSQL",
+                    "imageUrl" :"",
+                    "text":"PostgreSQL, also known as Postgres, is a free and open-source relational database management system emphasizing extensibility and technical standards compliance. It is designed to handle a range of workloads, from single machines to data warehouses or Web services with many concurrent users."
+                 },
+                 {
+                    "title":"Arduino YUN",
+                    "imageUrl" :"",
+                    "text":"The Arduino Yún is a microcontroller board based on the ATmega32u4 and the Atheros AR9331. The Atheros processor supports a Linux distribution based on OpenWrt named Linino OS. The board has built-in Ethernet and WiFi support, a USB-A port, micro-SD card slot, 20 digital input/output pins (7 of them can be used as PWM outputs and 12 as analog inputs), a 16 MHz crystal oscillator, a micro USB connection, an ICSP header, and 3 reset buttons."
+                 },
+                 {
+                    "title":"CT Sensor",
+                    "imageUrl" :"",
+                    "text":"Current transformers (CTs) are sensors that measure alternating current (AC). They are particularly useful for measuring whole building electricity consumption or generation."
+                 },
+                 {
+                    "title":"Water flow sensor",
+                    "imageUrl" :"",
+                    "text":"Water flow sensor consists of a plastic valve body, a water rotor, and a hall-effect sensor. When water flows through the rotor, rotor rolls. Its speed changes with different rate of flow. The hall-effect sensor outputs the corresponding pulse signal. This one is suitable to detect flow in water dispenser or coffee machine."
+                 }
+            ]
+        }
+    ]
+ },
+     
+ {"A2AIoTservice":
+      {
+         "header":"Why A2A Digital gives the best IoT service",
+         "description":"A2A Digital provides full-range IoT service comprising consulting, development and implementation, analytics, support and evolution. Whether you plan to launch an IoT initiative, upscale an existing IoT application or integrate your IoT solution with a legacy system - we will work out a reliable to address your business challenge. We define the right IoT landscape for you to kick start your IoT journey. A structured approach is taken to understand your business needs and offer quick ramp-up to discover your IoT needs and solutions accelerating your time to market with low risk." 
+      }
+},
+     
+{"IoTBusiness": 
+     {
+        "header":"IoT benefits for Business",
+        "urlImage":"",
+        "description":[
+           {"text":"Reduction of operating costs and maintain competitive advantages"},
+           {"text":"Increase business and revenue opportunity"},
+           {"text":"Improve productivity and add to competence"},
+           {"text":"Improve customer service and experience"},
+           {"text":"Improve workplace safety and ensure workplace security"},
+           {"text":"Understanding of consumer behavior"},
+           {"text":"Empowering smart device application"}
+           
+         ]
+     }
+   }
+ ],
+ "CC": [
+    {    "header":"Cloud Computing",
+        "textDecription":"Cloud computing is the delivery of computing services including servers, storage, databases, networking, software, analytics, and intelligence over the Internet (“the cloud”) to offer faster innovation, flexible resources, and economies of scale. You typically pay only for cloud services you use, helping lower your operating costs, run your infrastructure more efficiently and scale as your business needs change."
+     },
+     
+     {"ourFocusArea": [
+          {
+             "header":"Our Focus Areas",
+             "description":"A2A Digital is an IT solution company growing with cutting edge technology service provider. Among that, we provide Cloud Computing service, we aim to deliver Cloud Computing solutions into different business verticals and sectors while enhancing business performance." 
+          },
+          {
+              "OurFocusAreaComponent":[
+                  {"title":"Google Cloud Platform (GCP)",
+                   "imageUrl" : "",
+                   "text":"GCP consists of a computer, hard disk drives and virtual machines (VMs). it gives you options for computing and hosting.You can work in a serverless, use a managed platform, leverage container technologies to gain lots of flexibility,  build your own cloud-based infrastructure to have the most control and flexibility. Our company gives support and service for our client to upgrade their traditional server to GCP cloud."
+                  },
+                  {
+                     "title":"Amazon Web Service (AWS)",
+                     "imageUrl" :"",
+                     "text":"AWS cloud provides on-demand cloud computing platforms and APIs to individuals, companies, and governments, on a metered pay-as-you-go basis. These cloud computing web services provide a set of primitive abstract technical infrastructure and distributed computing building blocks and tools. With our support, we maintain our client web service and move to AWS service which makes company website more secure and customizable."
+                  },
+                  {
+                      "title":"DigitalOcean",
+                      "imageUrl" :"",
+                      "text":"Digital Ocean is a cloud infrastructure provides developers cloud services that help to deploy and scale application that run simultaneously on multiple computers. It offers an Infrastructure as a Service (IaaS) platform for software developers. It is very popular with open source developers and competes with AWS and GCP. Our service is to migrate client’s server to DigitalOcean Cloud platform and deploy to DigitalOcean’s IaaS environment and also maintain the service."
+                   }
+              ]
+          }
+      ]
+   },
+     
+   {"MultivsHybridCloud": [
+        {
+           "header":"Multi Cloud vs. Hybrid Cloud",
+           "description":"The confusion between multi cloud and hybrid cloud is compounded by the fact that they’re often used interchangeably. Although it can seem like a semantic argument, there is a real difference between the two." 
+        },
+        {
+            "MultivsHybridCloudComponent":[
+                {"title":"Multi Cloud",
+                 "imageUrl" : "",
+                 "text":"Multi Cloud means using multiple different public cloud services, often from multiple different providers. Its environment starts with multiple public clouds but encompasses every aspect of IT ecosystem, including private cloud and other on-premises deployments. The different clouds may used for various tasks to achieve best-of-breed results or to reduce vendor lock-in. Multiple clouds also give clients added peace of mind by minimizing dependance on any one provider, often decreasing costs and increasing flexibility."
+                },
+                {
+                   "title":"Hybrid Cloud",
+                   "imageUrl" :"",
+                   "text":"Hybrid Cloud is different from multi cloud, it is a combination of private and public clouds toward the same purpose while multi cloud always includes multiple public clouds but can also incorporate physical and virtual infrastructure (including private clouds). The components of a hybrid cloud typically work together unlike a multi cloud model which different clouds are used for different tasks. Data and processes tend to intermingle and intersect in a hybrid environment."
+                }
+            ]
+        }
+    ]
+ },
+     
+ {"CMS": 
+      {
+         "header":"Cloud Management System",
+         "description":"Cloud Management System is how admins have control over everything that operates in a cloud: the users, data, applications, and services. Cloud management tools help admins oversee all types of cloud activities, such as resource deployment, use tracking, data integration, and even disaster recovery. Cloud management tools provide administrative control over the infrastructure, platforms, applications, and data that together create a cloud. We are providing a cloud management system as a service which typically deployed into existing cloud environment as a virtual machine (VM) that contains a database and a server to communicate with APIs to connect to the database and the virtual resource holding up the cloud." 
+      }
+},
+     
+{"A2ACloudService":
+     {
+        "header":"Why A2A Digital gives the best Cloud Computing service",
+        "description":"A2A Digital provides migration plans, technical assistance and credits available to make it easy for clients. We give partners to grow their businesses leveraging with our service. We make it easy for our clients to deploy and modernize their infrastructures." 
+     }
+},
+     
+{"CCBusiness":
+     {
+        "header":"Cloud Computing benefits for Business",
+        "urlImage":"",
+        "description": [
+           {"text":"Cloud hosting saves your money"},
+           {"text":"Instantly scalable resources and pay as you go notification"},
+           {"text":"High availability"},
+           {"text":"Lightning fast performance"},
+           {"text":"Increase security against hacking, infection and internal data theft"},
+           {"text":"More flexible working"}
+        ]
+     }
+}
+ ],
+ "BlockChain": [
+    {    "header":"BlockChain",
+        "textDecription":"Blockchain is a distributed ledger, similar to a database but rather than being controlled by a central authority (ie., a firm like Google, small company, or individual) the ledger is dispersed across multiple computers which can be located all over the world and run by anyone with an Internet connection."
+     },
+     
+     {"ourFocusArea": [
+          {
+             "header":"Our Focus Areas",
+             "description":"It’s a movement to help you redefine your most important business relationships through trust, transparency and newfound collaboration. In blockchain, We focus on two technologies, Hyperledger blockchain and Ethereum blockchain." 
+          },
+          {
+              "OurFocusAreaComponent":[
+                  {"title":"HyperLedger Blockchain",
+                   "imageUrl" : "",
+                   "text":"Hyperledger is a platform for distributed ledger solutions underpinned by a modular architecture delivering high degrees of confidentiality, resiliency, flexibility, and scalability. It is designed to support pluggable implementations of different components and accommodate the complexity and intricacies that exist across the economic ecosystem. Its fabric is a private channel which distributed ledger and smart contract platform allow for smart contract called “chaincode”. Modular architecture provides a lot of flexibility in terms of what you want to use. In Hyperledger there is no cryptocurrency which means we don’t use coin for doing transaction."
+                  },
+                  {
+                     "title":"Ethereum Blockchain",
+                     "imageUrl" :"",
+                     "text":"Ethereum is a distributed public block chain network that focuses on running programming code of any decentralized application. More simply, it is a platform for sharing information across the globe that cannot be manipulated or changed. Its advantages are immutable which data written in blockchain cannot be changed or deleted by any third party, and it is censorship-free which means based on a network formed around the principle of consensus. Ethereum is secure, it protects by cryptography and all records are publicly available for anyone to check."
+                  }
+              ]
+          }
+      ]
+   },
+     
+   {"blockChainDevelopCountry": [
+        {
+           "header":"Important of Blockchain for developing countries",
+           "description":"Due to the intensely connected nature of the world today, blockchain as a technology has the potential to have far reaching impacts in a relatively short amount of time. This means developing countries like Cambodia may reap the benefits of the technology faster since blockchains are a form of decentralized, distributed immutable and transparent ledger, they have the potential to disrupt industries throughout the economy even in emerging markets.Some examples of such applications:" 
+        },
+        {
+            "blockChainDevelopCountryComponent":[
+                {"title":"Currency",
+                 "imageUrl" : "",
+                 "text":"This is the application where blockchain started off in. Cryptocurrencies like Bitcoin and Ethereum have demonstrated the secure application of decentralized technology as a store and transfer of value. Currently, Cambodia government started blockchain application for Cambodia’s central bank testing digital wallet to ease cross-border payment which named “BAKONG”, launched in July and now accepts users from eight separate Cambodian banks, including ACLEDA Bank."
+                },
+                {
+                   "title":"Records",
+                   "imageUrl" :"",
+                   "text":"To this day, records of ownership, citizenship and other forms of identity are stored in centralized databases to keep them secure. However, this poses a problem of tampering because of the intermediaries involved. Blockchains open up a possibility of decentralized, public immutable and consensus driven ledger of records that may one day invalidate the need for intermediaries."
+                },
+                {
+                    "title":"Smart Organizations",
+                    "imageUrl" :"",
+                    "text":"Smart organizations are a concept that will be made possible by smart contracts built on top of blockchains. Smart contracts are self-executing programs that are event triggered. An example would be delivery of a good prompting automatic payment through a smart contract. This can be expanded to a scenario where entire organizations are run and administered on the blockchain."
+                 },
+                 {
+                    "title":"Services",
+                    "imageUrl" :"",
+                    "text":"Blockchains have the potential to change how services industries ranging from financial institutions to legal establishments work. The mix of blockchains, smart contracts has the potential to enable services transactions to happen seamlessly in a decentralized, secure and fast way. If this is implemented properly, developing countries like Cambodia can leapfrog counter parts in institutional development by automated legal procedures, customs payments, ownership transfers, business transactions and allowing widespread disintermediation across industries."
+                 }
+            ]
+        }
+    ]
+ },
+     
+ {"privatePublicBlockChain": [
+      {
+         "header":"Private Blockchain vs. Public Blockchain",
+         "description": null 
+      },
+      {
+          "privatePublicBlockChainComponent":[
+              {"title":"Private Blockchain",
+               "imageUrl" : "",
+               "text":"In private blockchain networks are invitation-only. New nodes must either be validated by the person or persons who started the network or by a set of rules those people put in place. Private blockchains are best for applications that are internal to a single company."
+              },
+              {
+                 "title":"Public Blockchain",
+                 "imageUrl" :"",
+                 "text":"In public blockchain, everything is visible. Anyone can read the chain and write new blocks into the chain, provided the follow the rules. Bitcoin is probably the most well-known example of public blockchain"
+              }
+          ]
+      }
+  ]
+},
+     
+{"BlockchainBusiness": 
+     {
+        "header":"Blockchain benefits for Business",
+        "imageUrl":"",
+        "description":[
+           {"text":"Reduce cost"},
+           {"text":"Blockchain offers enhance efficiency"},
+           {"text":"Advanced data security and protect against unauthorized action"},
+           {"text":"Transparency among parties"},
+           {"text":"The advantage of being economical"},
+           {"text":"It provides better audit"},
+           {"text":"Assurance of quality"},
+           {"text":"The transactions are recorded in chronological order"},
+           {"text":"The transactions stored in the blocks are contained in millions of computers participating in the chain"},
+        ] 
+     }
+}
+ ],
+ "RPA": [
+    {    "header":"RPA Install Support",
+        "textDecription":"Robotic Process Automation is the use of automation technology with Artificial Intelligence (AI) and Machine Learning (ML) capabilities to handle and automate repetitive tasks that previously required human efforts. These tasks may involve query handling, calculations, record maintenance, transaction entries, etc.RPA can be applied for the automation of rules-based, repetitive, data-heavy, and high compliance tasks where structured data and clear predefined rules and parameters are used. The solutions are easily and quickly designed, tested and implemented. They are designed to require a relatively low investment or expenditure."
+     },
+     
+     {"UiPath ": 
+          {
+             "header":"UiPath",
+             "description":"UiPath is an advanced tool that enables you to design automation processes visually, through diagrams. It executes the processes built in Studio, as a human would. Robots can work unattended which means run without human supervision in any environment, or as assistants which human triggers the process" 
+          }
+   },
+     
+   {"Howdoesitwork?": 
+        {
+           "header":"How does it work?",
+           "description":"Using UiPath is basically equal to adopting robots that automate tasks that are repetitive and manual-rules-based. The integration of robots into your business doesn’t have to alter the legacy system. And interestingly, all of this is achievable at a low cost, much lower than the robots’ human equivalent. You will be surprised to know that it is possible to train UiPath robots. Plus, these robots can view the interface just as a human being can. So, in short, they can act as your employees’ assistants. They will collaborate with them in a way to benefit them immensely. An added benefit- you will get permanent reporting on the progress. Since the robots stay at the backdrop of the workstation on which your employees work, the latter can do their job in an unhindered way. As a result of all of this, the productivity of your employee’s increases. And the handling of call center, service desk, and help desk activities becomes less time-consuming."
+   }
+ },
+     
+ {"A2ARPAService ": 
+      {
+         "header":"Why A2A Digital gives the best RPA service",
+         "description":"A2A Digital is capable in using RPA to automate the mundane tasks that humans hate, so they can focus on what really matters. This liberation allows your people to be more strategic, analytical, creative and truly happy! We provide our service with support and help your business measurable outcomes and a sustainable path towards digital transformation."
+   }
+},
+     
+   {"RPABusiness": [
+        {
+           "header":"RPA benefits for Business",
+           "urlImage":"",
+           "description":[
+              {"text":"Cost saving - lower operation cost"},
+              {"text":"Introduce adaptability and flexibility to process"},
+              {"text":"Optimize resource used"},
+              {"text":"Improve communication"},
+              {"text":"Discover automated responses and trigger"},
+              {"text":"maintains maximum possession, control and visibility"},
+              {"text":"Insights and analytics your business and makes better decisions for the future"}
+           ]
+        }
+    ]
+ },
+     
+ {"ourFocusArea": [
+      {
+         "header":"",
+         "description":"" 
+      },
+      {
+          "OurFocusAreaComponent":[
+              {"title":"",
+               "imageUrl" : "",
+               "text":""
+              },
+              {
+                 "title":"",
+                 "imageUrl" :"",
+                 "text":""
+              },
+              {
+                  "title":"",
+                  "imageUrl" :"",
+                  "text":""
+               },
+               {
+                  "title":"",
+                  "imageUrl" :"",
+                  "text":""
+               },
+               {
+                  "title":"",
+                  "imageUrl" :"",
+                  "text":""
+               }
+
+          ]
+      }
+  ]
+}
+ ],
+ "PWA": [
+    { 
+       "header":"PWA Development",
+        "textDecription":null
+     },
+     
+     {"WhatisPWA": 
+          {
+             "header":"What is PWA?",
+             "description":"Progressive Web Apps are web applications that load in a web browser just like web pages or websites. It gives you a rich mobile experience via native-like functionalities such as the ability to work offline, push notifications, and device hardware accessibility.It feels like a native app and offers the same experience as a native one. there is no requirement for developers or users to install the web apps via digital distribution systems like Apple App Store or Google Play.. It loads, runs, and functions in a web browser." 
+          }
+   },
+     
+   {"OurFocusAreas": [
+        {
+           "header":"Our Focus areas",
+           "description":null 
+        },
+        {
+            "OurFocusAreaComponent":[
+                {"title":"Reliable",
+                 "imageUrl" : "",
+                 "text":"This kind of web application should provide users with meaningful content regardless of network conditions. Some apps can function completely offline, while others display special placeholder data, informing users that they are offline."
+                },
+                {
+                   "title":"Responsive",
+                   "imageUrl" :"",
+                   "text":"PWAs should adapt to various screen sizes and orientations.A high-quality responsive design will help to ensure that the application will continue to work with new devices in the future."
+                },
+                {
+                    "title":"Engaging",
+                    "imageUrl" :"",
+                    "text":"Usually, native apps are considered to be more engaging than web apps. An icon on the screen makes it easy to get into the application and push notifications can help alert users of important info for them. Progressive Web Applications allow users to get the same benefits with web solutions."
+                 },
+                 {
+                    "title":"Secure",
+                    "imageUrl" :"",
+                    "text":"The PWA is secure by default. The technology that powers PWA requires applications to be served over HTTPS to work."
+                 }
+            ]
+        }
+    ]
+ },
+     
+ {"FeaturesPWAs": [
+      {
+         "header":"Features of PWAs",
+         "urlImage":null,
+         "description":"By definition, PWAs can practically work on every device and browser which means you can save a lot of time and resources when compared to building a native app considering the drawbacks mentioned above" 
+      },
+      {
+          "FeaturesPWAsComponent":[
+              {"title":"Progressive",
+               "imageUrl" : null,
+               "text":"works on any browsers"
+              },
+              {
+                 "title":"Responsive",
+                 "imageUrl" :null,
+                 "text":"the UI adapts to the device screen size"
+              },
+              {
+                  "title":"App-like",
+                  "imageUrl": null,
+                  "text":"looks and feels like an app"
+               },
+               {
+                  "title":"Connectivity ",
+                  "imageUrl" :null,
+                  "text":"independent: offline access"
+               },
+               {
+                  "title":"Downloadable",
+                  "imageUrl" :null,
+                  "text":"it can be downloaded onto your phone"
+               },
+               {
+                  "title":"Easy updates",
+                  "imageUrl" :null,
+                  "text":"the app updates itself once it’s connected to the internet"
+               },
+               {
+                  "title":"Safe",
+                  "imageUrl" :null,
+                  "text":"it uses HTTPS"
+               },
+               {
+                  "title":"browsable",
+                  "imageUrl" :null,
+                  "text":"quick access through web browsers"
+               },
+               {
+                  "title":"Re-engageable",
+                  "imageUrl" :null,
+                  "text":"enables push notifications"
+               }
+          ]
+      }
+  ]
+},
+     
+{"PWARevenue": [
+     {
+        "header":"How a PWA increased our revenue by 230%",
+        "description":"After launching our very own PWA, we can see enormous growth in our website performance compared to last year. Below is a little report of our performance to illustrate we mean" 
+     },
+     {
+         "PWARevenueComponent":[
+             {"text":"Conversion rates increased by 230%"},
+             {"text":"Sessions increased by 583%"},
+             {"text":"Users increased by 673%"},
+             {"text":"Pageviews increased by 564%"},
+             {"text":"Bounce rate increased by 6%"},
+         ]
+     }
+ ]
+}
+],
+ "VR/AR": [
+    { 
+       "header":"VR/AR Development",
+        "textDecription":"VR stands for Virtual Reality, it implies a complete immersion experience that shuts out the physical world. Using VR devices such as HTC Vive, Oculus Go/Rift, users can be transported into a number of real-world and imagined environments. AR stands for Augmented Reality, it adds digital elements to a live view often by using the camera on a smartphone. Best example of augmented reality experiences include Snapchat lenses and the game Pokemon Go"
+     },
+     
+     {"ourFocusArea": [
+          {
+             "header":"Our Focus Areas",
+             "description":"Virtual and Augmented Reality require new ways of interacting, and new user interfaces that we carefully construct to enhance the experience. We build solutions and  transform business needs to business values. We create digital experiences, and we drive digital change to fast-track development of brand new digital worlds. We create. We innovate. We develop. We improve digital lives. We offer a wide range of conceptual and technical experience within designing and building for Augmented and Virtual Reality." 
+          },
+          {
+              "OurFocusAreaComponent":[
+                  {"title":"Oculus Go Development",
+                   "imageUrl" : "",
+                   "text":"The Oculus Go is a standalone virtual reality headset design for everyone. It doesn’t need to connect to anything. It is the third headset from Oculus, and it’s meant to exist between the phone-powered Samsung Gear VR and PC-powered Oculus Rift. We can develop VR application for Oculus Go by 3 platforms: Native Platform, Unreal Itegration, Unity Itegration"
+                  },
+                  {
+                     "title":"HTC Vive Development",
+                     "imageUrl" :"",
+                     "text":"HTC Vive is a virtual reality headset developed by HTC and Valve. The headset uses “room scale” tracking technology, allowing the user to move in 3D spaces and use motion-tracked handheld controllers to interact with the environment. It adjustable straps and interchangeable inserts, front-facing camera, eye relief adjustments and fits most glasses. We can develop VR application with HTC Vive and gaming as well with Unity. The reality game is experiencing incredible drive towards merging technical innovation and creative minds to further the ongoing VR revolution."
+                  },
+                  {
+                      "title":"Hololens Development",
+                      "imageUrl" :"",
+                      "text":"The Hololens is Microsoft’s take on augmented reality, which they call “mixed reality”. Using multiple sensors, advanced optics, and holographic processing that melds seamlessly with its environment, These holograms can be used to display information, blend with the real world, or even simulate a virtual world. The Hololens has a plethora of optical sensors, with two on each side for peripheral “environment understanding” sensing, a main downward facing depth camera to pick up hand motions, and specialized speakers that simulate sound from anywhere in the room. "
+                   },
+                   {
+                      "title":"Mobile AR",
+                      "imageUrl" :"",
+                      "text":"Mobile AR application platform operates on iOS and Android smartphones, tablets and wearable devices to create incredible Augmented Reality experiences straight out of the box. MobileAR is a creative and highly effective education and entertainment tool that adds an extra layer of information – content such as 3D characters, image, video, text, sound and more – to everyday objects and environments. MobileAR can resurrect anyone or anything from any mobile device to create unparalleled educational opportunities in and out of the classroom."
+                   }
+              ]
+          }
+      ]
+   },
+     
+   {"workedResults": [
+        {
+           "header":"Worked Results",
+           "urlImage":"",
+           "description":null
+        },
+        {
+            "workedResultsComponent":[
+                {"title":"Architecture WalkThrough",
+                 "imageUrl" : "",
+                 "text":"VR Architecture walkthrough is an application that used for promoting Vkirirom Pine Resort Property in a modern way with the use of VR device and technology. Users can use this application with VR device anywhere, any time to experience the application interface with vKirirom environment."
+                },
+                {
+                   "title":"Golf Course Training with Hololens",
+                   "imageUrl" :"",
+                   "text":"Golf Course Training application is a holographic application developed to serve as golf training service for customer who wants to learn to play golf. By using this application user will be able to learn from the beginning without the help of a human instructor. We provide users different ways to interact with the application. Users can use their hand gestures or voice commands to manipulate the application."
+                }
+            ]
+        }
+    ]
+ },
+     
+ {"toolsAndTechARVR": [
+      {
+         "header":"Technologies used for VR/AR Development",
+         "description":null 
+      },
+      {
+          "toolsAndTechARVRComponent":[
+              {"title":"Unity",
+               "imageUrl" : "",
+               "text":"Unity is a cross-platform game engine developed by Unity Technologies. It packs a ton of features together and is flexible enough to make almost any game you can imagine. It’s been used to create games like Pokemon Go, Heathstone, Rimworld, Cuphead, and plenty more. While 3D is in the name, unity 3D is also packs tools for 2D game development. We can use C# as scripting API and built-in Visual Studio integration in unity."
+              },
+              {
+                 "title":"C# Programming Language",
+                 "imageUrl" :"",
+                 "text":"C# is a strongly typed object-oriented programming language. C# is open source, simple, modern, flexible, and versatile. In this article, let’s learn what C# is, what C# can do, and how C# is different than C++ and other programming languages. Key characteristics of C# language including open source, modern, easy, fast, cross platform, safe, and versatile."
+              },
+              {
+                  "title":"SketchUp",
+                  "imageUrl" :"",
+                  "text":"Sketchup is 3D modeling software that’s easy to use and has an extensive database of user-created models available for download. You can use it to sketch (or import) models to assist with all kinds of projects—furniture building, video game creation, 3D printing, interior design, and whatever else you can think of."
+               },
+               {
+                  "title":"Blender",
+                  "imageUrl" :"",
+                  "text":"Blender is a free open source 3D computer graphics software application for developing animated movies, visual effects, 3D games, and physics simulations. It is written in C, C++, and python, and allows the user to write custom extensions to blender in any of those programming languages. It is available for windows, macOS, and Linux."
+               },
+               {
+                  "title":"SteamVR",
+                  "imageUrl" :"",
+                  "text":"SteamVR is a runtime included with the Steam client that powers virtual reality experiences. SteamVR is automatically installed when Steam detects a headset connected to a user’s PC. it can also be installed manually. It lets users manage several areas of their VR experience, including room setup and device status and management."
+               }
+
+          ]
+      }
+  ]
+},
+     
+{"A2AARVRService": 
+     {
+        "header":"Why A2A Digital gives the best VR/AR service",
+        "description":"A2A Digital helps companies enhance their capabilities and strengthen business values with brand new perspectives on both process and product. Virtual & Augmented Reality continues to drive change everywhere from healthcare to education with new ways of interacting and experience. We help customers solve problems, with new technology. Some conceptual functionality can be very difficult to realise technically, VR is well-suited for both education and simulations. Due to high levels of immersion, the virtual worlds we design allow us real new perspectives." 
+     }
+},
+     
+{"VRARBusiness": 
+     {
+        "header":"VR/AR benefits for Business",
+        "urlImage":"",
+        "description":
+        [
+         {"text":"AR gets more virality"},
+         {"text":"Personalized content is tailored to the user's particular needs and adopted fast"},
+         {"text":"AR/VR create rich, immersive and interactive user experience"},
+         {"text":"AR/VR allows readers to truly connect with the published content"},
+         {"text":"Brand awareness increase via social shares"},
+         {"text":"AR/VR helps in customers buying their decisions"}
+      ]
+     }
+   }
+ ],
+ "DigitalMarketing": [
+    { 
+       "header":"Digital Marketing",
+        "textDecription":"Digital marketing encompasses all marketing efforts that use an electronic device or the internet. Business leverage digital channels such as search engines, social media, email, and other websites to connect with current and prospective customers. It is simply means advertising delivered through digital channels."
+     },
+     
+     {"ourFocusArea": [
+          {
+             "header":"Our Focus Areas",
+             "description":"We aim to be best Digital Marketing Service provider in Cambodia by providing our services to improve client’s business values and brand awareness reach to their targeted customers by doing SNS Marketing and we give support and consultant to companies and organization so that they can enhance their business and market value." 
+          },
+          {
+              "OurFocusAreaComponent":[
+                  {"title":"Web Development",
+                   "imageUrl" : "",
+                   "text":"Web development is the work involved in developing a web site for the Internet or an intranet. It can range from developing a simple single static page of plain text to complex web-based internet applications, electronic businesses, and social network services. The web development process includes web design, web content development, client-side/server-side scripting and network security configuration, among other tasks."
+                  },
+                  {
+                     "title":"Mobile Development",
+                     "imageUrl" :"",
+                     "text":"Mobile application development is the process of creating software applications that run on a mobile device, and a typical mobile application utilizes a network connection to work with remote computing resources. Hence, the mobile development process involves creating installable software bundles (code, binaries, assets, etc.) , implementing backend services such as data access with an API, and testing the application on target devices.There are four major development approaches when building mobile applications Native Mobile Application, Cross-Platform Native Mobile Application, Hybrid Mobile Application, Progressive Web Application"
+                  },
+                  {
+                      "title":"SNS Marketing Support",
+                      "imageUrl" :"",
+                      "text":"A social networking service (SNS) is an online vehicle for creating relationships with other people who share an interest, background, or real relationship. Social networking service users create a profile with personal information, photos, etc. and form connections with other profiles. These users then use their connection to grow relationships through sharing, emailing, instant messaging, and commenting. Social networking services may also be referred to as a 'social networking site' or simply 'social media'. We give support to SNS marketing to our clients to improve their business and reach to their targeted customers."
+                   },
+                   {
+                      "title":"SEO/SEM",
+                      "imageUrl" :"",
+                      "text":"Search Engine Optimization - SEO is the process of increasing the quality and quantity of website traffic by increasing the visibility of a website or a web page to users of a web search engine. SEO refers to the improvement of unpaid results and excludes direct traffic/visitors and the purchase of paid placement. SEO can get quite complex when it comes to all the different factors that impact your ranking, the basic process is not as difficult to understand. It wants to provide the best service for their users. This means delivering results on the search engine page that are not only high quality but also relevant to what the searcher is looking for."
+                   },
+                   {
+                      "title":"Movie Making",
+                      "imageUrl" :"",
+                      "text":"We produce quality videos and animation follow scenarios and storyline. Movie making is the concept of making video by brainstorming the problem and create the concept of the video by plotting into the storyboard which detail each scene of the video and starting filming based on the storyboard. After collecting all the videos and making effect and than start editing the video. With our team skilled we ensure the quality content and concept and satisfied our clients."
+                   },
+                   {
+                      "title":"Google Analytics",
+                      "imageUrl" :"",
+                      "text":"Google Analytics is a tool allows you to track websites, blogs, and social networks offered by Google to help you analyze your website traffic. In addition, it puts at your disposal predetermined and customizable reports. It puts several lines of tracking code into the code of your website. The code records various activities of your users when they visit your website, along with the attributes (such as age, gender, interests) of those users. It then sends all that information to the Google Analytics server once the user exits your website."
+                   },
+                   {
+                      "title":"Ad Operation",
+                      "imageUrl" :"",
+                      "text":"Ad Operations refers to processes and systems that support the sale and delivery of online advertising. More specifically this is the workflow processes and software systems that are used to sell, input, serve, target and report on the performance of online ads. Ad Operations doesn’t leave the fate of a campaign to chance. After campaign launch, an Ad Ops team closely monitors the ads to ensure they are doing their job: make the website publisher money. A competent Ad Operations team monitors ad traffic continuously. It is an ongoing relationship that is tweaked and adjusted based on data collected by the invisible hands of the Ad Operations department, team, or company."
+                   },
+                   {
+                      "title":"Graphic Design",
+                      "imageUrl" :"",
+                      "text":"Graphic design is the craft of creating visual content to communicate messages. Applying visual hierarchy and page layout techniques, graphic designers use typography and pictures to meet users’ specific needs and focus on the logic of displaying elements in interactive designs to optimize the user experience. These are all examples of graphic design, the term encompasses a lot; posters, infographics, book covers, product labels, logos, business cards, signs, website layouts, mobile apps, software interfaces."
+                   }
+              ]
+          }
+      ]
+   },
+     
+   {"ImportantDigitalMarketing": 
+        {
+           "header":"Important of Digital Marketing",
+           "description":"Digital marketing is an easy way for companies to tell their brand’s story and brings companies to life on an online platform. One of the most important reasons why digital marketing is taking up the traditional marketing channels is as a result of the internet has enabled businesses to interact with targeted audiences in real time. Another reason is its affordability. Digital marketing is infinitely more affordable when compared to traditional marketing channels." 
+        }
+ },
+     
+ {"A2ADigitalMarketing": 
+      {
+         "header":"Why A2A Digital gives the best Digital Marketing service",
+         "description":"A2A Digital implement a range of digital marketing services to drive results for clients. We provide integrated brand consulting and creative services to help our clients determine how best to develop and enhance the value of their brands to the world. We aim to offer best services in the areas of Branding and Creative, Website/Mobile Development, Video Making, SEO, SNS support, and Ad operation in Cambodia." 
+      }
+},
+     
+{"DigitalMarketingBusiness":
+     {
+        "header":"Digital Marketing benefits for Business",
+        "urlImage":"",
+        "description":[
+           {"text":"Cost-effective to marketing your business"},
+           {"text":"Huge return on investment"},
+           {"text":"Most measurable form of marketing"},
+           {"text":"Easy to adjust and easy to share"},
+           {"text":"Brand development"},
+           {"text":"Precise targeting and greater engagement"},
+           {"text":"SEO and local SEO helps you reach more qualified customers online"},
+           {"text":"Easy and quickly adapt your strategy and tactics for best results"},
+           {"text":"Allowing your business more competitive"}
+        ]
+     }
+}
+ ],
+ "OdooERP": [
+    { 
+       "header":"Odoo REP",
+        "textDecription":null
+     },
+     
+     {"WhatisOdooERP": 
+          {
+             "header":"What is Odoo ERP?",
+             "description":"Odoo is an open source ERP (Enterprise Resource Planning) was founded by Fabien Pinckaers in 2005. Odoo stand for On-Demand Open Object, it’s a large collection of business-related applications and it contains many modules and those modules collectively called ERP software. ERP is a multiple modules transaction based application software that helps organizations to manage the essential parts of the business. It collects, manages and distributes information across functional boundaries and helps break down information those barriers that stand in the way of full cooperation between production, materials, planning, engineering, finance and sales/marketing." 
+          }
+   },  
+ {"OdooModule": 
+      {
+         "header":"List all modules in Odoo ",
+         "description":"Odoo provides many modules for your business such as",
+         "list":[
+            {"text":"Accounting and Financial management"},
+            {"text":"CRM (Customer Relationship Management)"},
+            {"text":"Sales"},
+            {"text":"Purchase"},
+            {"text":"POS (Point of Sale)"},
+            {"text":"Project Management"},
+            {"text":"HR (Human Resource)"},
+            {"text":"Helpdesk"},
+            {"text":"Inventory and ect"}
+         ]
+      }
+}
+ ],
+ "CyberSecurity": [
+    { 
+       "header":"Cyber Security",
+        "textDecription":"Cyber-security is the practice of defending computers, servers, mobile devices, electronic systems, networks, and data from malicious attacks. It's also known as information technology security or electronic information security.        "
+     },
+     
+     {"ourFocusArea": [
+          {
+             "header":"",
+             "description":"" 
+          },
+          {
+              "OurFocusAreaComponent":[
+                  {"title":"",
+                   "imageUrl" : "",
+                   "text":""
+                  },
+                  {
+                     "title":"",
+                     "imageUrl" :"",
+                     "text":""
+                  },
+                  {
+                      "title":"",
+                      "imageUrl" :"",
+                      "text":""
+                   },
+                   {
+                      "title":"",
+                      "imageUrl" :"",
+                      "text":""
+                   },
+                   {
+                      "title":"",
+                      "imageUrl" :"",
+                      "text":""
+                   }
+
+              ]
+          }
+      ]
+   }
+ ]
+}
