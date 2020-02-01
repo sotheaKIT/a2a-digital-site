@@ -1,0 +1,63 @@
+.c_sevice_form_right{
+    width: 100%;
+}
+.c_sevice_form_caption h1{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 35px;
+    line-height: 42px;
+    text-align: center;
+    color: #303030;
+    text-align: center;
+}
+.c_sevice_form_caption p{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    color: #303030;
+}
+.c_sevice_form_register{
+    max-width: 563px;
+    margin: auto;
+}
+.c_sevice_form_username,.c_sevice_form_mail,.c_sevice_form_country,.c_sevice_form_feedback{
+    border-bottom: 1px solid #BABABA;
+    margin-bottom: 50px;
+}
+.c_sevice_form_username input,.c_sevice_form_mail input,.c_sevice_form_country input,.c_sevice_form_feedback input{
+    /* background-color: violet; */
+    margin: auto;
+    width: 100%;
+}
+.sevice_form-label{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+    color: #BABABA;
+}
+.c_sevice_form_username input.c_sevice_form_input{
+    border: 0;
+    outline: 0;
+    font-size: 1em;
+    padding: 8px 1px;
+    margin-top: 0.1em;
+
+}
+.c_input_sumit{
+    border: 1px solid #030303;
+    box-sizing: border-box;
+    border-radius: 4px;
+}
+.c_sevice_form_wrapper{
+    padding-bottom: 50px;
+}
+
+@media only screen and (max-width: 980px) {
+    .c_sevice_form_wrapper{
+        padding-left: 25px;
+        padding-right: 25px;
+    }
+}

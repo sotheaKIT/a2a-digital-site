@@ -40,8 +40,7 @@
 }
 .l_card__text a{
     text-decoration: none;
-    text-transform: uppercase;
-    font-size: small;
+    font-size: 16px;
     color: #138690;
 }
 .l_card__text img{
@@ -51,7 +50,7 @@
 
 .l_card__img img{
     width: 100%;
-    border-radius: 10px;
+    border-radius: 4px;
 }
 .l_card__img{
     min-width: 300px;
@@ -124,6 +123,7 @@ section.c_card__service.txt_right {
     }
     .l_card__text h1 {
         margin: 0;
+        margin-bottom: 20px;
     }
     .l_service__container{
         width: 90%;

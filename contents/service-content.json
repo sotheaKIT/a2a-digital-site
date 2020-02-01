@@ -1,18 +1,43 @@
-{
-  "content" : {
-    "title": "dd"
-  },
-  "content" : {
-    "title": "title"
-  },
-  "content" :{
-    "title": "title"
-  },
-  "content" :{
-    "title": "title"
-  },
-  "content" :{
-    "title": "title"
-  }
+[
   
-}
+    {
+      "title":"AI", 
+      "cotent":"artificial intelligent software, keeping the quality and security in mind. We aim to reach the highest number of users and more comprehensive user experience to satisfy clients. With AI services from A2A Digital, you can add the capabilities like images or video analysis, natural language, Object detection,", 
+      "src":"/home/blockchain.png",
+      "route" : "/ai",
+      "css" : "c_card__service txt_right"
+    },
+
+    {
+      "title":"AI", 
+      "cotent":"artificial intelligent software, keeping the quality and security in mind. We aim to reach the highest number of users and more comprehensive user experience to satisfy clients. With AI services from A2A Digital, you can add the capabilities like images or video analysis, natural language, Object detection,", 
+      "src":"../../assets/home/blockchain.png",
+      "route" : "/ai",
+      "css" : "c_card__service txt_left"
+    },
+    {
+      "title":"AI", 
+      "cotent":"artificial intelligent software, keeping the quality and security in mind. We aim to reach the highest number of users and more comprehensive user experience to satisfy clients. With AI services from A2A Digital, you can add the capabilities like images or video analysis, natural language, Object detection,", 
+      "src":"../../assets/home/blockchain.png",
+      "route" : "/ai",
+      "css" : "c_card__service txt_right"
+    },
+    {
+      "title":"AI", 
+      "cotent":"artificial intelligent software, keeping the quality and security in mind. We aim to reach the highest number of users and more comprehensive user experience to satisfy clients. With AI services from A2A Digital, you can add the capabilities like images or video analysis, natural language, Object detection,", 
+      "src":"../../assets/home/blockchain.png",
+      "route" : "/ai",
+      "css" : "c_card__service txt_left"
+    },
+    {
+      "title":"AI", 
+      "cotent":"artificial intelligent software, keeping the quality and security in mind. We aim to reach the highest number of users and more comprehensive user experience to satisfy clients. With AI services from A2A Digital, you can add the capabilities like images or video analysis, natural language, Object detection,", 
+      "src":"../../assets/home/blockchain.png",
+      "route" : "/ai",
+      "css" : "c_card__service txt_right"
+    }
+
+
+
+]
+

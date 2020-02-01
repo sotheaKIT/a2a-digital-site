@@ -1,6 +1,6 @@
 <style src="../styles/home.css" scoped></style>
 <template>
-  <div id="home-page">
+  <div id="home-page" v-on:scroll.passive='handleScroll'>
       <Slide/>
        <ContentCard/>
       <CardProduct/>
