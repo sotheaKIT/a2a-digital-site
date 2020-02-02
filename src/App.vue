@@ -1,29 +1,31 @@
 <style src="./styles/app.css"></style>
 <template>
-  <div id="app">
-    <div class="l_contrainer">
-      <component :is="currentMenu" :right="side === 'right' ? true: false"> </component>
-      <router-view/>
-      <Footer/>
+    <div id="app">
+        <header-nav/>
+        <component :is="currentMenu" :right="side === 'right' ? true: false"></component>
+        <div class="content">
+            <router-view/>
+        </div>
+        <Footer/>
     </div>
-  </div>
 </template>
-<script>  
-import Footer from './components/footer/footer.vue'
-import slide from './components/navigator/Menu/slide.vue'
+<script>
+    import HeaderNav from './components/navigator/navigator'
+    import Footer from './components/footer/footer.vue'
+    import slide from './components/navigator/Menu/slide.vue'
 
-export default {
-  name: 'App',
-  data() {
-        return {
-          side: 'right',
-          currentMenu: 'slide'
-        };
-      },
-  components: {
-    Footer,
-    slide,
-    
-  }
-}
+    export default {
+        name: 'App',
+        data() {
+            return {
+                side: 'right',
+                currentMenu: 'slide'
+            };
+        },
+        components: {
+            Footer,
+            HeaderNav,
+            slide
+        }
+    }
 </script>
