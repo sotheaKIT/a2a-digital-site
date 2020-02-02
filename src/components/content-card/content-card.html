@@ -10,22 +10,21 @@
                             <h1>{{serviceContent.title}}</h1>
                             <p>{{serviceContent.cotent}}
                             </p>
-                            <a href="">Read More 
-                                <img src="../../assets/img/icon/read_more.svg">
+                            <a href="/servicedetail">Read More 
+                                <img src="@/assets/img/icon/read_more.svg">
                             </a>
                         </article>
                 </div> 
                 <div class="l_card__img">
-                    <img src="../../assets/home/ai.png">
+                    <img :src='loadSrc(serviceContent.src)' >
                     <!-- <div class="bg_photo" style="background-image: url(https://storage.googleapis.com/chydlx/codepen/blog-cards/image-2.jpg)"></div> -->
                 </div>
                 <div class="l_article__wrapper">
                     <article class="l_card__text">
                         <h1>{{serviceContent.title}}</h1>
-                        <p>{serviceContent.cotent}}
-                        </p>
-                        <a href="serviceContent.route">Read More 
-                            <img src="serviceContent.src">
+                        <p>{{serviceContent.cotent}}</p>
+                        <a href="/servicedetail">Read More 
+                            <img src="@/assets/img/icon/read_more.svg">
                         </a>
                     </article>
                 </div> 

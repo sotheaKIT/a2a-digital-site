@@ -15,7 +15,7 @@ export const ServiceDetailStore = {
 
   actions: { 
     load ({ commit }) {
-      var payload = api.loadServiceContent()
+      var payload = api.loadServiceDetailContent()
       commit('LOAD', payload)
     },
   },
