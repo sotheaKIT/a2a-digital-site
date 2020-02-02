@@ -16,7 +16,7 @@ a {
 }
 
 #contact-page {
-    height: 100vh;
+    display: flow-root;
 
 }
 
