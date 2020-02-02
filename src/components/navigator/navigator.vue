@@ -207,9 +207,10 @@
     window.onscroll = function() {
         var currentScrollPos = window.pageYOffset;
         if (prevScrollpos > currentScrollPos) {
-            document.getElementById("navigation").style.top = "0";
+            document.getElementById("navigation").style.position = "fixed";
+
         } else {
-            document.getElementById("navigation").style.top = "-70px";
+            document.getElementById("navigation").style.position = "fixed";
         }
         prevScrollpos = currentScrollPos;
     }
