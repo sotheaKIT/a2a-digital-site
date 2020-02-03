@@ -4,7 +4,8 @@ import api from '../API/APIClient'
 export const ServiceStore = {
   namespaced: true,
   state: {
-    content : null
+    content : null,
+    endPoint : "service-content"
 
   },
   mutations: {
@@ -14,8 +15,8 @@ export const ServiceStore = {
   },
 
   actions: { 
-    load ({ commit }) {
-      var payload = api.loadServiceContent()
+    load ({ commit,state }) {
+      var payload = api.loadAPI(state.endPoint)
       commit('LOAD', payload)
     },
   },

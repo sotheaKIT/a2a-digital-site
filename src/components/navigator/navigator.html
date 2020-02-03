@@ -13,7 +13,7 @@
             <div class="dropdown-content">
               <div class="drp1">
                 <ul>
-                  <li><a href="/servicedetail">AI development</a></li>
+                  <li><router-link :to="{ name: 'servicedetail', params: { service: 'ai' } }">Artificial Intelligence</router-link></li>
                   <li><a href="/servicedetail">IOT development</a></li>
                   <li><a href="/servicedetail">Cloud Computing</a></li>
                   <li><a href="/servicedetail">RPA install support</a></li>
@@ -100,7 +100,7 @@
                         </svg>
 
                         <div class="bm_tree__service" v-bind:style="{ display: styleCheck_service }" >
-                          <li class="bm_tree_submenu"> <a href="/servicedetail" class="bm_tree_servic_content">Artificial Intelligence</a></li>
+                          <li class="bm_tree_submenu"><router-link :to="{ name: 'servicedetail', params: { service: 'ai' } }">Artificial Intelligence</router-link></li>
                           <li class="bm_tree_submenu"><a href="/servicedetail"class="bm_tree_servic_content">IOT</a></li>
                           <li class="bm_tree_submenu"> <a href="/servicedetail" class="bm_tree_servic_content">Cloud Computing</a></li>
                           <li class="bm_tree_submenu"><a href="/servicedetail"class="bm_tree_servic_content">RPA Install Support</a></li>

@@ -58,7 +58,7 @@ export default new Router({
       component: ErrorPage
     },
     {
-      path: '/servicedetail',
+      path: '/servicedetail/:service',
       name: 'servicedetail',
       component: ServiceDetailPage
     },

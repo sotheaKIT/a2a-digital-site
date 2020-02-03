@@ -1,16 +1,12 @@
-function loadServiceContent (){
-  var json = require('../../contents/service-content.json'); 
+function loadAPI(endPoint){
+  var json = require('../../contents/'+endPoint+'.json'); 
   return json
 }
 
-function loadServiceDetailContent (){
-  var json = require('../../contents/service-detail-content.json'); 
-  return json
-}
+
 
 export default {
-  loadServiceContent,
-  loadServiceDetailContent
+  loadAPI
 }
 
 

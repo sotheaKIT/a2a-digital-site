@@ -1,12 +1,14 @@
 <style src="../styles/service-detail.css" scope></style>
 <template>
   <div>
-      <ServiceDetailPageComp></ServiceDetailPageComp>
+      <div v-for="serviceDetailContent in serviceDetailContents" v-bind:key="serviceDetailContent.id">
+      <ServiceDetailPageComp head="serviceDetailContent['header']" ></ServiceDetailPageComp>
       <ServiceDetailCard></ServiceDetailCard>
       <ServiceTechnologyCard></ServiceTechnologyCard>
       <ServiceWorkResult></ServiceWorkResult>
       <ServiceAIImportant></ServiceAIImportant>
       <ServiceContactForm></ServiceContactForm>
+      </div>
   </div>
   
 </template>
@@ -29,6 +31,12 @@ export default {
     ServiceAIImportant,
     ServiceContactForm
   },
+  data : function () {
+    return {
+      service:String,
+      type : "service-content-"
+    }
+  },
   computed: {
     ...mapGetters({
       //content server 
@@ -37,13 +45,16 @@ export default {
     },
 
     mounted: function () {
-      this.actionDetailLoadContent()
+      this.actionDetailLoadContent(this.service)
     },
 
   methods: {
     ...mapActions({
         actionDetailLoadContent : 'serviceDetailContent/load'
     }),
-  }
+  },
+  created() {
+    this.service =  this.type + this.$route.params.service;
+  },
 }
 </script>

@@ -9,23 +9,6 @@ import {mapGetters ,mapActions} from 'vuex'
 
 export default {
     name : "ContentCard",  
-    data: function() {
-      return {
-        src :  [
-          require('../../assets/home/ai.png'),
-          require('../../assets/home/iot.png'),
-          require('../../assets/home/cloud.png'),
-          require('../../assets/home/blockchain.png'),
-          require('../../assets/home/rpa.png'),
-          require('../../assets/home/pwa.png'),
-          require('../../assets/home/vr.png'),
-          require('../../assets/home/erp.png'),
-          require('../../assets/home/digital.png'),
-          require('../../assets/home/cyber.png')
-          
-        ]
-      }
-    },
     computed: {
     ...mapGetters({
       //content server 
@@ -43,7 +26,7 @@ export default {
     }),
 
    loadSrc(src) { 
-      return this.src[parseInt(src)]
+      return require('@/assets/home/'+src+ '.png')
     }
     
 
