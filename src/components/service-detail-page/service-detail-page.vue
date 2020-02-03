@@ -5,8 +5,9 @@
 export default {
   name: 'ServiceDetailPageComp',
   props : {
-    header : Array
+    header : null
   }
+
 
 }
 </script>
