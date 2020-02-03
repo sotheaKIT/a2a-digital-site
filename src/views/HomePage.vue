@@ -2,7 +2,7 @@
 <template>
   <div id="home-page" v-on:scroll.passive='handleScroll'>
       <Slide/>
-       <ContentCard/>
+      <ContentCard/>
       <CardProduct/>
       <PartnersPage/>
   </div>

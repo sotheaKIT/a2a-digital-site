@@ -46,19 +46,19 @@
   {
     "title":"Odoo ERP customize", 
     "cotent":"ERP is a multiple modules transaction based application software that helps organizations to manage the essential parts of the business. We want to improve service delivery by measuring and analyzing your business performance differentiating your services based on profit potential by our Odoo and ERP service and support.", 
-    "src":"ai",
+    "src":"erp",
     "css" : "c_card__service txt_right"
   },
   {
     "title":"Digital Marketing", 
     "cotent":"Digital marketing is an easy way for companies to tell their brand’s story and brings companies to life on an online platform. It encompasses all marketing efforts that use an electronic device or the internet. We implement a range of digital marketing services to drive results and integrated brand consulting and enhance the value of the brands.", 
-    "src":"erp",
+    "src":"digital",
     "css" : "c_card__service txt_left"
   },
   {
     "title":"Cyber Security", 
     "cotent":"Our cyber security services offer tremendous monetary and non-monetary value within your organization. We improve your security posture keeps confidential, classified, and proprietary business materials out of the hands of competitors. We provide consulting and training to your staff about how to protect internal data from hacking and leaking.", 
-    "src":"digital",
+    "src":"cyber",
     "css" : "c_card__service txt_right"
   }
 

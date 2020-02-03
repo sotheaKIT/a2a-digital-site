@@ -2,33 +2,126 @@
     <header class="c_service__title">
         <h1>Services</h1>
     </header>
-    <div v-for="serviceContent in serviceContents" v-bind:key="serviceContent.id">
-        <div class="l_service__container">
-            <section v-bind:class="serviceContent.css">  
-                <div class="l_article__wrapper l_pc">
-                        <article class="l_card__text">
-                            <h1>{{serviceContent.title}}</h1>
-                            <p>{{serviceContent.cotent}}
-                            </p>
-                            <a href="/servicedetail">Read More 
-                                <img src="@/assets/img/icon/read_more.svg">
-                            </a>
-                        </article>
-                </div> 
-                <div class="l_card__img">
-                    <img :src="loadSrc(serviceContent.src)" >
-                    <!-- <div class="bg_photo" style="background-image: url(https://storage.googleapis.com/chydlx/codepen/blog-cards/image-2.jpg)"></div> -->
-                </div>
-                <div class="l_article__wrapper">
+    <div class="l_service__container">
+        <section class="c_card__service txt_left">
+            <div class="l_article__wrapper l_pc">
+                <article class="l_card__text">
+                    <h1>AI - Machine Vision</h1>
+                    <p>Productive team work happen at the channels-organized spaces
+                        for everything related to a project,topic or team.
+                    </p>
+                    <a href="/servicedetail">Read More 
+                        <img src="../../assets/component/content-card/read_more.svg">
+                    </a>
+                </article>
+            </div>
+            <div class="l_card__img">
+                <!-- <div class="bg_photo" style="background-image: url(https://storage.googleapis.com/chydlx/codepen/blog-cards/image-2.jpg)"></div> -->
+                <img src="../../assets/component/content-card/ai-development.jpg" alt="test img ">
+            </div>
+            <div class="l_article__wrapper">
+                <article class="l_card__text">
+                    <h1>Make the change to channels</h1>
+                    <p>Productive team work happen at the channels-organized spaces
+                        for everything related to a project,topic or team.
+                    </p>
+                    <a href="">Read More 
+                        <img src="../../assets/component/content-card/read_more.svg">
+                    </a>
+                </article>
+            </div> 
+        </section>
+    </div>
+    <div class="l_service__container">
+        <section class="c_card__service txt_right">  
+            <div class="l_article__wrapper l_pc">
                     <article class="l_card__text">
-                        <h1>{{serviceContent.title}}</h1>
-                        <p>{{serviceContent.cotent}}</p>
-                        <a href="/servicedetail">Read More 
-                            <img src="@/assets/img/icon/read_more.svg">
+                        <h1>Block Chain</h1>
+                        <p>Productive team work happen at the channels-organized spaces
+                            for everything related to a project,topic or team.
+                        </p>
+                        <a href="">Read More 
+                            <img src="../../assets/component/content-card/read_more.svg">
                         </a>
                     </article>
-                </div> 
-            </section>
-        </div>
+            </div> 
+            <div class="l_card__img">
+                <img src="../../assets/component/content-card/blockchain.jpg" alt="testphoto">
+                <!-- <div class="bg_photo" style="background-image: url(https://storage.googleapis.com/chydlx/codepen/blog-cards/image-2.jpg)"></div> -->
+            </div>
+            <div class="l_article__wrapper">
+                <article class="l_card__text">
+                    <h1>Make the change to channels</h1>
+                    <p>Productive team work happen at the channels-organized spaces
+                        for everything related to a project,topic or team.
+                    </p>
+                    <a href="">Read More 
+                        <img src="../../assets/component/content-card/read_more.svg">
+                    </a>
+                </article>
+            </div> 
+        </section>
+    </div>
+
+    <div class="l_service__container">
+        <section class="c_card__service txt_left">  
+            <div class="l_article__wrapper l_pc">
+                    <article class="l_card__text">
+                        <h1>Cloud computing</h1>
+                        <p>Productive team work happen at the channels-organized spaces
+                            for everything related to a project,topic or team.
+                        </p>
+                        <a href="">Read More 
+                            <img src="../../assets/component/content-card/read_more.svg">
+                        </a>
+                    </article>
+            </div> 
+            <div class="l_card__img">
+                <img src="../../assets/component/content-card/cloud-computing.jpg" alt="testphoto">
+                <!-- <div class="bg_photo" style="background-image: url(https://storage.googleapis.com/chydlx/codepen/blog-cards/image-2.jpg)"></div> -->
+            </div>
+            <div class="l_article__wrapper">
+                <article class="l_card__text">
+                    <h1>Make the change to channels</h1>
+                    <p>Productive team work happen at the channels-organized spaces
+                        for everything related to a project,topic or team.
+                    </p>
+                    <a href="">Read More 
+                        <img src="../../assets/component/content-card/read_more.svg">
+                    </a>
+                </article>
+            </div> 
+        </section>
+    </div>
+
+    <div class="l_service__container">
+        <section class="c_card__service txt_right">
+            <div class="l_article__wrapper l_pc">
+                <article class="l_card__text">
+                    <h1>Digital Marketing</h1>
+                    <p>Productive team work happen at the channels-organized spaces
+                        for everything related to a project,topic or team.
+                    </p>
+                    <a href="">Read More 
+                        <img src="../../assets/component/content-card/read_more.svg">
+                    </a>
+                </article>
+            </div>
+            <div class="l_card__img">
+                <!-- <div class="bg_photo" style="background-image: url(https://storage.googleapis.com/chydlx/codepen/blog-cards/image-2.jpg)"></div> -->
+                <img src="../../assets/component/content-card/digital-marketing.jpg" alt="test img ">
+            </div>
+            <div class="l_article__wrapper">
+                <article class="l_card__text">
+                    <h1>Make the change to channels</h1>
+                    <p>Productive team work happen at the channels-organized spaces
+                        for everything related to a project,topic or team.
+                    </p>
+                    <a href="">Read More 
+                        <img src="../../assets/component/content-card/read_more.svg">
+                    </a>
+                </article>
+            </div>
+        </section>
     </div>
 </div>
