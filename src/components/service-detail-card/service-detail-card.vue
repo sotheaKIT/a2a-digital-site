@@ -3,6 +3,10 @@
 
 <script>
 export default {
-    name : "ServiceDetailCard",      
+    name : "ServiceDetailCard", 
+    props : {
+    cards : null
+  } 
+   
 }
 </script>
