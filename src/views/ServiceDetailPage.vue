@@ -2,6 +2,7 @@
 <template>
   <div>
       <div v-for="serviceDetailContent in serviceDetailContents" v-bind:key="serviceDetailContent.id">
+      <h1>{{serviceDetailContent['header']}}</h1>
       <ServiceDetailPageComp head="serviceDetailContent['header']" ></ServiceDetailPageComp>
       <ServiceDetailCard></ServiceDetailCard>
       <ServiceTechnologyCard></ServiceTechnologyCard>

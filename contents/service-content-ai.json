@@ -4,13 +4,13 @@
                   "title":"AI Development page",
                   "question" : "What is artificial intelligene ?",
                   "textDecription":"Artificial intelligence (AI) is the simulation of human intelligence processes by machines, especially computer systems. It can be enhanced the customer experience in recognition object, chatbot for chat automation, voice detection with technology, GAN AI (Generative Adversarial Network) and more. With AI Services from A2A Digital solution, you can improve the business and automation the interaction with customers and increase work efficiency for business."
+               },
+               {
+                  "Header":"Our Focus Areas",
+                  "Description":"A2A Digital is an IT solution company growing with cutting edge technology service provider. Among that, we provide artificial Intelligence service, we aim to deliver artificial Intelligence solutions into different business verticals and sectors while enhancing business performance." 
                }
           ],
           "area": [
-            {
-               "Header":"Our Focus Areas",
-               "Description":"A2A Digital is an IT solution company growing with cutting edge technology service provider. Among that, we provide artificial Intelligence service, we aim to deliver artificial Intelligence solutions into different business verticals and sectors while enhancing business performance." 
-            },
             {
                 "OurFocusAreaComponent":[
                     {"Title":"Object Detection",

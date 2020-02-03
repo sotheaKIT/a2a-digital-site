@@ -6,6 +6,9 @@ export default {
   name: 'ServiceDetailPageComp',
   props : {
     header : Array
+  },
+  computed : function() {
+    alert(this.header)
   }
 
 }
