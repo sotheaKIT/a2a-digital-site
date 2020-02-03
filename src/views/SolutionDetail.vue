@@ -5,7 +5,7 @@
             <div class="c_product_detail">
                 <p>Artificial Intelligence became one of the most prevalent topics in 2019.AI is here to stay thanks to its practical applications in many industries and in our daily life. That’s why you should prepare better for our technological future by reading top Artificial Intelligence books.I have divided them into 3 main categories: sociological, philosophical andbusiness-oriented.Artificial Intelligence became one of the most prevalent topics in 2019.AI is here to stay thanks to its practical applications in many industries and in our daily life.</p>
                 <div class="c_product_detail_right">
-                    <img class="ai_img" src="../assets/img/productdetail/ai-uni-main_resize_md.jpg">
+                    <img class="ai_img" src="../assets/component/views/solution-detail/ai-uni-main_resize_md.jpg">
                 </div>
                 <div class="c_product_detail_left">
                     <h3>Why we think about this</h3>
