@@ -74,10 +74,12 @@
   .c_card_detail {
       width: 100%;
   }
-  .c_arrow_left {
+
+  .c_arrow_right{ 
     display: none;
   }
-  .c_arrow_right {
+
+  .c_arrow_left{ 
     display: none;
   }
 }

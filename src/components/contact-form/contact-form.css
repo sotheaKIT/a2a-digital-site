@@ -3,57 +3,66 @@
     height: 759px; */
 
 }
+
 #c_form_left {
+    background-color: #000000b3;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: bottom left;
     float: left;
     width: 48%;
-    /* overflow: hidden; */
-    height: 88vh;
-    padding-top: 80px;
+    height: 100vh;
+    margin-top: -70px;
     background-color: #BDFFF0;
-  }
-  
-  #c_form_right {
+}
+
+#c_form_right {
     /* overflow: hidden; */
     float: right;
     width: 52%;
     height: 759px;
     padding-top: 80px;
 
-  }
-  .c_information {
-      padding-top: 180px;
-      padding-left: 90px;
-      padding-right: 55px;
+}
 
-  }
- #c_form_logo {
-     width: 24px;
-     height: 24px;
-     margin-right: 15px;
- }
+.c_information {
+    padding-top: 180px;
+    padding-left: 90px;
+    padding-right: 55px;
+
+}
+
+#c_form_logo {
+    width: 24px;
+    height: 24px;
+    margin-right: 15px;
+}
+
 .logo {
     margin: 0;
 }
- .c_address {
-     display: flex;
- }
- .c_phone_logo {
-     margin: 0;
- }
- .c_mail_logo {
-     margin: 0;
- }
 
- .infor {
-     padding-left: 34px;
-     padding-right: 46px;
- }
-#c_form_title {
-
-    padding:157px 60px;
-    /* padding-left: calc(10.32% - 50px);
-   padding-right: calc(10.32% - 50px);   */
+.c_address {
+    display: flex;
 }
+
+.c_phone_logo {
+    margin: 0;
+}
+
+.c_mail_logo {
+    margin: 0;
+}
+
+.infor {
+    padding-left: 34px;
+    padding-right: 46px;
+}
+
+#c_form_title {
+    padding: 0 60px;
+}
+
 .c_form h1 {
     font-style: normal;
     font-weight: bold;
@@ -70,24 +79,26 @@
 .c_form_username {
     display: flex;
     flex-direction: column;
-    width: 218px;
+    width: 30%;
     float: left;
     padding-top: 20px;
     color: #BABABA;
     border-bottom: 1px solid #303030;
 
 
-  }
+}
+
 #c_form_username_mail {
     display: flex;
 
 
 }
+
 .c_form_mail {
- 
+
     display: flex;
     flex-direction: column;
-    width: 315px;
+    width: 70%;
     margin-left: 30px;
     padding-top: 20px;
     color: #BABABA;
@@ -95,13 +106,12 @@
     border-bottom: 1px solid #303030;
 
 
-
-  }
+}
 
 .c_form_country {
     display: flex;
     flex-direction: column;
-    width: 563px;
+    width: 100%;
     padding-top: 20px;
     color: #BABABA;
     float: left;
@@ -109,97 +119,106 @@
 
 
 }
+
 .c_form_feedback {
     display: flex;
     flex-direction: column;
-    width: 563px;
+    width: 100%;
     padding-top: 20px;
     color: #BABABA;
-    float: left; 
+    float: left;
     border-bottom: 1px solid #303030;
 }
-  
+
 #input_username {
     padding-top: 23px;
 }
 
 .c_form_sumit {
     padding: 10px 20px;
-  background-color: dodgerblue;
-  border: 1px solid #ddd;
-  color: white;
-  cursor: pointer;
-    
+    background-color: dodgerblue;
+    border: 1px solid #ddd;
+    color: white;
+    cursor: pointer;
+
 }
+
 .submit_btn {
     /* color: black; */
     padding: 20px 20px;
     cursor: pointer;
     font-size: 20px;
-    background:none;
-    border:none;
+    background: none;
+    border: solid 1px;
+    border-radius: 4px;
     width: 100%;
-  }  
+}
+
 #c_input_sumit {
-    width: 563px;
-    border:1px;
-    border-style: solid;
+    width: 100%;
     margin-top: 40px;
     border-radius: 4px;
     float: left;
     cursor: pointer;
 }
 
+.submit_btn:hover {
+    color: #FFFFFF;
+    background-color: rgb(19, 134, 144);
+}
+
 input {
     background-color: transparent;
-    border: 0 ;
+    border: 0;
     outline: 0;
     font-size: 1em;
     padding: 8px 1px;
     margin-top: 0.1em;
-  }
+}
 
 
-  @media only screen and (max-width: 980px) {
-   
+@media only screen and (max-width: 980px) {
+
     #c_form_left {
         /* float: left; */
         /* overflow: hidden; */
         height: unset;
         width: 100%;
-       
-      }
-      .c_info_all { 
-        width: 980px;
+        margin-top: unset;
 
-          height: 335px;
+    }
+
+    .c_info_all {
+        width: 980px;
+        height: 335px;
         background-color: #BDFFF0;
 
-        
+
     }
-      .c_information {
-        padding: 30px 113px;
+
+    .c_information {
+        padding: 30px;
     }
-    
+
     #c_form_right {
         /* overflow: hidden; */
         width: 100%;
         padding-top: 40px;
         padding-left: 90px;
-    
-      }
-      #c_form_title {       
+
+    }
+
+    #c_form_title {
         padding: unset;
     }
-    #c_form_massage
-    {
+
+    #c_form_massage {
         width: 50%;
         margin: 0 auto;
         text-align: center;
     }
-    #c_form_register {
-        padding: 40px 113px;
-    }
 
-  }
-  
+    #c_form_register {
+        padding: 40px;
+    }
+}

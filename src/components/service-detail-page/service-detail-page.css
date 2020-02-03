@@ -2,6 +2,7 @@
     width: 100%;
     display: block;
     /* justify-content: center; */
+    margin-top: 150px;
 }
 .l_service__section__wrapper {
     width: 100%;
@@ -36,21 +37,24 @@
     /* flex-direction: row-reverse; */
 }
 .c_service__section__artical h2{
-    font-family: SFProText-Bold;
     font-style: normal;
     font-weight: bold;
     font-size: 24px;
     line-height: 29px;
     color: #138690;
+    margin: 0;
+    margin-bottom: 20px;
 }
 .c_service__section__artical p{
-    font-family: SFProText-Regular;
     font-style: normal;
     font-weight: normal;
     font-size: 16px;
     line-height: 19px;
-    padding-top: 20px;
+    padding-top: 0;
     color: #303030;
+}
+.c_service__section__artical div.c_service__section__text p{
+    margin: 0;
 }
 .c_service__section__artical img{
     width: 100%;

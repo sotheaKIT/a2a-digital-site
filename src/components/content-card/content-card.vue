@@ -2,6 +2,9 @@
 <template src="./content-card.html"></template>
 
 <script>
+
+
+// Map
 import {mapGetters ,mapActions} from 'vuex'
 
 export default {
@@ -9,7 +12,7 @@ export default {
     computed: {
     ...mapGetters({
       //content server 
-        serviceContent : 'serviceContent/content'
+        serviceContents : 'serviceContent/content'
       }),
     },
 
@@ -21,6 +24,12 @@ export default {
     ...mapActions({
         actionLoadContent : 'serviceContent/load'
     }),
+
+   loadSrc(src) { 
+      return require('@/assets/home/'+src+ '.png')
+    }
+    
+
     }
 
 

@@ -1,50 +1,70 @@
 body, html {
-  margin: 0;
-  padding: 0;
-  height: 100vh;
-  overflow-x: hidden;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    overflow-x: hidden;
 }
 
 #app {
-  font-family:  SFProText-Regular;
-  background-color: #ffffff;
-  color : #303030;
+    font-family: SFProText-Regular;
+    background-color: #ffffff;
+    color: #303030;
 }
 
 a {
-  text-decoration: none;
-}
-
-.l_contrainer {
-  max-width: calc(1600px + 10%);
-  margin: 0 auto;
-  margin-top: 70px;
+    text-decoration: none;
 }
 
 #contact-page {
-   height: 100vh;
-   
+    display: flow-root;
+
+}
+
+ul {
+    list-style: none;
 }
 
 #jobs-page {
-  height: 100vh;
+    height: 100vh;
 }
 
 #services-page {
-  margin-top: 100px;
+    margin-top: 100px;
 }
 
-@media screen and (max-width: 350px) {
-  .l_contrainer {
-    width: 350px;
-  }
+.content {
+    margin-top: 70px;
+}
+
+.l_container {
+    width: 100%;
+    padding: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+@media (min-width: 960px) {
+    .l_container {
+        max-width: 900px;
+    }
+}
+
+@media (min-width: 1264px) {
+    .l_container {
+        max-width: 1185px;
+    }
+}
+
+.l_container_fluid {
+    max-width: 100%;
 }
 
 @font-face {
-  font-family: SFProText-Bold;
-  src: url("../assets/fonts/sf-pro-display-bold-webfont.woff")  format("woff");
+    font-family: SFProText-Bold;
+    src: url("../assets/fonts/sf-pro-display-bold-webfont.woff") format("woff");
 }
+
 @font-face {
-  font-family: SFProText-Regular;
-  src: url("../assets/fonts/sfprotext-regular-webfont.woff")  format("woff");
+    font-family: SFProText-Regular;
+    src: url("../assets/fonts/sfprotext-regular-webfont.woff") format("woff");
 }

@@ -4,6 +4,9 @@
 <script>
 export default {
   name: 'ServiceDetailPageComp',
+  props : {
+    header : Array
+  }
 
 }
 </script>
