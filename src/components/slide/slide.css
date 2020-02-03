@@ -4,19 +4,18 @@
     background-color:  #E8E8EA;
     background-repeat: no-repeat;
     background-size: contain, cover;
-    background-position: top right; 
+    background-position: top right;
     width: 100%;
-    height: 70vh;
-    
 }
 
 .slide .l_contrainer {
-    padding-left: 90px;
+    padding: 120px 90px;
 }
 /* This is the share value of slide feature */
 
 .l_slide_info{
     margin-top: 42px;
+    display: flow-root;
 }
 
 .l_slide_intro h1{
@@ -26,7 +25,6 @@
     font-size: 64px;
     line-height: 76px;
     color: #303030;
-    padding-top: 120px;
     margin : 0px;
 }
 .l_slide_intro p{
@@ -58,7 +56,6 @@
 }
 /* Set value to video tage */
 .l_slide__video{
-
     float: left;
 }
 .c_btn__playvideo{
@@ -83,10 +80,9 @@
     .slide {
         background-image:url("../../assets/components/slide/Background-tablet.png");
       }
-      
+
       .l_slide_intro h1{
         text-align: left;
-        padding-top: 120px;
         font-size : 50px;
       }
 
@@ -174,12 +170,12 @@
 @media screen and (max-width: 600px) {
     .slide {
         background-image:url("../../assets/components/slide/background-mobile.png");
-        background-size: contain, cover;
-        height: 100vh;
+        background-size: cover;
+        background-position: bottom right;
       }
 
     .slide .l_contrainer {
-        padding-left: 30px;
+        padding: 70px 15px;
     }
 
     .l_slide_info{
@@ -190,7 +186,6 @@
         font-style: normal;
         font-weight: bold;
         max-width: 20px;
-        padding-top: 70px;
         font-size: 50px;
         line-height: 60px;
         color: #303030;
@@ -201,7 +196,6 @@
         line-height: 21px;
         color: #303030;
         text-align: left;
-        padding-top: 15px;
         max-width: 300px;
     }
 

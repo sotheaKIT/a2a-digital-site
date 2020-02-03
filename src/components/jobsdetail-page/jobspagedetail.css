@@ -201,7 +201,7 @@
     .b_apply_now {
        display: block;
        margin: 0 auto;
-       width: auto;
+       width: 50%;
     }
     .c_social__icon {
         display: table;
