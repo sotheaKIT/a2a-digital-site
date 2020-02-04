@@ -1,113 +1,72 @@
 [ {
-    "header":[
-       {
-          "title":"PWA Development",
-          "question":"What is PWA?",
-          "description":"Progressive Web Apps are web applications that load in a web browser just like web pages or websites. It gives you a rich mobile experience via native-like functionalities such as the ability to work offline, push notifications, and device hardware accessibility. It feels like a native app and offers the same experience as a native one. there is no requirement for developers or users to install the web apps via digital distribution systems like Apple App Store or Google Play.. It loads, runs, and functions in a web browser.",
-          "imagePath":""
-    }
-   ],
-   "cards":[
+      "header":[
+         {
+            "title":"PWA Development",
+            "question":"What is PWA?",
+            "description":"Progressive Web Apps are web applications that load in a web browser just like web pages or websites. It gives you a rich mobile experience via native-like functionalities such as the ability to work offline, push notifications, and device hardware accessibility. It feels like a native app and offers the same experience as a native one. there is no requirement for developers or users to install the web apps via digital distribution systems like Apple App Store or Google Play.. It loads, runs, and functions in a web browser.",
+            "imagePath":"WhatisPWA.png"
+      }
+     ],
+     "cards":[
+          {
+                 "imageUrl":"PWAFeature.png",
+                 "title":"Our Focus areas"
+         },
+      {
+              "imageUrl":"Reliable.svg",
+              "title":"Reliable",
+              "description":"This kind of web application should provide users with meaningful content regardless of network conditions. Some apps can function completely offline, while others display special placeholder data, informing users that they are offline."
+      },
+      {
+             "imageUrl":"Responsive.svg",
+             "title":"Responsive",
+             "description":"PWAs should adapt to various screen sizes and orientations. A high-quality responsive design will help to ensure that the application will continue to work with new devices in the future."
+      },
+      {
+            "imageUrl":"Engaging.svg",
+            "title":"Engaging",
+            "description":" Usually, native apps are considered to be more engaging than web apps. An icon on the screen makes it easy to get into the application and push notifications can help alert users of important info for them. Progressive Web Applications allow users to get the same benefits with web solutions."
+      },
+      {
+            "imageUrl":"Secure.svg",
+            "title":"Secure",
+            "description":"The PWA is secure by default. The technology that powers PWA requires applications to be served over HTTPS to work."
+      }
+       
+     ],
+     "results":[ {"cardimgurl":"../../assets/component/service-work-result/"},
         {
-               "imageUrl":"ai",
-               "title":"Our Focus areas"
-       },
-    {
-            "imageUrl":"",
-            "title":"Reliable",
-            "description":"This kind of web application should provide users with meaningful content regardless of network conditions. Some apps can function completely offline, while others display special placeholder data, informing users that they are offline."
-    },
-    {
-           "imageUrl":"",
-           "title":"Responsive",
-           "description":"PWAs should adapt to various screen sizes and orientations. A high-quality responsive design will help to ensure that the application will continue to work with new devices in the future."
-    },
-    {
-          "imageUrl":"",
-          "title":"Engaging",
-          "description":" Usually, native apps are considered to be more engaging than web apps. An icon on the screen makes it easy to get into the application and push notifications can help alert users of important info for them. Progressive Web Applications allow users to get the same benefits with web solutions."
-    },
-    {
-          "imageUrl":"",
-          "title":"Secure",
-          "description":"The PWA is secure by default. The technology that powers PWA requires applications to be served over HTTPS to work."
-    }
-     
-   ],
-   "tools":[
-        {
-             "header":"Features of PWAs",
-             "discription":"By definition, PWAs can practically work on every device and browser which means you can save a lot of time and resources when compared to building a native app considering the drawbacks mentioned above."
+              "header":"Work Result"
         },
         {
-            "cards":[
-                {
-                    "header":"Progressive",
-                    "imageUrl":"",
-                    "description":"Works on any browsers"
-              }
-              ,{
-                  "header":"Responsive",
-                  "imageUrl":"",
-                  "description":"The UI adapts to the device screen size"
-            }
-            ,{
-                  "header":"App-like",
-                  "imageUrl":"",
-                  "description":"Looks and feels like an app"
-            }
-            ,{
-                  "header":"Connectivity",
-                  "imageUrl":"",
-                  "description":"Independent: offline access"
-            }
-            ,{
-                 "header":"Downloadable",
-                 "imageUrl":"",
-                 "description":"It can be downloaded onto your phone"
-             }
-             ,{
-                 "header":"Easy updates",
-                 "imageUrl":"",
-                 "description":"The app updates itself once it’s connected to the internet"
-             }
-             ,{
-                 "header":"Safe",
-                 "imageUrl":"",
-                 "description":"It uses HTTPS"
-             }
-             ,{
-                 "header":"browsable",
-                 "imageUrl":"",
-                 "description":"Quick access through web browsers"
-             }
-             ,{
-                 "header":"Re-engageable",
-                 "imageUrl":"",
-                 "description":"Enables push notifications"
-             }
-            ]
+            "imageUrls" : [
+                  {"imageUrl":"PWAresult-01.jpg"},
+                  {"imageUrl":"PWAresult-02.jpg"},
+                  {"imageUrl":"PWAresult-03.jpg"},
+                  {"imageUrl":"PWAresult-04.jpg"}
+               ],
+              "header":"Vkiriom Resort Site PWA",
+              "description":"We have implemented PWA technology with vKirirom Pine Resort website. After launching our very own PWA, we can see enormous growth in our website performance compared to last year. PWA increased company revenue by 230%. Below is a little report of our performance to illustrate we mean Conversion rates increased by 230%, Sessions increased by 583%, Users increased by 673%, Pageviews increased by 564%, Bounce rate increased by 6%."
         }
-   ],
-
-   "business":
-   [
-         {
-               "header":"How a PWA increased our revenue by 230%",
-               "description":"After launching our very own PWA, we can see enormous growth in our website performance compared to last year. Below is a little report of our performance to illustrate we mean:"
-       },
-         {
-               "header":"",
-               "imageUrl":"",
-               "texts":[
-                     {"text":"Conversion rates increased by 230%"},
-                     {"text":"Sessions increased by 583%"},
-                     {"text":"Users increased by 673%"},
-                     {"text":"Pageviews increased by 564%"},
-                     {"text":"Bounce rate increased by 6%"}
-               ]
-         }
+  ],
+     "business":
+     [
+           {
+                 "header":"How a PWA increased our revenue by 230%",
+                 "description":"After launching our very own PWA, we can see enormous growth in our website performance compared to last year. Below is a little report of our performance to illustrate we mean:"
+         },
+           {
+                 "header":"",
+                 "imageUrl":"",
+                 "texts":[
+                       {"text":"Conversion rates increased by 230%"},
+                       {"text":"Sessions increased by 583%"},
+                       {"text":"Users increased by 673%"},
+                       {"text":"Pageviews increased by 564%"},
+                       {"text":"Bounce rate increased by 6%"}
+                 ]
+           }
+     ]
+    }
    ]
-  }
- ]
- 
+   
