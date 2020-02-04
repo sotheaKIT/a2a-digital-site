@@ -4,31 +4,31 @@
           "title":"PWA Development",
           "question":"What is PWA?",
           "description":"Progressive Web Apps are web applications that load in a web browser just like web pages or websites. It gives you a rich mobile experience via native-like functionalities such as the ability to work offline, push notifications, and device hardware accessibility. It feels like a native app and offers the same experience as a native one. there is no requirement for developers or users to install the web apps via digital distribution systems like Apple App Store or Google Play.. It loads, runs, and functions in a web browser.",
-          "imagePath":""
+          "imagePath":"AboutPWA.png"
     }
    ],
    "cards":[
         {
-               "imageUrl":"ai",
+               "imageUrl":"PWAFeature.png",
                "title":"Our Focus areas"
        },
     {
-            "imageUrl":"",
+            "imageUrl":"Reliable.svg",
             "title":"Reliable",
             "description":"This kind of web application should provide users with meaningful content regardless of network conditions. Some apps can function completely offline, while others display special placeholder data, informing users that they are offline."
     },
     {
-           "imageUrl":"",
+           "imageUrl":"Responsive.svg",
            "title":"Responsive",
            "description":"PWAs should adapt to various screen sizes and orientations. A high-quality responsive design will help to ensure that the application will continue to work with new devices in the future."
     },
     {
-          "imageUrl":"",
+          "imageUrl":"Engaging.svg",
           "title":"Engaging",
           "description":" Usually, native apps are considered to be more engaging than web apps. An icon on the screen makes it easy to get into the application and push notifications can help alert users of important info for them. Progressive Web Applications allow users to get the same benefits with web solutions."
     },
     {
-          "imageUrl":"",
+          "imageUrl":"Secure.svg",
           "title":"Secure",
           "description":"The PWA is secure by default. The technology that powers PWA requires applications to be served over HTTPS to work."
     }

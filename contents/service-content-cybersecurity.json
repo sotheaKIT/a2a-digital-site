@@ -4,7 +4,7 @@
           "title":"Cyber Security",
           "question":null,
           "description":"Cyber-security is the practice of defending computers, servers, mobile devices, electronic systems, networks, and data from malicious attacks. It's also known as information technology security or electronic information security.",
-          "imagePath":""
+          "imagePath":"Cyber_main.svg"
     },
     {
           "title":"Importance of Cyber Security",
@@ -49,7 +49,7 @@
    [
          {
                "header":"Cyber Security benefits for Business",
-               "imageUrl":"",
+               "imageUrl":"benefits-01.png",
                "texts":[
                      {"text":"Cyber Security benefits for Business"},
                      {"text":"Increase productivity"},

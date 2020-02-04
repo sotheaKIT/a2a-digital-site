@@ -4,7 +4,7 @@
           "title":"BlockChain",
           "question":null,
           "description":"Blockchain is a distributed ledger, similar to a database but rather than being controlled by a central authority (ie., a firm like Google, small company, or individual) the ledger is dispersed across multiple computers which can be located all over the world and run by anyone with an Internet connection.",
-          "imagePath":""
+          "imagePath":"blockchain-logo-01.svg"
     },
     {
           "title":"Our Focus Areas",
@@ -15,12 +15,12 @@
    ],
    "cards":[
          {
-               "imageUrl":"",
+               "imageUrl":"HyperLedger_Blockchain-01.svg",
                "title":"HyperLedger Blockchain",
                "description":"Hyperledger is a platform for distributed ledger solutions underpinned by a modular architecture delivering high degrees of confidentiality, resiliency, flexibility, and scalability. It is designed to support pluggable implementations of different components and accommodate the complexity and intricacies that exist across the economic ecosystem. Its fabric is a private channel which distributed ledger and smart contract platform allow for smart contract called “chaincode”. Modular architecture provides a lot of flexibility in terms of what you want to use. In Hyperledger there is no cryptocurrency which means we don’t use coin for doing transaction."
        },
        {
-                "imageUrl":"",
+                "imageUrl":"Ethereum-Blockchain-01.svg",
                 "title":"Ethereum Blockchain",
                 "description":"Ethereum is a distributed public block chain network that focuses on running programming code of any decentralized application. More simply, it is a platform for sharing information across the globe that cannot be manipulated or changed. Its advantages are immutable which data written in blockchain cannot be changed or deleted by any third party, and it is censorship-free which means based on a network formed around the principle of consensus. Ethereum is secure, it protects by cryptography and all records are publicly available for anyone to check."
      }
@@ -32,22 +32,22 @@
         }
         ,{
                "header":"Currency",
-               "imageUrl":"",
+               "imageUrl":"money.svg",
                "description":"This is the application where blockchain started off in. Cryptocurrencies like Bitcoin and Ethereum have demonstrated the secure application of decentralized technology as a store and transfer of value. Currently, Cambodia government started blockchain application for Cambodia’s central bank testing digital wallet to ease cross-border payment which named “BAKONG”, launched in July and now accepts users from eight separate Cambodian banks, including ACLEDA Bank."
          }
         ,{
                 "header":"Records",
-                "imageUrl":"",
+                "imageUrl":"record.svg",
                 "description":"To this day, records of ownership, citizenship and other forms of identity are stored in centralized databases to keep them secure. However, this poses a problem of tampering because of the intermediaries involved. Blockchains open up a possibility of decentralized, public immutable and consensus driven ledger of records that may one day invalidate the need for intermediaries"
        }
        ,{
                 "header":"Smart Organizations",
-                "imageUrl":"",
+                "imageUrl":"organization.svg",
                 "description":"Smart organizations are a concept that will be made possible by smart contracts built on top of blockchains. Smart contracts are self-executing programs that are event triggered. An example would be delivery of a good prompting automatic payment through a smart contract. This can be expanded to a scenario where entire organizations are run and administered on the blockchain."
        }
        ,{
                 "header":"Services ",
-                "imageUrl":"",
+                "imageUrl":"service.svg",
                 "description":"Blockchains have the potential to change how services industries ranging from financial institutions to legal establishments work. The mix of blockchains, smart contracts has the potential to enable services transactions to happen seamlessly in a decentralized, secure and fast way. If this is implemented properly, developing countries like Cambodia can leapfrog counter parts in institutional development by automated legal procedures, customs payments, ownership transfers, business transactions and allowing widespread disintermediation across industries."
        }
    ],
@@ -77,7 +77,7 @@
        },
          {
                "header":"Blockchain benefits for Business",
-               "imageUrl":"",
+               "imageUrl":"blockchain-benfit-02.png",
                "texts":[
                      {"text":" Reduce cost"},
                      {"text":"Blockchain offers enhance efficiency"},

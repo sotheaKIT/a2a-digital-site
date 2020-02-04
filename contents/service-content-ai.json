@@ -1,10 +1,10 @@
 [ {
-   "header":[
+   "header":[ 
       {
          "title":"Artificial Intelligence",
          "question":"What is artificial intelligene ?",
          "description":"Artificial intelligence (AI) is the simulation of human intelligence processes by machines, especially computer systems. It can be enhanced the customer experience in recognition object, chatbot for chat automation, voice detection with technology, GAN AI (Generative Adversarial Network) and more. With AI Services from A2A Digital solution, you can improve the business and automation the interaction with customers and increase work efficiency for business.",
-         "imagePath":"../../assets/component/service-detail-page/chip.svg"
+         "imagePath":"chip.svg"
    },
    {
          "title":"Our Focus Areas",
@@ -69,17 +69,29 @@
               "header":""
         },
         {
-              "imageUrl":"license_plate_detection.png",
+            "imageUrls" : [
+                  {"imageUrl":"license_plate_detection.png"},
+                  {"imageUrl":"license_plate_detection(2).png"},
+                  {"imageUrl":"license_plate_detection(3).png"}
+               ],
               "header":"License Plate Recognition",
               "description":"We have developed AI system to detect number plate of vehicles in Surveillance System is a system that can detect and capture vehicles, plate numbers of vehicles, uniquely identify them, count the number of vehicles and store the records of vehicles entering or leaving a location."
         },
         {
-            "imageUrl":"face recognition.gif",
+            "imageUrls" : [
+                  {"imageUrl":"face-recognition.gif"},
+                  {"imageUrl":"face-recognition.png"},
+                  {"imageUrl":"face-recognition-01.png"}
+               ],
             "header":"Face Recognition",
             "description":"This system is being developed in the purpose of “Multi-face detection and attendance checking system for classroom”. We developed using dlib library for detection and opencv library for controlling the camera."
         },
         {
-            "imageUrl":"English.jpg",
+            "imageUrls" : [
+                  {"imageUrl":"English.jpg"},
+                  {"imageUrl":"khmer.jpg"},
+                  {"imageUrl":"language.jpg"}
+               ],
             "header":"Chatbot",
             "description":"Chatbot is a software applications that use artificial intelligence & natural language processing to understand what a human wants, and guides them to their desired outcome with as little work for the end user as possible. Like a virtual assistant for your customer experience touchpoints."
         }
