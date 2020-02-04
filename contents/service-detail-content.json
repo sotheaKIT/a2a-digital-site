@@ -5,7 +5,7 @@
          "textDecription":"Artificial intelligence (AI) is the simulation of human intelligence processes by machines, especially computer systems. It can be enhanced the customer experience in recognition object, chatbot for chat automation, voice detection with technology, GAN AI (Generative Adversarial Network) and more. With AI Services from A2A Digital solution, you can improve the business and automation the interaction with customers and increase work efficiency for business."
       },
       
-      {"ourFocusArea": [
+      {"ourFocusArea": [ {"Url":"../../assets/component/service-detail-card/"},
            {
               "header":"Our Focus Areas",
               "description":"A2A Digital is an IT solution company growing with cutting edge technology service provider. Among that, we provide artificial Intelligence service, we aim to deliver artificial Intelligence solutions into different business verticals and sectors while enhancing business performance." 
@@ -13,27 +13,27 @@
            {
                "OurFocusAreaComponent":[
                    {"title":"Object Detection",
-                    "imageUrl" : "../../assets/component/service-detail-card/target.svg",
+                    "imageUrl" : "target.svg",
                     "text":"Object detection is a common computer vision problem which deals with identifying and locating objects of certain classes in the image. Interpreting the object localization can be done in various ways, including creating a bounding box around the object or marking every pixel in the image which contains the object."
                    },
                    {
                       "title":"Voice Recognition",
-                      "imageUrl" :"../../assets/component/service-detail-card/voice-recognition.svg",
+                      "imageUrl" :"voice-recognition.svg",
                       "text":"Voice Recognition is alternatively referred to as speech recognition, voice recognition is a computer software program or hardware device with the ability to decode the human voice. It is commonly used to operate a device, perform commands, or write without having a keyboard, mouse or press any button."
                    },
                    {
                        "title":"Chatbot Development",
-                       "imageUrl" :"../../assets/component/service-detail-card/chatbot.svg",
+                       "imageUrl" :"chatbot.svg",
                        "text":"Our company aims to be the best chatbot development solution to contribute and help business to bridge the gap with the customer. Our chatbot service provides constant performance to customer queries. It has the expertise to automate the conversation in forms that are simple, reliable and secure with immediate responses."
                     },
                     {
                        "title":"GAN",
-                       "imageUrl" :"../../assets/component/service-detail-card/ai.svg",
+                       "imageUrl" :"ai.svg",
                        "text":" Generative Adversarial Network AI is a two-part AI model consisting of a generator that creates samples and a discriminator that attempts to differentiate between the generated sample and real-world samples. It’s been used to produce problematic content like deepfakes, which is media that takes a person in existing media and replace them with someone else’s likeness. Our company aims to provide the best solution for GAN AI."
                     },
                     {
                        "title":"Predictive Analytics",
-                       "imageUrl" :"../../assets/component/service-detail-card/predictive-chart.svg",
+                       "imageUrl" :"predictive-chart.svg",
                        "text":"This advanced technique encompasses a variety of statistical techniques from data mining to predictive modeling. Our company provides the service and contribute to the business and make the improvement. Using this technology, we help you analyze, design, and search for new possibilities in business while making full use of advanced technologies."
                     }
 
@@ -42,7 +42,7 @@
        ]
     },
       
-    {"toolAndTechnologyAI": [
+    {"toolAndTechnologyAI": [ {"Url":"../../assets/component/service-technology-card/"},
          {
             "header":"Tools and Technologies used for AI Development",
             "description":null 
@@ -50,22 +50,22 @@
          {
              "toolAndTechnologyAIComponent":[
                  {"title":"TensorFlow",
-                  "imageUrl" : "../../assets/component/service-technology-card/tensorflow.svg",
+                  "imageUrl" : "tensorflow.svg",
                   "text":"TensorFlow is an open-source library that was originally developed by researchers and engineers working with google brain team. It has APIs available in several languages both for constructing and executing a TensorFlow graph. It’s a numerical computation, data using TensorFlow developers for data graphs."
                  },
                  {
                     "title":"DialogFlow",
-                    "imageUrl" :"../../assets/component/service-technology-card/dialogflow.svg",
+                    "imageUrl" :"dialogflow.svg",
                     "text":"DialogFLow is a natural language understanding platform that makes it easy to design and integrate a conversational user interface into your mobile app, web application, device, bot, interactive voice response system, and more. Using DialogFlow, you can engaging ways for users to interact with your product."
                  },
                  {
                      "title":"OpenCV",
-                     "imageUrl" :"../../assets/component/service-technology-card/opencv.svg",
+                     "imageUrl" :"opencv.svg",
                      "text":"OpenCV is an open source computer vision and machine learning software library. It was built to provide a common infrastructure for computer vision applications and to accelerate the use of machine perception in the commercial products. It makes it easy for businesses to utilize and modify the code."
                   },
                   {
                      "title":"Dlib",
-                     "imageUrl" :"../../assets/component/service-technology-card/dlib.svg",
+                     "imageUrl" :"dlib.svg",
                      "text":"Dlib is a modern C++ toolkit containing machine learning algorithms and tools for creating complex software i n C++ to solve real world problems. We used python to wrapping on it which to provide python api."
                   }
 
@@ -74,7 +74,7 @@
      ]
   },
       
-  {"workedResults": [
+  {"workedResults": [ {"Url":"../../assets/component/service-work-result/"},
        {
           "header":"Worked Results",
           "description":null 
@@ -82,17 +82,21 @@
        {
            "workedResultsComponent":[
                {"title":"License Plate Recognition",
-                "imageUrl" : "../../assets/component/service-work-result/license_plate_detection.png",
-                "text":"We have developed AI system to detect number plate of vehicles in Surveillance System is a system that can detect and capture vehicles, plate numbers of vehicles, uniquely identify them, count the number of vehicles and store the records of vehicles entering or leaving a location."
+                  "text":"We have developed AI system to detect number plate of vehicles in Surveillance System is a system that can detect and capture vehicles, plate numbers of vehicles, uniquely identify them, count the number of vehicles and store the records of vehicles entering or leaving a location.",
+                "imageUrls" : [
+                   {"imageUrl":"license_plate_detection.png"},
+                   {"imageUrl":""},
+                   {"imageUrl":""}
+                ]                
                },
                {
                   "title":"Face Recognition",
-                  "imageUrl" :"../../assets/component/service-work-result/face recognition.gif",
+                  "imageUrl" :"face recognition.gif",
                   "text":"This system is being developed in the purpose of “Multi-face detection and attendance checking system for classroom”. We developed using dlib library for detection and opencv library for controlling the camera."
                },
                {
                    "title":"Chatbot",
-                   "imageUrl" :"../../assets/component/service-work-result/English.jpg",
+                   "imageUrl" :"English.jpg",
                    "text":"Chatbot is a software applications that use artificial intelligence & natural language processing to understand what a human wants, and guides them to their desired outcome with as little work for the end user as possible. Like a virtual assistant for your customer experience touchpoints."
                 }
 
@@ -112,7 +116,7 @@
 {"AIforBusiness": 
   {
      "header":"AI benefits for Business",
-     "urlImage":" ../../assets/component/service-ai-important/ai-business.png",
+     "urlImage":"../../assets/component/service-ai-important/ai-business.png",
      "description": [
         {"text":"AI helps in increasing work efficiency and reshape business efficiency"},
         {"text":"Artificial Intelligence automates customer interaction by analyzing complete data"},
@@ -125,7 +129,7 @@
 
 }
  ],
- "IOT": [
+ "IOT": [ {"url":"../../assets/component/service-detail-card/IoT/"},
    {   "header":"Internet of Thing (IoT) Development page",
        "textDecription":"Internet of Things is a system of interrelated computing devices, mechanical and digital machines, objects, animals or people that are provided with unique identifiers and the ability to transfer data over a network without requiring human-to-human or human-to-computer interaction. The interconnection via the Internet of computing devices embedded in everyday objects, enabling them to send and receive data. A thing in the internet of things can be a person with a heart monitor implant, a farm animal with biochip transponder, an automobile that has built-in sensors to alert the driver when tire pressure is low or any other natural or man-made object that can be assigned an IP address and is able to transfer data over a network."
     },
@@ -143,12 +147,12 @@
                  },
                  {
                     "title":"Smart Locker",
-                    "imageUrl" :"",
+                    "imageUrl" :"/Smart-Locker/demo_video.mp4",
                     "text":"Smart Locker is a new system that introduces the concept of ‘Digital  Key’ to the business. The system includes the development of hardware and software which is operated on various types of smartphones and computers. The majority components of the system are the physical locker and web application which is integrated together through web-API, and microprocessor."
                  },
                  {
                      "title":"Home Smart Meter",
-                     "imageUrl" :"",
+                     "imageUrl" :"/Home-Smart_Meter/First_demo.mp4",
                      "text":"This is a system makes people easy by checking the value of water and electricity by using the web application. The system will automatically get water and electricity data from sensor and send to the web application so that users can check on the web."
                   }
              ]
