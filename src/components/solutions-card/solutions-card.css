@@ -1,12 +1,12 @@
-.c_service__card__container{
+.c_solution__card__container{
     margin-top: 50px;
     display: flex;
 }
 
-.c_service__card__container div.flex-container{
+.c_solution__card__container div.flex-container{
     margin: 0 90px;
 }
-.c_service__card__container div.flex-item {
+.c_solution__card__container div.flex-item {
     width: 345px;
     height: 500px;
     padding: 32px 0;
@@ -24,11 +24,11 @@
     position: relative;
     margin-left: 15px;
 }
-.c_service__card__container div.flex-item img{
+.c_solution__card__container div.flex-item img{
     width: 100px;
     color: #138690;
 }
-.c_service__card__container div.flex-item h1{
+.c_solution__card__container div.flex-item h1{
     font-style: normal;
     font-weight: bold;
     font-size: 16px;
@@ -36,7 +36,7 @@
     text-align: center;
     color: #138690;
 }
-.c_service__card__container div.flex-item p{
+.c_solution__card__container div.flex-item p{
     font-style: normal;
     font-weight: normal;
     font-size: 16px;
@@ -58,14 +58,14 @@
 }
 
 @media only screen and (max-width: 768px) {
-    .c_service__card__container div.flex-container{
+    .c_solution__card__container div.flex-container{
         padding: 0 20px;
     }
-    .c_service__card__container div.center{
+    .c_solution__card__container div.center{
         padding: 0;
         display: block;
     }
-    .c_service__card__container div.flex-item{
+    .c_solution__card__container div.flex-item{
         width: 100%;
     }
 }
