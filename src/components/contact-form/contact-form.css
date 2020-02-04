@@ -176,6 +176,11 @@ input {
     padding: 8px 1px;
     margin-top: 0.1em;
 }
+#c_map {
+    
+    width: 473px;
+    height: 245px; 
+}
 
 
 @media only screen and (max-width: 980px) {
@@ -222,4 +227,5 @@ input {
     #c_form_register {
         padding: 40px;
     }
+   
 }
