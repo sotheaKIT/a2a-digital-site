@@ -1,33 +1,11 @@
 [
     {
-        "header":
-        {
+       
             "title":"Our Concept",
-            "description":"A2A Digital provides new ways of security services. With our cutting edge services and technologies, we implemented our security solution with modern way of security like our features below such as license plate detection that detect vehicle plate numbers and stores all data to our system. Another one of our featured solutions is Object moving detection which we implemented AI technology to detect the movement at night and alert to the administration of the action and check of the alert message. On the other hand, we implemented VR Monitoring system which simply means using VR to streaming from Camera security."
-        },
-        "feature":[
-            {
-                "title":"Our Feature"
-            },
-            {
-                "cards":[
-                    {
-                        "title":"License plate Detection",
-                        "description":"We have developed AI system to detect number plate of vehicles in Surveillance System is a system that can detect and capture vehicles, plate numbers of vehicles, uniquely identify them, count the number of vehicles and store the records of vehicles entering or leaving a location.",
-                        "imageUrl":""
-                    },
-                    {
-                        "title":"Object Moving Detection",
-                        "description":"Object Moving detection is to recognize the physical movement of an object in a given place or region. By acting segmentation among moving objects and stationary area or region, the moving objects motion could be tracked and thus could be analyzed later. We have implemented Pool Movement Detection at night when someone enters the pool area at night of forbidden period, the camera will detect the movement and alert to the person in charge about the movement and check.",
-                        "imageUrl":""
-                    },
-                    {
-                        "title":"VR Monitoring",
-                        "description":"A2A Digital brings a new and modern solution in security service, VR Monitoring, simply means a Web Application for monitoring all Security Surveillance Camera of vKirirom with Object Detection option to detect any unwanted events or entity.",
-                        "imageUrl":""
-                    }
-                ]
-            }
-        ]
+            "descriptions":[
+                {"description":"Human Resource Management is the process of recruiting, selecting, inducting employees, providing orientation, imparting training and development, appraising the performance of employees, deciding compensation and providing benefits, motivating employees, maintaining proper relations with employees and their trade unions, ensuring employees safety, welfare and healthy measures in compliance with labour laws of the land."},
+                {"description":"Human Resource Management involves management functions like planning, organizing, directing and controlling. It involves procurement, development, maintenance of human resources. It helps to achieve individual, organizational and social objectives. Human Resource Management is a multidisciplinary subject. It includes the study of management, psychology, communication, economics and sociology. It involves team spirit and team work a  continuous process."}
+            ]  
+        
     }
 ]
