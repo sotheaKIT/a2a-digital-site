@@ -142,17 +142,17 @@
          {
              "workedResultsComponent":[
                  {"title":"Smart Lock",
-                  "imageUrl" : "",
+                  "imageUrl" : "Smart-Lock/Smart_lock.png",
                   "text":"Smart Lock is the new modern system for hotel or resort make it easier in Check-in and Check-out process with QR Code as a ‘Digital Key’. The system helps the business more efficient and spent less time."
                  },
                  {
                     "title":"Smart Locker",
-                    "imageUrl" :"/Smart-Locker/demo_video.mp4",
+                    "imageUrl" :"Smart-Locker/demo_video.mp4",
                     "text":"Smart Locker is a new system that introduces the concept of ‘Digital  Key’ to the business. The system includes the development of hardware and software which is operated on various types of smartphones and computers. The majority components of the system are the physical locker and web application which is integrated together through web-API, and microprocessor."
                  },
                  {
                      "title":"Home Smart Meter",
-                     "imageUrl" :"/Home-Smart_Meter/First_demo.mp4",
+                     "imageUrl" :"Home-Smart_Meter/First_demo.mp4",
                      "text":"This is a system makes people easy by checking the value of water and electricity by using the web application. The system will automatically get water and electricity data from sensor and send to the web application so that users can check on the web."
                   }
              ]
@@ -160,7 +160,7 @@
      ]
   },
     
-  {"toolAndTechnologyIoT": [
+  {"toolAndTechnologyIoT": [ {"url":"../../assets/component/service-detail-card/IoT/Technology/"},
        {
           "header":"Tools and Technologies used for IoT Development",
           "description":null 
@@ -168,32 +168,32 @@
        {
            "OurFocusAreaComponent":[
                {"title":"Raspberry Pi",
-                "imageUrl" : "",
+                "imageUrl" : "raspberry-pi-foundation-raspberry-pi-3-raspbian-the-magpi-raspberry-pi.jpg",
                 "text":"The Raspberry Pi is a series of small single-board computers made by the Raspberry Pi Foundation. It is a very cheap computer that runs Linux, but it also providers a set of GPIO (general purpose input/output) pins that allow you to control electronic components for physical computing and explore the Internet of Things (IoT). It operates in the open source ecosystem and its main supported operating system, Raspbian, is open source and runs a suite of open source software."
                },
                {
                   "title":"VueJS",
-                  "imageUrl" :"",
+                  "imageUrl" :"Vuejs.svg",
                   "text":"Vue is a progressive framework for building user interfaces. Unlike other monolithic frameworks, Vue is designed from the ground up to be incrementally adoptable. The core library is focused on the view layer only, and it is easy to pick up and integrate with other libraries or existing project. On the other hand, Vue is also perfectly capable of powering sophisticated Single-Page Applications when used in combination."
                },
                {
                    "title":"Firebase",
-                   "imageUrl" :"",
+                   "imageUrl" :"Firebase.svg",
                    "text":"Firebase is a mobile and web application development platform developed by Firebase, Inc. It gives you functionality like analytics, databases, messaging and crash reporting so you can move quickly and focus on your users. Firebase is built on Google infrastructure and scales automatically, for even the largest apps. Its products work great individually but share data and insights, so they work even better together."
                 },
                 {
                    "title":"Python",
-                   "imageUrl" :"",
+                   "imageUrl" :"Python.svg",
                    "text":"Python is an interpreted, high-level, general-purpose programming language with dynamic semantics. Its high-level built in data structures, combined with dynamic typing and dynamic binding, make it very attractive for Rapid Application Development, as well as for use as a scripting or glue language to connect existing components together. Python is simple, easy to learn syntax emphasizes readability and therefore reduces the cost of program maintenance."
                 },
                 {
                    "title":"Django Framework",
-                   "imageUrl" :"",
+                   "imageUrl" :"Django.svg",
                    "text":"Django is a high-level Python web framework that encourages rapid development and clean, pragmatic design. Built by experienced developers, it takes care of much of the hassle of Web development, so you can focus on writing your app without needing to reinvent the wheel"
                 },
                 {
                    "title":"PostgreSQL",
-                   "imageUrl" :"",
+                   "imageUrl" :"Postgre-sql.svg",
                    "text":"PostgreSQL, also known as Postgres, is a free and open-source relational database management system emphasizing extensibility and technical standards compliance. It is designed to handle a range of workloads, from single machines to data warehouses or Web services with many concurrent users."
                 },
                 {
@@ -203,12 +203,12 @@
                 },
                 {
                    "title":"CT Sensor",
-                   "imageUrl" :"",
+                   "imageUrl" :"CT.svg",
                    "text":"Current transformers (CTs) are sensors that measure alternating current (AC). They are particularly useful for measuring whole building electricity consumption or generation."
                 },
                 {
                    "title":"Water flow sensor",
-                   "imageUrl" :"",
+                   "imageUrl" :"waterflow-sensor-png.png",
                    "text":"Water flow sensor consists of a plastic valve body, a water rotor, and a hall-effect sensor. When water flows through the rotor, rotor rolls. Its speed changes with different rate of flow. The hall-effect sensor outputs the corresponding pulse signal. This one is suitable to detect flow in water dispenser or coffee machine."
                 }
            ]
@@ -226,7 +226,7 @@
 {"IoTBusiness": 
     {
        "header":"IoT benefits for Business",
-       "urlImage":"",
+       "urlImage":"../../assets/component/service-detail-card/IoT/iot-03-01.png",
        "description":[
           {"text":"Reduction of operating costs and maintain competitive advantages"},
           {"text":"Increase business and revenue opportunity"},
@@ -240,7 +240,7 @@
     }
   }
 ],
-"CC": [
+"CC": [ {"url":"../../assets/component/service-detail-card/cloud/"},
    {    "header":"Cloud Computing",
        "textDecription":"Cloud computing is the delivery of computing services including servers, storage, databases, networking, software, analytics, and intelligence over the Internet (“the cloud”) to offer faster innovation, flexible resources, and economies of scale. You typically pay only for cloud services you use, helping lower your operating costs, run your infrastructure more efficiently and scale as your business needs change."
     },
@@ -253,17 +253,17 @@
          {
              "OurFocusAreaComponent":[
                  {"title":"Google Cloud Platform (GCP)",
-                  "imageUrl" : "",
+                  "imageUrl" : "icon/google-cloud-svg",
                   "text":"GCP consists of a computer, hard disk drives and virtual machines (VMs). it gives you options for computing and hosting.You can work in a serverless, use a managed platform, leverage container technologies to gain lots of flexibility,  build your own cloud-based infrastructure to have the most control and flexibility. Our company gives support and service for our client to upgrade their traditional server to GCP cloud."
                  },
                  {
                     "title":"Amazon Web Service (AWS)",
-                    "imageUrl" :"",
+                    "imageUrl" :"icon/amazon.svg",
                     "text":"AWS cloud provides on-demand cloud computing platforms and APIs to individuals, companies, and governments, on a metered pay-as-you-go basis. These cloud computing web services provide a set of primitive abstract technical infrastructure and distributed computing building blocks and tools. With our support, we maintain our client web service and move to AWS service which makes company website more secure and customizable."
                  },
                  {
                      "title":"DigitalOcean",
-                     "imageUrl" :"",
+                     "imageUrl" :"icon/digitalocean.svg",
                      "text":"Digital Ocean is a cloud infrastructure provides developers cloud services that help to deploy and scale application that run simultaneously on multiple computers. It offers an Infrastructure as a Service (IaaS) platform for software developers. It is very popular with open source developers and competes with AWS and GCP. Our service is to migrate client’s server to DigitalOcean Cloud platform and deploy to DigitalOcean’s IaaS environment and also maintain the service."
                   }
              ]
@@ -309,7 +309,7 @@
 {"CCBusiness":
     {
        "header":"Cloud Computing benefits for Business",
-       "urlImage":"",
+       "urlImage":"image/cloud-computing-for-business.png",
        "description": [
           {"text":"Cloud hosting saves your money"},
           {"text":"Instantly scalable resources and pay as you go notification"},
@@ -321,7 +321,7 @@
     }
 }
 ],
-"BlockChain": [
+"BlockChain": [ {"url":"../../assets/component/service-detail-card/Blockchain/"},
    {    "header":"BlockChain",
        "textDecription":"Blockchain is a distributed ledger, similar to a database but rather than being controlled by a central authority (ie., a firm like Google, small company, or individual) the ledger is dispersed across multiple computers which can be located all over the world and run by anyone with an Internet connection."
     },
@@ -334,12 +334,12 @@
          {
              "OurFocusAreaComponent":[
                  {"title":"HyperLedger Blockchain",
-                  "imageUrl" : "",
+                  "imageUrl" : "Focus_area/HyperLedger_Blockchain-01.svg",
                   "text":"Hyperledger is a platform for distributed ledger solutions underpinned by a modular architecture delivering high degrees of confidentiality, resiliency, flexibility, and scalability. It is designed to support pluggable implementations of different components and accommodate the complexity and intricacies that exist across the economic ecosystem. Its fabric is a private channel which distributed ledger and smart contract platform allow for smart contract called “chaincode”. Modular architecture provides a lot of flexibility in terms of what you want to use. In Hyperledger there is no cryptocurrency which means we don’t use coin for doing transaction."
                  },
                  {
                     "title":"Ethereum Blockchain",
-                    "imageUrl" :"",
+                    "imageUrl" :"Focus_area/Ethereum-Blockchain-01.svg",
                     "text":"Ethereum is a distributed public block chain network that focuses on running programming code of any decentralized application. More simply, it is a platform for sharing information across the globe that cannot be manipulated or changed. Its advantages are immutable which data written in blockchain cannot be changed or deleted by any third party, and it is censorship-free which means based on a network formed around the principle of consensus. Ethereum is secure, it protects by cryptography and all records are publicly available for anyone to check."
                  }
              ]
@@ -355,22 +355,22 @@
        {
            "blockChainDevelopCountryComponent":[
                {"title":"Currency",
-                "imageUrl" : "",
+                "imageUrl" : "money.svg",
                 "text":"This is the application where blockchain started off in. Cryptocurrencies like Bitcoin and Ethereum have demonstrated the secure application of decentralized technology as a store and transfer of value. Currently, Cambodia government started blockchain application for Cambodia’s central bank testing digital wallet to ease cross-border payment which named “BAKONG”, launched in July and now accepts users from eight separate Cambodian banks, including ACLEDA Bank."
                },
                {
                   "title":"Records",
-                  "imageUrl" :"",
+                  "imageUrl" :"record.svg",
                   "text":"To this day, records of ownership, citizenship and other forms of identity are stored in centralized databases to keep them secure. However, this poses a problem of tampering because of the intermediaries involved. Blockchains open up a possibility of decentralized, public immutable and consensus driven ledger of records that may one day invalidate the need for intermediaries."
                },
                {
                    "title":"Smart Organizations",
-                   "imageUrl" :"",
+                   "imageUrl" :"organization.svg",
                    "text":"Smart organizations are a concept that will be made possible by smart contracts built on top of blockchains. Smart contracts are self-executing programs that are event triggered. An example would be delivery of a good prompting automatic payment through a smart contract. This can be expanded to a scenario where entire organizations are run and administered on the blockchain."
                 },
                 {
                    "title":"Services",
-                   "imageUrl" :"",
+                   "imageUrl" :"service.svg",
                    "text":"Blockchains have the potential to change how services industries ranging from financial institutions to legal establishments work. The mix of blockchains, smart contracts has the potential to enable services transactions to happen seamlessly in a decentralized, secure and fast way. If this is implemented properly, developing countries like Cambodia can leapfrog counter parts in institutional development by automated legal procedures, customs payments, ownership transfers, business transactions and allowing widespread disintermediation across industries."
                 }
            ]
@@ -386,12 +386,12 @@
      {
          "privatePublicBlockChainComponent":[
              {"title":"Private Blockchain",
-              "imageUrl" : "",
+              "imageUrl" : "private-blockchain.png",
               "text":"In private blockchain networks are invitation-only. New nodes must either be validated by the person or persons who started the network or by a set of rules those people put in place. Private blockchains are best for applications that are internal to a single company."
              },
              {
                 "title":"Public Blockchain",
-                "imageUrl" :"",
+                "imageUrl" :"NEM-Public-Blockchain.png",
                 "text":"In public blockchain, everything is visible. Anyone can read the chain and write new blocks into the chain, provided the follow the rules. Bitcoin is probably the most well-known example of public blockchain"
              }
          ]
@@ -402,7 +402,7 @@
 {"BlockchainBusiness": 
     {
        "header":"Blockchain benefits for Business",
-       "imageUrl":"",
+       "imageUrl":"blockchain-benfit-02.png",
        "description":[
           {"text":"Reduce cost"},
           {"text":"Blockchain offers enhance efficiency"},
@@ -417,7 +417,7 @@
     }
 }
 ],
-"RPA": [
+"RPA": [ {"url":"../../assets/component/service-detail-card/rpa/"},
    {    "header":"RPA Install Support",
        "textDecription":"Robotic Process Automation is the use of automation technology with Artificial Intelligence (AI) and Machine Learning (ML) capabilities to handle and automate repetitive tasks that previously required human efforts. These tasks may involve query handling, calculations, record maintenance, transaction entries, etc.RPA can be applied for the automation of rules-based, repetitive, data-heavy, and high compliance tasks where structured data and clear predefined rules and parameters are used. The solutions are easily and quickly designed, tested and implemented. They are designed to require a relatively low investment or expenditure."
     },
@@ -446,7 +446,7 @@
   {"RPABusiness": [
        {
           "header":"RPA benefits for Business",
-          "urlImage":"",
+          "urlImage":"Rpa_ben-04.png",
           "description":[
              {"text":"Cost saving - lower operation cost"},
              {"text":"Introduce adaptability and flexibility to process"},
@@ -615,7 +615,7 @@
 ]
 }
 ],
-"VR/AR": [
+"VR/AR": [ {"url":"../../assets/component/service-detail-card/VR-AR/"},
    { 
       "header":"VR/AR Development",
        "textDecription":"VR stands for Virtual Reality, it implies a complete immersion experience that shuts out the physical world. Using VR devices such as HTC Vive, Oculus Go/Rift, users can be transported into a number of real-world and imagined environments. AR stands for Augmented Reality, it adds digital elements to a live view often by using the camera on a smartphone. Best example of augmented reality experiences include Snapchat lenses and the game Pokemon Go"
@@ -629,22 +629,22 @@
          {
              "OurFocusAreaComponent":[
                  {"title":"Oculus Go Development",
-                  "imageUrl" : "",
+                  "imageUrl" : "Focus-Area/Oculus-go.svg",
                   "text":"The Oculus Go is a standalone virtual reality headset design for everyone. It doesn’t need to connect to anything. It is the third headset from Oculus, and it’s meant to exist between the phone-powered Samsung Gear VR and PC-powered Oculus Rift. We can develop VR application for Oculus Go by 3 platforms: Native Platform, Unreal Itegration, Unity Itegration"
                  },
                  {
                     "title":"HTC Vive Development",
-                    "imageUrl" :"",
+                    "imageUrl" :"Focus-Area/HTC-vive.svg",
                     "text":"HTC Vive is a virtual reality headset developed by HTC and Valve. The headset uses “room scale” tracking technology, allowing the user to move in 3D spaces and use motion-tracked handheld controllers to interact with the environment. It adjustable straps and interchangeable inserts, front-facing camera, eye relief adjustments and fits most glasses. We can develop VR application with HTC Vive and gaming as well with Unity. The reality game is experiencing incredible drive towards merging technical innovation and creative minds to further the ongoing VR revolution."
                  },
                  {
                      "title":"Hololens Development",
-                     "imageUrl" :"",
+                     "imageUrl" :"Focus-Area/Hololens.svg",
                      "text":"The Hololens is Microsoft’s take on augmented reality, which they call “mixed reality”. Using multiple sensors, advanced optics, and holographic processing that melds seamlessly with its environment, These holograms can be used to display information, blend with the real world, or even simulate a virtual world. The Hololens has a plethora of optical sensors, with two on each side for peripheral “environment understanding” sensing, a main downward facing depth camera to pick up hand motions, and specialized speakers that simulate sound from anywhere in the room. "
                   },
                   {
                      "title":"Mobile AR",
-                     "imageUrl" :"",
+                     "imageUrl" :"Focus-Area/Mobile.svg",
                      "text":"Mobile AR application platform operates on iOS and Android smartphones, tablets and wearable devices to create incredible Augmented Reality experiences straight out of the box. MobileAR is a creative and highly effective education and entertainment tool that adds an extra layer of information – content such as 3D characters, image, video, text, sound and more – to everyday objects and environments. MobileAR can resurrect anyone or anything from any mobile device to create unparalleled educational opportunities in and out of the classroom."
                   }
              ]
@@ -661,12 +661,12 @@
        {
            "workedResultsComponent":[
                {"title":"Architecture WalkThrough",
-                "imageUrl" : "",
+                "imageUrl" : "work-result/Architecture-walkthrough/Media1.mp4",
                 "text":"VR Architecture walkthrough is an application that used for promoting Vkirirom Pine Resort Property in a modern way with the use of VR device and technology. Users can use this application with VR device anywhere, any time to experience the application interface with vKirirom environment."
                },
                {
                   "title":"Golf Course Training with Hololens",
-                  "imageUrl" :"",
+                  "imageUrl" :"work-result/Golf-Course-Training/HoloLens_golf_training.wmv",
                   "text":"Golf Course Training application is a holographic application developed to serve as golf training service for customer who wants to learn to play golf. By using this application user will be able to learn from the beginning without the help of a human instructor. We provide users different ways to interact with the application. Users can use their hand gestures or voice commands to manipulate the application."
                }
            ]
@@ -682,27 +682,27 @@
      {
          "toolsAndTechARVRComponent":[
              {"title":"Unity",
-              "imageUrl" : "",
+              "imageUrl" : "Technology/Unity.svg",
               "text":"Unity is a cross-platform game engine developed by Unity Technologies. It packs a ton of features together and is flexible enough to make almost any game you can imagine. It’s been used to create games like Pokemon Go, Heathstone, Rimworld, Cuphead, and plenty more. While 3D is in the name, unity 3D is also packs tools for 2D game development. We can use C# as scripting API and built-in Visual Studio integration in unity."
              },
              {
                 "title":"C# Programming Language",
-                "imageUrl" :"",
+                "imageUrl" :"Technology/C#.svg",
                 "text":"C# is a strongly typed object-oriented programming language. C# is open source, simple, modern, flexible, and versatile. In this article, let’s learn what C# is, what C# can do, and how C# is different than C++ and other programming languages. Key characteristics of C# language including open source, modern, easy, fast, cross platform, safe, and versatile."
              },
              {
                  "title":"SketchUp",
-                 "imageUrl" :"",
+                 "imageUrl" :"Technology/Sketchup.svg",
                  "text":"Sketchup is 3D modeling software that’s easy to use and has an extensive database of user-created models available for download. You can use it to sketch (or import) models to assist with all kinds of projects—furniture building, video game creation, 3D printing, interior design, and whatever else you can think of."
               },
               {
                  "title":"Blender",
-                 "imageUrl" :"",
+                 "imageUrl" :"Technology/Blender.svg",
                  "text":"Blender is a free open source 3D computer graphics software application for developing animated movies, visual effects, 3D games, and physics simulations. It is written in C, C++, and python, and allows the user to write custom extensions to blender in any of those programming languages. It is available for windows, macOS, and Linux."
               },
               {
                  "title":"SteamVR",
-                 "imageUrl" :"",
+                 "imageUrl" :"Technology/SteamVR.svg",
                  "text":"SteamVR is a runtime included with the Steam client that powers virtual reality experiences. SteamVR is automatically installed when Steam detects a headset connected to a user’s PC. it can also be installed manually. It lets users manage several areas of their VR experience, including room setup and device status and management."
               }
 
@@ -721,7 +721,7 @@
 {"VRARBusiness": 
     {
        "header":"VR/AR benefits for Business",
-       "urlImage":"",
+       "urlImage":"Benefits/Business.jpeg",
        "description":
        [
         {"text":"AR gets more virality"},
@@ -734,7 +734,7 @@
     }
   }
 ],
-"DigitalMarketing": [
+"DigitalMarketing": [ {"url":"../../assets/component/service-detail-card/Digital-marketing/"},
    { 
       "header":"Digital Marketing",
        "textDecription":"Digital marketing encompasses all marketing efforts that use an electronic device or the internet. Business leverage digital channels such as search engines, social media, email, and other websites to connect with current and prospective customers. It is simply means advertising delivered through digital channels."
@@ -748,42 +748,42 @@
          {
              "OurFocusAreaComponent":[
                  {"title":"Web Development",
-                  "imageUrl" : "",
+                  "imageUrl" : "focus_area/data.svg",
                   "text":"Web development is the work involved in developing a web site for the Internet or an intranet. It can range from developing a simple single static page of plain text to complex web-based internet applications, electronic businesses, and social network services. The web development process includes web design, web content development, client-side/server-side scripting and network security configuration, among other tasks."
                  },
                  {
                     "title":"Mobile Development",
-                    "imageUrl" :"",
+                    "imageUrl" :"focus_area/phone.svg",
                     "text":"Mobile application development is the process of creating software applications that run on a mobile device, and a typical mobile application utilizes a network connection to work with remote computing resources. Hence, the mobile development process involves creating installable software bundles (code, binaries, assets, etc.) , implementing backend services such as data access with an API, and testing the application on target devices.There are four major development approaches when building mobile applications Native Mobile Application, Cross-Platform Native Mobile Application, Hybrid Mobile Application, Progressive Web Application"
                  },
                  {
                      "title":"SNS Marketing Support",
-                     "imageUrl" :"",
+                     "imageUrl" :"focus_area/creative.svg",
                      "text":"A social networking service (SNS) is an online vehicle for creating relationships with other people who share an interest, background, or real relationship. Social networking service users create a profile with personal information, photos, etc. and form connections with other profiles. These users then use their connection to grow relationships through sharing, emailing, instant messaging, and commenting. Social networking services may also be referred to as a 'social networking site' or simply 'social media'. We give support to SNS marketing to our clients to improve their business and reach to their targeted customers."
                   },
                   {
                      "title":"SEO/SEM",
-                     "imageUrl" :"",
+                     "imageUrl" :"focus_area/dns.svg",
                      "text":"Search Engine Optimization - SEO is the process of increasing the quality and quantity of website traffic by increasing the visibility of a website or a web page to users of a web search engine. SEO refers to the improvement of unpaid results and excludes direct traffic/visitors and the purchase of paid placement. SEO can get quite complex when it comes to all the different factors that impact your ranking, the basic process is not as difficult to understand. It wants to provide the best service for their users. This means delivering results on the search engine page that are not only high quality but also relevant to what the searcher is looking for."
                   },
                   {
                      "title":"Movie Making",
-                     "imageUrl" :"",
+                     "imageUrl" :"focus_area/film.svg",
                      "text":"We produce quality videos and animation follow scenarios and storyline. Movie making is the concept of making video by brainstorming the problem and create the concept of the video by plotting into the storyboard which detail each scene of the video and starting filming based on the storyboard. After collecting all the videos and making effect and than start editing the video. With our team skilled we ensure the quality content and concept and satisfied our clients."
                   },
                   {
                      "title":"Google Analytics",
-                     "imageUrl" :"",
+                     "imageUrl" :"focus_area/graphic.svg",
                      "text":"Google Analytics is a tool allows you to track websites, blogs, and social networks offered by Google to help you analyze your website traffic. In addition, it puts at your disposal predetermined and customizable reports. It puts several lines of tracking code into the code of your website. The code records various activities of your users when they visit your website, along with the attributes (such as age, gender, interests) of those users. It then sends all that information to the Google Analytics server once the user exits your website."
                   },
                   {
                      "title":"Ad Operation",
-                     "imageUrl" :"",
+                     "imageUrl" :"focus_area/ad.svg",
                      "text":"Ad Operations refers to processes and systems that support the sale and delivery of online advertising. More specifically this is the workflow processes and software systems that are used to sell, input, serve, target and report on the performance of online ads. Ad Operations doesn’t leave the fate of a campaign to chance. After campaign launch, an Ad Ops team closely monitors the ads to ensure they are doing their job: make the website publisher money. A competent Ad Operations team monitors ad traffic continuously. It is an ongoing relationship that is tweaked and adjusted based on data collected by the invisible hands of the Ad Operations department, team, or company."
                   },
                   {
                      "title":"Graphic Design",
-                     "imageUrl" :"",
+                     "imageUrl" :"focus_area/design.svg",
                      "text":"Graphic design is the craft of creating visual content to communicate messages. Applying visual hierarchy and page layout techniques, graphic designers use typography and pictures to meet users’ specific needs and focus on the logic of displaying elements in interactive designs to optimize the user experience. These are all examples of graphic design, the term encompasses a lot; posters, infographics, book covers, product labels, logos, business cards, signs, website layouts, mobile apps, software interfaces."
                   }
              ]
@@ -808,7 +808,7 @@
 {"DigitalMarketingBusiness":
     {
        "header":"Digital Marketing benefits for Business",
-       "urlImage":"",
+       "urlImage":"digital-marketing.png",
        "description":[
           {"text":"Cost-effective to marketing your business"},
           {"text":"Huge return on investment"},
@@ -823,7 +823,7 @@
     }
 }
 ],
-"OdooERP": [
+"OdooERP": [ {"url":"../../assets/component/service-detail-card/ERP/"},
    { 
       "header":"Odoo REP",
        "textDecription":null
