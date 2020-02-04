@@ -4,7 +4,7 @@
          "title":"Artificial Intelligence",
          "question":"What is artificial intelligene ?",
          "description":"Artificial intelligence (AI) is the simulation of human intelligence processes by machines, especially computer systems. It can be enhanced the customer experience in recognition object, chatbot for chat automation, voice detection with technology, GAN AI (Generative Adversarial Network) and more. With AI Services from A2A Digital solution, you can improve the business and automation the interaction with customers and increase work efficiency for business.",
-         "imagePath":""
+         "imagePath":"../../assets/component/service-detail-page/chip.svg"
    },
    {
          "title":"Our Focus Areas",
@@ -13,35 +13,36 @@
          "imagePath":null
    }
   ],
-  "cards":[
+  "cards":[ {"cardimgurl":"../../assets/component/service-detail-card/"},
         {
-              "imageUrl":"ai",
+              "imageUrl":"target.svg",
               "title":"Object Detection",
               "description":"Object detection is a common computer vision problem which deals with identifying and locating objects of certain classes in the image. Interpreting the object localization can be done in various ways, including creating a bounding box around the object or marking every pixel in the image which contains the object."
       },
       {
-            "imageUrl":"",
+            "imageUrl":"voice-recognition.svg",
             "title":"Voice Recognition",
             "description":"Voice Recognition is alternatively referred to as speech recognition, voice recognition is a computer software program or hardware device with the ability to decode the human voice. It is commonly used to operate a device, perform commands, or write without having a keyboard, mouse or press any button."
     },
     {
-          "imageUrl":"",
+          "imageUrl":"ai.svg",
           "title":"Natural Language Processing",
           "description":"Natural Language Processing, usually shortened as NLP, is a branch of artificial intelligence that deals with the interaction between computers and humans using the natural language. The ultimate objective of NLP is to read, decipher, understand, and make sense of the human languages in a manner that is valuable. Most NLP techniques rely on machine learning to derive meaning from human languages."
    },
-   {
-         "imageUrl":"",
+   {     
+         "imageUrl":"ai.svg",
          "title":"GAN",
          "description":" Generative Adversarial Network AI is a two-part AI model consisting of a generator that creates samples and a discriminator that attempts to differentiate between the generated sample and real-world samples. It’s been used to produce problematic content like deepfakes, which is media that takes a person in existing media and replace them with someone else’s likeness. Our company aims to provide the best solution for GAN AI."
    },
    {
-         "imageUrl":"",
+         "imageUrl":"predictive-chart.svg",
          "title":"Predictive Analytics",
          "description":"This advanced technique encompasses a variety of statistical techniques from data mining to predictive modeling. Our company provides the service and contribute to the business and make the improvement. Using this technology, we help you analyze, design, and search for new possibilities in business while making full use of advanced technologies."
    }
     
   ],
   "tools":[
+
         {
             "header":"Tools and Technologies used for AI Development",
             "cards":[
@@ -68,9 +69,11 @@
             ]
         }
         
+
   ],
-  "results":[
+  "results":[ {"cardimgurl":"../../assets/component/service-work-result/"},
         {
+
               "header":"Work Results",
               "cards":[
                   {
@@ -89,18 +92,19 @@
                       "description":"Chatbot is a software applications that use artificial intelligence & natural language processing to understand what a human wants, and guides them to their desired outcome with as little work for the end user as possible. Like a virtual assistant for your customer experience touchpoints."
                   }
               ]
+
         }
         
   ],
-  "business":
-  [
+  "business": [{"cardimgurl":"../../assets/component/service-ai-important"},
+  
         {
               "header":"Why A2A Digital gives the best AI service",
               "description":"A2A Digital provides a handful advanced artificial intelligent software while keeping the quality and security in mind. We aim to reach the highest number of users in Cambodia and provide a more comprehensive user experience. With our skilled team we develop AI service for our clients and ensure the quality of the service."
       },
         {
               "header":"AI benefits for Business",
-              "imageUrl":"",
+              "imageUrl":"ai-business.png",
               "texts":[
                     {"text":"AI helps in increasing work efficiency and reshape business efficiency"},
                     {"text":"Artificial Intelligence automates customer interaction by analyzing complete data"},
