@@ -4,7 +4,7 @@
          "title":"Artificial Intelligence",
          "question":"What is artificial intelligene ?",
          "description":"Artificial intelligence (AI) is the simulation of human intelligence processes by machines, especially computer systems. It can be enhanced the customer experience in recognition object, chatbot for chat automation, voice detection with technology, GAN AI (Generative Adversarial Network) and more. With AI Services from A2A Digital solution, you can improve the business and automation the interaction with customers and increase work efficiency for business.",
-         "imagePath":""
+         "imagePath":"../../assets/service-detail-page/icon/target.svg"
    },
    {
          "title":"Our Focus Areas",
@@ -15,7 +15,7 @@
   ],
   "cards":[
         {
-              "imageUrl":"ai",
+              "imageUrl":"../assets/service-detail-page/icon/target.svg",
               "title":"Object Detection",
               "description":"Object detection is a common computer vision problem which deals with identifying and locating objects of certain classes in the image. Interpreting the object localization can be done in various ways, including creating a bounding box around the object or marking every pixel in the image which contains the object."
       },
