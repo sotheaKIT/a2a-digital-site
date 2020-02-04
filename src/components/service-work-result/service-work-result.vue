@@ -10,6 +10,7 @@ export default {
     swiper,
     swiperSlide
   },
+  
   data() {
       return {
         swiperOption: {
@@ -30,7 +31,10 @@ export default {
           } 
         }
       }
-    }
+    },
+    props : {
+    results : null
+  },
     
  
 
