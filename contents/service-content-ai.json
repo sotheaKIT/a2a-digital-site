@@ -42,47 +42,59 @@
     
   ],
   "tools":[
-        {"header":"Tools and Technologies used for AI Development"}
-        ,{
-              "header":"TensorFlow",
-              "imageUrl":"tensorflow.svg",
-              "description":"TensorFlow is an open-source library that was originally developed by researchers and engineers working with google brain team. It has APIs available in several languages both for constructing and executing a TensorFlow graph. It’s a numerical computation, data using TensorFlow developers for data graphs."
+
+        {
+            "header":"Tools and Technologies used for AI Development",
+            "cards":[
+                  {
+                        "header":"TensorFlow",
+                        "imageUrl":"tensorflow.svg",
+                        "description":"TensorFlow is an open-source library that was originally developed by researchers and engineers working with google brain team. It has APIs available in several languages both for constructing and executing a TensorFlow graph. It’s a numerical computation, data using TensorFlow developers for data graphs."
+                  }
+                  ,{
+                        "header":"DialogFlow",
+                        "imageUrl":"",
+                        "description":"DialogFLow is a natural language understanding platform that makes it easy to design and integrate a conversational user interface into your mobile app, web application, device, bot, interactive voice response system, and more. Using DialogFlow, you can engaging ways for users to interact with your product."
+                  }
+                  ,{
+                        "header":"OpenCV",
+                        "imageUrl":"",
+                        "description":"OpenCV is an open source computer vision and machine learning software library. It was built to provide a common infrastructure for computer vision applications and to accelerate the use of machine perception in the commercial products. It makes it easy for businesses to utilize and modify the code."
+                  }
+                  ,{
+                        "header":"Dlib",
+                        "imageUrl":"",
+                        "description":"Dlib is a modern C++ toolkit containing machine learning algorithms and tools for creating complex software i n C++ to solve real world problems. We used python to wrapping on it which to provide python api."
+                  }
+            ]
         }
-        ,{
-            "header":"DialogFlow",
-            "imageUrl":"dialogflow.svg",
-            "description":"DialogFLow is a natural language understanding platform that makes it easy to design and integrate a conversational user interface into your mobile app, web application, device, bot, interactive voice response system, and more. Using DialogFlow, you can engaging ways for users to interact with your product."
-      }
-      ,{
-            "header":"OpenCV",
-            "imageUrl":"opencv.svg",
-            "description":"OpenCV is an open source computer vision and machine learning software library. It was built to provide a common infrastructure for computer vision applications and to accelerate the use of machine perception in the commercial products. It makes it easy for businesses to utilize and modify the code."
-      }
-      ,{
-            "header":"Dlib",
-            "imageUrl":"dlib.svg",
-            "description":"Dlib is a modern C++ toolkit containing machine learning algorithms and tools for creating complex software i n C++ to solve real world problems. We used python to wrapping on it which to provide python api."
-      }
+        
+
   ],
   "results":[ {"cardimgurl":"../../assets/component/service-work-result/"},
         {
-              "header":""
-        },
-        {
-              "imageUrl":"license_plate_detection.png",
-              "header":"License Plate Recognition",
-              "description":"We have developed AI system to detect number plate of vehicles in Surveillance System is a system that can detect and capture vehicles, plate numbers of vehicles, uniquely identify them, count the number of vehicles and store the records of vehicles entering or leaving a location."
-        },
-        {
-            "imageUrl":"face recognition.gif",
-            "header":"Face Recognition",
-            "description":"This system is being developed in the purpose of “Multi-face detection and attendance checking system for classroom”. We developed using dlib library for detection and opencv library for controlling the camera."
-        },
-        {
-            "imageUrl":"English.jpg",
-            "header":"Chatbot",
-            "description":"Chatbot is a software applications that use artificial intelligence & natural language processing to understand what a human wants, and guides them to their desired outcome with as little work for the end user as possible. Like a virtual assistant for your customer experience touchpoints."
+
+              "header":"Work Results",
+              "cards":[
+                  {
+                        "imageUrl":"",
+                        "header":"License Plate Recognition",
+                        "description":"We have developed AI system to detect number plate of vehicles in Surveillance System is a system that can detect and capture vehicles, plate numbers of vehicles, uniquely identify them, count the number of vehicles and store the records of vehicles entering or leaving a location."
+                  },
+                  {
+                      "imageUrl":"",
+                      "header":"Face Recognition",
+                      "description":"This system is being developed in the purpose of “Multi-face detection and attendance checking system for classroom”. We developed using dlib library for detection and opencv library for controlling the camera."
+                  },
+                  {
+                      "imageUrl":"",
+                      "header":"Chatbot",
+                      "description":"Chatbot is a software applications that use artificial intelligence & natural language processing to understand what a human wants, and guides them to their desired outcome with as little work for the end user as possible. Like a virtual assistant for your customer experience touchpoints."
+                  }
+              ]
+
         }
+        
   ],
   "business": [{"cardimgurl":"../../assets/component/service-ai-important"},
   
