@@ -1,0 +1,28 @@
+[
+    {
+        "card":[
+            {
+                "title":"Our Projct Manager",
+                "imageUrl":"",
+                "readMore":
+                    {
+                        "title":"Read Bio",
+                        "link":"",
+                        "iconUrl":""
+                    }
+                
+            },
+            {
+                "title":"Our Project Adviser",
+                "imageUrl":"",
+                "readMore":
+                    {
+                        "title":"Read Bio",
+                        "link":"",
+                        "iconUrl":""
+                    }
+                
+            }
+        ]
+    }
+]
