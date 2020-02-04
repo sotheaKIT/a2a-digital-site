@@ -1,12 +1,5 @@
-#c_form {
-    /* width: 100%;
-    height: 759px; */
-
-}
-
 #c_form_left {
-    background-image: url("../../assets/components/contact/clay-banks.png");
-    background-color: #000000b3;
+    color: #FFFFFF;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: bottom left;
@@ -14,7 +7,8 @@
     width: 48%;
     height: 100vh;
     margin-top: -70px;
-    background-color: #BDFFF0;
+    opacity: 0.9;
+    background-image: url(../../assets/component/contact-form/ce2119628556c4b51e118d287fad05c8.jpeg);
 }
 
 #c_form_right {
@@ -42,9 +36,17 @@
 .logo {
     margin: 0;
 }
+.c_address_add {
+    display: flex;  
+}
+.infor_add {
+    margin-bottom: 40px;
+    padding-left: 37px;
 
+}
 .c_address {
     display: flex;
+    margin-top: 40px;
 }
 
 .c_phone_logo {
@@ -54,9 +56,17 @@
 .c_mail_logo {
     margin: 0;
 }
+.map {
+    
+    width: 100%;
+    height: 245px; 
+}
+.c_map {
+    padding-right: 35px;
 
+}
 .infor {
-    padding-left: 34px;
+    padding-left: 37px;
     padding-right: 46px;
 }
 
@@ -85,18 +95,13 @@
     padding-top: 20px;
     color: #BABABA;
     border-bottom: 1px solid #303030;
-
-
 }
 
 #c_form_username_mail {
     display: flex;
-
-
 }
 
 .c_form_mail {
-
     display: flex;
     flex-direction: column;
     width: 70%;
@@ -105,8 +110,6 @@
     color: #BABABA;
     float: left;
     border-bottom: 1px solid #303030;
-
-
 }
 
 .c_form_country {
@@ -117,8 +120,6 @@
     color: #BABABA;
     float: left;
     border-bottom: 1px solid #303030;
-
-
 }
 
 .c_form_feedback {
@@ -176,11 +177,7 @@ input {
     padding: 8px 1px;
     margin-top: 0.1em;
 }
-#c_map {
-    
-    width: 473px;
-    height: 245px; 
-}
+
 
 
 @media only screen and (max-width: 980px) {
@@ -198,12 +195,13 @@ input {
         width: 980px;
         height: 335px;
         background-color: #BDFFF0;
-
-
     }
 
     .c_information {
-        padding: 30px;
+        padding: 30px 110px;
+    }
+    .c_map {
+        padding: unset
     }
 
     #c_form_right {
@@ -211,7 +209,6 @@ input {
         width: 100%;
         padding-top: 40px;
         padding-left: 90px;
-
     }
 
     #c_form_title {
@@ -228,4 +225,37 @@ input {
         padding: 40px;
     }
    
+}
+
+@media only screen and (max-width: 415px) {
+    .c_information {
+        padding:unset;
+    }
+    .infor_add {
+        padding-left: 53px;  
+    }  
+    .infor {
+        padding-left: 53px;    
+
+    }
+    .c_address_add {
+        padding: 10px 20px;
+    }
+    .c_address {
+        padding: 10px 20px;
+
+    }
+    .c_form_username {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        float: left;
+        padding-top: 20px;
+        color: #BABABA;
+        border-bottom: 1px solid #303030;
+    }
+    
+    #c_form_username_mail {
+        display: flex;
+    }
 }
