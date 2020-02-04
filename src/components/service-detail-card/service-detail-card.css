@@ -20,6 +20,7 @@
   .c_service__card__container div.flex-container {
     display: -webkit-flex;
     display: flex;
+    flex-wrap: wrap;
     padding-left: calc((100% - 1186px )/2);
   }
   
