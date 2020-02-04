@@ -29,27 +29,32 @@
         {
              "header":"Important of Blockchain for developing countries",
              "discribtion":"Due to the intensely connected nature of the world today, blockchain as a technology has the potential to have far reaching impacts in a relatively short amount of time. This means developing countries like Cambodia may reap the benefits of the technology faster since blockchains are a form of decentralized, distributed immutable and transparent ledger, they have the potential to disrupt industries throughout the economy even in emerging markets. Some examples of such applications:"
+        },
+        {
+            "cards":[
+                {
+                    "header":"Currency",
+                    "imageUrl":"money.svg",
+                    "description":"This is the application where blockchain started off in. Cryptocurrencies like Bitcoin and Ethereum have demonstrated the secure application of decentralized technology as a store and transfer of value. Currently, Cambodia government started blockchain application for Cambodia’s central bank testing digital wallet to ease cross-border payment which named “BAKONG”, launched in July and now accepts users from eight separate Cambodian banks, including ACLEDA Bank."
+              }
+             ,{
+                     "header":"Records",
+                     "imageUrl":"record.svg",
+                     "description":"To this day, records of ownership, citizenship and other forms of identity are stored in centralized databases to keep them secure. However, this poses a problem of tampering because of the intermediaries involved. Blockchains open up a possibility of decentralized, public immutable and consensus driven ledger of records that may one day invalidate the need for intermediaries"
+            }
+            ,{
+                     "header":"Smart Organizations",
+                     "imageUrl":"organization.svg",
+                     "description":"Smart organizations are a concept that will be made possible by smart contracts built on top of blockchains. Smart contracts are self-executing programs that are event triggered. An example would be delivery of a good prompting automatic payment through a smart contract. This can be expanded to a scenario where entire organizations are run and administered on the blockchain."
+            }
+            ,{
+                     "header":"Services ",
+                     "imageUrl":"service.svg",
+                     "description":"Blockchains have the potential to change how services industries ranging from financial institutions to legal establishments work. The mix of blockchains, smart contracts has the potential to enable services transactions to happen seamlessly in a decentralized, secure and fast way. If this is implemented properly, developing countries like Cambodia can leapfrog counter parts in institutional development by automated legal procedures, customs payments, ownership transfers, business transactions and allowing widespread disintermediation across industries."
+            }
+            ]
         }
-        ,{
-               "header":"Currency",
-               "imageUrl":"money.svg",
-               "description":"This is the application where blockchain started off in. Cryptocurrencies like Bitcoin and Ethereum have demonstrated the secure application of decentralized technology as a store and transfer of value. Currently, Cambodia government started blockchain application for Cambodia’s central bank testing digital wallet to ease cross-border payment which named “BAKONG”, launched in July and now accepts users from eight separate Cambodian banks, including ACLEDA Bank."
-         }
-        ,{
-                "header":"Records",
-                "imageUrl":"record.svg",
-                "description":"To this day, records of ownership, citizenship and other forms of identity are stored in centralized databases to keep them secure. However, this poses a problem of tampering because of the intermediaries involved. Blockchains open up a possibility of decentralized, public immutable and consensus driven ledger of records that may one day invalidate the need for intermediaries"
-       }
-       ,{
-                "header":"Smart Organizations",
-                "imageUrl":"organization.svg",
-                "description":"Smart organizations are a concept that will be made possible by smart contracts built on top of blockchains. Smart contracts are self-executing programs that are event triggered. An example would be delivery of a good prompting automatic payment through a smart contract. This can be expanded to a scenario where entire organizations are run and administered on the blockchain."
-       }
-       ,{
-                "header":"Services ",
-                "imageUrl":"service.svg",
-                "description":"Blockchains have the potential to change how services industries ranging from financial institutions to legal establishments work. The mix of blockchains, smart contracts has the potential to enable services transactions to happen seamlessly in a decentralized, secure and fast way. If this is implemented properly, developing countries like Cambodia can leapfrog counter parts in institutional development by automated legal procedures, customs payments, ownership transfers, business transactions and allowing widespread disintermediation across industries."
-       }
+        
    ],
 
    "compare":[
