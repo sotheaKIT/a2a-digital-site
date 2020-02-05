@@ -4,5 +4,8 @@
 <script>
 export default {
   name: 'ServiceAIImportant',
+  props : {
+    aiimportant : null
+  },
 }
 </script>

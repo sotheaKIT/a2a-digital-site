@@ -5,8 +5,8 @@
       <ServiceDetailPageComp v-bind:header="serviceDetailContent['header']" ></ServiceDetailPageComp>
       <ServiceDetailCard :cards="serviceDetailContent['cards']"></ServiceDetailCard>
       <ServiceTechnologyCard :tools = "serviceDetailContent['tools']"></ServiceTechnologyCard>
-      <ServiceWorkResult></ServiceWorkResult>
-      <ServiceAIImportant></ServiceAIImportant>
+      <ServiceWorkResult :results = "serviceDetailContent['results']"></ServiceWorkResult>
+      <ServiceAIImportant :aiimportant = "serviceDetailContent['results']"></ServiceAIImportant>
       <ServiceContactForm></ServiceContactForm>
       </div>
   </div>
