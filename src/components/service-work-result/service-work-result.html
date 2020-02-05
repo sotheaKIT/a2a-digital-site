@@ -1,4 +1,20 @@
 <div class="c_service_work_card">
+    <header class="c_service__section__header">
+        <h1> Worked Result</h1>
+    </header>
+    <div class="flex-container">
+        <div class="center">
+            <div class="flex-item">
+                <div class="c_img__card">
+                    <swiper :options="swiperOption">
+                        <swiper-slide><div class="c_img__container"><img src="../../assets/component/service-work-result/license_plate_detection.png" alt=""></div></swiper-slide>
+                        <swiper-slide><div class="c_img__container"><img src="../../assets/component/service-work-result/license_plate_detection(2).png" alt=""></div></swiper-slide>
+                        <swiper-slide><div class="c_img__container"><img src="../../assets/component/service-work-result/license_plate_detection(3).png" alt=""></div></swiper-slide>
+                        <div class="swiper-pagination" slot="pagination"></div>
+                        <!-- <div class="swiper-button-prev" slot="button-prev"></div>
+                        <div class="swiper-button-next" slot="button-next"></div> -->
+                    </swiper>
+                </div>
     <div class="work__result__wrapper" >
         <header class="c_service__section__header">
             <h1> {{results[0]['header']}}</h1>
@@ -21,6 +37,7 @@
                         <p>{{resultCard['description']}}</p>
                     </div>
                 </div>
+
             </div>   
                  
         </div>

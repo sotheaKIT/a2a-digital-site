@@ -60,7 +60,7 @@ export default new Router({
     {
       path: '/servicedetail/:service',
       name: 'servicedetail',
-      component: ServiceDetailPage
+      component: ServiceDetailPage,
     },
 
     {

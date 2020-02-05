@@ -1,13 +1,6 @@
 <style src="../styles/service-detail.css" scope></style>
 <template>
     <div class="l_service__detail__container">
-       <div class="c_jobspage_detail l_padding__left">
-        <div class="c_jobspage_title">
-            <a>Job Opening</a>
-            <img id="c_icon" src="../assets/component/service-detail-page/arrow_right.svg">
-            <a id="c_text">Front-end Developer</a>
-        </div>
-    </div>
       <div v-for="serviceDetailContent in serviceDetailContents" v-bind:key="serviceDetailContent.id">
       <ServiceDetailCard :cards="serviceDetailContent['cards']"></ServiceDetailCard>
       <ServiceDetailPageComp v-bind:header="serviceDetailContent['header']" ></ServiceDetailPageComp>
