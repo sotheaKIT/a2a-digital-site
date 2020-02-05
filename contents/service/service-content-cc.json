@@ -16,17 +16,17 @@
      ],
      "cards":[
            {
-                 "imageUrl":"",
+                 "imageUrl":"google-cloud-svg",
                  "title":"Google Cloud Platform (GCP",
                  "description":"GCP consists of a computer, hard disk drives and virtual machines (VMs). it gives you options for computing and hosting.You can work in a serverless, use a managed platform, leverage container technologies to gain lots of flexibility,  build your own cloud-based infrastructure to have the most control and flexibility. Our company gives support and service for our client to upgrade their traditional server to GCP cloud."
                  },
          {
-               "imageUrl":"",
+               "imageUrl":"amazon.svg",
                "title":"Amazon Web Service (AWS)",
                "description":"AWS cloud provides on-demand cloud computing platforms and APIs to individuals, companies, and governments, on a metered pay-as-you-go basis. These cloud computing web services provide a set of primitive abstract technical infrastructure and distributed computing building blocks and tools. With our support, we maintain our client web service and move to AWS service which makes company website more secure and customizable."
                },
        {
-             "imageUrl":"",
+             "imageUrl":"digitalocean.svg",
              "title":"DigitalOcean",
              "description":"Digital Ocean is a cloud infrastructure provides developers cloud services that help to deploy and scale application that run simultaneously on multiple computers. It offers an Infrastructure as a Service (IaaS) platform for software developers. It is very popular with open source developers and competes with AWS and GCP. Our service is to migrate client’s server to DigitalOcean Cloud platform and deploy to DigitalOcean’s IaaS environment and also maintain the service."
         }
@@ -72,7 +72,7 @@
             },
            {
                  "header":"Cloud Computing benefits for Business",
-                 "imageUrl":"",
+                 "imageUrl":"cloud-computing-for-business.png",
                  "texts":[
                        {"text":"Cloud hosting saves your money"},
                        {"text":"Instantly scalable resources and pay as you go notification"},

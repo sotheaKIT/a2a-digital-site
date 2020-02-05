@@ -7,32 +7,32 @@
             {
                 "name":"Oy Chanphallin",
                 "position":"Designer",
-                "imageUrl":""
+                "imageUrl":"OyChanphallin.jpeg"
             },
             {
-                "name":"SOthy Bunthoeurn",
+                "name":"Sothy Bunthoeurn",
                 "position":"Designer",
                 "imageUrl":""
             },
             {
                 "name":"Yan Chakreya",
                 "position":"Designer",
-                "imageUrl":""
+                "imageUrl":"YanChakreya.jpg"
             },
             {
                 "name":"Pan Sreypich",
                 "position":"Designer",
-                "imageUrl":""
+                "imageUrl":"pich"
             },
             {
                 "name":"Sok Kakvey",
                 "position":"Designer",
-                "imageUrl":""
+                "imageUrl":"kakvey.jpg"
             },
             {
                 "name":"Pen Serey Otdom",
                 "position":"Developer",
-                "imageUrl":""
+                "imageUrl":"otdom.jpeg"
             },
             {
                 "name":"Soem Samrach",
@@ -42,17 +42,17 @@
             {
                 "name":"Thorn Methany",
                 "position":"Developer",
-                "imageUrl":""
+                "imageUrl":"metheany.png"
             },
             {
                 "name":"Sub Tam",
                 "position":"Developer",
-                "imageUrl":""
+                "imageUrl":"SubTam.png"
             },
             {
                 "name":"Sadeth Kimheng",
                 "position":"Developer",
-                "imageUrl":""
+                "imageUrl":"KimhengSadeth.jpg"
             },
             {
                 "name":"Seaklim  Lay",
@@ -62,7 +62,7 @@
             {
                 "name":"Sokream Pan",
                 "position":"Enterprise Consultant",
-                "imageUrl":""
+                "imageUrl":"PhanSokream.jpeg"
             }
             
         ]

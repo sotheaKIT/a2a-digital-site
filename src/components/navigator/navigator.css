@@ -48,6 +48,7 @@
 .c_dropdown {
     display: inline;
     padding-top: 10px;
+
 }
 
 .c_navigate_right + .c_navigate_right {
@@ -112,6 +113,9 @@
 }
 
 .dropbtn {
+    height: 25px;
+    padding: 0px 10px;
+    border-radius: 4px;
     font-size: 16px;
     border: none;
     cursor: pointer;
@@ -129,10 +133,10 @@
     display: none;
     position: absolute;
     opacity: 0.9;
-    min-width: 590px;
+    min-width: 1000px;
     box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
-    left: -200%;
-    top: 24px;
+    left: -600%;
+    top: 26px;
     background-color: #ffffff;
 
 }
@@ -150,6 +154,17 @@
     background-color: black;
 }
 
+.dropdown:hover .svg_dropdown {
+    fill: #A40505;
+}
+
+.svg_dropdown {
+    fill: #ffffff;
+}
+.dropdown-content a:hover {
+    color: #A40505;
+    border-left: #A40505 solid 2px;
+}
 /* Show the dropdown menu on hover */
 .dropdown:hover .dropdown-content {
     display: inline-block;
@@ -158,16 +173,23 @@
 /* Change the background color of the dropdown button when the dropdown content is shown */
 .dropdown:hover .dropbtn {
     background-color: white;
+    color: #A40505;
 }
-
-.drp2 {
-    width: 50%;
-    float: right;
-}
-
 .drp1 {
     display: inline-flex;
+    width: 30%;
 }
+.drp2 {
+    width: 30%;
+    float: left;
+}
+.drp3 {
+    width: 30%;
+    float: left;
+}
+
+
+
 
 .bm_tree_toggle {
     font-size: 18px;
