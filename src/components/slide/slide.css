@@ -2,48 +2,52 @@
 .slide {
     background-image: url("../../assets/component/slide/background-desktop.png") ;
     background-color:  #E8E8EA;
+    height: 100vh;
+    background-size: cover;
     background-repeat: no-repeat;
-    background-size: contain, cover;
-    background-position: top right;
-    width: 100%;
 }
 
+
 .slide .l_contrainer {
-    padding: 120px 90px;
+    margin: 0 auto;
+    width: 100vh;
+    position: absolute;
+    top: 30vh;
+    text-align: center;
 }
 /* This is the share value of slide feature */
 
 .l_slide_info{
-    margin-top: 42px;
-    display: flow-root;
+    margin-left: 35%;
 }
 
 .l_slide_intro h1{
     font-family:SFProText-Bold;
     font-style: normal;
     font-weight: bold;
-    font-size: 64px;
-    line-height: 76px;
-    color: #303030;
+    font-size: 50px;
+    color: #FFFFFF;
     margin : 0px;
 }
 .l_slide_intro p{
     font-style: normal;
     font-weight: normal;
-    font-size: 16px;
-    line-height: 19px;
-    color: #303030;
-    padding-top: 16px;
+    font-size: 25px;
+    line-height: 30px;
+    color: #FFFFFF;
+    margin-block-start: 0;
+    margin-block-end: 0;
+    padding-top: 20px;
 }
 /* Set value to contact button tage */
 .c_slide__contactbtn{
-
     float: left;
-    width: 212px;
-    height: 50px;
-    border: 2px solid #138690;
+    width: 250px;
+    height: 47px;
+    background-color:#A40505 ;
     box-sizing: border-box;
-    border-radius: 4px;
+    border-radius: 3px;
+    margin-top: 35px;
 }
 .c_slide__contactbtn p{
     font-style: normal;
@@ -51,8 +55,9 @@
     font-weight: 500;
     font-size: 16px;
     line-height: 19px;
-    color: #138690;
+    color: #FFFFFF;
     margin-top: 12px;
+    text-transform: uppercase;
 }
 /* Set value to video tage */
 .l_slide__video{
@@ -75,145 +80,55 @@
     color: #138690;
 } 
 
-
-@media screen and (max-width:768px) {
-    .slide {
-        background-image:url("../../assets/component/slide/Background-tablet.png");
-      }
-
-      .l_slide_intro h1{
-        text-align: left;
-        font-size : 50px;
-      }
-
-      .slide .l_contrainer {
-        padding-left: 30px;
-    }
-    .slide .l_slide_info {
-        width: 212px;
-    }
-
-    .l_slide__video {
-        padding-top: 24px;
-    }
-    
-}
-
-.lightbox {
-	/** Default lightbox to hidden */
-	display: none;
-	/** Position and style */
-	position: fixed;
-	z-index: 999;
-	width: 100%;
-	height: 100vh;
-	text-align: center;
-	top: 0;
-    left: 0;
-	background: rgba(0,0,0,0.8);
-}
-.lightbox:target {
-	/** Remove default browser outline */
-	outline: none;
-
-	/** Unhide lightbox **/
-	display: block;
-}
-
-/** videoModal **/
-#videoModal {
-  padding : 70px 10px 10px 10px;
-  margin-left: auto;
-  margin-right: auto;
-  border-radius: 0;
-  max-width: 870px;
-  margin:auto;
-}
-#videoModal .modal-header {
-    background:transparent;
-    border: 0;
-    color: #fff;
-    position: relative;
-    height:35px; 
-    font-size: 18px;
-    line-height: 22px;
-    font-family:Arial, Helvetica, sans-serif;
-    padding:5px;
-}
-  #videoModal .modal-body {
-    height: 489px;
-    padding: 0;
-    max-height: none;
-    overflow: hidden; 
-}
-.modal-body iframe{
-    margin-left: auto;
-    margin-right: auto;
-    width: 100%;
-    height: 100%;
-}
-  #videoModal .modal-footer:empty {
-    display: none !important; 
-}
-  #videoModal .close {
-    color: #fff;
-    font-size: 20px;
-    margin: 0;
-    position: absolute;
-    right: -10px;
-    width: 38px;
-}
-
-
-
-
-@media screen and (max-width: 600px) {
-    .slide {
-        background-image:url("../../assets/component/slide/background-mobile.png");
-        background-size: contain, cover;
-        height: 100vh;
-      }
-
-    .slide .l_contrainer {
-        padding: 70px 15px;
-    }
-
+@media only screen and (max-width: 980px) {
     .l_slide_info{
-        padding-left: 0px;
-
+        margin-left: 22%;
     }
-    .l_slide_intro h1{
-        font-style: normal;
-        font-weight: bold;
-        max-width: 20px;
-        font-size: 50px;
-        line-height: 60px;
-        color: #303030;
+
+    .l_slide_intro h1 {
+        font-size: 35px;
     }
 
     .l_slide_intro p{
         font-size: 18px;
         line-height: 21px;
-        color: #303030;
-        text-align: left;
-        max-width: 300px;
+    }
+}
+
+
+@media only screen and (max-width: 685px) {
+    .l_slide_info{
+        margin-left: 10%;
     }
 
-    .c_slide__contactbtn{
-        float: none;
-        margin-top: 30px;
-        margin-left: auto;
-        margin-right: auto;
-        min-width: 250px;
+    .l_slide_intro h1 {
+        font-size: 35px;
+        line-height: 42px;
     }
-    /* .l_slide__video{
-        position: absolute;
-        float: none;
-        top: 446px;
-        left: 17%;
-    } */
-    .l_slide__video i{
-        padding-left: 9px;
+
+    .l_slide_intro p{
+        font-size: 18px;
+        line-height: 21px;
+     }
+
+     .slide .l_contrainer {
+        top: 20%;
     }
-    
-  }
+
+}
+
+@media only screen and (max-width: 375px) {
+    .slide { 
+        width: 375px;
+    }
+
+    .l_slide_intro h1 {
+        font-size: 25px;
+        line-height: 30px;
+    }
+
+    .slide .l_contrainer {
+        top: 20%;
+    }
+
+}
