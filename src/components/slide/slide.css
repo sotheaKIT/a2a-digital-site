@@ -3,16 +3,18 @@
     background-image: url("../../assets/component/slide/background-desktop.png") ;
     background-color:  #E8E8EA;
     height: 100vh;
+    position: relative;
     background-size: cover;
     background-repeat: no-repeat;
+ 
 }
 
 
 .slide .l_contrainer {
     margin: 0 auto;
-    width: 100vh;
-    position: absolute;
-    top: 30vh;
+    width: 50%;
+    position: relative;
+    top: 30%;
     text-align: center;
 }
 /* This is the share value of slide feature */
@@ -82,7 +84,7 @@
 
 @media only screen and (max-width: 980px) {
     .l_slide_info{
-        margin-left: 22%;
+        margin-left: 20%;
     }
 
     .l_slide_intro h1 {
@@ -98,7 +100,7 @@
 
 @media only screen and (max-width: 685px) {
     .l_slide_info{
-        margin-left: 10%;
+        margin-left: 15%;
     }
 
     .l_slide_intro h1 {
