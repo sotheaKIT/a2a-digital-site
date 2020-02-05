@@ -18,7 +18,10 @@
                 color_click_serivce: '',
                 color_click_product: '',
                 rotate_click_service: '',
-                rotate_click_product: ''
+                rotate_click_product: '',
+                navigationActivate : "inactive",
+                activeColor : null,
+                activeShadow : null
             };
         },
         props: {
@@ -66,7 +69,30 @@
 
         },
         methods: {
+            handleScroll: function () {
+                 if (this.$router.currentRoute.name === "home") {
+                    if (window.scrollY > 980) {
+                        this.navigationActivate = "inactive"
+                        this.activeColor = "white"
+                        this.activeShadow = "0px 4px 10px rgba(0, 0, 0, 0.1)"
+                    } else {
+                        this.navigationActivate = "active"
+                        this.activeColor = "none"
+                        this.activeShadow = "none"
+                    }
+                } 
 
+                else {
+                    if (window.scrollY > 50) { 
+                        this.activeColor = "white"
+                        this.activeShadow = "0px 4px 10px rgba(0, 0, 0, 0.1)"
+                    } else {
+                         this.activeShadow = "none"
+                    }
+                    
+                     
+                }
+            },
             openMenu() {
                 this.$emit('openMenu');
                 this.isSideBarOpen = true;
@@ -145,10 +171,17 @@
         mounted() {
             if (!this.disableEsc) {
                 document.addEventListener('keyup', this.closeMenuOnEsc);
+            } else { 
+                this.activeColor = "white"
             }
         },
         created: function () {
             document.addEventListener('click', this.documentClick);
+            if (this.$router.currentRoute.name === "home") {
+                this.navigationActivate = "active"
+            } else {
+                this.activeColor = "white"
+            }
         },
         destroyed: function () {
             document.removeEventListener('keyup', this.closeMenuOnEsc);

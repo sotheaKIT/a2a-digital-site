@@ -1,44 +1,47 @@
 [ {
-      "header":[ 
+      "header":[      
          {
             "title":"Artificial Intelligence",
             "question":"What is artificial intelligene ?",
             "description":"Artificial intelligence (AI) is the simulation of human intelligence processes by machines, especially computer systems. It can be enhanced the customer experience in recognition object, chatbot for chat automation, voice detection with technology, GAN AI (Generative Adversarial Network) and more. With AI Services from A2A Digital solution, you can improve the business and automation the interaction with customers and increase work efficiency for business.",
             "imagePath":"chip.svg"
-      },
-      {
-            "title":"Our Focus Areas",
-            "question":null,
-            "description":"A2A Digital is an IT solution company growing with cutting edge technology service provider. Among that, we provide artificial Intelligence service, we aim to deliver artificial Intelligence solutions into different business verticals and sectors while enhancing business performance.",
-            "imagePath":null
-      }
-     ],
-     "cards":[ {"cardimgurl":"../../assets/component/service-detail-card/"},
-           {
-                 "imageUrl":"target.svg",
-                 "title":"Object Detection",
-                 "description":"Object detection is a common computer vision problem which deals with identifying and locating objects of certain classes in the image. Interpreting the object localization can be done in various ways, including creating a bounding box around the object or marking every pixel in the image which contains the object."
-         },
-         {
-               "imageUrl":"voice-recognition.svg",
-               "title":"Voice Recognition",
-               "description":"Voice Recognition is alternatively referred to as speech recognition, voice recognition is a computer software program or hardware device with the ability to decode the human voice. It is commonly used to operate a device, perform commands, or write without having a keyboard, mouse or press any button."
-       },
-       {
-             "imageUrl":"ai.svg",
-             "title":"Natural Language Processing",
-             "description":"Natural Language Processing, usually shortened as NLP, is a branch of artificial intelligence that deals with the interaction between computers and humans using the natural language. The ultimate objective of NLP is to read, decipher, understand, and make sense of the human languages in a manner that is valuable. Most NLP techniques rely on machine learning to derive meaning from human languages."
-      },
-      {     
-            "imageUrl":"ai.svg",
-            "title":"GAN",
-            "description":" Generative Adversarial Network AI is a two-part AI model consisting of a generator that creates samples and a discriminator that attempts to differentiate between the generated sample and real-world samples. It’s been used to produce problematic content like deepfakes, which is media that takes a person in existing media and replace them with someone else’s likeness. Our company aims to provide the best solution for GAN AI."
-      },
-      {
-            "imageUrl":"predictive-chart.svg",
-            "title":"Predictive Analytics",
-            "description":"This advanced technique encompasses a variety of statistical techniques from data mining to predictive modeling. Our company provides the service and contribute to the business and make the improvement. Using this technology, we help you analyze, design, and search for new possibilities in business while making full use of advanced technologies."
-      }
+       }
+      ],
+     "cards":[ 
+      
+            {
+                  "header":"Our Focus Areas",
+                  "description":"A2A Digital is an IT solution company growing with cutting edge technology service provider. Among that, we provide artificial Intelligence service, we aim to deliver artificial Intelligence solutions into different business verticals and sectors while enhancing business performance."
+            },
+            {
+                  "component":[
+                        {       "cardimgurl":"../../assets/component/service-detail-card/",
+                              "imageUrl":"target.svg",
+                              "title":"Object Detection",
+                              "description":"Object detection is a common computer vision problem which deals with identifying and locating objects of certain classes in the image. Interpreting the object localization can be done in various ways, including creating a bounding box around the object or marking every pixel in the image which contains the object."
+                      },
+                      {
+                            "imageUrl":"voice-recognition.svg",
+                            "title":"Voice Recognition",
+                            "description":"Voice Recognition is alternatively referred to as speech recognition, voice recognition is a computer software program or hardware device with the ability to decode the human voice. It is commonly used to operate a device, perform commands, or write without having a keyboard, mouse or press any button."
+                    },
+                    {
+                          "imageUrl":"ai.svg",
+                          "title":"Natural Language Processing",
+                          "description":"Natural Language Processing, usually shortened as NLP, is a branch of artificial intelligence that deals with the interaction between computers and humans using the natural language. The ultimate objective of NLP is to read, decipher, understand, and make sense of the human languages in a manner that is valuable. Most NLP techniques rely on machine learning to derive meaning from human languages."
+                   },
+                   {     
+                         "imageUrl":"ai.svg",
+                         "title":"GAN",
+                         "description":" Generative Adversarial Network AI is a two-part AI model consisting of a generator that creates samples and a discriminator that attempts to differentiate between the generated sample and real-world samples. It’s been used to produce problematic content like deepfakes, which is media that takes a person in existing media and replace them with someone else’s likeness. Our company aims to provide the best solution for GAN AI."
+                   },
+                   {
+                         "imageUrl":"predictive-chart.svg",
+                         "title":"Predictive Analytics",
+                         "description":"This advanced technique encompasses a variety of statistical techniques from data mining to predictive modeling. Our company provides the service and contribute to the business and make the improvement. Using this technology, we help you analyze, design, and search for new possibilities in business while making full use of advanced technologies."
+                   }
+                  ]
+            }
        
      ],
      "tools":[
@@ -69,9 +72,11 @@
            }
       
      ],
-     "results":[ {"cardimgurl":"../../assets/component/service-work-result/"},
+     "results":[
+            
            {
-                 "header":"Worked Results"
+                 "header":"Worked Results",
+                 "cardimgurl":"../../assets/component/service-work-result/"
            },
            {
                  "cards":[
@@ -106,7 +111,8 @@
            }
 
      ],
-     "business": [{"cardimgurl":"../../assets/component/service-ai-important"},
+     "business": [
+           {"cardimgurl":"../../assets/component/service-ai-important"},
      
            {
                  "header":"Why A2A Digital gives the best AI service",

@@ -1,3 +1,5 @@
+/* default  (Navigation) */
+
 #navigation {
     position:fixed;
     top: 0;
@@ -5,15 +7,12 @@
     display: block;
     -webkit-transition: top 0.3s;
     transition: top 0.3s;
-    /* -webkit-box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
-    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1); */
+    margin: auto;
     z-index: 999;
 }
 
 #nav {
     /* box-shadow: 0 10px 20px rgba(0,0,0,0.1), 0 6px 6px rgba(0,0,0,0); */
-    padding-left: 90px;
-    padding-right: 90px;
     height: 70px;
 }
 
@@ -31,11 +30,13 @@
     height: 25px;
     float: left;
     padding-top: 22px;
+    padding-left: 90px ;
 }
 
 #nav_right {
     float: right;
     padding-top: 22px;
+    padding-right: 10%;
 }
 
 .c_search {
@@ -48,6 +49,7 @@
 .c_dropdown {
     display: inline;
     padding-top: 10px;
+
 }
 
 .c_navigate_right + .c_navigate_right {
@@ -112,6 +114,9 @@
 }
 
 .dropbtn {
+    height: 25px;
+    padding: 0px 10px;
+    border-radius: 4px;
     font-size: 16px;
     border: none;
     cursor: pointer;
@@ -129,10 +134,10 @@
     display: none;
     position: absolute;
     opacity: 0.9;
-    min-width: 590px;
+    min-width: 850px;
     box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
-    left: -200%;
-    top: 24px;
+    left: -300%;
+    top: 26px;
     background-color: #ffffff;
 
 }
@@ -150,6 +155,17 @@
     background-color: black;
 }
 
+.dropdown:hover .svg_dropdown {
+    fill: #A40505;
+}
+
+.svg_dropdown {
+    fill: #ffffff;
+}
+.dropdown-content a:hover {
+    color: #A40505;
+    border-left: #A40505 solid 2px;
+}
 /* Show the dropdown menu on hover */
 .dropdown:hover .dropdown-content {
     display: inline-block;
@@ -158,16 +174,23 @@
 /* Change the background color of the dropdown button when the dropdown content is shown */
 .dropdown:hover .dropbtn {
     background-color: white;
+    color: #A40505;
 }
-
-.drp2 {
-    width: 50%;
-    float: right;
-}
-
 .drp1 {
     display: inline-flex;
+    width: 30%;
 }
+.drp2 {
+    width: 30%;
+    float: left;
+}
+.drp3 {
+    width: 30%;
+    float: left;
+}
+
+
+
 
 .bm_tree_toggle {
     font-size: 18px;
@@ -190,42 +213,51 @@
 
 .bm_tree__content {
     display: none;
-}
-
-.bm_tree__product {
+  }
+  .bm_tree__product {
     display: none;
     width: 100%;
     float: left;
-    padding: 20px;
-
-}
-
-.bm_tree__service {
+    padding:20px;
+  
+  }
+  .bm_tree__service {
     display: none;
     width: 100%;
     float: left;
-    padding: 10px;
-}
-
-.bm_tree_submenu {
+    padding:10px;
+  }
+  
+  .bm_tree_submenu {
     padding-top: 12px;
     text-decoration: none;
+   color: #138690;
+   font-size: 16px;
+   font-family: SFProText-regular;
+  
+   
+  }
+  .bm_tree_submenu a {
+   color: #138690;
 
-
-}
-
-.bm_tree_servic_content {
+  }
+  .bm_tree_servic_content {
     text-decoration: none;
     color: #138690;
     font-size: 16px;
     font-family: SFProText-Regular;
-}
-
-.bm_primary_scroller {
- }
- .bm_ul {
-   margin: unset;
- }
+  }
+  .bm_primary_scroller {
+     font-size: 18px;
+     padding: 13px 30px;
+     font-family: SFProText-Bold;
+     color: #138690;
+   
+  }
+  .bm_ul {
+      padding: unset;
+    margin: unset;
+  }
  
  
    #slide_content {
@@ -242,16 +274,12 @@
    margin: 20px 30px;
  }
  #sideNav_logo {
-   padding-left: 30px;
    height: 60px;
    border-bottom: 1px solid #BDFFF0;
  }
  
- 
- #service_vector {
-   /* float: right; */
- }
- #vector {
+
+#vector {
    float: right;
  }
  
@@ -268,36 +296,15 @@
      /* left: 36px; */
      /* top: 36px; */
      cursor: pointer;
-   }
+ }
+ .c_logo { 
+     padding-left: 30px;
+ }
  
  }
- @media only screen and (min-width: 980px) {
  
-     .bm-burger-button {
-         display: none;
-     }
- 
- }
-
- @media only screen and (max-width: 980px) {
- 
-  #nav {
-    /* box-shadow: 0 10px 20px rgba(0,0,0,0.1), 0 6px 6px rgba(0,0,0,0); */
-    padding-right: 30px; 
-  }
-
-}
-
- @media only screen and (max-width: 768px) {
- 
-  #nav {
-    /* box-shadow: 0 10px 20px rgba(0,0,0,0.1), 0 6px 6px rgba(0,0,0,0); */
-    padding-left: 30px;
-    padding-right: 30px; 
-  }
 
 
-}
 @media only screen and (max-width: 375px) {
     .bm_primary_scroller {
         font-size: 18px;
@@ -305,6 +312,10 @@
         font-family: SFProText-Bold;
         color: #138690;
 
+    }
+
+    .c_logo { 
+        padding-left: 15px;
     }
 }
 
@@ -333,11 +344,6 @@
     padding-left: 15px;
     height: 60px;
     border-bottom: 1px solid #BDFFF0;
-}
-
-
-#service_vector {
-    /* float: right; */
 }
 
 #vector {
@@ -379,4 +385,6 @@
         color: #138690;
 
     }
+
 }
+

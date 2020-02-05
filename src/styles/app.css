@@ -2,6 +2,7 @@ body, html {
     margin: 0;
     padding: 0;
     height: 100vh;
+    overflow-inline: hidden;
 }
 
 
@@ -20,6 +21,7 @@ a {
 
 #contact-page {
     display: flow-root;
+    padding-top: 5%;
 
 }
 

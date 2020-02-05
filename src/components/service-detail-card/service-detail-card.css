@@ -4,6 +4,15 @@
     -moz-box-sizing: border-box;
     box-sizing: border-box;  
   }
+
+  /* ------------------------service card detail header ----------------------------- */
+.l_service__section__wrapper {
+    width: 100%;
+    display: block;
+}
+.l_service__section__wrapper header{
+    text-align: center;
+}
   
   /* html, body {
     margin: 0;
@@ -22,6 +31,7 @@
     flex-wrap: wrap;
     max-width: 1186px;
     margin: 0 auto;
+    margin-top: 50px;
   }
   
   .c_service__card__container div.flex-item {
