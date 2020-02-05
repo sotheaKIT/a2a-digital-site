@@ -2,13 +2,16 @@ body, html {
     margin: 0;
     padding: 0;
     height: 100vh;
-    overflow-x: hidden;
 }
+
+
+
 
 #app {
     font-family: SFProText-Regular;
     background-color: #ffffff;
     color: #303030;
+    width: 100%;
 }
 
 a {
@@ -32,9 +35,6 @@ ul {
     margin-top: 100px;
 }
 
-.content {
-    margin-top: 70px;
-}
 
 .l_container {
     width: 100%;
@@ -42,6 +42,7 @@ ul {
     margin-right: auto;
     margin-left: auto;
 }
+
 
 @media (min-width: 960px) {
     .l_container {

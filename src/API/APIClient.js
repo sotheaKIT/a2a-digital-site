@@ -3,8 +3,6 @@ function loadAPI(endPoint){
   return json
 }
 
-
-
 export default {
   loadAPI
 }
