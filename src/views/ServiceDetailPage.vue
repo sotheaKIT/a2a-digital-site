@@ -6,7 +6,7 @@
       <ServiceDetailCard :cards="serviceDetailContent['cards']"></ServiceDetailCard>
       <ServiceTechnologyCard :tools = "serviceDetailContent['tools']"></ServiceTechnologyCard>
       <ServiceWorkResult :results = "serviceDetailContent['results']"></ServiceWorkResult>
-      <ServiceAIImportant :aiimportant = "serviceDetailContent['results']"></ServiceAIImportant>
+      <ServiceAIImportant :business = "serviceDetailContent['business']"></ServiceAIImportant>
       <ServiceContactForm></ServiceContactForm>
       </div>
   </div>
@@ -34,7 +34,7 @@ export default {
   data : function () {
     return {
       service:String,
-      type : "service-content-"
+      type : "service/service-content-"
     }
   },
   computed: {
@@ -54,7 +54,7 @@ export default {
     }),
   },
   created() {
-    this.service =  this.type + this.$route.params.service;
+    this.service =this.type + this.$route.params.service;
   },
 }
 </script>

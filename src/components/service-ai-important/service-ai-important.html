@@ -3,29 +3,29 @@
         <div class="c_ai__description__container">
             <article class="l_ai_description__wrapper">
                 <header class="l_description__header">
+<<<<<<< HEAD
+                    <h1>{{business[1]['header']}}</h1>
+=======
                     <h1>{{}}Why A2A Digital gives the best AI service?</h1>
+>>>>>>> master
                 </header>
                 <p>
-                    2A Digital provides a handful advanced artificial intelligent software while keeping the quality and security in mind. We aim to reach the highest number of users and provide a more comprehensive user experience. With our skilled team we develop AI service for our clients and ensure the quality of the service.
-                </p>
+                    {{business[1]['description']}}
+               </p>
             </article>
         </div>
         <div class="c_ai__important__point__container">
             <header class="l_ai__important__header">
-                <h1>AI benefits for Business</h1>
+                <h1>{{business[2]['header']}}</h1>
             </header>
             <article class="l_ai__impartant__wrapper">
                 <div class="l_important__img">
                     <img src="../../assets/component/service-ai-important/ai-business.png" alt="">
                 </div>
                 <div class="l_why__ai">
-                    <ul>
-                        <li>AI helps in increasing work efficiency and reshape business efficiency </li>
-                        <li>Artificial Intelligence automates customer interaction by analyzing complete data</li>
-                        <li>Get real-time assistance using AI and communicate with millions of customers</li>
-                        <li>Artificial intelligence is used for data mining and to discover relevant data</li>
-                        <li>Increase productivity by stopping repetitive tasks using AI</li>
-                        <li>Improve security system with the help of AI Technology</li>
+                    <ul v-for = "businessList in business[2]['texts']">
+                        <li>{{businessList['text']}} </li>
+                        
                     </ul>
                 </div>
             </article>

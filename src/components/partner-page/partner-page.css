@@ -1,6 +1,8 @@
 .l_partnerPage {
   margin-bottom: 80px;
   margin-top: 80px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .l_partnerPage .l_head h1 {
@@ -18,7 +20,7 @@
 
 .l_groupPartners {
   display: flex;
-  margin-left: calc((100% - 986px)/2);;
+ 
   
 }
 
@@ -30,7 +32,7 @@
 
 .l_groupPartners > img {
   height: 70px;
-  padding-right: 15%;
+  padding-left: 15%;
   padding-top: 30px;
 }
 
@@ -44,9 +46,10 @@
   .l_groupPartners {
     margin-left: 40px;
   }
+
 }
 
-@media screen and (max-width:600px) { 
+@media screen and (max-width:680px) { 
   .l_groupPartners {
     display: block;
     margin-left: 40%;

@@ -5,7 +5,7 @@
 export default {
   name: 'ServiceAIImportant',
   props : {
-    aiimportant : null
+    business : null
   },
 }
 </script>
