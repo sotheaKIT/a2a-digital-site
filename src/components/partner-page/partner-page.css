@@ -1,6 +1,8 @@
 .l_partnerPage {
   margin-bottom: 80px;
   margin-top: 80px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .l_partnerPage .l_head h1 {
@@ -35,6 +37,7 @@
   .l_groupPartners {
     margin-left: 40px;
   }
+
 }
 
 @media screen and (max-width:600px) {

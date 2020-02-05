@@ -1,12 +1,20 @@
 <style src="../styles/service-detail.css" scope></style>
 <template>
-  <div>
+    <div class="l_service__detail__container">
+       <div class="c_jobspage_detail l_padding__left">
+        <div class="c_jobspage_title">
+            <a>Job Opening</a>
+            <img id="c_icon" src="../assets/component/service-detail-page/arrow_right.svg">
+            <a id="c_text">Front-end Developer</a>
+        </div>
+    </div>
       <div v-for="serviceDetailContent in serviceDetailContents" v-bind:key="serviceDetailContent.id">
-      <ServiceDetailPageComp v-bind:header="serviceDetailContent['header']" ></ServiceDetailPageComp>
       <ServiceDetailCard :cards="serviceDetailContent['cards']"></ServiceDetailCard>
+      <ServiceDetailPageComp v-bind:header="serviceDetailContent['header']" ></ServiceDetailPageComp>
+      
       <ServiceTechnologyCard :tools = "serviceDetailContent['tools']"></ServiceTechnologyCard>
       <ServiceWorkResult :results = "serviceDetailContent['results']"></ServiceWorkResult>
-      <ServiceAIImportant :aiimportant = "serviceDetailContent['results']"></ServiceAIImportant>
+      <ServiceAIImportant :business = "serviceDetailContent['business']"></ServiceAIImportant>
       <ServiceContactForm></ServiceContactForm>
       </div>
   </div>
@@ -34,7 +42,7 @@ export default {
   data : function () {
     return {
       service:String,
-      type : "service-content-"
+      type : "service/service-content-"
     }
   },
   computed: {
@@ -54,7 +62,7 @@ export default {
     }),
   },
   created() {
-    this.service =  this.type + this.$route.params.service;
+    this.service =this.type + this.$route.params.service;
   },
 }
 </script>
