@@ -2,15 +2,9 @@
     width: 100%;
     display: block;
     /* justify-content: center; */
-    margin-top: 150px;
+    margin-top: 50px;
 }
-.l_service__section__wrapper {
-    width: 100%;
-    display: block;
-}
-.l_service__section__wrapper header{
-    text-align: center;
-}
+
 /* ------------------------------------------format ------------------------------- */
 .c_service__section__header h1,.c_section__wrapper h1{
     margin: 0px;
@@ -71,6 +65,7 @@
 .c_section__wrapper.focus{
     background-color: white;
     margin: 0px 0;
+    width: 100%;
 }
 .focus div.c_service__section__text {
     float: none;

@@ -5,7 +5,7 @@ export const ServiceStore = {
   namespaced: true,
   state: {
     content : null,
-    endPoint : "service-content"
+    endPoint : "home/service-content"
 
   },
   mutations: {
