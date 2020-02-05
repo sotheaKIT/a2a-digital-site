@@ -30,14 +30,14 @@
     margin-bottom: 19px;
 }
 .l_card__team{
-    width: 281px;
+    /* width: 100%; */
     position: relative;
     box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.25);
     border-radius: 4px;
     float: left;
-    margin: 7.75px;
+    margin: 4px;
 }
-.l_card__team:hover{
+/* .l_card__team:hover{
     box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.25);
 }
 .l_card__team:hover a{
@@ -46,7 +46,7 @@
 }
 .l_card__team:hover a svg{
     fill : white;
-}
+} */
 .l_card__team .c_team__card__caption{
     padding-left: 30px;
     padding-right: 30px;
@@ -86,11 +86,11 @@
     .c_team_title h1 {
         font-size: 32px;
     }
-    
+/*     
     .l_card__team{
         width: 46%;
         margin: 2%;
-    }
+    } */
     .l_card__team .c_team__card__caption{
         padding-left: 15px;
         padding-right: 15px;

@@ -3,11 +3,10 @@
   <div>
       <div v-for="serviceDetailContent in serviceDetailContents" v-bind:key="serviceDetailContent.id">
       <ServiceDetailPageComp v-bind:header="serviceDetailContent['header']" ></ServiceDetailPageComp>
-      <h1>{{serviceDetailContent['header']}}</h1>
       <ServiceDetailCard :cards="serviceDetailContent['cards']"></ServiceDetailCard>
       <ServiceTechnologyCard :tools = "serviceDetailContent['tools']"></ServiceTechnologyCard>
-      <ServiceWorkResult></ServiceWorkResult>
-      <ServiceAIImportant></ServiceAIImportant>
+      <ServiceWorkResult :results = "serviceDetailContent['results']"></ServiceWorkResult>
+      <ServiceAIImportant :business = "serviceDetailContent['business']"></ServiceAIImportant>
       <ServiceContactForm></ServiceContactForm>
       </div>
   </div>
@@ -55,7 +54,7 @@ export default {
     }),
   },
   created() {
-    this.service =   this.$route.params.service;
+    this.service =this.type + this.$route.params.service;
   },
 }
 </script>

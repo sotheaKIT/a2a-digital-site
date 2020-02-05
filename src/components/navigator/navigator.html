@@ -1,55 +1,58 @@
-<div id ="navigation">
-  <div id="nav">
-    <div id="nav_logo">
-        <a href="/"><img alt="Vue logo" class= "c_logo" src="../../assets/logo_A2A.svg"></a>
+<div id ="navigation">  
+  <div id="nav"> 
+    <div id="nav_logo">  
+        <a href="/"><img alt="Vue logo" class= "c_logo" src="../../assets/component/navigator/logo_A2A.svg"></a>
     </div>
     <div id="nav_right">
         <div id="nav_only_button">
           <div class="dropdown" id="nav_button">
             <a class="dropbtn c_navigate_right">Services
               <svg class="c_dropdown" width="14" height="9" viewBox="0 0 14 9" fill="none" xmlns="http://www.w3.org/2000/svg">
-              <path d="M11.873 0L6.73 5.143L1.587 0L0 1.587L6.73 8.317L13.46 1.587L11.873 0Z" fill="#138690"/></svg>
+              <path d="M11.873 0L6.73 5.143L1.587 0L0 1.587L6.73 8.317L13.46 1.587L11.873 0Z" fill="#ffffff"/></svg>
             </a>
             <div class="dropdown-content">
               <div class="drp1">
                 <ul>
                   <li><router-link :to="{ name: 'servicedetail', params: { service: 'ai' } }">Artificial Intelligence</router-link></li>
-                  <li><a href="/servicedetail">IOT development</a></li>
-                  <li><a href="/servicedetail">Cloud Computing</a></li>
-                  <li><a href="/servicedetail">RPA install support</a></li>
-                  <li><a href="/servicedetail">Block Chain development</a></li>
+                  <li><router-link :to="{ name: 'servicedetail', params: { service: 'iot' }}">IOT development</router-link></li>
+                  <li><router-link :to="{ name: 'servicedetail', params: { service: 'cc' }}">Cloud Computing</router-link></li>
+                  <li><router-link :to="{ name: 'servicedetail', params: { service: 'rpa' }}">RPA install support</router-link></li>
+                  <li><router-link :to="{ name: 'servicedetail', params: { service: 'blockchain' }}">Block Chain development</router-link></li>
                 </ul>
               </div>
               <div class="drp2">
                 <ul>
-                  <li><a href="/servicedetail">PWA development</a></li>
-                  <li><a href="/servicedetail">VR/AR development</a></li>
-                  <li><a href="/servicedetail">Odoo ERP custormize </a></li>
-                  <li><a href="/servicedetail">Cyber Security</a></li>
-                  <li><a href="/servicedetail">Digital Marketing</a></li>
-                </ul>
+                  <li><router-link :to="{ name: 'servicedetail', params: { service: 'pwa' } }">PWA development</router-link></li>
+                  <li><router-link :to="{ name: 'servicedetail', params: { service: 'arvr' } }">VR/AR development</router-link></li>
+                  <li><router-link :to="{ name: 'servicedetail', params: { service: 'odoo' } }">Odoo ERP custormize</router-link></li>
+                  <li><router-link :to="{ name: 'servicedetail', params: { service: 'cybersecurity' } }">Cyber Security</router-link></li>
+                  <li><router-link :to="{ name: 'servicedetail', params: { service: 'marketing' } }">Digital Marketing</router-link></li>
+
+                 </ul>
               </div>
             </div>
           </div>
           <div class="dropdown" id="nav_button">
             <a class="dropbtn c_navigate_right">Solutions
               <svg class="c_dropdown" width="14" height="9" viewBox="0 0 14 9" fill="none" xmlns="http://www.w3.org/2000/svg">
-              <path d="M11.873 0L6.73 5.143L1.587 0L0 1.587L6.73 8.317L13.46 1.587L11.873 0Z" fill="#138690"/></svg>
+              <path d="M11.873 0L6.73 5.143L1.587 0L0 1.587L6.73 8.317L13.46 1.587L11.873 0Z" fill="#ffffff"/></svg>
             </a>
             <div class="dropdown-content">
               <div class="drp1">
                 <ul>
-                  <li><a href="/solutiondetail">Security System</a></li>
-                  <li><a href="/solutiondetail">KPI Dashboard System</a></li>
-                  <li><a href="/solutiondetail">QR Code System</a></li>
-                  <li><a href="/solutiondetail">Contact Center</a></li>
+                  <li><router-link :to="{ name: 'servicedetail', params: { service: 'pwa' } }">Security System</router-link></li>
+                  <li><router-link :to="{ name: 'servicedetail', params: { service: 'vr' } }">KPI Dashboard System</router-link></li>
+                  <li><router-link :to="{ name: 'servicedetail', params: { service: 'odoo' } }">QR Code System</router-link></li>
+                  <li><router-link :to="{ name: 'servicedetail', params: { service: 'cyber' } }">Contact Center</router-link></li>
                 </ul>
               </div>
               <div class="drp2">
                 <ul>
-                  <li><a href="/solutiondetail">Human Resource Management</a></li>
-                  <li><a href="/solutiondetail">Logistic System</a></li>
-                  <li><a href="/solutiondetail">School Management System</a></li>
+                  <li><router-link :to="{ name: 'servicedetail', params: { service: 'cyber' } }">Human Resource Management</router-link></li>
+                  <li><router-link :to="{ name: 'servicedetail', params: { service: 'cyber' } }">Logistic System</router-link></li>
+                  <li><router-link :to="{ name: 'servicedetail', params: { service: 'cyber' } }">School Management System</router-link></li>
+
+              
                 </ul>
               </div>
             </div>
@@ -62,12 +65,7 @@
           </div>
           <div id="nav_button">
             <a href="/jobs"class="c_navigate_right">Jobs</a>
-            <!-- <a href="#" class="c_navigate_right"> 
->>>>>>> dc86b32b30c1263473e962d45ee4e8c99cf7df3e
-              <svg class="c_search" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16">
-              <path class="icon_search" d="M15.9,14.9l-4.6-4.7c0.9-1.1,1.5-2.5,1.5-4C12.8,2.8,9.9,0,6.4,0S0,2.8,0,6.2s2.9,6.2,6.4,6.2
-              c1.4,0,2.6-0.4,3.7-1.1l4.7,4.7L15.9,14.9z M1.6,6.2c0-2.5,2.2-4.6,4.8-4.6s4.8,2.1,4.8,4.6S9,10.8,6.4,10.8S1.6,8.7,1.6,6.2z" /></svg>
-            </a> -->
+
           </div>
         </div>
         <div class="c_sideNav">
@@ -76,9 +74,9 @@
 
           <div id="sideNav_logo">
             <div>
-              <img alt="Vue logo" class= "c_logo" src="../../assets/logo_A2A.svg">
-            </div>
-
+              <img alt="Vue logo" class= "c_logo" src="../../assets/component/navigator/logo_A2A.svg">
+            </div>  
+            
             <div id="bm_click">
               <span class="bm-cross-button cross-style" @click="closeMenu" :class="{ hidden: !crossIcon }">
                 
@@ -102,16 +100,15 @@
 
                         <div class="bm_tree__service" v-bind:style="{ display: styleCheck_service }" >
                           <li class="bm_tree_submenu"><router-link :to="{ name: 'servicedetail', params: { service: 'ai' } }">Artificial Intelligence</router-link></li>
-                          <li class="bm_tree_submenu"><a href="/servicedetail"class="bm_tree_servic_content">IOT</a></li>
-                          <li class="bm_tree_submenu"> <a href="/servicedetail" class="bm_tree_servic_content">Cloud Computing</a></li>
-                          <li class="bm_tree_submenu"><a href="/servicedetail"class="bm_tree_servic_content">RPA Install Support</a></li>
-                          <li class="bm_tree_submenu"> <a href="/servicedetail" class="bm_tree_servic_content">Blockchain</a></li>
-                          <li class="bm_tree_submenu"><a href="/servicedetail"class="bm_tree_servic_content">PWA</a></li>
-                          <li class="bm_tree_submenu"> <a href="/servicedetail" class="bm_tree_servic_content">VR/AR</a></li>
-                          <li class="bm_tree_submenu"><a href="/servicedetail"class="bm_tree_servic_content">Odoo</a></li>
-                          <li class="bm_tree_submenu"> <a href="/servicedetail" class="bm_tree_servic_content">Cyber Security</a></li>
-                          <li class="bm_tree_submenu"><a href="/servicedetail"class="bm_tree_servic_content">Digital Marketing</a></li>
-
+                          <li class="bm_tree_submenu"><router-link :to="{ name: 'servicedetail', params: { service: 'iot' }}">IOT development</router-link></li>
+                          <li class="bm_tree_submenu"><router-link :to="{ name: 'servicedetail', params: { service: 'cloud' }}">Cloud Computing</router-link></li>
+                          <li class="bm_tree_submenu"><router-link :to="{ name: 'servicedetail', params: { service: 'rpa' }}">RPA install support</router-link></li>
+                          <li class="bm_tree_submenu"><router-link :to="{ name: 'servicedetail', params: { service: 'blockchain' }}">Block Chain development</router-link></li>
+                          <li class="bm_tree_submenu"><router-link :to="{ name: 'servicedetail', params: { service: 'pwa' } }">PWA development</router-link></li>
+                          <li class="bm_tree_submenu"><router-link :to="{ name: 'servicedetail', params: { service: 'vr' } }">VR/AR development</router-link></li>
+                          <li class="bm_tree_submenu"><router-link :to="{ name: 'servicedetail', params: { service: 'odoo' } }">Odoo ERP custormize</router-link></li>
+                          <li class="bm_tree_submenu"><router-link :to="{ name: 'servicedetail', params: { service: 'cyber' } }">Cyber Security</router-link></li>
+                          <li class="bm_tree_submenu"><router-link :to="{ name: 'servicedetail', params: { service: 'digital' } }">Digital Marketing</router-link></li>
                         </div>
                 </li>
 
@@ -123,29 +120,17 @@
                         <path d="M8.65039 8.74568L0.860939 16.8937C0.791212 16.9668 0.698244 17.0033 0.605276 17.0033C0.515626 17.0033 0.429298 16.9701 0.359571 16.9037C0.220118 16.7676 0.213478 16.5451 0.349611 16.4023L7.90664 8.49998L0.349609 0.597635C0.213476 0.458182 0.216797 0.2324 0.35957 0.0995878C0.502343 -0.0365449 0.724805 -0.0299043 0.860937 0.109549L8.65039 8.25427C8.7832 8.39041 8.7832 8.60623 8.65039 8.74568Z"/>
                       </svg>
                     <div class="bm_tree__product" v-bind:style="{ display: styleCheck_product}" >
-<<<<<<< HEAD
-                      <li class="bm_tree_submenu"> <a href="/servicedetail" class="bm_tree_servic_content">Security System</a></li>
-                      <li class="bm_tree_submenu"><a href="/servicedetail"class="bm_tree_servic_content">School Management System</a></li>
-                      <li class="bm_tree_submenu"> <a href="/servicedetail" class="bm_tree_servic_content">KPI Dashboard</a></li>
-                      <li class="bm_tree_submenu"><a href="/servicedetail"class="bm_tree_servic_content">Shuttle Bus</a></li>
-                      <li class="bm_tree_submenu"> <a href="/servicedetail" class="bm_tree_servic_content">QR Code System</a></li>
-                      <li class="bm_tree_submenu"><a href="/servicedetail"class="bm_tree_servic_content">Contact Center</a></li>
-                      <li class="bm_tree_submenu"> <a href="/servicedetail" class="bm_tree_servic_content">Projection Mapping</a></li>
-                      <li class="bm_tree_submenu"><a href="/servicedetail"class="bm_tree_servic_content">HR Management</a></li>
-                      <li class="bm_tree_submenu"> <a href="/servicedetail" class="bm_tree_servic_content">Logistic System</a></li>
-
-=======
-                      <li class="bm_tree_submenu"> <a href="/solutiondetail" class="bm_tree_servic_content">Security System</a></li>
-                      <li class="bm_tree_submenu"><a href="/solutiondetail"class="bm_tree_servic_content">School Management System</a></li>
-                      <li class="bm_tree_submenu"> <a href="/solutiondetail" class="bm_tree_servic_content">KPI Dashboard</a></li>
-                      <li class="bm_tree_submenu"><a href="/solutiondetail"class="bm_tree_servic_content">Shuttle Bus</a></li>
-                      <li class="bm_tree_submenu"> <a href="/solutiondetail" class="bm_tree_servic_content">QR Code System</a></li>
-                      <li class="bm_tree_submenu"><a href="/solutiondetail"class="bm_tree_servic_content">Contact Center</a></li>
-                      <li class="bm_tree_submenu"> <a href="/solutiondetail" class="bm_tree_servic_content">Projection Mapping</a></li>
-                      <li class="bm_tree_submenu"><a href="/solutiondetail"class="bm_tree_servic_content">HR Management</a></li>
-                      <li class="bm_tree_submenu"> <a href="/solutiondetail" class="bm_tree_servic_content">Logistic System</a></li>
+                      <li class="bm_tree_submenu"><router-link :to="{ name: 'servicedetail', params: { service: 'security' } }">Security System</router-link></li>
+                      <li class="bm_tree_submenu"><router-link :to="{ name: 'servicedetail', params: { service: 'school' }}">School Management System</router-link></li>
+                      <li class="bm_tree_submenu"><router-link :to="{ name: 'servicedetail', params: { service: 'kpi' }}">KPI Dashboard</router-link></li>
+                      <li class="bm_tree_submenu"><router-link :to="{ name: 'servicedetail', params: { service: 'shuttle' }}">Shuttle Bus</router-link></li>
+                      <li class="bm_tree_submenu"><router-link :to="{ name: 'servicedetail', params: { service: 'qr' }}">QR Code System</router-link></li>
+                      <li class="bm_tree_submenu"><router-link :to="{ name: 'servicedetail', params: { service: 'contact' } }">Contact Center</router-link></li>
+                      <li class="bm_tree_submenu"><router-link :to="{ name: 'servicedetail', params: { service: 'projection' } }">Projection Mapping</router-link></li>
+                      <li class="bm_tree_submenu"><router-link :to="{ name: 'servicedetail', params: { service: 'hr' } }">HR Management</router-link></li>
+                      <li class="bm_tree_submenu"><router-link :to="{ name: 'servicedetail', params: { service: 'logistic' } }">Logistic System</router-link></li>
+                      <li class="bm_tree_submenu"><router-link :to="{ name: 'servicedetail', params: { service: 'digital' } }">Digital Marketing</router-link></li>
                   
->>>>>>> dc86b32b30c1263473e962d45ee4e8c99cf7df3e
                     </div>
 
                 </li>

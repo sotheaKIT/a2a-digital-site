@@ -4,6 +4,9 @@
 <script>
 export default {
   name: 'ServiceTechnologyCard',
-
+  props : {
+    tools : null
+  },
+ 
 }
 </script>

@@ -1,166 +1,113 @@
-.l_solution__detail{
-    background: url("../../assets/components/solutions/solution-detail/service-type-background.png") ;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center center; 
+.l_solution__detail__container{
     width: 100%;
-    height: 40vh;
+    display: block;
+    /* justify-content: center; */
+    margin-top: 150px;
 }
-.l_solution__detail h1{
-  font-style: normal;
-  font-weight: bold;
-  font-size: 64px;
-  line-height: 76px;
-  color: #303030;
-  padding-top: 120px;
-  margin: 0px;
-}
-.c_solution__detail___description{
+.l_solution__section__wrapper {
     width: 100%;
-    max-width: 1185px;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 67px;
-    margin-bottom: 50px;
+    display: block;
 }
-.c_solution__detail___description p{
-    font-style: normal;
-    font-weight: normal;
-    font-size: 16px;
-    line-height: 19px;
-    color: #000000;
-    text-align: left;
-    margin-left: 1%;
-    margin-right: 1%;
-    max-width: 1183px;
+.l_solution__section__wrapper header{
+    text-align: center;
+    margin-top: 80px;
 }
+/* ------------------------------------------format ------------------------------- */
 
-/* Solution Card */
-/* Responsive l_solution__column */
-     /*Card-solution desktop responsive  */
-  /* Remove extra left and right margins, due to padding */
-  .l_solution__row {
-    width: 100%;
-    max-width: 1185px;
-    margin-left: auto;
-    margin-right: auto;
-    padding: 0px 0px ;
-  }
-  /* Clear floats after the l_solution__column */
-  .l_solution__row:after {
-    content: "";
-    display: table;
-    clear: both;
-  }
-  /* Float four columns side by side */
-  .l_solution__column {
-    float: left;
-    width: 31.3%;
-    padding-left: 1%;
-    padding-right: 1%;
-    padding-bottom: 50px;
-  }
-  .l_solution__card img{
-    box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.25);
-     width: 100%;
-  }
-  .l_solution__decription{
-    margin-top: 24px;
-    text-align: left;
-  }
-  .l_solution__decription h1{
+.c_solution__section__header h1{
+    margin: 0px;
+    text-align: center;
+    font-family: SFProText-Bold;
     font-style: normal;
     font-weight: bold;
-    font-size: 30px;
-    line-height: 36px;
+    font-size: 24px;
+    line-height: 29px;
+    text-align: center;
+}
+.c_section__wrapper{
+    width: 100%;
+    margin: 50px 0;
+    background-color: #EEEEEE;
+}
 
+.c_solution__section__artical{
+    padding: 30px 0px;
+    display: flex;
+    align-items: center;
+    /* flex-direction: row-reverse; */
+}
+
+.c_solution__section__artical p{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+    padding: 0 15px;
     color: #303030;
-    margin-bottom: 10px;
-  }
-  .l_solution__decription p{
-    font-style: normal;
-    font-weight: normal;
-    font-size: 16px;
-    line-height: 19px;
+}
+.c_solution__section__artical div.c_solution__section__text p{
+    margin: 0;
+}
 
-    color: #000000;
-  }
- .c_solution__readmore p{
-    margin-top: 10px;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 16px;
-    line-height: 19px;
-    color: #138690;
-  }
-   .c_solution__readmore img{
-    margin-top: -13px;
+.c_solution__section__text{
     float: left;
-    width: 17.45px;
-    height: 12px;
-    margin-left: 81px;
-    box-shadow: 0px 0px 0px rgba(0, 0, 0, 0);
-  }
-  /* Responsive on tablet */
-  @media screen and (max-width: 1024px) and (min-width: 768px){
-      .l_solution__detail h1{
-          left: 32.7%;
-      }
-      .c_solution__detail___description{
-          margin-top: 67px;
-      }
-      .c_solution__detail___description p{
-          margin-left: 3.90%;
-          margin-right: 3.90%;
-      }
-    .l_solution__column {
-      float: left;
-      margin-right: auto;
-      margin-left: auto;
-      margin-bottom: 0px;
-      width: 44.15%;
-      padding-left: 3.90%;
+    width: 85%;
+}
+.c_section__wrapper.focus{
+    background-color: white;
+    margin: 0px 0;
+}
+.focus div.c_solution__section__text {
+    float: none;
+    width: 100%;
+    text-align: justify;
+}
+
+.l_padding__left {
+    padding-left: 90px;
+}
+
+@media only screen and (min-width: 1367px) {
+    .c_solution__section__artical{
+        padding: 30px calc((100% - 1186px)/2);
     }
-    .l_solution__decription{
-      margin-top: 30px;
+}
+
+@media only screen and (max-width: 1366px) {
+    .c_section__wrapper{
+        padding: 0 90px;
+        width: calc(100% - 180px);
     }
-    .l_solution__decription h1{
-      margin-bottom: 20px;
+}
+@media only screen and (max-width: 980px) {
+    .c_solution__section__text {
+        float: left;
+        width: 77%;
     }
-    .c_solution__readmore{
-      margin-top: 15px;
+}
+@media only screen and (max-width: 768px) {
+    .c_solution__section__text {
+        float: left;
+        width: 77%;
     }
-  }
-  /* Responsive on mobile */
-  @media screen and (max-width: 767px) and (min-width: 200px){
-    .l_solution__detail h1{
-        left: 50%;
+    .c_section__wrapper {
+        padding: 0 20px;
+        width: calc(100% - 40px);
     }
-    .c_solution__detail___description{
-        margin-top: 67px;
+}
+
+@media only screen and (max-width: 600px) {
+    .c_section__wrapper {
+        padding: 0 10px;
+        width: auto;
     }
-    .c_solution__detail___description p{
-        margin-left: 3.90%;
-        margin-right: 3.90%;
+    .c_solution__section__artical {
+        padding: 30px 0px;
+        display: block;
     }
-      .l_solution__column {
+    .c_solution__section__text {
+        width: 100%;
         float: none;
-        margin-right: auto;
-        margin-left: auto;
-        margin-bottom: 0px;
-        width: 92%;
-        padding-left: 4%;
-        padding-right: 4%;
-        padding-bottom: 65px;
-      }
-      .l_solution__decription{
-        margin-top: 30px;
-      }
-      .l_solution__decription h1{
-        margin-bottom: 58px;
-      }
-      .c_solution__readmore{
-        margin-top: 15px;
-      }
     }
- 
+
+}

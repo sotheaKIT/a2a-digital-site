@@ -47,9 +47,11 @@
 
 }
 .c_input_sumit{
-    border: 1px solid #030303;
     box-sizing: border-box;
     border-radius: 4px;
+}
+.c_input_sumit:hover .submit_btn{
+    border: none;
 }
 .c_sevice_form_wrapper{
     padding-bottom: 50px;

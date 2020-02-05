@@ -1,0 +1,28 @@
+<h2>Frequently Asked Questions</h2>
+<div class="about">
+<button class="collapsible">
+  How can I apply job? 
+</button>
+<div class="content">
+  <p>You can go to our job page and look for which job that you fit in and then fill all the requrement from company side.You can go to our job page and look for which job that you fit in and then fill all the requrement from company side. You can go to our job page and look for which job that you fit in and then fill all the requrement from company side.You can go to our job page and look for which job that you fit in and then fill all the requrement from company You can go to our job page and look for which job that you fit in and then fill all the requrement from company side.You can go to our job page and look for which job that you fit in and then fill all the requrement from company side.side.</p>
+</div>
+</div>
+
+
+
+<script>
+var coll = document.getElementsByClassName("collapsible");
+var i;
+
+for (i = 0; i < coll.length; i++) {
+  coll[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var content = this.nextElementSibling;
+    if (content.style.display === "block") {
+      content.style.display = "none";
+    } else {
+      content.style.display = "block";
+    }
+  });
+}
+</script>

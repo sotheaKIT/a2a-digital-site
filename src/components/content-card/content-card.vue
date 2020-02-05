@@ -26,7 +26,8 @@ export default {
     }),
 
    loadSrc(src) { 
-      return require('@/assets/home/'+src+ '.png')
+
+      return require('@/assets/component/content-card/'+src)
     }
     
 
