@@ -3,6 +3,7 @@
   <div>
       <div v-for="serviceDetailContent in serviceDetailContents" v-bind:key="serviceDetailContent.id">
       <ServiceDetailPageComp v-bind:header="serviceDetailContent['header']" ></ServiceDetailPageComp>
+      <h1>{{serviceDetailContent['header']}}</h1>
       <ServiceDetailCard :cards="serviceDetailContent['cards']"></ServiceDetailCard>
       <ServiceTechnologyCard :tools = "serviceDetailContent['tools']"></ServiceTechnologyCard>
       <ServiceWorkResult></ServiceWorkResult>
@@ -34,7 +35,7 @@ export default {
   data : function () {
     return {
       service:String,
-      type : "service-content-"
+      type : "service/service-content-"
     }
   },
   computed: {
@@ -54,7 +55,7 @@ export default {
     }),
   },
   created() {
-    this.service =  this.type + this.$route.params.service;
+    this.service =   this.$route.params.service;
   },
 }
 </script>
