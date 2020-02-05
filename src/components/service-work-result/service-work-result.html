@@ -1,74 +1,26 @@
 <div class="c_service_work_card">
-    <header class="c_service__section__header">
-        <h1> Worked Result</h1>
-    </header>
-    <div class="flex-container">
-        <div class="center">
-            <div class="flex-item">
-                <div class="c_img__card">
-                    <swiper :options="swiperOption">
-                        <swiper-slide><div class="c_img__container"><img src="../../assets/component/service-work-result/license_plate_detection.png" alt=""></div></swiper-slide>
-                        <swiper-slide><div class="c_img__container"><img src="../../assets/component/service-work-result/license_plate_detection(2).png" alt=""></div></swiper-slide>
-                        <swiper-slide><div class="c_img__container"><img src="../../assets/component/service-work-result/license_plate_detection(3).png" alt=""></div></swiper-slide>
-                        <div class="swiper-pagination" slot="pagination"></div>
-                        <!-- <div class="swiper-button-prev" slot="button-prev"></div>
-                        <div class="swiper-button-next" slot="button-next"></div> -->
-                    </swiper>
-                </div>
-                <!-- <div class="flex-item">
+    <div class="work__result__wrapper" >
+        <header class="c_service__section__header">
+            <h1> {{results[0]['header']}}</h1>
+        </header>
+        <div class="flex-container">
+            <div class="center">
+                <div class="flex-item" v-for="resultCard in results[1]['cards']">
                     <div class="c_img__card">
                         <swiper :options="swiperOption">
-                            <swiper-slide><div class="c_img__container"><img src="../../assets/component/service-work-result/face recognition.gif" alt=""></div></swiper-slide>
-                            <swiper-slide><div class="c_img__container"><img src="../../assets/component/service-work-result/face recognition.png" alt=""></div></swiper-slide>
+                            <swiper-slide><div class="c_img__container"><img src="../../assets/component/service-work-result/face-recognition-01.png" alt=""></div></swiper-slide>
+                            <swiper-slide><div class="c_img__container"><img src="../../assets/component/service-work-result/face-recognition-01.png" alt=""></div></swiper-slide>
                             <swiper-slide><div class="c_img__container"><img src="../../assets/component/service-work-result/face-recognition-01.png" alt=""></div></swiper-slide>
                             <div class="swiper-pagination" slot="pagination"></div>
+                            <!-- <div class="swiper-button-prev" slot="button-prev"></div>
+                            <div class="swiper-button-next" slot="button-next"></div> -->
                         </swiper>
                     </div>
                     <div class="c_text__card">
-                        <h1>Face Recognition</h1>
-                        <p>This system is being developed in the purpose of “Multi-face detection and attendance checking system for classroom”. We developed using dlib library for detection and opencv library for controlling the camera.</p>
+                        <h1>{{resultCard['header']}}</h1>
+                        <p>{{resultCard['description']}}</p>
                     </div>
                 </div>
-<<<<<<< HEAD
-            </div>
-            <div class="flex-item">
-                <div class="c_img__card">
-                    <swiper :options="swiperOption">
-                        <swiper-slide><div class="c_img__container"><img src="../../assets/component/service-work-result/face-recognition.gif" alt=""></div></swiper-slide>
-                        <swiper-slide><div class="c_img__container"><img src="../../assets/component/service-work-result/face-recognition.png" alt=""></div></swiper-slide>
-                        <swiper-slide><div class="c_img__container"><img src="../../assets/component/service-work-result/face-recognition-01.png" alt=""></div></swiper-slide>
-                        <div class="swiper-pagination" slot="pagination"></div>
-                    </swiper>
-=======
-                <div class="flex-item ">
-                    <div class="c_img__card">
-                        <swiper :options="swiperOption">
-                            <swiper-slide><div class="c_img__container"><img src="../../assets/component/service-work-result/English.jpg" alt=""></div></swiper-slide>
-                            <swiper-slide><div class="c_img__container"><img src="../../assets/component/service-work-result/khmer.jpg" alt=""></div></swiper-slide>
-                            <swiper-slide><div class="c_img__container"><img src="../../assets/component/service-work-result/language.jpg" alt=""></div></swiper-slide>
-                            <div class="swiper-pagination" slot="pagination"></div>
-                        </swiper>
-                    </div>
-                    <div class="c_text__card">
-                        <h1>Chatbot</h1>
-                        <p>Chatbot is a software applications that use artificial intelligence & natural language processing to understand what a human wants, and guides them to their desired outcome with as little work for the end user as possible. Like a virtual assistant for your customer experience touchpoints. </p>    
-                    </div>
->>>>>>> 09365e299722e3c350df0a784640ea58348a5e9c
-                </div>
-                <div class="flex-item ">
-                    <div class="c_img__card">
-                        <swiper :options="swiperOption">
-                            <swiper-slide><div class="c_img__container"><img src="../../assets/component/service-work-result/English.jpg" alt=""></div></swiper-slide>
-                            <swiper-slide><div class="c_img__container"><img src="../../assets/component/service-work-result/khmer.jpg" alt=""></div></swiper-slide>
-                            <swiper-slide><div class="c_img__container"><img src="../../assets/component/service-work-result/language.jpg" alt=""></div></swiper-slide>
-                            <div class="swiper-pagination" slot="pagination"></div>
-                        </swiper>
-                    </div>
-                    <div class="c_text__card">
-                        <h1>Chatbot</h1>
-                        <p>Chatbot is a software applications that use artificial intelligence & natural language processing to understand what a human wants, and guides them to their desired outcome with as little work for the end user as possible. Like a virtual assistant for your customer experience touchpoints. </p>    
-                    </div>
-                </div> -->
             </div>   
                  
         </div>
