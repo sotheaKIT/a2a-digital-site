@@ -66,7 +66,8 @@
 
         },
         methods: {
-
+            handleScroll: function () {
+            },
             openMenu() {
                 this.$emit('openMenu');
                 this.isSideBarOpen = true;

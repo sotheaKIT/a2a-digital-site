@@ -121,9 +121,7 @@
 }
 
 @media only screen and (max-width: 375px) {
-    .slide { 
-        width: 375px;
-    }
+
 
     .l_slide_intro h1 {
         font-size: 25px;
@@ -135,7 +133,7 @@
     }
 
     .c_slide__contactbtn{
-        width: 344px;
+        width: 100%;
     }
 
     .l_slide_info{
