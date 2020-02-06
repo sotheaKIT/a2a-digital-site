@@ -8,9 +8,9 @@
                 <div class="l_article__wrapper l_pc">
                         <article class="l_card__text">
                             <h1>{{serviceContent.title}}</h1>
-                            <p>{{serviceContent.cotent}}
+                            <p>{{serviceContent.cotent}} 
                             </p>
-                            <a href="/servicedetail">Read More 
+                            <a :href="$router.resolve({ name: 'servicedetail', params: { service: serviceContent.route }}).href">Read More 
                                 <img src="@/assets/component/content-card/read_more.svg">
                             </a>
                         </article>
