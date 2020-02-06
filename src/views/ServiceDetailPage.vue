@@ -2,15 +2,16 @@
 <template>
     <div class="l_service__detail__container">
       <div v-for="serviceDetailContent in serviceDetailContents" v-bind:key="serviceDetailContent.id">
-      <ServiceDetailCard :cards="serviceDetailContent['cards']"></ServiceDetailCard>
-      <ServiceDetailPageComp v-bind:header="serviceDetailContent['header']" ></ServiceDetailPageComp>
-      
-      <ServiceTechnologyCard :tools = "serviceDetailContent['tools']"></ServiceTechnologyCard>
-      <ServiceWorkResult :results = "serviceDetailContent['results']"></ServiceWorkResult>
-      <ServiceAIImportant :business = "serviceDetailContent['business']"></ServiceAIImportant>
+      <ServiceDetailCard v-if="serviceDetailContent['cards'] != null" :cards="serviceDetailContent['cards']"></ServiceDetailCard>
+      <ServiceDetailPageComp v-if="serviceDetailContent['header'] != null" v-bind:header="serviceDetailContent['header']" ></ServiceDetailPageComp>
+      <ServiceTechnologyCard v-if="serviceDetailContent['tools'] != null" :tools = "serviceDetailContent['tools']"></ServiceTechnologyCard>
+      <ServiceWorkResult v-if="serviceDetailContent['results'] != null" :results = "serviceDetailContent['results']"></ServiceWorkResult>
+      <ServiceManagement v-if="serviceDetailContent['management'] != null" :management = "serviceDetailContent['management']" />
+      <ServiceComapareComp v-if="serviceDetailContent['compare'] != null" :compare = "serviceDetailContent['compare']"/>
+      <ServiceAIImportant v-if="serviceDetailContent['business'] != null" :business = "serviceDetailContent['business']"></ServiceAIImportant>
       <ServiceContactForm></ServiceContactForm>
       </div>
-  </div>
+    </div>
   
 </template>
 

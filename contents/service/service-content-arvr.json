@@ -1,39 +1,43 @@
 [ {
-      "header":[ {"url":"../../assets/component/service-detail-card/VR-AR/"},
+      "header":[ 
          {
             "title":"VR/AR Development",
             "question":null,
             "description":"VR stands for Virtual Reality, it implies a complete immersion experience that shuts out the physical world. Using VR devices such as HTC Vive, Oculus Go/Rift, users can be transported into a number of real-world and imagined environments. AR stands for Augmented Reality, it adds digital elements to a live view often by using the camera on a smartphone. Best example of augmented reality experiences include Snapchat lenses and the game Pokemon Go",
-            "imagePath":"VR.svg"
-      },
-      {
-            "title":"Our Focus Areas",
-            "question":null,
-            "description":"Virtual and Augmented Reality require new ways of interacting, and new user interfaces that we carefully construct to enhance the experience. We build solutions and  transform business needs to business values. We create digital experiences, and we drive digital change to fast-track development of brand new digital worlds. We create. We innovate. We develop. We improve digital lives. We offer a wide range of conceptual and technical experience within designing and building for Augmented and Virtual Reality.",
-            "imagePath":null
+            "imagePath":"VR.svg",
+            "url":"../../assets/component/service-detail-card/VR-AR/"
       }
      ],
      "cards":[
-         {
-               "imageUrl":"Oculus-go.svg",
-               "title":"Oculus Go Development",
-               "description":"The Oculus Go is a standalone virtual reality headset design for everyone. It doesn’t need to connect to anything. It is the third headset from Oculus, and it’s meant to exist between the phone-powered Samsung Gear VR and PC-powered Oculus Rift. We can develop VR application for Oculus Go by 3 platforms: Native Platform,Unreal Integration and Unity Integration "
-       },
-       {
-             "imageUrl":"HTC-vive.svg",
-             "title":"HTC Vive Development",
-             "description":"HTC Vive is a virtual reality headset developed by HTC and Valve. The headset uses “room scale” tracking technology, allowing the user to move in 3D spaces and use motion-tracked handheld controllers to interact with the environment. It adjustable straps and interchangeable inserts, front-facing camera, eye relief adjustments and fits most glasses. We can develop VR application with HTC Vive and gaming as well with Unity. The reality game is experiencing incredible drive towards merging technical innovation and creative minds to further the ongoing VR revolution."
-      },
-      {
-            "imageUrl":"Hololens.svg",
-            "title":"Hololens Development",
-            "description":"The Hololens is Microsoft’s take on augmented reality, which they call “mixed reality”. Using multiple sensors, advanced optics, and holographic processing that melds seamlessly with its environment, These holograms can be used to display information, blend with the real world, or even simulate a virtual world. The Hololens has a plethora of optical sensors, with two on each side for peripheral “environment understanding” sensing, a main downward facing depth camera to pick up hand motions, and specialized speakers that simulate sound from anywhere in the room."
-      },
-      {
-            "imageUrl":"Mobile.svg",
-            "title":"Mobile AR",
-            "description":"Mobile AR application platform operates on iOS and Android smartphones, tablets and wearable devices to create incredible Augmented Reality experiences straight out of the box. MobileAR is a creative and highly effective education and entertainment tool that adds an extra layer of information – content such as 3D characters, image, video, text, sound and more – to everyday objects and environments. MobileAR can resurrect anyone or anything from any mobile device to create unparalleled educational opportunities in and out of the classroom."
-      }
+           {
+                 "header":"Our Focus Areas",
+                 "description":"Virtual and Augmented Reality require new ways of interacting, and new user interfaces that we carefully construct to enhance the experience. We build solutions and  transform business needs to business values. We create digital experiences, and we drive digital change to fast-track development of brand new digital worlds. We create. We innovate. We develop. We improve digital lives. We offer a wide range of conceptual and technical experience within designing and building for Augmented and Virtual Reality."
+            },
+            {
+                  "component":[
+                        {
+                              "imageUrl":"Oculus-go.svg",
+                              "title":"Oculus Go Development",
+                              "description":"The Oculus Go is a standalone virtual reality headset design for everyone. It doesn’t need to connect to anything. It is the third headset from Oculus, and it’s meant to exist between the phone-powered Samsung Gear VR and PC-powered Oculus Rift. We can develop VR application for Oculus Go by 3 platforms: Native Platform,Unreal Integration and Unity Integration "
+                      },
+                      {
+                            "imageUrl":"HTC-vive.svg",
+                            "title":"HTC Vive Development",
+                            "description":"HTC Vive is a virtual reality headset developed by HTC and Valve. The headset uses “room scale” tracking technology, allowing the user to move in 3D spaces and use motion-tracked handheld controllers to interact with the environment. It adjustable straps and interchangeable inserts, front-facing camera, eye relief adjustments and fits most glasses. We can develop VR application with HTC Vive and gaming as well with Unity. The reality game is experiencing incredible drive towards merging technical innovation and creative minds to further the ongoing VR revolution."
+                     },
+                     {
+                           "imageUrl":"Hololens.svg",
+                           "title":"Hololens Development",
+                           "description":"The Hololens is Microsoft’s take on augmented reality, which they call “mixed reality”. Using multiple sensors, advanced optics, and holographic processing that melds seamlessly with its environment, These holograms can be used to display information, blend with the real world, or even simulate a virtual world. The Hololens has a plethora of optical sensors, with two on each side for peripheral “environment understanding” sensing, a main downward facing depth camera to pick up hand motions, and specialized speakers that simulate sound from anywhere in the room."
+                     },
+                     {
+                           "imageUrl":"Mobile.svg",
+                           "title":"Mobile AR",
+                           "description":"Mobile AR application platform operates on iOS and Android smartphones, tablets and wearable devices to create incredible Augmented Reality experiences straight out of the box. MobileAR is a creative and highly effective education and entertainment tool that adds an extra layer of information – content such as 3D characters, image, video, text, sound and more – to everyday objects and environments. MobileAR can resurrect anyone or anything from any mobile device to create unparalleled educational opportunities in and out of the classroom."
+                     }
+                  ]
+            }
+         
        
      ],
   
@@ -127,7 +131,7 @@
           
      ],
      "business":
-     [
+     [      {"imageUrl":""},
            {
                  "header":"Why A2A Digital gives the best VR/AR service",
                  "description":"A2A Digital helps companies enhance their capabilities and strengthen business values with brand new perspectives on both process and product. Virtual & Augmented Reality continues to drive change everywhere from healthcare to education with new ways of interacting and experience. We help customers solve problems, with new technology. Some conceptual functionality can be very difficult to realise technically, VR is well-suited for both education and simulations. Due to high levels of immersion, the virtual worlds we design allow us real new perspectives."
@@ -147,3 +151,4 @@
      ]
     }
    ]
+   

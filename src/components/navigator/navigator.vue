@@ -70,7 +70,7 @@
         },
         methods: {
             handleScroll: function () {
-                 if (this.$router.currentRoute.name === "home") {
+                 if (this.$router.currentRoute.name === "home" || this.$router.currentRoute.name === "about"  ) {
                     if (window.scrollY > 980) {
                         this.navigationActivate = "inactive"
                         this.activeColor = "white"
@@ -177,7 +177,7 @@
         },
         created: function () {
             document.addEventListener('click', this.documentClick);
-            if (this.$router.currentRoute.name === "home") {
+            if (this.$router.currentRoute.name === "home" || this.$router.currentRoute.name === "about") {
                 this.navigationActivate = "active"
             } else {
                 this.activeColor = "white"

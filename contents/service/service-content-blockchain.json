@@ -5,25 +5,28 @@
           "question":null,
           "description":"Blockchain is a distributed ledger, similar to a database but rather than being controlled by a central authority (ie., a firm like Google, small company, or individual) the ledger is dispersed across multiple computers which can be located all over the world and run by anyone with an Internet connection.",
           "imagePath":"blockchain-logo-01.svg"
-    },
-    {
-          "title":"Our Focus Areas",
-          "question":null,
-          "description":"It’s a movement to help you redefine your most important business relationships through trust, transparency and newfound collaboration. In blockchain, We focus on two technologies, Hyperledger blockchain and Ethereum blockchain.",
-          "imagePath":null
     }
    ],
    "cards":[
-         {
-               "imageUrl":"HyperLedger_Blockchain-01.svg",
-               "title":"HyperLedger Blockchain",
-               "description":"Hyperledger is a platform for distributed ledger solutions underpinned by a modular architecture delivering high degrees of confidentiality, resiliency, flexibility, and scalability. It is designed to support pluggable implementations of different components and accommodate the complexity and intricacies that exist across the economic ecosystem. Its fabric is a private channel which distributed ledger and smart contract platform allow for smart contract called “chaincode”. Modular architecture provides a lot of flexibility in terms of what you want to use. In Hyperledger there is no cryptocurrency which means we don’t use coin for doing transaction."
-       },
-       {
-                "imageUrl":"Ethereum-Blockchain-01.svg",
-                "title":"Ethereum Blockchain",
-                "description":"Ethereum is a distributed public block chain network that focuses on running programming code of any decentralized application. More simply, it is a platform for sharing information across the globe that cannot be manipulated or changed. Its advantages are immutable which data written in blockchain cannot be changed or deleted by any third party, and it is censorship-free which means based on a network formed around the principle of consensus. Ethereum is secure, it protects by cryptography and all records are publicly available for anyone to check."
-     }
+        {
+           "header":"Our Focus Areas",
+           "description":"It’s a movement to help you redefine your most important business relationships through trust, transparency and newfound collaboration. In blockchain, We focus on two technologies, Hyperledger blockchain and Ethereum blockchain."
+        },
+        {
+            "component":[
+                {
+                    "imageUrl":"HyperLedger_Blockchain-01.svg",
+                    "title":"HyperLedger Blockchain",
+                    "description":"Hyperledger is a platform for distributed ledger solutions underpinned by a modular architecture delivering high degrees of confidentiality, resiliency, flexibility, and scalability. It is designed to support pluggable implementations of different components and accommodate the complexity and intricacies that exist across the economic ecosystem. Its fabric is a private channel which distributed ledger and smart contract platform allow for smart contract called “chaincode”. Modular architecture provides a lot of flexibility in terms of what you want to use. In Hyperledger there is no cryptocurrency which means we don’t use coin for doing transaction."
+            },
+            {
+                     "imageUrl":"Ethereum-Blockchain-01.svg",
+                     "title":"Ethereum Blockchain",
+                     "description":"Ethereum is a distributed public block chain network that focuses on running programming code of any decentralized application. More simply, it is a platform for sharing information across the globe that cannot be manipulated or changed. Its advantages are immutable which data written in blockchain cannot be changed or deleted by any third party, and it is censorship-free which means based on a network formed around the principle of consensus. Ethereum is secure, it protects by cryptography and all records are publicly available for anyone to check."
+          }
+            ]
+        }
+         
    ],
    "tools":[
         {
@@ -57,7 +60,7 @@
         
    ],
 
-   "compare":[
+    "compare":[
         {
             "header":"Private Blockchain vs. Public Blockchain"
         }
@@ -74,8 +77,8 @@
             ]
         }
     ],
-
-   "business":[
+     "business":[
+            {"cardimgurl":"../../assets/component/service-ai-important"},
          {
                "header":"Why A2A Digital gives the best Blockchain service?",
                "description":"A2A Digital helps clients explore every aspect of blockchain and build tailored solutions designed to deliver value. Through architecture, digital design and development, we serve our clients in their quest for innovative blockchain solutions that are market-ready and address real business issues."

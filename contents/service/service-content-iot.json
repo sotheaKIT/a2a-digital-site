@@ -5,28 +5,9 @@
               "question":null,
               "description":"Internet of Things is a system of interrelated computing devices, mechanical and digital machines, objects, animals or people that are provided with unique identifiers and the ability to transfer data over a network without requiring human-to-human or human-to-computer interaction. The interconnection via the Internet of computing devices embedded in everyday objects, enabling them to send and receive data. A thing in the internet of things can be a person with a heart monitor implant, a farm animal with biochip transponder, an automobile that has built-in sensors to alert the driver when tire pressure is low or any other natural or man-made object that can be assigned an IP address and is able to transfer data over a network.",
               "imagePath":"iot-03-01.png"
-            }
+        }
        ],
-       "results":[
-             {
-                   "header":"Work Results"
-             },
-             {
-                   "imageUrl":"Smart_lock.png",
-                   "header":"Smart Lock",
-                   "description":"Smart Lock is the new modern system for hotel or resort make it easier in Check-in and Check-out process with QR Code as a ‘Digital Key’. The system helps the business more efficient and spent less time."
-             },
-             {
-                 "imageUrl":"demo_video.mp4",
-                 "header":"Smart Locker",
-                 "description":"Smart Locker is a new system that introduces the concept of ‘Digital  Key’ to the business. The system includes the development of hardware and software which is operated on various types of smartphones and computers. The majority components of the system are the physical locker and web application which is integrated together through web-API, and microprocessor."
-             },
-             {
-                 "imageUrl":"First_demo.mp4",
-                 "header":"Home Smart Meter",
-                 "description":"This is a system makes people easy by checking the value of water and electricity by using the web application. The system will automatically get water and electricity data from sensor and send to the web application so that users can check on the web."
-             }
-       ],
+       
        "tools":[
             {
                 "header":"Tools and Technologies used for IoT Development"
@@ -81,14 +62,39 @@
             }
             
     ],
-    
-       "business":
-       [
+       "results":[
              {
+                   "header":"Work Results"
+             },
+             {
+                     "cards":
+                [
+                          {
+                                "imageUrl":"Smart_lock.png",
+                                "header":"Smart Lock",
+                                "description":"Smart Lock is the new modern system for hotel or resort make it easier in Check-in and Check-out process with QR Code as a ‘Digital Key’. The system helps the business more efficient and spent less time."
+                          },
+                          {
+                              "imageUrl":"demo_video.mp4",
+                              "header":"Smart Locker",
+                              "description":"Smart Locker is a new system that introduces the concept of ‘Digital  Key’ to the business. The system includes the development of hardware and software which is operated on various types of smartphones and computers. The majority components of the system are the physical locker and web application which is integrated together through web-API, and microprocessor."
+                          },
+                          {
+                              "imageUrl":"First_demo.mp4",
+                              "header":"Home Smart Meter",
+                              "description":"This is a system makes people easy by checking the value of water and electricity by using the web application. The system will automatically get water and electricity data from sensor and send to the web application so that users can check on the web."
+                         }
+             ]
+        }
+             
+       ],
+      "business":[
+                {"cardimgurl":null},
+                {
                    "header":"Why A2A Digital gives the best IoT service?",
                    "description":"A2A Digital provides full-range IoT service comprising consulting, development and implementation, analytics, support and evolution. Whether you plan to launch an IoT initiative, upscale an existing IoT application or integrate your IoT solution with a legacy system - we will work out a reliable to address your business challenge. We define the right IoT landscape for you to kick start your IoT journey. A structured approach is taken to understand your business needs and offer quick ramp-up to discover your IoT needs and solutions accelerating your time to market with low risk."
-           },
-             {
+                },
+                {
                    "header":"IoT benefits for Business",
                    "imageUrl":"IOT.png",
                    "texts":[
