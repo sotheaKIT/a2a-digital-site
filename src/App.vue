@@ -32,7 +32,8 @@
                 {name: 'description', content: 'I have things here on my site.'},
                 {property: 'og:site_name', content: 'A2A Digital, inc.'},
                 {property: 'og:type', content: 'website'},
-                {property: 'og:image', content: ''},
+                {property: 'og:url', content: 'https://a2adigital-seo.netlify.com/'},
+                {property: 'og:image', content: 'https://images-cdn.9gag.com/img/9gag-og.png'},
             ]
         }
     }
