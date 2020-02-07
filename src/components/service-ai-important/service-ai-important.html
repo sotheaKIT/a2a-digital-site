@@ -3,24 +3,24 @@
         <div class="c_ai__description__container">
             <article class="l_ai_description__wrapper">
                 <header class="l_description__header">
-                    <h1>{{business[1]['header']}}</h1>
+                    <h1>{{business[0]['header']}}</h1>
                 </header>
                 <p>
-                    {{business[1]['description']}}
-               </p>
+                    {{business[0]['description']}}
+                </p>
             </article>
         </div>
         <div class="c_ai__important__point__container">
             <header class="l_ai__important__header">
-                <h1>{{business[2]['header']}}</h1>
+                <h1>{{business[1]['header']}}</h1>
             </header>
             <article class="l_ai__impartant__wrapper">
                 <div class="l_important__img">
-                    <img src="../../assets/component/service-ai-important/ai-business.png" alt="">
+                    <img :src="'../assets/component/service/' + route + '/business/' + business[1]['imageUrl']" alt="ai benefit for besiness">
                 </div>
                 <div class="l_why__ai">
-                    <ul v-for = "businessList in business[2]['texts']">
-                        <li>{{businessList['text']}} </li>   
+                    <ul v-for="businessList in business[1]['texts']">
+                        <li>{{businessList['text']}}</li>
                     </ul>
                 </div>
             </article>

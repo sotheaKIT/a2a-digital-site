@@ -2,9 +2,11 @@
 <template src="./solutions-detail.html">
 </template>
 
-
 <script>
-  export default {
-    name: 'SolutionDetail',
-  }
+    export default {
+        name: 'SolutionDetail',
+        props:{
+            header: null
+        }
+    }
 </script>

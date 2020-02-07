@@ -1,12 +1,8 @@
 body, html {
     margin: 0;
     padding: 0;
-    height: 100vh;
     overflow-inline: hidden;
 }
-
-
-
 
 #app {
     font-family: SFProText-Regular;
@@ -21,7 +17,6 @@ a {
 
 #contact-page {
     display: flow-root;
-    padding-top: 5%;
 
 }
 
@@ -43,6 +38,10 @@ ul {
     padding: 15px;
     margin-right: auto;
     margin-left: auto;
+}
+
+.content {
+    margin: auto;
 }
 
 

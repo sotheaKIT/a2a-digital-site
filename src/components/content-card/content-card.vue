@@ -23,12 +23,7 @@ export default {
     methods: {
     ...mapActions({
         actionLoadContent : 'serviceContent/load'
-    }),
-
-   loadSrc(src) { 
-      return require('@/assets/component/content-card/'+src)
-    }
-    
+    }),    
 
     }
 
