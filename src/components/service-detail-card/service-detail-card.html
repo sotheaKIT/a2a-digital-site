@@ -12,12 +12,13 @@
         </section>
     </div>
     <div class="flex-container">
-        <div  class="center" v-for="card in cards[1]['component']">
+        <div class="center" v-for="card in cards[1]['component']">
             <div class="flex-item">
-                <img src="../../assets/component/service-detail-card/target.svg">
+                <img :src="'../assets/component/service/' + route + '/cards/' + card.imageUrl" >
                 <h1>{{card['title']}}</h1>
                 <p>{{card['description']}}</p>
-            </div> 
-        </div>      
+               
+            </div>
+        </div>
     </div>
 </div>

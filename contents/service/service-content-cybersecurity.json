@@ -15,13 +15,13 @@
       {
             "component":[
                   {
-                        "imageUrl":"",
+                        "imageUrl":"1.svg",
                         "title":"Security Staffing",
                         "description":"As we know security is very important not only for big companies but also for all kinds of companies. So our company provides you the security staffing service that our staff will respond and prepare all the necessary related to security for your company such as cyber security fundamentals, network vulnerable and exploitation, classic threat, attack, counter-measure and IT auditors provide guidance to coworkers and management regarding accounting discrepancies, compliance vulnerabilities and internal controls. IT auditors identify, document, summarize and present audit findings to external shareholders, such as regulatory bodies, and internal shareholders, such as executives."
                   },
                   {
-                          "imageUrl":"",
-                          "title":"security training staff",
+                          "imageUrl":"2.svg",
+                          "title":"Security Training Staff",
                           "description":"As a professional of cyber security, we are ready to let you know the way to keep security and Understanding security inside-out,Understanding security inside-out means knowing it is constantly changing and that staff and personnel have to be periodically retrained. MAX Security Solutions’ years of knowledge and experience are available for you, as a business owner or security executive, offering intelligence, consulting services, and on-ground expertise in order to implement the most suitable security training program for your personnel.When training employees to support security efforts, one has to understand that the training’s main purpose is to improve employee security awareness rather than physically train participants to counteract threats. We here to provide you all knowledge of security, you can join us in bootcamp, short course ect."
                   }
             ]
@@ -35,27 +35,27 @@
             "cards":[
              {
                    "header":"Next-Generation Firewalls",
-                   "imageUrl":"Firewall.svg",
+                   "imageUrl":"1.svg",
                    "description":"A next-generation firewall (NGFW), is a sophisticated hardware or software-based infrastructure security system that is able to detect and block cyber-attacks by enforcing security policies at the application level, as well as at the port and protocol level."
              }
              ,{
                  "header":"DNS Filtering",
-                 "imageUrl":"DNS.svg",
+                 "imageUrl":"2.svg",
                  "description":"DNS filtering offers a form of web security by exposing a request to certain controls. When a user types in the names of websites he/she wants to visit, DNS filters subject that request to controls to ensure that any given domain is safe to visit. For example, known malicious websites and IP addresses are blocked."
            }
            ,{
                  "header":"Malware Protection",
-                 "imageUrl":"Malware.svg",
+                 "imageUrl":"3.svg",
                  "description":"Malware Protection is protecting against a broad range of malware (including computer viruses, worms, spyware, botnet software and ransomware) and including options for virus removal will protect your computer, your privacy and your important documents from attack."
            }
            ,{
                  "header":"Antivirus Software",
-                 "imageUrl":"Antivirus.svg",
+                 "imageUrl":"4.svg",
                  "description":"Antivirus software is a type of program designed and developed to protect computers from malware like viruses, computer worms, spyware, botnets, rootkits, keyloggers and such. Antivirus programs function to scan, detect and remove viruses from your computer. There are many versions and types of anti-virus programs that are on  the market. However, the prime objective of any antivirus program is to protect computers and remove viruses once detected."
            }
            ,{
                   "header":"Email Security",
-                  "imageUrl":"EmailSecuritysolution.svg",
+                  "imageUrl":"5.svg",
                   "description":"Email security describes various techniques for keeping sensitive information in email communication and accounts secure against unauthorized access, loss, or compromise. Email security is necessary for both individual and business email accounts, and there are multiple measures organizations should take to enhance email security."
             }          
 
@@ -79,7 +79,7 @@
             }
       ],
          
-      "business": [{"cardimgurl":"../../assets/component/service-ai-important"},
+      "business": [
      
             {
                   "header":"Why A2A Digital gives the best Cyber Security service?",
@@ -87,7 +87,7 @@
           },
             {
                   "header":"Cyber Security benefits for Business",
-                  "imageUrl":"benefits-01.png",
+                  "imageUrl":"benefit.png",
                   "texts":[
                         {"text":"Protection your business"},
                         {"text":"Increase productivity"},

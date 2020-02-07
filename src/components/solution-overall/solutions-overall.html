@@ -1,0 +1,10 @@
+<div class="l_solution__overall__container">
+    <div class="l_solution__overall__wrapper">
+        <header class="c_solution__overall__header">
+            <h1>{{overall['title']}}</h1>
+        </header>
+        <div class="c_solution_overall_img" v-for="image in overall['imageUrls']">
+            <img  :src="'../assets/component/solutions/' + route + '/overall/' + image['imageUrl']">
+        </div>
+    </div>
+</div>

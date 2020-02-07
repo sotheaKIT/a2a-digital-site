@@ -1,6 +1,15 @@
 <style src="../styles/service-detail.css" scope></style>
 <template>
+  <div>
     <div class="l_service__detail__container">
+       <div class="c_jobspage_detail l_padding__left">
+        <div class="c_jobspage_title">
+            <a>Job Opening</a>
+            <img id="c_icon" src="assets/component/service-detail-page/arrow_right.svg">
+            <a id="c_text">Front-end Developer</a>
+        </div>
+    </div>
+    </div>
       <div v-for="serviceDetailContent in serviceDetailContents" v-bind:key="serviceDetailContent.id">
       <ServiceDetailCard v-if="serviceDetailContent['cards'] != null" :cards="serviceDetailContent['cards']"></ServiceDetailCard>
       <ServiceDetailPageComp v-if="serviceDetailContent['header'] != null" v-bind:header="serviceDetailContent['header']" ></ServiceDetailPageComp>
@@ -11,8 +20,7 @@
       <ServiceAIImportant v-if="serviceDetailContent['business'] != null" :business = "serviceDetailContent['business']"></ServiceAIImportant>
       <ServiceContactForm></ServiceContactForm>
       </div>
-    </div>
-  
+  </div>
 </template>
 
 <script>
@@ -22,6 +30,8 @@ import ServiceTechnologyCard from '../components/service-technology-card/service
 import ServiceWorkResult from '../components/service-work-result/service-work-result.vue'
 import ServiceAIImportant from '../components/service-ai-important/service-ai-important.vue'
 import ServiceContactForm from '../components/service-contact-form/service-contact-form.vue'
+import ServiceComapareComp from '../components/service-cloud-detail-page/service-cloud-detail-page.vue'
+import ServiceManagement from '../components/service-management/service-management'
 import {mapGetters ,mapActions} from 'vuex'
 export default {
   name: 'ServiceDetailPage',
@@ -31,7 +41,9 @@ export default {
     ServiceTechnologyCard,
     ServiceWorkResult,
     ServiceAIImportant,
-    ServiceContactForm
+    ServiceContactForm,
+    ServiceComapareComp,
+    ServiceManagement
   },
   data : function () {
     return {

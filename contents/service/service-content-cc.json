@@ -3,9 +3,9 @@
       "header":[
          {
             "title":"Cloud Computing",
-            "question":"What is Cloud Computing ?",
+            "question":"GG What is Cloud Computing ?",
             "description":"Cloud computing is the delivery of computing services including servers, storage, databases, networking, software, analytics, and intelligence over the Internet (“the cloud”) to offer faster innovation, flexible resources, and economies of scale. You typically pay only for cloud services you use, helping lower your operating costs, run your infrastructure more efficiently and scale as your business needs change",
-             "imagePath":""
+             "imagePath":"cloud.svg"
       }
      ],
      "cards":[
@@ -15,17 +15,17 @@
          },{
              "component":[
                 {
-                    "imageUrl":"",
+                    "imageUrl":"1.svg",
                     "title":"Google Cloud Platform (GCP",
                     "description":"GCP consists of a computer, hard disk drives and virtual machines (VMs). it gives you options for computing and hosting.You can work in a serverless, use a managed platform, leverage container technologies to gain lots of flexibility,  build your own cloud-based infrastructure to have the most control and flexibility. Our company gives support and service for our client to upgrade their traditional server to GCP cloud."
                     },
             {
-                  "imageUrl":"",
+                  "imageUrl":"2.svg",
                   "title":"Amazon Web Service (AWS)",
                   "description":"AWS cloud provides on-demand cloud computing platforms and APIs to individuals, companies, and governments, on a metered pay-as-you-go basis. These cloud computing web services provide a set of primitive abstract technical infrastructure and distributed computing building blocks and tools. With our support, we maintain our client web service and move to AWS service which makes company website more secure and customizable."
                   },
           {
-                "imageUrl":"",
+                "imageUrl":"3.svg",
                 "title":"DigitalOcean",
                 "description":"Digital Ocean is a cloud infrastructure provides developers cloud services that help to deploy and scale application that run simultaneously on multiple computers. It offers an Infrastructure as a Service (IaaS) platform for software developers. It is very popular with open source developers and competes with AWS and GCP. Our service is to migrate client’s server to DigitalOcean Cloud platform and deploy to DigitalOcean’s IaaS environment and also maintain the service."
            }
@@ -50,10 +50,9 @@
         }
         ],
         "compare":[
-            {
+           {
                 "header":"Multi Cloud vs. Hybrid Cloud",
-                "description":"The confusion between multi cloud and hybrid cloud is compounded by the fact that they’re often used interchangeably. Although it can seem like a semantic argument, there is a real difference between the two."
-            },{
+                "description":"The confusion between multi cloud and hybrid cloud is compounded by the fact that they’re often used interchangeably. Although it can seem like a semantic argument, there is a real difference between the two.",
                 "components":[
                     {
                         "header":"Multi Cloud",
@@ -71,14 +70,14 @@
     
      "business":
      [
-        {"cardimgurl":"../../assets/component/service-ai-important"},
+        
            {
                  "header":"Why A2A Digital gives the best Cloud Computing service",
                  "description":"A2A Digital provides migration plans, technical assistance and credits available to make it easy for clients. We give partners to grow their businesses leveraging with our service. We make it easy for our clients to deploy and modernize their infrastructures."
             },
            {
                  "header":"Cloud Computing benefits for Business",
-                 "imageUrl":"",
+                 "imageUrl":"cloud-computing-for-business.png",
                  "texts":[
                        {"text":"Cloud hosting saves your money"},
                        {"text":"Instantly scalable resources and pay as you go notification"},
