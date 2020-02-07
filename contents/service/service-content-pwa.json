@@ -5,7 +5,7 @@
             "title":"PWA Development",
             "question":"What is PWA?",
             "description":"Progressive Web Apps are web applications that load in a web browser just like web pages or websites. It gives you a rich mobile experience via native-like functionalities such as the ability to work offline, push notifications, and device hardware accessibility. It feels like a native app and offers the same experience as a native one. there is no requirement for developers or users to install the web apps via digital distribution systems like Apple App Store or Google Play.. It loads, runs, and functions in a web browser.",
-            "imagePath":"WhatisPWA.png"
+            "imagePath":"pwa.png"
       }
      ],
      "cards":[
@@ -49,10 +49,10 @@
               "cards":[
                   {
                         "imageUrls" : [
-                              {"imageUrl":"PWAresult-01.jpg"},
-                              {"imageUrl":"PWAresult-02.jpg"},
-                              {"imageUrl":"PWAresult-03.jpg"},
-                              {"imageUrl":"PWAresult-04.jpg"}
+                              {"imageUrl":"1.jpg"},
+                              {"imageUrl":"2.jpg"},
+                              {"imageUrl":"3.jpg"},
+                              {"imageUrl":"4.jpg"}
                            ],
                           "header":"Vkiriom Resort Site PWA",
                           "description":"We have implemented PWA technology with vKirirom Pine Resort website. After launching our very own PWA, we can see enormous growth in our website performance compared to last year. PWA increased company revenue by 230%. Below is a little report of our performance to illustrate we mean Conversion rates increased by 230%, Sessions increased by 583%, Users increased by 673%, Pageviews increased by 564%, Bounce rate increased by 6%."
@@ -63,14 +63,14 @@
   ],
      "business":
      [
-           {"imageUrl":""},
+           
            {
                  "header":"How a PWA increased our revenue by 230%",
                  "description":"After launching our very own PWA, we can see enormous growth in our website performance compared to last year. Below is a little report of our performance to illustrate we mean: Conversion rates increased by 230%, Sessions increased by 583%, Users increased by 673%, Pageviews increased by 564%, Bounce rate increased by 6%"
          },
            {
                  "header":"PWA benefits for Business",
-                 "imageUrl":"",
+                 "imageUrl":"pwa_benefit.png",
                  "texts":[
                        {"text":"Low development costs"},
                        {"text":"App-like look and feel"},

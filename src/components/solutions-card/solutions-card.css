@@ -1,6 +1,26 @@
 .c_solution__card__container{
   margin-top: 30px;
 }
+
+.l_solution__card__wrapper {
+    width: 100%;
+    display: block;
+}
+.l_solution__card__wrapper header{
+    text-align: center;
+}
+
+.c_solution__card__header h1{
+    margin-bottom: 40px;
+    text-align: center;
+    font-family: SFProText-Bold;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 29px;
+    text-align: center;
+}
+
 .c_solution__card__container div.flex-container{
   margin: 0 90px;
   display: grid;

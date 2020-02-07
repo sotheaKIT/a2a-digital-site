@@ -62,17 +62,18 @@
             <div class="dropdown-content">
               <div class="drp1">
                 <ul>
-                  <li><a :href="$router.resolve({ name: 'servicedetail', params: { solution: 'pwa' }}).href">Security System</a></li>
-                  <li><a :href="$router.resolve({ name: 'servicedetail', params: { solution: 'pwa' }}).href">KPI Dashboard System</a></li>
-                  <li><a :href="$router.resolve({ name: 'servicedetail', params: { solution: 'pwa' }}).href">QR Code System</a></li>
-                  <li><a :href="$router.resolve({ name: 'servicedetail', params: { solution: 'pwa' }}).href">Contact Center</a></li>
+                  <li><a :href="$router.resolve({ name: 'solutiondetail', params: { solution: 'security' }}).href">Security System</a></li>
+                  <li><a :href="$router.resolve({ name: 'solutiondetail', params: { solution: 'kpi' }}).href">KPI Dashboard System</a></li>
+                  <li><a :href="$router.resolve({ name: 'solutiondetail', params: { solution: 'qrcode' }}).href">QR Code System</a></li>
+                  <li><a :href="$router.resolve({ name: 'solutiondetail', params: { solution: 'contactcenter' }}).href">Contact Center</a></li>
                 </ul>
               </div>
               <div class="drp2">
                 <ul>
-                  <li><a :href="$router.resolve({ name: 'servicedetail', params: { solution: 'pwa' }}).href">Human Resource Management</a></li>
-                  <li><a :href="$router.resolve({ name: 'servicedetail', params: { solution: 'pwa' }}).href">Logistic System</a></li>
-                  <li><a :href="$router.resolve({ name: 'servicedetail', params: { solution: 'pwa' }}).href">School Management System</a></li>
+                  <li><a :href="$router.resolve({ name: 'solutiondetail', params: { solution: 'hrm' }}).href">Human Resource Management</a></li>
+                  <li><a :href="$router.resolve({ name: 'solutiondetail', params: { solution: 'ls' }}).href">Logistic System</a></li>
+                  <li><a :href="$router.resolve({ name: 'solutiondetail', params: { solution: 'sms' }}).href">School Management System</a></li>
+                  <li><a :href="$router.resolve({ name: 'solutiondetail', params: { solution: 'mapping' }}).href">Projection Mapping</a></li>
 
               
                 </ul>
@@ -106,13 +107,7 @@
           <div ref="sideNav" class="bm-menu">
 
           <div id="sideNav_logo">
-            <div v-if="navigationActivate === 'active'">
-              <a href="/"><img alt="Vue logo" class= "c_logo" src="../../assets/component/navigator/logo_A2A.svg"></a>
-            </div>
-            <div v-else>
-              <a href="/"><img alt="Vue logo" class= "c_logo" src="../../assets/component/navigator/logo_color.svg"></a>
-            </div>
-            
+            <a href="/"><img alt="Vue logo" class= "c_logo" src="../../assets/component/navigator/logo_color.svg"></a>
             <div id="bm_click">
               <span class="bm-cross-button cross-style" @click="closeMenu" :class="{ hidden: !crossIcon }">
                 
@@ -136,36 +131,36 @@
 
                         <div class="bm_tree__service" v-bind:style="{ display: styleCheck_service }" >
                           <li class="bm_tree_submenu"><a :href="$router.resolve({ name: 'servicedetail', params: { service: 'ai' }}).href">Artificial Intelligence</a></li>
-                          <li class="bm_tree_submenu"><a :href="$router.resolve({ name: 'servicedetail', params: { service: 'ai' }}).href">IOT development</a></li>
-                          <li class="bm_tree_submenu"><a :href="$router.resolve({ name: 'servicedetail', params: { service: 'ai' }}).href">Cloud Computing</a></li>
-                          <li class="bm_tree_submenu"><a :href="$router.resolve({ name: 'servicedetail', params: { service: 'ai' }}).href">RPA install support</a></li>
-                          <li class="bm_tree_submenu"><a :href="$router.resolve({ name: 'servicedetail', params: { service: 'ai' }}).href">Block Chain development</a></li>
-                          <li class="bm_tree_submenu"><a :href="$router.resolve({ name: 'servicedetail', params: { service: 'ai' }}).href">PWA development</a></li>
-                          <li class="bm_tree_submenu"><a :href="$router.resolve({ name: 'servicedetail', params: { service: 'ai' }}).href">VR/AR development</a></li>
-                          <li class="bm_tree_submenu"><a :href="$router.resolve({ name: 'servicedetail', params: { service: 'ai' }}).href">Odoo ERP custormize</a></li>
-                          <li class="bm_tree_submenu"><a :href="$router.resolve({ name: 'servicedetail', params: { service: 'ai' }}).href">Cyber Security</a></li>
-                          <li class="bm_tree_submenu"><a :href="$router.resolve({ name: 'servicedetail', params: { service: 'ai' }}).href">Digital Marketing</a></li>
+                          <li class="bm_tree_submenu"><a :href="$router.resolve({ name: 'servicedetail', params: { service: 'iot' }}).href">IOT development</a></li>
+                          <li class="bm_tree_submenu"><a :href="$router.resolve({ name: 'servicedetail', params: { service: 'cc' }}).href">Cloud Computing</a></li>
+                          <li class="bm_tree_submenu"><a :href="$router.resolve({ name: 'servicedetail', params: { service: 'rpa' }}).href">RPA install support</a></li>
+                          <li class="bm_tree_submenu"><a :href="$router.resolve({ name: 'servicedetail', params: { service: 'blockchain' }}).href">Block Chain development</a></li>
+                          <li class="bm_tree_submenu"><a :href="$router.resolve({ name: 'servicedetail', params: { service: 'pwa' }}).href">PWA development</a></li>
+                          <li class="bm_tree_submenu"><a :href="$router.resolve({ name: 'servicedetail', params: { service: 'arvr' }}).href">VR/AR development</a></li>
+                          <li class="bm_tree_submenu"><a :href="$router.resolve({ name: 'servicedetail', params: { service: 'odoo' }}).href">Odoo ERP custormize</a></li>
+                          <li class="bm_tree_submenu"><a :href="$router.resolve({ name: 'servicedetail', params: { service: 'cybersecurity' }}).href">Cyber Security</a></li>
+                          <li class="bm_tree_submenu"><a :href="$router.resolve({ name: 'servicedetail', params: { service: 'marketing' }}).href">Digital Marketing</a></li>
                         </div>
                 </li>
 
 
 
                 <li id="slide_product" class="bm_primary_scroller" v-bind:style="{background: background_product, color: color_product}">
-                      Products
+                      Solutions
                       <svg class="bm_list_down"  width="9" height="17" viewBox="0 0 9 17" fill="#138690" xmlns="http://www.w3.org/2000/svg" v-bind:style="{fill: color_click_product, transform:rotate_click_product}">
                         <path d="M8.65039 8.74568L0.860939 16.8937C0.791212 16.9668 0.698244 17.0033 0.605276 17.0033C0.515626 17.0033 0.429298 16.9701 0.359571 16.9037C0.220118 16.7676 0.213478 16.5451 0.349611 16.4023L7.90664 8.49998L0.349609 0.597635C0.213476 0.458182 0.216797 0.2324 0.35957 0.0995878C0.502343 -0.0365449 0.724805 -0.0299043 0.860937 0.109549L8.65039 8.25427C8.7832 8.39041 8.7832 8.60623 8.65039 8.74568Z"/>
                       </svg>
                     <div class="bm_tree__product" v-bind:style="{ display: styleCheck_product}" >
-                      <li class="bm_tree_submenu"><a :to="{ name: 'solutiondetail', params: { service: 'security' } }">Security System</a></li>
-                      <li class="bm_tree_submenu"><a :to="{ name: 'solutiondetail', params: { service: 'school' }}">School Management System</a></li>
-                      <li class="bm_tree_submenu"><a :to="{ name: 'solutiondetail', params: { service: 'kpi' }}">KPI Dashboard</a></li>
-                      <li class="bm_tree_submenu"><a :to="{ name: 'solutiondetail', params: { service: 'shuttle' }}">Shuttle Bus</a></li>
-                      <li class="bm_tree_submenu"><a :to="{ name: 'solutiondetail', params: { service: 'qr' }}">QR Code System</a></li>
-                      <li class="bm_tree_submenu"><a :to="{ name: 'solutiondetail', params: { service: 'contact' } }">Contact Center</a></li>
-                      <li class="bm_tree_submenu"><a :to="{ name: 'solutiondetail', params: { service: 'projection' } }">Projection Mapping</a></li>
-                      <li class="bm_tree_submenu"><a :to="{ name: 'solutiondetail', params: { service: 'hr' } }">HR Management</a></li>
-                      <li class="bm_tree_submenu"><a :to="{ name: 'solutiondetail', params: { service: 'logistic' } }">Logistic System</a></li>
-                      <li class="bm_tree_submenu"><a :to="{ name: 'solutiondetail', params: { service: 'digital' } }">Digital Marketing</a></li>
+                      <li class="bm_tree_submenu"><a :to="{ name: 'solutiondetail', params: { solution: 'security' } }">Security System</a></li>
+                      <li class="bm_tree_submenu"><a :to="{ name: 'solutiondetail', params: { solution: 'school' }}">School Management System</a></li>
+                      <li class="bm_tree_submenu"><a :to="{ name: 'solutiondetail', params: { solution: 'kpi' }}">KPI Dashboard</a></li>
+                      <li class="bm_tree_submenu"><a :to="{ name: 'solutiondetail', params: { solution: 'shuttle' }}">Shuttle Bus</a></li>
+                      <li class="bm_tree_submenu"><a :to="{ name: 'solutiondetail', params: { solution: 'qr' }}">QR Code System</a></li>
+                      <li class="bm_tree_submenu"><a :to="{ name: 'solutiondetail', params: { solution: 'contact' } }">Contact Center</a></li>
+                      <li class="bm_tree_submenu"><a :to="{ name: 'solutiondetail', params: { solution: 'projection' } }">Projection Mapping</a></li>
+                      <li class="bm_tree_submenu"><a :to="{ name: 'solutiondetail', params: { solution: 'hr' } }">HR Management</a></li>
+                      <li class="bm_tree_submenu"><a :to="{ name: 'solutiondetail', params: { solution: 'logistic' } }">Logistic System</a></li>
+                      <li class="bm_tree_submenu"><a :to="{ name: 'solutiondetail', params: { solution: 'digital' } }">Digital Marketing</a></li>
                   
                     </div>
 

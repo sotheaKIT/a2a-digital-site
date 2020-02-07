@@ -3,9 +3,20 @@
 
 
 <script>
- 
-  export default {
-    name: 'SolutionCard',
-   
-  }
+    export default {
+        name: 'SolutionCard',
+        props:{
+            feature: null
+        } ,
+        data: function() {
+            return {
+                route : String 
+            }
+        },
+
+        created : function(){
+           this.route = this.$route.params.solution 
+        }
+
+    }
 </script>

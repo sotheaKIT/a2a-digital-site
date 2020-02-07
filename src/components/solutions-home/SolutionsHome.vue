@@ -2,10 +2,8 @@
 <template src="./solutions-home.html">
 </template>
 
-
 <script>
-  export default {
-    name: 'SolutionsHome',
-
-  }
+    export default {
+        name: 'SolutionsHome',
+    }
 </script>

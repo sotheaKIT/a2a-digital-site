@@ -23,7 +23,7 @@ export default new Router({
       component: HomePage
     },
     {
-      path: '/solutiondetail',
+      path: '/solutiondetail/:solution',
       name: 'solutiondetail',
       component: SolutionDetail
     },

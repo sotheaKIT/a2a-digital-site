@@ -70,8 +70,8 @@
         },
         methods: {
             handleScroll: function () {
-                 if (this.$router.currentRoute.name === "home" || this.$router.currentRoute.name === "about"  ) {
-                    if (window.scrollY > 980) {
+                 if (this.$router.currentRoute.name === "home" || this.$router.currentRoute.name === "about" || this.$router.currentRoute.name === "contact" ) {
+                    if (window.scrollY > 940) {
                         this.navigationActivate = "inactive"
                         this.activeColor = "white"
                         this.activeShadow = "0px 4px 10px rgba(0, 0, 0, 0.1)"
@@ -177,7 +177,7 @@
         },
         created: function () {
             document.addEventListener('click', this.documentClick);
-            if (this.$router.currentRoute.name === "home" || this.$router.currentRoute.name === "about") {
+            if (this.$router.currentRoute.name === "home" || this.$router.currentRoute.name === "about"  || this.$router.currentRoute.name === "contact" ) {
                 this.navigationActivate = "active"
             } else {
                 this.activeColor = "white"
