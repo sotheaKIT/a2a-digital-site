@@ -16,6 +16,7 @@
         name: 'App',
         data() {
             return {
+                title:'Page',
                 side: 'right',
                 currentMenu: 'slide'
             };
@@ -23,6 +24,10 @@
         components: {
             Footer,
             slide
+        },
+        created () {
+            document.title = this.title + ' - A2A Digital'
+            document.head.querySelector('meta[name=description]').content = 'Description Here'
         }
     }
 </script>
