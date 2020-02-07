@@ -1,4 +1,3 @@
-<style src="./subnav.css" scope></style>
 <template src="./subnav.html"></template>
 
 <script>
@@ -7,3 +6,4 @@
     name: 'Subnav',   
   }
 </script>
+<style src="./subnav.css" scope></style>

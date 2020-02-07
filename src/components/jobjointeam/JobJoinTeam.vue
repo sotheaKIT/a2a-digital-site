@@ -1,4 +1,3 @@
-<style src="./jobjointeam.css" scope></style>
 <template src="./jobjointeam.html"></template>
 
 <script>
@@ -20,3 +19,4 @@
    
   }
 </script>
+<style src="./jobjointeam.css" scope></style>

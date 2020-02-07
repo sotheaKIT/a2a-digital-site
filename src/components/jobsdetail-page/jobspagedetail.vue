@@ -1,4 +1,3 @@
-<style src="./jobspagedetail.css" scope></style>
 <template src="./jobspagedetail.html"></template>
 
 <script>
@@ -7,3 +6,4 @@
     name: 'JobsDetailPage',   
   }
 </script>
+<style src="./jobspagedetail.css" scope></style>

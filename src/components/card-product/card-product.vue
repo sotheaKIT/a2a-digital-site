@@ -1,4 +1,3 @@
-<style src="./card-product.css" scope></style>
 <template src="./card-product.html"></template>
 <script>
  
@@ -6,4 +5,5 @@
     name: 'CardProduct',
    
   }
-</script> 
+</script>
+<style src="./card-product.css" scope></style>

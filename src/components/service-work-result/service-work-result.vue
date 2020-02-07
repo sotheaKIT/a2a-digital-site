@@ -1,4 +1,3 @@
-<style src="./service-work-result.css" scope></style>
 <template src="./service-work-result.html">
 </template>
 
@@ -40,3 +39,4 @@ export default {
 
 }
 </script>
+<style src="./service-work-result.css" scope></style>

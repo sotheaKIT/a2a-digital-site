@@ -1,4 +1,3 @@
-<style src="./footer.css" scope></style>
 <template src="./footer.html"></template>
 
 <script>
@@ -7,3 +6,4 @@
     name: 'Footer',   
   }
 </script>
+<style src="./footer.css" scope></style>

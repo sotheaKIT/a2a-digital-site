@@ -1,4 +1,3 @@
-<style src="./jobheaderbtn.css" scope></style>
 <template src="./jobheaderbtn.html"></template>
 
 <script>
@@ -18,3 +17,4 @@
    
   }
 </script>
+<style src="./jobheaderbtn.css" scope></style>

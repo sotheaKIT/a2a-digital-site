@@ -1,4 +1,3 @@
-<style src="./jobcard.css" scope></style>
 <template src="./jobcard.html"></template>
 
 <script>
@@ -23,3 +22,4 @@
    
   }
 </script>
+<style src="./jobcard.css" scope></style>

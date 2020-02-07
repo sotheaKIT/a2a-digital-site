@@ -1,4 +1,3 @@
-<style src="./slide.css" scope></style>
 <template src="./slide.html"></template>
 
 
@@ -9,3 +8,4 @@
    
   }
 </script>
+<style src="./slide.css" scope></style>

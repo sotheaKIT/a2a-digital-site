@@ -1,4 +1,3 @@
-<style src="./solutions-home.css" scope></style>
 <template src="./solutions-home.html">
 </template>
 
@@ -9,3 +8,4 @@
 
   }
 </script>
+<style src="./solutions-home.css" scope></style>

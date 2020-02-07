@@ -1,4 +1,3 @@
-<style src="./navigator.css" scope></style>
 <template src="./navigator.html"></template>
 
 <script>
@@ -248,3 +247,4 @@
         prevScrollpos = currentScrollPos;
     }
 </script>
+<style src="./navigator.css" scope></style>

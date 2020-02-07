@@ -1,4 +1,3 @@
-<style src="./contact-form.css" scope ></style>
 <template src="./contact-form.html"></template>
 
 <script>
@@ -8,3 +7,4 @@
    
   }
 </script>
+<style src="./contact-form.css" scope ></style>

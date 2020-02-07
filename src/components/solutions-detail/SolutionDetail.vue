@@ -1,4 +1,3 @@
-<style src="./solutions-detail.css" scope></style>
 <template src="./solutions-detail.html">
 </template>
 
@@ -8,3 +7,4 @@
     name: 'SolutionDetail',
   }
 </script>
+<style src="./solutions-detail.css" scope></style>

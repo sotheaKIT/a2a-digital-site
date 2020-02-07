@@ -1,4 +1,3 @@
-<style src="./styles/app.css"></style>
 <template>
     <div id="app">
         <component :is="currentMenu" :right="side === 'right' ? true: false"></component>
@@ -23,6 +22,19 @@
         components: {
             Footer,
             slide
+        },
+        metaInfo: {
+            title: 'Page Title',
+            titleTemplate: '%s | A2A Digital',
+            meta: [
+                {charset: 'utf-8'},
+                {name: 'viewport', content: 'width=device-width, initial-scale=1'},
+                {name: 'description', content: 'I have things here on my site.'},
+                {property: 'og:site_name', content: 'A2A Digital, inc.'},
+                {property: 'og:type', content: 'website'},
+                {property: 'og:image', content: ''},
+            ]
         }
     }
 </script>
+<style src="./styles/app.css"></style>
