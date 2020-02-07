@@ -23,19 +23,18 @@
             Footer,
             slide
         },
-        metaInfo: {
-            title: 'Page Title',
-            titleTemplate: '%s | A2A Digital',
-            meta: [
-                {charset: 'utf-8'},
-                {name: 'viewport', content: 'width=device-width, initial-scale=1'},
-                {name: 'description', content: 'I have things here on my site.'},
-                {property: 'og:site_name', content: 'A2A Digital, inc.'},
-                {property: 'og:type', content: 'website'},
-                {property: 'og:url', content: 'https://a2adigital-seo.netlify.com/'},
-                {property: 'og:image', content: 'https://images-cdn.9gag.com/img/9gag-og.png'},
-            ]
-        }
+        // metaInfo: {
+        //     title: 'Page Title',
+        //     titleTemplate: '%s | A2A Digital',
+        //     meta: [
+        //         {charset: 'utf-8'},
+        //         {name: 'viewport', content: 'width=device-width, initial-scale=1'},
+        //         {property: 'og:site_name', content: 'A2A Digital, inc.'},
+        //         {property: 'og:type', content: 'website'},
+        //         {property: 'og:url', content: 'https://a2adigital-seo.netlify.com/'},
+        //         {property: 'og:image', content: 'https://images-cdn.9gag.com/img/9gag-og.png'},
+        //     ]
+        // }
     }
 </script>
 <style src="./styles/app.css"></style>
