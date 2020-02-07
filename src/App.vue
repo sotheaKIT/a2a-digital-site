@@ -16,7 +16,6 @@
         name: 'App',
         data() {
             return {
-                title:'Page',
                 side: 'right',
                 currentMenu: 'slide'
             };
@@ -25,9 +24,23 @@
             Footer,
             slide
         },
-        created () {
-            document.title = this.title + ' - A2A Digital'
-            document.head.querySelector('meta[name=description]').content = 'Description Here'
+        metaInfo: {
+            title: 'Page Title',
+            titleTemplate: '%s - A2A Digital',
+            meta: [
+                {name: 'description', content: 'Description'},
+                // OpenGraph data (Most widely used)
+                {property: 'og:title', content: 'A2A Digital'},
+                {property: 'og:site_name', content: 'My Site'},
+                // The list of types is available here: http://ogp.me/#types
+                {property: 'og:type', content: 'website'},
+                // Should the the same as your canonical link, see below.
+                // {property: 'og:url', content: 'https://www.my-site.com/my-special-page'},
+                {property: 'og:image', content: 'https://www.my-site.com/my-special-image.jpg'},
+                // Often the same as your meta description, but not always.
+                {property: 'og:description', content: 'Description from og:description'}
+
+            ]
         }
     }
 </script>
