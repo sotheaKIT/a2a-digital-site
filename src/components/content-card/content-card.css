@@ -91,6 +91,17 @@ section.c_card__service.txt_right {
     width: 38%;
     float: left;
 }
-.l_clear{
-    clear: both;
+
+
+@media only screen and (man-width: 980px) {
+    section.c_card__service.txt_left.aos-init.aos-animate{
+        width: 100%;
+        margin: auto;
+    }
+    div#services-page{
+        width: 100%;
+    }
+    .l_article__wrapper.l_pc{
+        width: 100%;
+    }
 }

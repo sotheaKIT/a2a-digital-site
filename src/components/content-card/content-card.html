@@ -2,9 +2,7 @@
     <header class="c_service__title">
         <h1>Services</h1>
     </header>
-    <div v-for="serviceContent in serviceContents" v-bind:key="serviceContent.id">
-        <div class="l_service__container">
-            <section v-bind:data-aos="serviceContent.animation" v-bind:class="serviceContent.css">  
+        <section v-for="serviceContent in serviceContents" v-bind:key="serviceContent.id" v-bind:data-aos="serviceContent.animation" v-bind:class="serviceContent.css">  
                 <div class="l_article__wrapper l_pc">
                         <article class="l_card__text">
                             <h1>{{serviceContent.title}}</h1>
@@ -18,8 +16,6 @@
                 <div class="l_card__img">
                     <img :src='serviceContent.src' >
                     <!-- <div class="bg_photo" style="background-image: url(https://storage.googleapis.com/chydlx/codepen/blog-cards/image-2.jpg)"></div> -->
-                </div>
-            </section>
-        </div>
-    </div>
+            </div>
+        </section>
 </div>
