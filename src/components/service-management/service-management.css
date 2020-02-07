@@ -26,7 +26,7 @@
     display: -webkit-flex;
     display: flex;
     flex-wrap: wrap;
-    padding-left: calc((100% - 1186px )/2);
+    /* padding-left: calc((100% - 1186px )/2); */
   }
   
   .c_service__card__container div.flex-item {
