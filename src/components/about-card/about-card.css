@@ -7,7 +7,7 @@
 .c_about_title h1{
     font-size: 45px;
     display: block;
-    width: 100%;
+    /* width: 100%; */
     text-align: center;
     padding-top: 50px;
 }
@@ -66,7 +66,7 @@ div .c_profile__card__container div.l_profile__card__center {
 }
 .c_profile__card__img img{
     width: 100%;
-    height: 400px;
+    height: 300px;
     object-fit: cover;
 }
 
@@ -139,4 +139,15 @@ div .c_profile__card__container div.l_profile__card__center {
     div.c_profile__card__container div.l_profile__card__center {
         max-width: 90%;
     }
+    .c_profile__card__img img{
+        height: 300px;
+    }
+}
+@media only screen and (max-width: 515px) { 
+    .l_card__about{
+        width: 100%;
+        margin-right: 0 !important;
+        /* margin-bottom: 20px; */
+    }
+   
 }

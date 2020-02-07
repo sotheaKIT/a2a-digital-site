@@ -10,13 +10,18 @@ export default {
     data() {
       return {
         ourTeamSwiper: {
+          initialSlide: 0,
           slidesPerView: 4,
+          slidesPerGroup: 4,
           spaceBetween: 20,
           loop: true,
+
+          cssMode: true,
           autoplay: {
-            delay: 2500,
+            delay: 1500,
             disableOnInteraction: false
           }, 
+          speed:6000,
           pagination: {
             el: '.swiper-pagination',
             clickable: true
@@ -26,22 +31,20 @@ export default {
             prevEl: '.swiper-button-prev'
           },
           breakpoints: {
-            // when window width is >= 320px
             320: {
-            slidesPerView: 2,
-            spaceBetween: 20
+              slidesPerView: 1,
+              slidesPerGroup: 1,
             },
-            // when window width is >= 480px
-            480: {
-            slidesPerView: 3,
-            spaceBetween: 30
+            768: {
+              slidesPerView: 2,
+              slidesPerGroup: 2,
             },
-            // when window width is >= 640px
-            720: {
-            slidesPerView: 4,
-            spaceBetween: 40
+            980: {
+              slidesPerView: 3,
+              slidesPerGroup: 3,
             }
-        } 
+          }, 
+
           
         }
       }
