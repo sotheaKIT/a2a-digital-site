@@ -3,8 +3,6 @@
   font-weight: normal; */
   font-size: 14px;
   line-height: 17px;
-  padding: 50px 6.66%;
-  display: flow-root;
 }
 hr {
   height: 1px;
@@ -36,10 +34,10 @@ li {
     margin: 10px 0;
   }
   
-  .l_footer { 
-    width: 100%;
-    padding-top: 10%;
-  }
+.l_footer { 
+  width: 100%;
+  margin : 10% auto auto;
+}
   
   .c_footer {
     width: 100%;

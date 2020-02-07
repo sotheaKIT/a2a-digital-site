@@ -1,13 +1,13 @@
 <div v-scroll="handleScroll" id ="navigation"  v-bind:style="{ background: activeColor,  boxShadow: activeShadow}"> 
   <div id="nav"> 
-    <div id="nav_logo">
-        <div v-if="navigationActivate === 'active'">
-          <a href="/"><img alt="Vue logo" class= "c_logo" src="../../../public/assets/component/navigator/logo_A2A.svg"></a>
-        </div>
-        <div v-else>
-          <a href="/"><img alt="Vue logo" class= "c_logo" src="../../../public/assets/component/navigator/logo_color.svg"></a>
-        </div>
+    <div v-if="navigationActivate === 'active'" id="nav_logo">
+      <a href="/"><img alt="Vue logo" class= "c_logo" src="../../../public/assets/component/navigator/logo_A2A.svg"></a>
     </div>
+    <div v-else id="nav_logo">
+      <a href="/"><img alt="Vue logo" class= "c_logo" src="../../../public/assets/component/navigator/logo_color.svg"></a>
+    </div>
+      
+    
     <div id="nav_right">
         <div id="nav_only_button">
           <div class="dropdown" id="nav_button">

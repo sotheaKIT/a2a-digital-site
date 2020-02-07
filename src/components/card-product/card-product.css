@@ -9,11 +9,11 @@
   text-align: center;
 }
 .c_card_product {
-  margin: 50px auto auto;
+  margin-top: 50px;
   display: flex;
   overflow-x :auto;
   scroll-snap-type: x mandatory;
-  width: 90%;
+  width: 100%;
 }
 ::-webkit-scrollbar {
   display: none;

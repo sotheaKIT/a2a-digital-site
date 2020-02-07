@@ -2,8 +2,10 @@
 <template>
   <div id="home-page">
       <Slide/>
-      <ContentCard/>
-      <CardProduct/>
+      <div class="l_section">
+        <ContentCard/>
+        <CardProduct/>
+      </div>
   </div>
 </template>
 
