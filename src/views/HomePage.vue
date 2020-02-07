@@ -38,23 +38,9 @@
                 {property: 'og:site_name', content: 'A2A Digital, inc.'},
                 {property: 'og:type', content: 'website'},
                 {
-                    property: 'og:image',
-                    content: 'https://www.ie.edu/insights/wp-content/uploads/2017/05/Prueba-y-aprendizaje-transformacion-cultural-en-la-era-digital.jpg'
-                },
-                {
                     property: 'og:description',
                     content: 'A2A Digital provides you the best solution for AI Developmentsystem development, enterprise development, digital marketing & film, graphic design, or other functionality, we have the services to help you build sophisticated applications.'
-                },
-
-                {name: 'twitter:card', content: 'summary'},
-                {name: 'twitter:site', content: 'A2A Digital, inc.'},
-                {name: 'twitter:title', content: 'Home - A2A Digital'},
-                {name: 'twitter:description', content: 'I have things here on my site.'},
-                {name: 'twitter:image:src', content: 'https://www.ie.edu/insights/wp-content/uploads/2017/05/Prueba-y-aprendizaje-transformacion-cultural-en-la-era-digital.jpg'},
-
-                {itemprop: 'name', content: 'My Page Title ← My Site'},
-                {itemprop: 'description', content: 'I have things here on my site.'},
-                {itemprop: 'image', content: 'https://www.my-site.com/my-special-image.jpg'}
+                }
             ]
         }
     }
