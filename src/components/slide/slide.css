@@ -1,6 +1,6 @@
 /* Applying value to the slide div tage */
 .slide {
-    background-image: url("../../assets/component/slide/background-desktop.png") ;
+    background-image: url("../../../public/assets/component/slide/background-desktop.png") ;
     background-color:  #E8E8EA;
     height: 100vh;
     position: relative;

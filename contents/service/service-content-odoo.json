@@ -11,7 +11,7 @@
      "cards":[ 
       {
             "header":"Our Focus Areas",
-            "cardimgurl":"../../assets/component/service-detail-card/",
+            "cardimgurl":"../assets/component/service-detail-card/",
             "description":"Odoo provides many modules for your business such as"
       },{
             "component":[

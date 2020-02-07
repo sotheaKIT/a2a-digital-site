@@ -17,7 +17,7 @@
             },
             {
                   "component":[
-                        {       "cardimgurl":"../../assets/component/service-detail-card/",
+                        {       "cardimgurl":"../assets/component/service-detail-card/",
                               "imageUrl":"object_detection.svg",
                               "title":"Object Detection",
                               "description":"Object detection is a common computer vision problem which deals with identifying and locating objects of certain classes in the image. Interpreting the object localization can be done in various ways, including creating a bounding box around the object or marking every pixel in the image which contains the object."
@@ -78,7 +78,7 @@
             
            {
                  "header":"Worked Results",
-                 "cardimgurl":"../../assets/component/service-work-result/"
+                 "cardimgurl":"../assets/component/service-work-result/"
            },
            {
                  "cards":[

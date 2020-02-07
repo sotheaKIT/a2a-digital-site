@@ -2,7 +2,7 @@
     <div id="error-page">
         <div class="l_error_page">
             <div class="c_right">
-               <img class="c_errorpage_img" src="../assets/component/views/errorpage/404door.png"> 
+               <img class="c_errorpage_img" src="../../public/assets/component/views/errorpage/404door.png"> 
             </div>
             <div class="c_left">
                 <h1>404</h1>
