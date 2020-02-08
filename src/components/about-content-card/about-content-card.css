@@ -101,7 +101,7 @@ section.c_card__service.txt_right {
         width: 38%;
         float: left;
     }
-    .l_card__img{
+    #about-page.l_card__img{
         min-width: 300px;
     }
 }
