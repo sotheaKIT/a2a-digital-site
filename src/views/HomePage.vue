@@ -25,24 +25,25 @@
                 description: 'd'
             }
         },
-        metaInfo: {
-            title: 'Home',
-            // meta: [
-            //     {
-            //         name: 'description',
-            //         content: 'A2A Digital provides you the best solution for AI Developmentsystem development, enterprise development, digital marketing & film, graphic design, or other functionality, we have the services to help you build sophisticated applications.'
-            //     },
-            //     {
-            //         name: 'keywords',
-            //         content: 'a2a digital, cambodia, AI development, IOT development service, Cloud Computing, RPA install support, Blockchain development, PWA development, VR/AR development, Odoo ERP customize, Digital Marketing, Cyber Security, web development, app development, ux ui'
-            //     },
-            //     {property: 'og:title', content: 'Home - A2A Digital'},
-            //     {
-            //         property: 'og:description',
-            //         content: 'A2A Digital provides you the best solution for AI Developmentsystem development, enterprise development, digital marketing & film, graphic design, or other functionality, we have the services to help you build sophisticated applications.'
-            //     }
-            // ]
-        }
+
+        // metaInfo: {
+        //     title: 'Home',
+        //     meta: [
+        //         {
+        //             name: 'description',
+        //             content: 'A2A Digital provides you the best solution for AI Developmentsystem development, enterprise development, digital marketing & film, graphic design, or other functionality, we have the services to help you build sophisticated applications.'
+        //         },
+        //         {
+        //             name: 'keywords',
+        //             content: 'a2a digital, cambodia, AI development, IOT development service, Cloud Computing, RPA install support, Blockchain development, PWA development, VR/AR development, Odoo ERP customize, Digital Marketing, Cyber Security, web development, app development, ux ui'
+        //         },
+        //         {property: 'og:title', content: 'Home - A2A Digital'},
+        //         {
+        //             property: 'og:description',
+        //             content: 'A2A Digital provides you the best solution for AI Developmentsystem development, enterprise development, digital marketing & film, graphic design, or other functionality, we have the services to help you build sophisticated applications.'
+        //         }
+        //     ]
+        // }
     }
 </script>
 <style src="../styles/home.css" scoped></style>

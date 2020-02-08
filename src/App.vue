@@ -16,25 +16,30 @@
         data() {
             return {
                 side: 'right',
-                currentMenu: 'slide'
+                currentMenu: 'slide',
             };
         },
         components: {
             Footer,
             slide
         },
-        // metaInfo: {
-        //     title: 'Page Title',
-        //     titleTemplate: '%s | A2A Digital',
-        //     meta: [
-        //         {charset: 'utf-8'},
-        //         {name: 'viewport', content: 'width=device-width, initial-scale=1'},
-        //         {property: 'og:site_name', content: 'A2A Digital, inc.'},
-        //         {property: 'og:type', content: 'website'},
-        //         {property: 'og:url', content: 'https://a2adigital-seo.netlify.com/'},
-        //         {property: 'og:image', content: 'https://images-cdn.9gag.com/img/9gag-og.png'},
-        //     ]
-        // }
+        metaInfo: {
+            title: 'Page Title',
+            titleTemplate: '%s - A2A Digital',
+            meta: [
+                {charset: 'utf-8'},
+                {name: 'viewport', content: 'width=device-width, initial-scale=1'},
+                {property: 'og:title', content: 'Home - A2A Digital'},
+                {
+                    property: 'og:description',
+                    content: 'A2A Digital provides you the best solution for AI Developmentsystem development, enterprise development, digital marketing & film, graphic design, or other functionality, we have the services to help you build sophisticated applications.'
+                },
+                {property: 'og:site_name', content: 'A2A Digital, inc.'},
+                {property: 'og:type', content: 'website'},
+                {property: 'og:url', content: 'https://a2adigital-seo.netlify.com/'},
+                {property: 'og:image', content: 'https://a2adigital-seo.netlify.com/img/a2adigital.png'},
+            ]
+        }
     }
 </script>
 <style src="./styles/app.css"></style>
