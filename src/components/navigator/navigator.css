@@ -1,8 +1,6 @@
 /* default  (Navigation) */
 
 #navigation {
-    position:fixed;
-    top: 0;
     width: 100%;
     display: block;
     -webkit-transition: top 0.3s;
@@ -285,6 +283,10 @@
  }
  
  @media only screen and (max-width: 980px) {
+
+#navigation  {
+    width: 91%;
+}
  
  #nav_only_button {
      display: none;
@@ -377,6 +379,10 @@
 }
 
 @media only screen and (max-width: 375px) {
+
+    #navigation  {
+        width: 83%;
+    }
     .bm_primary_scroller {
         font-size: 18px;
         padding: 13px 20px;
@@ -384,6 +390,7 @@
         color: #138690;
 
     }
+
 
 }
 

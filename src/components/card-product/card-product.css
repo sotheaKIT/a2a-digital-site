@@ -69,7 +69,8 @@
 }
 .c_title__product img{
   width: 18px;
-  vertical-align: bottom;
+  position: relative;
+  top: 2px;
 }
 @media screen and (max-width: 1170px) {
   .c_card_detail {
