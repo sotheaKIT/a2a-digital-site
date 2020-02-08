@@ -12,7 +12,7 @@
   {
     "title":"Internet of Things Development(IoT)", 
     "cotent":"A2A Digital decided an IoT service to provide full-range service comprising consulting, development and implementation, analytics, support and evolution. Whether you plan to launch an IoT initiative, upscale an existing IoT application or integrate your IoT solution with a legacy system - we will work out a reliable to address your business challenge.", 
-    "src":"../public/assets/component/content-card/iot.jpg",
+    "src":"../assets/component/content-card/iot.jpg",
     "css" : "c_card__service txt_right",
     "animation" : "fade-right",
     "route" : "iot"
