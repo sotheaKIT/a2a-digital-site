@@ -1,8 +1,6 @@
 /* default  (Navigation) */
 
 #navigation {
-    position:fixed;
-    top: 0;
     width: 100%;
     display: block;
     -webkit-transition: top 0.3s;
@@ -14,7 +12,7 @@
 #nav {
     /* box-shadow: 0 10px 20px rgba(0,0,0,0.1), 0 6px 6px rgba(0,0,0,0); */
     height: 70px;
-    width: 90%;
+    width: 85%;
     margin: auto;
 }
 
@@ -46,12 +44,6 @@
     height: 16px;
     fill: #303030;
     padding-top: 5px;
-}
-
-.c_dropdown {
-    display: inline;
-    padding-top: 10px;
-
 }
 
 .c_navigate_right + .c_navigate_right {
@@ -139,7 +131,7 @@
     min-width: 850px;
     box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
     left: -300%;
-    top: 26px;
+    top: 23px;
     background-color: #ffffff;
 
 }
@@ -170,7 +162,7 @@
 }
 /* Show the dropdown menu on hover */
 .dropdown:hover .dropdown-content {
-    display: inline-block;
+    display: flex;
 }
 
 /* Change the background color of the dropdown button when the dropdown content is shown */
@@ -186,6 +178,11 @@
     width: 30%;
     float: left;
 }
+.drp3 {
+    width: 30%;
+    float: left;
+}
+
 .drp3 {
     width: 30%;
     float: left;
@@ -286,6 +283,10 @@
  }
  
  @media only screen and (max-width: 980px) {
+
+#navigation  {
+    width: 91%;
+}
  
  #nav_only_button {
      display: none;
@@ -378,6 +379,10 @@
 }
 
 @media only screen and (max-width: 375px) {
+
+    #navigation  {
+        width: 83%;
+    }
     .bm_primary_scroller {
         font-size: 18px;
         padding: 13px 20px;
@@ -385,6 +390,7 @@
         color: #138690;
 
     }
+
 
 }
 

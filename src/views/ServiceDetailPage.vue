@@ -11,8 +11,8 @@
     </div>
     </div>
       <div v-for="serviceDetailContent in serviceDetailContents" v-bind:key="serviceDetailContent.id">
+       <ServiceDetailPageComp v-if="serviceDetailContent['header'] != null" v-bind:header="serviceDetailContent['header']" ></ServiceDetailPageComp>
       <ServiceDetailCard v-if="serviceDetailContent['cards'] != null" :cards="serviceDetailContent['cards']"></ServiceDetailCard>
-      <ServiceDetailPageComp v-if="serviceDetailContent['header'] != null" v-bind:header="serviceDetailContent['header']" ></ServiceDetailPageComp>
       <ServiceTechnologyCard v-if="serviceDetailContent['tools'] != null" :tools = "serviceDetailContent['tools']"></ServiceTechnologyCard>
       <ServiceWorkResult v-if="serviceDetailContent['results'] != null" :results = "serviceDetailContent['results']"></ServiceWorkResult>
       <ServiceManagement v-if="serviceDetailContent['management'] != null" :management = "serviceDetailContent['management']" />
