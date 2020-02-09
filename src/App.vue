@@ -25,7 +25,7 @@
             Footer,
             slide
         },
-        beforeCreate () {
+        created () {
             document.title ='Page Title - A2A Digital'
             document.head.querySelector('meta[name=description]').content = 'A2A Digital provides you the best solution for AI Developmentsystem development, enterprise development, digital marketing & film, graphic design, or other functionality, we have the services to help you build sophisticated applications.'
             document.head.querySelector('meta[name=keywords]').content = 'A2A Digital, cambodia digital company'
