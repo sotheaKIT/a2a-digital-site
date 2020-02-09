@@ -27,11 +27,11 @@
         },
         created () {
             document.title ='Page Title - A2A Digital'
-            document.head.querySelector('meta[name=description]').content = 'A2A Digital provides you the best solution for AI Developmentsystem development, enterprise development, digital marketing & film, graphic design, or other functionality, we have the services to help you build sophisticated applications.'
-            document.head.querySelector('meta[name=keywords]').content = 'A2A Digital, cambodia digital company'
-            document.head.querySelector("meta[property='og:title']").content = document.title
-            document.head.querySelector("meta[property='og:description']").content = document.head.querySelector('meta[name=description]').content
-            document.head.querySelector("meta[property='og:image']").content = 'https://a2adigital-seo.netlify.com/img/a2adigital.png'
+            // document.head.querySelector('meta[name=description]').content = 'A2A Digital provides you the best solution for AI Developmentsystem development, enterprise development, digital marketing & film, graphic design, or other functionality, we have the services to help you build sophisticated applications.'
+            // document.head.querySelector('meta[name=keywords]').content = 'A2A Digital, cambodia digital company'
+            // document.head.querySelector("meta[property='og:title']").content = 'yey! title'
+            // document.head.querySelector("meta[property='og:description']").content = 'yey! description'
+            // document.head.querySelector("meta[property='og:image']").content = 'https://a2adigital-seo.netlify.com/img/a2adigital.png'
         },
         // metaInfo() {
         //     return {
