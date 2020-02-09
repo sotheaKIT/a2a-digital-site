@@ -1,4 +1,5 @@
 import Vue from 'vue'
+import VueMeta from 'vue-meta'
 import Router from 'vue-router'
 import HomePage from './views/HomePage.vue'
 import SolutionDetail from './views/SolutionDetail.vue'
@@ -12,6 +13,10 @@ import ServiceDetailPage from './views/ServiceDetailPage.vue'
 import ProfilePage from './views/ProfilePage.vue'
 
 Vue.use(Router)
+Vue.use(VueMeta, {
+  refreshOnceOnNavigation: true
+})
+
 
 export default new Router({
   mode: 'history',

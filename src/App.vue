@@ -25,25 +25,33 @@
             Footer,
             slide
         },
-        metaInfo() {
-            return {
-                title: this.title,
-                titleTemplate: '%s - A2A Digital',
-                meta: [
-                    {charset: 'utf-8'},
-                    {name: 'viewport', content: 'width=device-width, initial-scale=1'},
-                    {property: 'og:title', content: 'Home - A2A Digital'},
-                    {
-                        property: 'og:description',
-                        content: this.description
-                    },
-                    {property: 'og:site_name', content: 'A2A Digital, inc.'},
-                    {property: 'og:type', content: 'website'},
-                    {property: 'og:url', content: 'https://a2adigital-seo.netlify.com/'},
-                    {property: 'og:image', content: 'https://a2adigital-seo.netlify.com/img/a2adigital.png'},
-                ]
-            }
-        }
+        beforeCreate () {
+            document.title ='Page Title - A2A Digital'
+            document.head.querySelector('meta[name=description]').content = 'A2A Digital provides you the best solution for AI Developmentsystem development, enterprise development, digital marketing & film, graphic design, or other functionality, we have the services to help you build sophisticated applications.'
+            document.head.querySelector('meta[name=keywords]').content = 'A2A Digital, cambodia digital company'
+            document.head.querySelector("meta[property='og:title']").content = document.title
+            document.head.querySelector("meta[property='og:description']").content = document.head.querySelector('meta[name=description]').content
+            document.head.querySelector("meta[property='og:image']").content = 'https://a2adigital-seo.netlify.com/img/a2adigital.png'
+        },
+        // metaInfo() {
+        //     return {
+        //         title: this.title,
+        //         titleTemplate: '%s - A2A Digital',
+        //         meta: [
+        //             {vmid: 'charset', charset: 'utf-8'},
+        //             {name: 'viewport', content: 'width=device-width, initial-scale=1'},
+        //             {hid: `og-title`, property: 'og:title', content: 'Home - A2A Digital'},
+        //             {
+        //                 property: 'og:description',
+        //                 content: this.description
+        //             },
+        //             {property: 'og:site_name', content: 'A2A Digital, inc.'},
+        //             {property: 'og:type', content: 'website'},
+        //             {property: 'og:url', content: 'https://a2adigital-seo.netlify.com/'},
+        //             {property: 'og:image', content: 'https://a2adigital-seo.netlify.com/img/a2adigital.png'},
+        //         ]
+        //     }
+        // }
     }
 </script>
 <style src="./styles/app.css"></style>
