@@ -24,6 +24,9 @@ Vue.directive('scroll', {
   },
 });
 
+router.beforeEach((to, from, next) => {
+  next()
+});
 
 new Vue({
   router,
