@@ -3,7 +3,7 @@
 .c_about__hero__container{
     display: flex;
     width: 100%;
-    height: 100vh;
+    height: 315px;
     background: url('../../../public/assets/component/about-hero/about-hero.jpg'), #BDFFF0;
     background-repeat: no-repeat;
     background-position: center center;
