@@ -22,7 +22,7 @@
         },
         components: {
             Footer,
-            slide
+            slide,
         }
     }
 </script>
