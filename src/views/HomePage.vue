@@ -1,8 +1,8 @@
 <template>
     <div id="home-page">
         <vue-headful
-                :title="title"
-                :description="description"
+                title="Home"
+                description="Description"
         />
         <Slide/>
         <ContentCard/>
@@ -28,13 +28,7 @@
                 title: 'Home',
                 description: 'A2A Digital provides you the best solution for AI Developmentsystem development, enterprise development, digital marketing & film, graphic design, or other functionality, we have the services to help you build sophisticated applications.'
             }
-        },
-        mounted() {
-            // dummy async operation to show watcher on properties
-            setTimeout(() => {
-                this.title = 'Dynamic async title';
-            }, 3000);
-        },
+        }
 
         // metaInfo: {
         //     title: 'Home',
