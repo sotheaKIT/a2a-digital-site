@@ -1,5 +1,9 @@
 <template>
     <div id="home-page">
+        <vue-headful
+                :title="title"
+                :description="description"
+        />
         <Slide/>
         <ContentCard/>
         <CardProduct/>
@@ -22,7 +26,7 @@
         data() {
             return {
                 title: 'Home',
-                description: 'd'
+                description: 'A2A Digital provides you the best solution for AI Developmentsystem development, enterprise development, digital marketing & film, graphic design, or other functionality, we have the services to help you build sophisticated applications.'
             }
         }
 
