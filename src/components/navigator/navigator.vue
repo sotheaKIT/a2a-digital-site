@@ -71,7 +71,7 @@
         methods: {
             handleScroll: function () {
                  if (this.$router.currentRoute.name === "home" || this.$router.currentRoute.name === "about" || this.$router.currentRoute.name === "contact" ) {
-                    if (window.scrollY > 940) {
+                    if (window.scrollY > 50) {
                         this.navigationActivate = "inactive"
                         this.activeColor = "white"
                         this.activeShadow = "0px 4px 10px rgba(0, 0, 0, 0.1)"
@@ -81,17 +81,6 @@
                         this.activeShadow = "none"
                     }
                 } 
-
-                else {
-                    if (window.scrollY > 50) { 
-                        this.activeColor = "white"
-                        this.activeShadow = "0px 4px 10px rgba(0, 0, 0, 0.1)"
-                    } else {
-                         this.activeShadow = "none"
-                    }
-                    
-                     
-                }
             },
             openMenu() {
                 this.$emit('openMenu');
@@ -236,15 +225,5 @@
             }
         }
     }
-    var prevScrollpos = window.pageYOffset;
-    window.onscroll = function() {
-        var currentScrollPos = window.pageYOffset;
-        if (prevScrollpos > currentScrollPos) {
-            document.getElementById("navigation").style.position = "fixed";
 
-        } else {
-            document.getElementById("navigation").style.position = "fixed";
-        }
-        prevScrollpos = currentScrollPos;
-    }
 </script>

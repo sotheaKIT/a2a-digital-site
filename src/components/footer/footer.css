@@ -3,6 +3,10 @@
   font-weight: normal; */
   font-size: 14px;
   line-height: 17px;
+  margin: auto;
+  display: table;
+  width: 80%;
+  clear: both;
 }
 hr {
   height: 1px;
@@ -14,7 +18,7 @@ hr {
 }
 .c_footer_service_float {
   float: left;
-  width: 40%;
+  width: 25%;
   color: #696969;
 }
 .c_footer_service_float ul {
@@ -34,10 +38,10 @@ li {
     margin: 10px 0;
   }
   
-.l_footer { 
-  width: 100%;
-  margin : 10% auto auto;
-}
+  .l_footer { 
+    width: 100%;
+    margin-top: 100px;
+  }
   
   .c_footer {
     width: 100%;

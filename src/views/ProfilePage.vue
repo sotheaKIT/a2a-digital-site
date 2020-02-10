@@ -7,7 +7,7 @@
             </div>
         </header> 
 
-        <section class="l_card__profile">
+        <section id="izuka" class="l_card__profile">
             <div class="l_card_detail">
                 <div class="c_cart__text">
                     <h2>Takeshi Izuka</h2>
@@ -27,7 +27,7 @@
             </div>
         </section>
 
-        <section class="l_card__profile">
+        <section id="mashima" class="l_card__profile">
             <div class="l_card_detail">
                 <div class="c_cart__text text_right">
                     <h2>Yasue Mashima</h2>
@@ -49,7 +49,7 @@
             <h1>Our Project advisor</h1>
         </div>
 
-        <section class="l_card__profile">
+        <section id="bekku" class="l_card__profile">
             <div class="l_card_detail">
                 <div class="c_cart__text">
                     <h2>Kenzaburo Bekku</h2>
@@ -66,7 +66,7 @@
             </div>
         </section>
 
-        <section class="l_card__profile">
+        <section id="mariko" class="l_card__profile">
             <div class="l_card_detail">
                 <div class="c_cart__text text_right">
                     <h2>Mariko Sadamatsu</h2>
@@ -87,7 +87,7 @@
             </div>
         </section>
 
-        <section class="l_card__profile">
+        <section id="chihiro" class="l_card__profile">
             <div class="l_card_detail">
                 <div class="c_cart__text">
                     <h2>Chihiro Kurose</h2>
