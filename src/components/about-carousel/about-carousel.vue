@@ -21,7 +21,7 @@ export default {
             delay: 1500,
             disableOnInteraction: false
           }, 
-          speed:6000,
+          speed:60000,
           pagination: {
             el: '.swiper-pagination',
             clickable: true

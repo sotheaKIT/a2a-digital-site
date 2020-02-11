@@ -12,6 +12,7 @@
                 <div class="c_cart__text">
                     <h2>Takeshi Izuka</h2>
                     <h3>President / Chairman vKirirom Pte.Ltd.</h3>
+                    <h4></h4>
                 </div>
                 <div class="c_img_right">
                     <img class="c_card__img right" src="../../public/assets/component/about-card/Managers/takeshi.jpg" alt="takeshi"/>
@@ -32,6 +33,7 @@
                 <div class="c_cart__text text_right">
                     <h2>Yasue Mashima</h2>
                     <h3>Manager of A2A Digital Technology Team</h3>
+                    <h4></h4>
                 </div>
                 <div class="c_img_left">
                     <img class="c_card__img" src="../../public/assets/component/about-card/Managers/mashami.jpg" alt="mashami"/>
@@ -54,6 +56,7 @@
                 <div class="c_cart__text">
                     <h2>Kenzaburo Bekku</h2>
                     <h3>Vice President of Kirirom Institute of Technology</h3>
+                    <h4></h4>
                 </div>
                 <div class="c_img_right">
                     <img class="c_card__img right" src="../../public/assets/component/about-card/Advisor/bekku.jpg" alt="bekku"/>
@@ -71,6 +74,7 @@
                 <div class="c_cart__text text_right">
                     <h2>Mariko Sadamatsu</h2>
                     <h3>General Manager of Corporate Planning Office A2A Town (Cambodia) Co., Ltd</h3>
+                    <h4></h4>
                 </div>
                 <div class="c_img_left">
                     <img class="c_card__img" src="../../public/assets/component/about-card/Advisor/bekkuwife.jpg" alt="bekkuwife"/>
@@ -92,6 +96,7 @@
                 <div class="c_cart__text">
                     <h2>Chihiro Kurose</h2>
                     <h3>Manager of president's office A2A Town (Cambodia) Co., Ltd</h3>
+                   <h4></h4>
                 </div>
                 <div class="c_img_right">
                     <img class="c_card__img right" src="../../public/assets/component/about-card/Advisor/chihiro.jpg" alt="chihiro"/>
