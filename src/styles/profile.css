@@ -1,16 +1,16 @@
 .l_profile-page{
     position: relative;
     height: 100%;
-    margin: auto 90px;   
+    margin: 90px 90px;   
 }
 
 .l_profile__title{
-    font-size: 45px;
+    font-size: 22.5px;
     text-align: center;
 }
 
 .l_profile__subtitle{
-    font-size: 45px;   
+    font-size: 22.5px;   
     text-align: center;
 }
 

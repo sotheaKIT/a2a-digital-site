@@ -1,11 +1,11 @@
 <style src="../styles/profile.css"></style>
 <template>
     <div class="l_profile-page">
-        <header>
+      
             <div class="l_profile__title">
                 <h1>Our Project Manager</h1>
             </div>
-        </header> 
+         
 
         <section id="izuka" class="l_card__profile">
             <div class="l_card_detail">
