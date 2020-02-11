@@ -30,6 +30,7 @@
     padding-top: 100px;
     display: flex;
     align-items: center;
+    
 }
 /* For mobile the text after img will not shown */
 .c_card__service .l_card__img + .l_article__wrapper{ 
@@ -132,7 +133,7 @@ section.c_card__service.txt_right {
         padding-top: 35px;
     }
     .c_card__service{
-        display: block;
+        flex-direction: column-reverse;
         padding-top: 0;
     }
     .c_card__service div.l_article__wrapper{
@@ -153,11 +154,9 @@ section.c_card__service.txt_right {
         padding-right: 0px;
     }
     /* text befor img will not show */
-    .c_card__service div.l_pc{
-        display: none; 
-    }  
+ 
     section.c_card__service.txt_right {
-        flex-direction: row;
+        flex-direction: column-reverse;
     }
     section.c_card__service article.l_card__text {
         width: 100%;
@@ -169,8 +168,8 @@ section.c_card__service.txt_right {
 }
 
 @media only screen and (max-width: 515px) { 
-    .l_service__container{
+    /* .l_service__container{
         display: block;
-    }
+    } */
 }
 
