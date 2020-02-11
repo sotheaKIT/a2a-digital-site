@@ -2,7 +2,7 @@
 <template>
   <div id="home-page">
       <vue-headful
-              :title="title"
+              :title="title + ' | A2A Digital'"
               :description="description"
               :keywords="keywords"
       />
