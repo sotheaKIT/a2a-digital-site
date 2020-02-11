@@ -76,10 +76,6 @@
     padding: 0px calc((100% - 674px)/2);
 }
 
-.l_padding__left {
-    padding-left: 10%;
-}
-
 @media only screen and (min-width: 1367px) {
     .c_service__section__artical{
         padding: 30px calc((100% - 1186px)/2);

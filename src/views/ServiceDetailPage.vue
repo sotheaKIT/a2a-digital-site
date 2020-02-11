@@ -6,7 +6,7 @@
           <div class="c_jobspage_detail l_padding__left">
             <div class="c_jobspage_title">
                 <a>Service</a>
-                <!-- <img id="c_icon" src="../../public/assets/component/service-detail-page/arrow_right.svg"> -->
+                <img id="c_icon_service" src="../../public/assets/component/jobsdetailpage/arrow_right.svg">
                 <a id="c_text">{{serviceDetailContent['header'][0]['title']}}</a>
             </div>
         </div>

@@ -46,7 +46,6 @@
     font-weight: normal;
     font-size: 16px;
     line-height: 19px;
-    padding: 0 15px;
     color: #303030;
 }
 
@@ -72,6 +71,7 @@
 
 .l_padding__left {
     padding-left: 90px;
+    padding-right: 90px;
 }
 
 @media only screen and (min-width: 1367px) {
@@ -88,6 +88,11 @@
 }
 
 @media only screen and (max-width: 980px) {
+
+    .l_padding__left {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
     .c_solution__section__text {
         float: left;
         width: 77%;
@@ -95,6 +100,10 @@
 }
 
 @media only screen and (max-width: 768px) {
+    .l_padding__left {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
     .c_solution__section__text {
         float: left;
         width: 77%;
@@ -107,6 +116,10 @@
 }
 
 @media only screen and (max-width: 600px) {
+    .l_padding__left {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
     .c_section__wrapper {
         padding: 0 10px;
         width: auto;
