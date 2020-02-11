@@ -19,7 +19,6 @@ a {
 .l_container {
     margin: auto;
     width: 100%;
-    max-width: calc(1630px  + 10%);
     min-width: 320px;
 }
 

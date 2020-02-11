@@ -17,13 +17,11 @@
     border-bottom: 1px solid #BCCDD7;
 }
 #c_text {
-    padding-left: 10px;
     color: #138690;
 }
 #c_icon {
-    width: 7.52px;
-    height: 10px;
-    padding-left: 10px;
+    width: 24px;
+    height: 11px;
 }
 .c_jobspage_container {
     width: 100%;
