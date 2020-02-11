@@ -4,8 +4,7 @@
             "title":"VR/AR Development",
             "question":null,
             "description":"VR stands for Virtual Reality, it implies a complete immersion experience that shuts out the physical world. Using VR devices such as HTC Vive, Oculus Go/Rift, users can be transported into a number of real-world and imagined environments. AR stands for Augmented Reality, it adds digital elements to a live view often by using the camera on a smartphone. Best example of augmented reality experiences include Snapchat lenses and the game Pokemon Go",
-            "imagePath":"VR.svg",
-            "url":"../assets/component/service-detail-card/VR-AR/"
+            "imagePath":"VR.svg"
       }
      ],
      "cards":[
