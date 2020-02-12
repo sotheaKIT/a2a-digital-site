@@ -44,7 +44,7 @@
 /* Set value to contact button tage */
 .c_slide__contactbtn{
     float: left;
-    width: 250px;
+    max-width: 250px;
     height: 47px;
     background-color:#A40505 ;
     box-sizing: border-box;

@@ -382,7 +382,8 @@
 @media only screen and (max-width: 375px) {
 
     #navigation  {
-        width: 83%;
+        position: relative;
+        width: 100%;
     }
     .bm_primary_scroller {
         font-size: 18px;
