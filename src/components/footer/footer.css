@@ -30,6 +30,7 @@ hr {
 .c_title {
   font-weight: bold;
   color: black;
+  margin-bottom: 14px;
 }
 li {
   margin-bottom: 10px;

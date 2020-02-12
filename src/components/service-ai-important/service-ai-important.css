@@ -9,6 +9,7 @@
 }
 
 .l_description__header h1 {
+    margin-top:0px;
     font-size: 35px;
     line-height: 42px;
     color: #FFFFFF;
