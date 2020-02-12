@@ -118,7 +118,7 @@
                   {
                         "imageUrls":[
                               {
-                                    "imageUrls":"Architecture-walkthrough/Media1.mp4"
+                                    "imageUrl":"Architecture-walkthrough/VR_vKirirom.png"
                               }
                         ],
                         "header":"VR Architecture walkthrough",
@@ -127,7 +127,7 @@
                   {
                         "imageUrls":[
                               {
-                                    "imageUrls":"Golf-Course-Training/HoloLens_golf_training.wmv"
+                                    "imageUrl":"Golf-Course-Training/Hololens.png"
                               }
                         ],
                       "header":"Golf Course Training with Hololens",
@@ -136,7 +136,13 @@
                   {
                         "imageUrls":[
                               {
-                                    "imageUrls":"Golf-Course-Training/HoloLens_golf_training.wmv"
+                                    "imageUrl":"AR-Menu/AR_Menu.png"
+                              },
+                              {
+                                    "imageUrl":"AR-Menu/Our_App.PNG"
+                              },
+                              {
+                                    "imageUrl":"AR-Menu/Sample.jpg"
                               }
                         ],
                       "header":"AR Menu",
@@ -145,7 +151,7 @@
                   {
                         "imageUrls":[
                               {
-                                    "imageUrls":"Golf-Course-Training/HoloLens_golf_training.wmv"
+                                    "imageUrl":"VR-Monitoring/IP_Streaming.png"
                               }
                         ],
                      "header":"VR Monitoring",
