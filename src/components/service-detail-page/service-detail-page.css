@@ -85,7 +85,7 @@
 @media only screen and (max-width: 1366px) {
     .c_section__wrapper{
         padding: 0 90px;
-        width: calc(100% - 180px);
+        
     }
 }
 @media only screen and (max-width: 980px) {
