@@ -6,10 +6,12 @@ import VueAwesomeSwiper from 'vue-awesome-swiper'
 import 'swiper/dist/css/swiper.css'
 import AOS from 'aos';
 import 'aos/dist/aos.css';
+import vueHeadful from 'vue-headful';
 
 
 Vue.config.productionTip = false
 Vue.use(VueAwesomeSwiper, /* { default global options } */)
+Vue.component('vue-headful', vueHeadful);
 
 Vue.directive('scroll', {
   inserted: function(el, binding) {
@@ -22,6 +24,9 @@ Vue.directive('scroll', {
   },
 });
 
+router.beforeEach((to, from, next) => {
+  next()
+});
 
 new Vue({
   router,

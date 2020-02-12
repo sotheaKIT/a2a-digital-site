@@ -9,7 +9,7 @@ https://www.figma.com/file/0MgVJmtcbTRyA1XwKouVGp/Home---A2A-Digital?node-id=38%
 
 + About
 
-https://www.figma.com/file/18HLoYfUa947LuFzkHJMj0/About%2F-Team?node-id=59%3A0
+https://www.figma.com/file/18HLoYfUa947LuFzkHJMj0/About%2F-Team?node-id=1024%3A8
 + Contact
 
 https://www.figma.com/file/pL5Zq0HHGyFAzrgTbgN23O/Contact?node-id=1%3A3
