@@ -13,7 +13,7 @@ export default {
           initialSlide: 0,
           slidesPerView: 4,
           slidesPerGroup: 4,
-          spaceBetween: 20,
+          // spaceBetween: 20,
           loop: true,
 
           cssMode: true,
@@ -21,7 +21,7 @@ export default {
             delay: 1500,
             disableOnInteraction: false
           }, 
-          speed:6000,
+          speed:60000,
           pagination: {
             el: '.swiper-pagination',
             clickable: true

@@ -54,12 +54,12 @@
     border: none;
 }
 .c_sevice_form_wrapper{
-    padding-bottom: 50px;
+   margin-top: 50px;
 }
 
 @media only screen and (max-width: 980px) {
     .c_sevice_form_wrapper{
-        padding-left: 25px;
-        padding-right: 25px;
+        margin-left: 20px;
+        margin-right: 20px;
     }
 }

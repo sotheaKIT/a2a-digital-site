@@ -9,10 +9,11 @@
     transition: top 0.3s;
     margin: auto;
     z-index: 999;
+    background: white;
+     box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 10px;
 }
 
 #nav {
-    /* box-shadow: 0 10px 20px rgba(0,0,0,0.1), 0 6px 6px rgba(0,0,0,0); */
     height: 70px;
     width: 85%;
     margin: auto;

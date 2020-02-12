@@ -26,6 +26,7 @@ hr {
   padding: 0px;
 }
 .c_title {
+  font-weight: bold;
   color: black;
 }
 li {
@@ -40,7 +41,7 @@ li {
   
   .l_footer { 
     width: 100%;
-    margin-top: 100px;
+    margin-top: 80px;
   }
   
   .c_footer {
