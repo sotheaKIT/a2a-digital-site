@@ -5,7 +5,7 @@
         <div class="l_service__detail__container">
           <div class="c_jobspage_detail l_padding__left">
             <div class="c_jobspage_title">
-                <a>Service</a>
+                <a>Services</a>
                 <img id="c_icon_service" src="../../public/assets/component/jobsdetailpage/arrow_right.svg">
                 <a id="c_text">{{serviceDetailContent['header'][0]['title']}}</a>
             </div>

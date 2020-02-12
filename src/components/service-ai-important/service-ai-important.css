@@ -28,7 +28,9 @@
     max-width: 1186px;
     margin: auto;
 }
-
+.c_ai_important__container hr{
+margin-top:35px;
+}
 .l_ai__impartant__wrapper {
     margin-bottom: 35px;
     max-width: 1186px;
