@@ -1,4 +1,4 @@
-<style src="./jobheaderbtn.css" scope></style>
+<style src="./jobheaderbtn.css" scoped></style>
 <template src="./jobheaderbtn.html"></template>
 
 <script>

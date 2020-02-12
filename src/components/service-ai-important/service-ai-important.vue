@@ -1,4 +1,4 @@
-<style src="./service-ai-important.css" scope></style>
+<style src="./service-ai-important.css"></style>
 <template src="./service-ai-important.html">
 </template>
 <script>

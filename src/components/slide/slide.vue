@@ -1,4 +1,4 @@
-<style src="./slide.css" scope></style>
+<style src="./slide.css" scoped></style>
 <template src="./slide.html"></template>
 
 

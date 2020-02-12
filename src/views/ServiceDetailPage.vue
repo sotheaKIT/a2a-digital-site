@@ -1,21 +1,16 @@
-<style src="../styles/service-detail.css" scope></style>
+<style src="../styles/service-detail.css" scoped></style>
 <template>
-    <div>
-        <div v-for="serviceDetailContent in serviceDetailContents" v-bind:key="serviceDetailContent.id">
-            <vue-headful
-                    :title="serviceDetailContent['meta'][0]['title'] + ' | A2A Digital'"
-                    :description="serviceDetailContent['meta'][0]['description']"
-                    :keywords="serviceDetailContent['meta'][0]['keywords']"
-            />
-            <div class="l_service__detail__container">
-                <div class="c_jobspage_detail l_padding__left">
-                    <div class="c_jobspage_title">
-                        <a>Service</a>
-                        <!-- <img id="c_icon" src="../../public/assets/component/service-detail-page/arrow_right.svg"> -->
-                        <a id="c_text">{{serviceDetailContent['header'][0]['title']}}</a>
-                    </div>
-                </div>
+  <div>
+      <div v-for="serviceDetailContent in serviceDetailContents" v-bind:key="serviceDetailContent.id">
+        <div class="l_service__detail__container">
+          <div class="c_jobspage_detail l_padding__left">
+            <div class="c_jobspage_title">
+                <a>Services</a>
+                <img id="c_icon_service" src="../../public/assets/component/jobsdetailpage/arrow_right.svg">
+                <a id="c_text">{{serviceDetailContent['header'][0]['title']}}</a>
             </div>
+          </div>
+        </div>
             <ServiceDetailPageComp v-if="serviceDetailContent['header'] != null"
                                    v-bind:header="serviceDetailContent['header']"></ServiceDetailPageComp>
             <ServiceDetailCard v-if="serviceDetailContent['cards'] != null"
