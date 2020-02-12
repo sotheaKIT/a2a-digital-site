@@ -1,4 +1,4 @@
-<style src="./top-footer.css" scope></style>
+<style src="./top-footer.css" scoped></style>
 <template src="./top-footer.html"></template>
 
 <script>

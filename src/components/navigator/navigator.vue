@@ -1,4 +1,4 @@
-<style src="./navigator.css" scope></style>
+<style src="./navigator.css" scoped></style>
 <template src="./navigator.html"></template>
 
 <script>
@@ -70,17 +70,12 @@
         },
         methods: {
             handleScroll: function () {
-                 if (this.$router.currentRoute.name === "home" || this.$router.currentRoute.name === "about" || this.$router.currentRoute.name === "contact" ) {
-                    if (window.scrollY > 50) {
+                    if (window.scrollY > 30) {
                         this.navigationActivate = "inactive"
                         this.activeColor = "white"
                         this.activeShadow = "0px 4px 10px rgba(0, 0, 0, 0.1)"
-                    } else {
-                        this.navigationActivate = "active"
-                        this.activeColor = "none"
-                        this.activeShadow = "none"
-                    }
-                } 
+                    } 
+                 
             },
             openMenu() {
                 this.$emit('openMenu');
@@ -166,11 +161,8 @@
         },
         created: function () {
             document.addEventListener('click', this.documentClick);
-            if (this.$router.currentRoute.name === "home" || this.$router.currentRoute.name === "about"  || this.$router.currentRoute.name === "contact" ) {
-                this.navigationActivate = "active"
-            } else {
-                this.activeColor = "white"
-            }
+            this.navigationActivate = "inactive"
+            this.activeColor = "white"
         },
         destroyed: function () {
             document.removeEventListener('keyup', this.closeMenuOnEsc);

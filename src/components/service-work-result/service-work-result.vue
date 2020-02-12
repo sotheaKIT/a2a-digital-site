@@ -1,4 +1,4 @@
-<style src="./service-work-result.css" scope></style>
+<style src="./service-work-result.css" scoped></style>
 <template src="./service-work-result.html">
 </template>
 
