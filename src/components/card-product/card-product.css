@@ -1,6 +1,9 @@
 #card_product{
-  max-width: 1186px;
-  margin: auto;
+  max-width: 1366px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 90px;
+  padding-right: 90px;
 }
 .swiper-container{
   padding-bottom: 40px !important;
@@ -43,13 +46,6 @@
 ::-webkit-scrollbar {
   display: none;
 }
-/* .c_arrow_left {
-  width: 5%;
-  float: left;
-  margin: auto;
-  position: relative;
-  height: 392px;
-} */
 .c_card_detail {
   display: flex;
   flex-wrap: wrap;
