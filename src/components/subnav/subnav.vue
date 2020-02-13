@@ -1,4 +1,4 @@
-<style src="./subnav.css" scope></style>
+<style src="./subnav.css" scoped></style>
 <template src="./subnav.html"></template>
 
 <script>

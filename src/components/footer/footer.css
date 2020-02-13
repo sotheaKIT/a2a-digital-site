@@ -7,6 +7,7 @@
   display: table;
   width: 80%;
   clear: both;
+  margin-bottom: 80px;
 }
 hr {
   height: 1px;
@@ -17,6 +18,7 @@ hr {
   color:#696969 ;
 }
 .c_footer_service_float {
+  margin-top:80px;
   float: left;
   width: 25%;
   color: #696969;
@@ -28,6 +30,7 @@ hr {
 .c_title {
   font-weight: bold;
   color: black;
+  margin-bottom: 14px;
 }
 li {
   margin-bottom: 10px;
@@ -38,7 +41,11 @@ li {
     float: left;
     margin: 10px 0;
   }
-  
+  .l_footer hr { 
+    
+    width: 80%;
+    margin-top: 80px;
+  }
   .l_footer { 
     width: 100%;
     margin-top: 80px;

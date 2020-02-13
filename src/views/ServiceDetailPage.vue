@@ -1,4 +1,4 @@
-<style src="../styles/service-detail.css" scope></style>
+<style src="../styles/service-detail.css" scoped></style>
 <template>
   <div>
       <div v-for="serviceDetailContent in serviceDetailContents" v-bind:key="serviceDetailContent.id">
