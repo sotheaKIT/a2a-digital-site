@@ -24,16 +24,16 @@
             prevEl: '.swiper-button-prev'
           },
           breakpoints: {
-            480: {
+            660: {
               slidesPerView: 1,
               slidesPerGroup: 1,
               speed:1000,
             },
-            768: {
+            720: {
               slidesPerView: 2,
               slidesPerGroup: 2,
             },
-            980: {
+            1024: {
               slidesPerView: 3,
               slidesPerGroup: 3,
             }
