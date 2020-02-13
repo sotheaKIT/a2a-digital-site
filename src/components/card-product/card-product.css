@@ -1,3 +1,9 @@
+#card_product{
+  max-width: 1186px;
+  margin: auto;
+  padding-left: 90px;
+  padding-right: 90px;
+}
 .swiper-container{
   padding-bottom: 40px !important;
 }

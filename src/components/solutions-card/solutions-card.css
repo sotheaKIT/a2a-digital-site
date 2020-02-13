@@ -1,4 +1,9 @@
 .c_solution__card__container{
+  max-width: 1186px;
+  padding-left: 90px;
+  padding-right: 90px;
+  margin-left: auto;
+  margin-right: auto;
   margin-top: 30px;
 }
 
@@ -22,7 +27,6 @@
 }
 
 .c_solution__card__container div.flex-container{
-  margin: 0 90px;
   display: grid;
   grid-template-columns: repeat(3,1fr);
   grid-gap: 60px;
