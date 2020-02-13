@@ -2,33 +2,20 @@
     <header class="c_service__title">
         <h1>Services</h1>
     </header>
-    <div v-for="serviceContent in serviceContents" v-bind:key="serviceContent.id">
-        <div class="l_service__container">
-            <section v-bind:data-aos="serviceContent.animation" v-bind:class="serviceContent.css">  
+        <section v-for="serviceContent in serviceContents" v-bind:key="serviceContent.id" v-bind:data-aos="serviceContent.animation" v-bind:class="serviceContent.css">  
                 <div class="l_article__wrapper l_pc">
                         <article class="l_card__text">
                             <h1>{{serviceContent.title}}</h1>
-                            <p>{{serviceContent.cotent}}
+                            <p>{{serviceContent.cotent}} 
                             </p>
-                            <a href="/servicedetail">Read More 
-                                <img src="@/assets/component/content-card/read_more.svg">
+                            <a :href="$router.resolve({ name: 'servicedetail', params: { service: serviceContent.route }}).href">Read More 
+                                <img src="../../../public/assets/component/content-card/Arrow-right.svg">
                             </a>
                         </article>
                 </div> 
                 <div class="l_card__img">
-                    <img :src='loadSrc(serviceContent.src)' >
+                    <img :src='serviceContent.src' >
                     <!-- <div class="bg_photo" style="background-image: url(https://storage.googleapis.com/chydlx/codepen/blog-cards/image-2.jpg)"></div> -->
-                </div>
-                <div class="l_article__wrapper">
-                    <article class="l_card__text">
-                        <h1>{{serviceContent.title}}</h1>
-                        <p>{{serviceContent.cotent}}</p>
-                        <a href="/servicedetail">Read More 
-                            <img src="@/assets/component/content-card/read_more.svg">
-                        </a>
-                    </article>
-                </div> 
-            </section>
-        </div>
-    </div>
+            </div>
+        </section>
 </div>

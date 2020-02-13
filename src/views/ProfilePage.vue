@@ -1,109 +1,115 @@
 <style src="../styles/profile.css"></style>
 <template>
-    <div class="l_profile-page">
-        <header>
-            <div class="l_profile__title">
-                <h1>Our Project Manager</h1>
-            </div>
-        </header> 
-
-        <section class="l_card__profile">
-            <div class="c_cart__text">
-                <h2>Long Lakkhana</h2>
-                <h3>Project Manager</h3>
-                <img class="c_card__img img_right" src="https://s.ftcdn.net/v2013/pics/all/curated/RKyaEDwp8J7JKeZWQPuOVWvkUjGQfpCx_cover_580.jpg?r=1a0fc22192d0c808b8bb2b9bcfbf4a45b1793687"/>  
-                <p>Long Lakkhana is the project mangaer of A2A Digital. Over the past 20 years, 
-                    she has had a distinguished career as an entrep reneur, designer, and technologist.
-                    In 2014, Stewart helped found Slack, a new category of software that changed the way 
-                    we work by bringing together people, applications, and data to help teams do their best work.
-                    Since then, over 600,000 organizations in over 150 countries have turned to Slack. In 2003, he 
-                    pioneered a new way of sharing information on the Internet when he co-founded Flickr and built 
-                    the company as CEO into one of the largest web services in the world.He was named as one of the 
-                    100 Most Influential People in the World by Time Magazine and one of the Top 50 Leaders by BusinessWeek 
-                    among many similar honors, such as Vanity Fair’s New Establishment List, the Recode 100, Advertising Age’s 
-                    Creativity 50and the Technology Innovator of the Year by the Wall Street Journal. Long Lakkhana is the project mangaer of A2A Digital. Over the past 20 years, 
-                    she has had a distinguished career as an entrep reneur, designer, and technologist.
-                    In 2014, Stewart helped found Slack, a new category of software that changed the way 
-                    we work by bringing together people, applications, and data to help teams do their best work.
-                    Since then, over 600,000 organizations in over 150 countries have turned to Slack. In 2003, he 
-                    pioneered a new way of sharing information on the Internet when he co-founded Flickr and built 
-                    the company as CEO into one of the largest web services in the world.He was named as one of the 
-                    100 Most Influential People in the World by Time Magazine and one of the Top 50 Leaders by BusinessWeek 
-                    among many similar honors, such as Vanity Fair’s New Establishment List, the Recode 100, Advertising Age’s 
-                    Creativity 50and the Technology Innovator of the Year by the Wall Street Journal.</p>
-            </div>
-        </section>
-
-        <section class="l_card__profile">
-            <div class="c_cart__text">
-                <h2>Long Lakkhana</h2>
-                <h3>Project Manager</h3>
-                <img class="c_card__img img_right" src="https://s.ftcdn.net/v2013/pics/all/curated/RKyaEDwp8J7JKeZWQPuOVWvkUjGQfpCx_cover_580.jpg?r=1a0fc22192d0c808b8bb2b9bcfbf4a45b1793687"/>  
-                <p>Long Lakkhana is the project mangaer of A2A Digital. Over the past 20 years, 
-                    she has had a distinguished career as an entrep reneur, designer, and technologist.
-                    In 2014, Stewart helped found Slack, a new category of software that changed the way 
-                    we work by bringing together people, applications, and data to help teams do their best work.
-                    Since then, over 600,000 organizations in over 150 countries have turned to Slack. In 2003, he 
-                    pioneered a new way of sharing information on the Internet when he co-founded Flickr and built 
-                    the company as CEO into one of the largest web services in the world.He was named as one of the 
-                    100 Most Influential People in the World by Time Magazine and one of the Top 50 Leaders by BusinessWeek 
-                    among many similar honors, such as Vanity Fair’s New Establishment List, the Recode 100, Advertising Age’s 
-                    Creativity 50and the Technology Innovator of the Year by the Wall Street Journal.</p>
-            </div>
-        </section>
-
-        <div class="l_profile__subtitle">
-            <h1>Our Project advisor</h1>
+    <div class="l_profile-page container">
+        <div class="l_profile__title">
+            <h1>Managment Team</h1>
         </div>
-
-        <section class="l_card__profile">
-            <div class="c_cart__text">
-                <h2>Long Lakkhana</h2>
-                <h3>Project Manager</h3>
-                <img class="c_card__img img_right" src="https://s.ftcdn.net/v2013/pics/all/curated/RKyaEDwp8J7JKeZWQPuOVWvkUjGQfpCx_cover_580.jpg?r=1a0fc22192d0c808b8bb2b9bcfbf4a45b1793687"/>  
-                <p>Long Lakkhana is the project mangaer of A2A Digital. Over the past 20 years, 
-                    she has had a distinguished career as an entrep reneur, designer, and technologist.
-                    In 2014, Stewart helped found Slack, a new category of software that changed the way 
-                    we work by bringing together people, applications, and data to help teams do their best work.
-                    Since then, over 600,000 organizations in over 150 countries have turned to Slack. In 2003, he 
-                    pioneered a new way of sharing information on the Internet when he co-founded Flickr and built 
-                    the company as CEO into one of the largest web services in the world.He was named as one of the 
-                    100 Most Influential People in the World by Time Magazine and one of the Top 50 Leaders by BusinessWeek 
-                    among many similar honors, such as Vanity Fair’s New Establishment List, the Recode 100, Advertising Age’s 
-                    Creativity 50and the Technology Innovator of the Year by the Wall Street Journal. </p>
+        <section id="bekku" class="l_card__profile">
+            <div class="l_card_detail">
+                <div class="c_cart__text">
+                    <h2>Kenzaburo Bekku</h2>
+                    <h3>Consultant Team</h3>
+                    <h4></h4>
+                </div>
+                <div class="c_img_right">
+                    <img class="c_card__img right" src="../../public/assets/component/about-card/Advisor/bekku.jpg"
+                         alt="bekku"/>
+                </div>
+                <div class="c_cart__text">
+                    <p>He joined Accenture in 2004. Since then, he has been in the Manufacturing and Distribution
+                        Division and the Strategy
+                        Consulting Division. He has been engaged in management consulting for 13 years. Involved in this
+                        project since 2017,
+                        his responsible for corporate planning, global marketing, and launching new businesses. </p>
+                    <back-about/>
+                </div>
             </div>
         </section>
 
-        <section class="l_card__profile">
-            <div class="c_cart__text">
-                <h2>Long Lakkhana</h2>
-                <h3>Project Manager</h3>
-                <img class="c_card__img img_right" src="https://s.ftcdn.net/v2013/pics/all/curated/RKyaEDwp8J7JKeZWQPuOVWvkUjGQfpCx_cover_580.jpg?r=1a0fc22192d0c808b8bb2b9bcfbf4a45b1793687"/>  
-                <p>Long Lakkhana is the project mangaer of A2A Digital. Over the past 20 years, 
-                    she has had a distinguished career as an entrep reneur, designer, and technologist.
-                    In 2014, Stewart helped found Slack, a new category of software that changed the way 
-                    we work by bringing together people, applications, and data to help teams do their best work.
-                    Since then, over 600,000 organizations in over 150 countries have turned to Slack. In 2003, he 
-                    pioneered a new way of sharing information on the Internet when he co-founded Flickr and built 
-                    the company as CEO into one of the largest web services in the world.He was named as one of the 
-                    100 Most Influential People in the World by Time Magazine and one of the Top 50 Leaders by BusinessWeek 
-                    among many similar honors, such as Vanity Fair’s New Establishment List, the Recode 100, Advertising Age’s 
-                    Creativity 50and the Technology Innovator of the Year by the Wall Street Journal. Long Lakkhana is the project mangaer of A2A Digital. Over the past 20 years, 
-                    she has had a distinguished career as an entrep reneur, designer, and technologist.
-                    In 2014, Stewart helped found Slack, a new category of software that changed the way 
-                    we work by bringing together people, applications, and data to help teams do their best work.
-                    Since then, over 600,000 organizations in over 150 countries have turned to Slack. In 2003, he 
-                    pioneered a new way of sharing information on the Internet when he co-founded Flickr and built 
-                    the company as CEO into one of the largest web services in the world.He was named as one of the 
-                    100 Most Influential People in the World by Time Magazine and one of the Top 50 Leaders by BusinessWeek 
-                    among many similar honors, such as Vanity Fair’s New Establishment List, the Recode 100, Advertising Age’s 
-                    Creativity 50and the Technology Innovator of the Year by the Wall Street Journal.</p>
+        <section id="mariko" class="l_card__profile">
+            <div class="l_card_detail">
+                <div class="c_cart__text text_right">
+                    <h2>Mariko Sadamatsu</h2>
+                    <h3>Cambodia Marketing Team</h3>
+                    <h4></h4>
+                </div>
+                <div class="c_img_left">
+                    <img class="c_card__img" src="../../public/assets/component/about-card/Advisor/bekkuwife.jpg"
+                         alt="bekkuwife"/>
+                </div>
+                <div class="c_cart__text text_right">
+                    <p>After graduating from university, she worked at Accenture Co., Ltd. as a number of program
+                        management and CIO
+                        advisory services that consistently support from project conception / planning to execution /
+                        operation management.
+                        After her second childcare leave, she took a leave of absence and obtained an MBA from Keio
+                        Business School (Keio
+                        Business School). After that, she joined the consulting department of Gartner Japan Co., Ltd.,
+                        as an associate
+                        director, she was involved in supporting the renewal of core systems and the development of
+                        technology
+                        strategies in the medium-term business plan. At Kirirom, she is in charge of coordination and
+                        project management
+                        for industry-academia collaboration projects, acquisition of scholarship sponsors and matching
+                        support.</p>
+                    <back-about class="float-right float-md-left"/>
+                </div>
+            </div>
+        </section>
+
+        <section id="chihiro" class="l_card__profile">
+            <div class="l_card_detail">
+                <div class="c_cart__text">
+                    <h2>Chihiro Kurose</h2>
+                    <h3>Japan Marketing Team</h3>
+                    <h4></h4>
+                </div>
+                <div class="c_img_right">
+                    <img class="c_card__img right" src="../../public/assets/component/about-card/Advisor/chihiro.jpg"
+                         alt="chihiro"/>
+                </div>
+                <div class="c_cart__text">
+                    <p>After graduating from University of Tsukuba, joined a business consulting company after working
+                        for a temporary
+                        staffing company. Introduced ERP and promoted organization / business reform projects. Involved
+                        in vkirirom
+                        Project since 2015 and is in charge of the corporate office. As female management, she is also
+                        the global
+                        recruiting manager who promotes diversity adoption. </p>
+                    <back-about/>
+                </div>
+            </div>
+        </section>
+        <section id="mashima" class="l_card__profile">
+            <div class="l_card_detail" style="padding-bottom: 0 !important;">
+                <div class="c_cart__text text_right">
+                    <h2>Yasue Mashima</h2>
+                    <h3>Technology Team</h3>
+                    <h4></h4>
+                </div>
+                <div class="c_img_left">
+                    <img class="c_card__img" src="../../public/assets/component/about-card/Managers/mashami.jpg"
+                         alt="mashami"/>
+                </div>
+                <div class="c_cart__text text_right">
+                    <p>After graduating from university, she worked for the software development company in Japan. She
+                        has a team leader
+                        experience for global systems that include development. In 2018, she joined the global general
+                        trading company
+                        as a transferred employee in charge of the finance data analyzing team. She is working A2A
+                        Digital from February
+                        2020. She lives in Cambodia.</p>
+                    <back-about class="float-right float-md-left"/>
+                </div>
             </div>
         </section>
     </div>
 </template>
 <script>
-export default {
-    name: "ProfilePage"
-}
+    import BackAbout from "../components/back-about/back-about";
+
+    export default {
+        name: "ProfilePage",
+        components: {BackAbout}
+    }
 </script>

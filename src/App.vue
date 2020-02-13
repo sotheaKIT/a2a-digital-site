@@ -1,8 +1,8 @@
 <style src="./styles/app.css"></style>
 <template>
     <div id="app">
-        <component :is="currentMenu" :right="side === 'right' ? true: false"></component>
-        <div class="content">
+        <component class="l_navigator" :is="currentMenu" :right="side === 'right' ? true: false"></component>
+        <div class="l_container">
             <router-view/>
         </div>
         <Footer/>
@@ -22,7 +22,7 @@
         },
         components: {
             Footer,
-            slide
+            slide,
         }
     }
 </script>

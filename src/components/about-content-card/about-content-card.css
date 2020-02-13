@@ -16,7 +16,7 @@
     font-size: 40px;
     font-family: SFProText-Bold;
     margin: 0;
-    margin-bottom: 72px;
+    margin-bottom: 12px;
 }
 .l_card__text p{
     font-size: 16px;
@@ -30,6 +30,7 @@
     padding-top: 100px;
     display: flex;
     align-items: center;
+    
 }
 /* For mobile the text after img will not shown */
 .c_card__service .l_card__img + .l_article__wrapper{ 
@@ -52,10 +53,7 @@
     width: 100%;
     border-radius: 4px;
 }
-.l_card__img{
-    min-width: 300px;
-    /* flex-basis: 50%; */
-}
+
 div.l_article__wrapper {
     width: 62%;
 }
@@ -104,10 +102,13 @@ section.c_card__service.txt_right {
         width: 38%;
         float: left;
     }
+    #about-page.l_card__img{
+        min-width: 300px;
+    }
 }
 @media only screen and (max-width: 1366px) {
     .l_service__container{
-        width: calc( 100% - 180px);
+        /* width: calc( 100% - 180px); */
         padding-left: 90px;
         padding-right: 90px;
         display: table;
@@ -126,14 +127,13 @@ section.c_card__service.txt_right {
         margin-bottom: 20px;
     }
     .l_service__container{
-        width: 90%;
         padding-left: 5%;
         padding-right: 5%;
         padding-bottom: 35px;
         padding-top: 35px;
     }
     .c_card__service{
-        display: block;
+        flex-direction: column-reverse;
         padding-top: 0;
     }
     .c_card__service div.l_article__wrapper{
@@ -154,15 +154,22 @@ section.c_card__service.txt_right {
         padding-right: 0px;
     }
     /* text befor img will not show */
-    .c_card__service div.l_pc{
-        display: none; 
-    }  
+ 
     section.c_card__service.txt_right {
-        flex-direction: row;
+        flex-direction: column-reverse;
     }
     section.c_card__service article.l_card__text {
         width: 100%;
         margin-left: 0% ;
     }  
+    .l_card__img{
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 515px) { 
+    /* .l_service__container{
+        display: block;
+    } */
 }
 

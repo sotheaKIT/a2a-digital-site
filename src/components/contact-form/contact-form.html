@@ -73,7 +73,7 @@
 
             <div class="c_form_username">
               <label for="username-login" class="form-label">Name*</label>             
-              <input v-model="name" v-validate.initial="name" data-rules="required|alpha|min:3" class="form-control" type="text" >
+              <input v-model="name" v-validate.initial="name" data-rules="required|alpha_spaces|min:3" class="form-control" type="text" >
               <p class="text-danger" v-if="errors.has('name')">{{ errors.first('name') }}</p>
 
             </div>

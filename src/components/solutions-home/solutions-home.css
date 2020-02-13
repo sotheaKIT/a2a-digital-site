@@ -1,21 +1,23 @@
-h1,h2,h3,h4,h5,h6,p {
-	margin: 0;
-	padding: 0;
-	border: 0;
-	font-size: 100%;
-	font: inherit;
-	vertical-align: baseline;
+h1, h2, h3, h4, h5, h6, p {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
 }
-.l_solution__slide{
-    background: url("../../assets/component/solutions/solution-home/blank-composition-desk-display-317355.jpg");
+
+.l_solution__slide {
+    background: url("../../../public/assets/component/solutions/solution-home/blank-composition-desk-display-317355.jpg");
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: center center; 
+    background-position: center center;
     width: 100%;
     height: 38.08vh;
     position: relative;
 }
-.l_solution__slide h1{
+
+.l_solution__slide h1 {
     position: absolute;
     top: 50%;
     left: 50%;
@@ -27,7 +29,8 @@ h1,h2,h3,h4,h5,h6,p {
     color: #FFFFFF;
     -webkit-text-stroke: 2px #000000;
 }
-.l_solution__header{
+
+.l_solution__header {
     width: 100%;
     max-width: 1185px;
     margin-left: auto;
@@ -35,7 +38,8 @@ h1,h2,h3,h4,h5,h6,p {
     margin-top: 60px;
     margin-bottom: 50px;
 }
-.l_solution__header h1{
+
+.l_solution__header h1 {
     padding-bottom: 50px;
     font-style: normal;
     font-weight: bold;
@@ -49,7 +53,8 @@ h1,h2,h3,h4,h5,h6,p {
 
     color: #303030;
 }
-.l_solution__header p{
+
+.l_solution__header p {
     font-style: normal;
     font-weight: normal;
     font-size: 16px;
@@ -60,39 +65,45 @@ h1,h2,h3,h4,h5,h6,p {
     margin-right: 2.5%;
     max-width: 1183px;
 }
-  /* Responsive l_solution__column */
-     /*Card-solution desktop responsive  */
-  /* Remove extra left and right margins, due to padding */
-  .l_solution__row {
+
+/* Responsive l_solution__column */
+/*Card-solution desktop responsive  */
+/* Remove extra left and right margins, due to padding */
+.l_solution__row {
     width: 100%;
     max-width: 1185px;
     margin-left: auto;
     margin-right: auto;
-    padding: 0px 0px ;
-  }
-  /* Clear floats after the l_solution__column */
-  .l_solution__row:after {
+    padding: 0px 0px;
+}
+
+/* Clear floats after the l_solution__column */
+.l_solution__row:after {
     content: "";
     display: table;
     clear: both;
-  }
-  /* Float four columns side by side */
-  .l_solution__column {
+}
+
+/* Float four columns side by side */
+.l_solution__column {
     float: left;
     width: 31.3%;
     padding-left: 1%;
     padding-right: 1%;
     padding-bottom: 50px;
-  }
-  .l_solution__card img{
+}
+
+.l_solution__card img {
     box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.25);
-     width: 100%;
-  }
-  .l_solution__decription{
+    width: 100%;
+}
+
+.l_solution__decription {
     margin-top: 24px;
     text-align: left;
-  }
-  .l_solution__decription h1{
+}
+
+.l_solution__decription h1 {
     font-style: normal;
     font-weight: bold;
     font-size: 30px;
@@ -100,84 +111,100 @@ h1,h2,h3,h4,h5,h6,p {
 
     color: #303030;
     margin-bottom: 10px;
-  }
-  .l_solution__decription p{
+}
+
+.l_solution__decription p {
     font-style: normal;
     font-weight: normal;
     font-size: 16px;
     line-height: 19px;
 
     color: #000000;
-  }
- .c_solution__readmore p{
+}
+
+.c_solution__readmore p {
     margin-top: 10px;
     font-style: normal;
     font-weight: normal;
     font-size: 16px;
     line-height: 19px;
     color: #138690;
-  }
-   .c_solution__readmore img{
+}
+
+.c_solution__readmore img {
     margin-top: -13px;
     float: left;
     width: 17.45px;
     height: 12px;
     margin-left: 81px;
     box-shadow: 0px 0px 0px rgba(0, 0, 0, 0);
-  }
-  /* Responsive on tablet */
-  @media screen and (max-width: 1024px) and (min-width: 768px){
-      .l_solution__slide{
+}
+
+/* Responsive on tablet */
+@media screen and (max-width: 1024px) and (min-width: 768px) {
+    .l_solution__slide {
         height: 48.16vh;
     }
-    .l_solution__header{
+
+    .l_solution__header {
         margin-top: 82px;
         margin-bottom: 82px;
     }
-    .l_solution__header h1{
+
+    .l_solution__header h1 {
         padding-bottom: 45px;
     }
-    .l_solution__header p{
+
+    .l_solution__header p {
         margin-left: auto;
         margin-right: auto;
         max-width: 696px;
     }
+
     .l_solution__column {
-      float: none;
-      margin-right: auto;
-      margin-left: auto;
-      margin-bottom: 0px;
-      width: 92.2%;
-      padding-left: 3.90%;
-      padding-right: 3.90%;
+        float: none;
+        margin-right: auto;
+        margin-left: auto;
+        margin-bottom: 0px;
+        width: 92.2%;
+        padding-left: 3.90%;
+        padding-right: 3.90%;
     }
-    .l_solution__decription{
-      margin-top: 30px;
+
+    .l_solution__decription {
+        margin-top: 30px;
     }
-    .l_solution__decription h1{
-      margin-bottom: 20px;
+
+    .l_solution__decription h1 {
+        margin-bottom: 20px;
     }
-    .c_solution__readmore{
-      margin-top: 15px;
+
+    .c_solution__readmore {
+        margin-top: 15px;
     }
-  }
-  /* Responsive on mobile */
-  @media screen and (max-width: 767px) and (min-width: 200px){
-        .l_solution__slide{
-          height: 34.88vh;
-      }
-      .l_solution__header{
-          margin-top: 60px;
-          margin-bottom: 38px;
-      }
-      .l_solution__header h1{
-          padding-bottom: 24px;
-      }
-      .l_solution__header p{
-          margin-left: 2.5%;
-          margin-right: 2.5%;
-      }
-      .l_solution__column {
+}
+
+/* Responsive on mobile */
+@media screen and (max-width: 767px) and (min-width: 200px) {
+    .l_solution__slide {
+        height: 34.88vh;
+    }
+
+    .l_solution__header {
+        margin-top: 60px;
+        margin-bottom: 38px;
+    }
+
+    .l_solution__header h1 {
+        padding-bottom: 24px;
+    }
+
+    .l_solution__header p {
+        margin-left: 2.5%;
+        margin-right: 2.5%;
+    }
+
+    .l_solution__column {
         float: none;
         margin-right: auto;
         margin-left: auto;
@@ -186,15 +213,18 @@ h1,h2,h3,h4,h5,h6,p {
         padding-left: 4%;
         padding-right: 4%;
         padding-bottom: 65px;
-      }
-      .l_solution__decription{
-        margin-top: 30px;
-      }
-      .l_solution__decription h1{
-        margin-bottom: 58px;
-      }
-      .c_solution__readmore{
-        margin-top: 15px;
-      }
     }
+
+    .l_solution__decription {
+        margin-top: 30px;
+    }
+
+    .l_solution__decription h1 {
+        margin-bottom: 58px;
+    }
+
+    .c_solution__readmore {
+        margin-top: 15px;
+    }
+}
  

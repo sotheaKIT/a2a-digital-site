@@ -4,6 +4,15 @@
     -moz-box-sizing: border-box;
     box-sizing: border-box;  
   }
+
+  /* ------------------------service card detail header ----------------------------- */
+.l_service__section__wrapper {
+    width: 100%;
+    display: block;
+}
+.l_service__section__wrapper header{
+    text-align: center;
+}
   
   /* html, body {
     margin: 0;
@@ -22,10 +31,12 @@
     flex-wrap: wrap;
     max-width: 1186px;
     margin: 0 auto;
+    margin-top: 50px;
   }
   
   .c_service__card__container div.flex-item {
     /* width: ; */
+    margin-top:20px;
     padding: 32px 15px;
     color: #303030;
     font-style: normal;
@@ -36,12 +47,13 @@
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
     border-radius: 4px;
     text-align: center;
-    margin-bottom: 25px;
   }
     .c_service__card__container div.flex-item img{
         width: 70px;
     }
     .c_service__card__container div.flex-item h1{
+        margin-top: 25px;
+        margin-bottom: 20px;
         font-style: normal;
         font-weight: bold;
         font-size: 24px;
@@ -71,6 +83,12 @@
     margin-right: 25px;
   }
   .c_service__card__container div.center:nth-of-type(5) {
+    margin-right: 25px;
+  }
+  .c_service__card__container div.center:nth-of-type(7) {
+    margin-right: 25px;
+  }
+  .c_service__card__container div.center:nth-of-type(8) {
     margin-right: 25px;
   }
   

@@ -1,21 +1,26 @@
 body, html {
     margin: 0;
     padding: 0;
-    height: 100vh;
+    overflow-inline: hidden;
+    overflow-x: hidden;
 }
-
-
-
 
 #app {
     font-family: SFProText-Regular;
     background-color: #ffffff;
     color: #303030;
-    width: 100%;
+    margin: 0 auto;
 }
+
 
 a {
     text-decoration: none;
+}
+
+.l_container {
+    margin: auto;
+    width: 100%;
+    min-width: 320px;
 }
 
 #contact-page {
@@ -35,26 +40,10 @@ ul {
     margin-top: 100px;
 }
 
-
-.l_container {
+.l_navigator {
     width: 100%;
-    padding: 15px;
-    margin-right: auto;
-    margin-left: auto;
 }
 
-
-@media (min-width: 960px) {
-    .l_container {
-        max-width: 900px;
-    }
-}
-
-@media (min-width: 1264px) {
-    .l_container {
-        max-width: 1185px;
-    }
-}
 
 .l_container_fluid {
     max-width: 100%;

@@ -1,3 +1,5 @@
+/* default  (Navigation) */
+
 #navigation {
     position:fixed;
     top: 0;
@@ -5,16 +7,20 @@
     display: block;
     -webkit-transition: top 0.3s;
     transition: top 0.3s;
-    /* -webkit-box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
-    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1); */
+    margin: auto;
     z-index: 999;
+    background: white;
+     box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 10px;
 }
 
 #nav {
-    /* box-shadow: 0 10px 20px rgba(0,0,0,0.1), 0 6px 6px rgba(0,0,0,0); */
-    padding-left: 90px;
-    padding-right: 90px;
     height: 70px;
+    width: 85%;
+    margin: auto;
+}
+
+#nav_logo {
+    padding-top: 22px;
 }
 
 #nav_button {
@@ -30,12 +36,10 @@
     width: 138px;
     height: 25px;
     float: left;
-    padding-top: 22px;
 }
 
 #nav_right {
     float: right;
-    padding-top: 22px;
 }
 
 .c_search {
@@ -43,11 +47,6 @@
     height: 16px;
     fill: #303030;
     padding-top: 5px;
-}
-
-.c_dropdown {
-    display: inline;
-    padding-top: 10px;
 }
 
 .c_navigate_right + .c_navigate_right {
@@ -95,7 +94,7 @@
     top: 0;
     left: 0;
     background-color: white; /* Black*/
-    overflow-x: hidden; /* Disable horizontal scroll */
+    overflow-x: hidden; /*Disable horizontal scroll */
     transition: 0.5s; /*0.5 second transition effect to slide in the sidenav*/
 }
 
@@ -112,6 +111,9 @@
 }
 
 .dropbtn {
+    height: 25px;
+    padding: 20px 20px;
+    border-radius: 4px;
     font-size: 16px;
     border: none;
     cursor: pointer;
@@ -129,10 +131,10 @@
     display: none;
     position: absolute;
     opacity: 0.9;
-    min-width: 590px;
+    min-width: 850px;
     box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
-    left: -200%;
-    top: 24px;
+    left: -300%;
+    top: 45px;
     background-color: #ffffff;
 
 }
@@ -150,24 +152,47 @@
     background-color: black;
 }
 
+.dropdown:hover .svg_dropdown {
+    fill: #A40505;
+}
+
+.svg_dropdown {
+    fill: #ffffff;
+}
+.dropdown-content a:hover {
+    color: #A40505;
+    border-left: #A40505 solid 2px;
+}
 /* Show the dropdown menu on hover */
 .dropdown:hover .dropdown-content {
-    display: inline-block;
+    display: flex;
 }
 
 /* Change the background color of the dropdown button when the dropdown content is shown */
 .dropdown:hover .dropbtn {
     background-color: white;
+    color: #A40505;
 }
-
-.drp2 {
-    width: 50%;
-    float: right;
-}
-
 .drp1 {
     display: inline-flex;
+    width: 30%;
 }
+.drp2 {
+    width: 30%;
+    float: left;
+}
+.drp3 {
+    width: 30%;
+    float: left;
+}
+
+.drp3 {
+    width: 30%;
+    float: left;
+}
+
+
+
 
 .bm_tree_toggle {
     font-size: 18px;
@@ -190,42 +215,51 @@
 
 .bm_tree__content {
     display: none;
-}
-
-.bm_tree__product {
+  }
+  .bm_tree__product {
     display: none;
     width: 100%;
     float: left;
-    padding: 20px;
-
-}
-
-.bm_tree__service {
+    padding:20px;
+  
+  }
+  .bm_tree__service {
     display: none;
     width: 100%;
     float: left;
-    padding: 10px;
-}
-
-.bm_tree_submenu {
+    padding:10px;
+  }
+  
+  .bm_tree_submenu {
     padding-top: 12px;
     text-decoration: none;
+   color: #138690;
+   font-size: 16px;
+   font-family: SFProText-regular;
+  
+   
+  }
+  .bm_tree_submenu a {
+   color: #138690;
 
-
-}
-
-.bm_tree_servic_content {
+  }
+  .bm_tree_servic_content {
     text-decoration: none;
     color: #138690;
     font-size: 16px;
     font-family: SFProText-Regular;
-}
-
-.bm_primary_scroller {
- }
- .bm_ul {
-   margin: unset;
- }
+  }
+  .bm_primary_scroller {
+     font-size: 18px;
+     padding: 13px 30px;
+     font-family: SFProText-Bold;
+     color: #138690;
+   
+  }
+  .bm_ul {
+      padding: unset;
+    margin: unset;
+  }
  
  
    #slide_content {
@@ -242,20 +276,20 @@
    margin: 20px 30px;
  }
  #sideNav_logo {
-   padding-left: 30px;
    height: 60px;
    border-bottom: 1px solid #BDFFF0;
  }
  
- 
- #service_vector {
-   /* float: right; */
- }
- #vector {
+
+#vector {
    float: right;
  }
  
  @media only screen and (max-width: 980px) {
+
+#navigation  {
+    width: 100%;
+}
  
  #nav_only_button {
      display: none;
@@ -268,36 +302,11 @@
      /* left: 36px; */
      /* top: 36px; */
      cursor: pointer;
-   }
- 
- }
- @media only screen and (min-width: 980px) {
- 
-     .bm-burger-button {
-         display: none;
-     }
- 
  }
 
- @media only screen and (max-width: 980px) {
  
-  #nav {
-    /* box-shadow: 0 10px 20px rgba(0,0,0,0.1), 0 6px 6px rgba(0,0,0,0); */
-    padding-right: 30px; 
-  }
-
-}
-
- @media only screen and (max-width: 768px) {
+ }
  
-  #nav {
-    /* box-shadow: 0 10px 20px rgba(0,0,0,0.1), 0 6px 6px rgba(0,0,0,0); */
-    padding-left: 30px;
-    padding-right: 30px; 
-  }
-
-
-}
 @media only screen and (max-width: 375px) {
     .bm_primary_scroller {
         font-size: 18px;
@@ -305,6 +314,10 @@
         font-family: SFProText-Bold;
         color: #138690;
 
+    }
+
+    .c_logo { 
+        padding-left: 10px;
     }
 }
 
@@ -333,11 +346,6 @@
     padding-left: 15px;
     height: 60px;
     border-bottom: 1px solid #BDFFF0;
-}
-
-
-#service_vector {
-    /* float: right; */
 }
 
 #vector {
@@ -372,6 +380,11 @@
 }
 
 @media only screen and (max-width: 375px) {
+
+    #navigation  {
+        position: relative;
+        width: 100%;
+    }
     .bm_primary_scroller {
         font-size: 18px;
         padding: 13px 20px;
@@ -379,4 +392,7 @@
         color: #138690;
 
     }
+
+
 }
+

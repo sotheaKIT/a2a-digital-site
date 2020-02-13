@@ -1,8 +1,12 @@
-<style src="./service-cloud-detail-page.css" scope></style>
+<style src="./service-cloud-detail-page.css" scoped></style>
 <template src="./service-cloud-detail-page.html">
 </template>
 <script>
-export default {
-  name: 'ServiceCloudDetailComp',
-}
+    export default {
+        name: 'ServiceCloudDetailComp',
+        props: {
+            compare: null
+        },     
+        
+    }
 </script>

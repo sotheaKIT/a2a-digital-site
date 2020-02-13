@@ -1,12 +1,12 @@
 /* ------------------------------------------format------------------ */
-.l_service__technology__section{
+/* .l_service__technology__section{
+    margin-top: 50px;
+} */
+.c_service__section__header {
     margin-top: 50px;
 }
-.c_service__section__header{
-    margin-bottom: 20px;
-    margin-top: 50px;
-}
-.c_service__section__header h1{
+
+.c_service__section__header h1 {
     font-weight: bold;
     font-size: 35px;
     line-height: 42px;
@@ -15,15 +15,16 @@
     padding: 0;
 }
 
-.c_service__technology__flex__container div.center{
+.c_service__technology__flex__container div.center {
     display: flex;
     flex-wrap: wrap;
     margin-top: 20px;
     max-width: 1186px;
     margin: 0 auto;
-    
+
 }
-.c_service__technology__flex__container div.c_card__img{
+
+.c_service__technology__flex__container div.c_card__img {
     width: 100px;
     height: 100px;
     background: #FFFFFF;
@@ -31,26 +32,45 @@
     border-radius: 4px;
     padding: 12px;
 }
-.c_service__technology__flex__container div.c_card__img img{
+
+.c_service__technology__flex__container div.c_card__img img {
     width: 100%;
     height: 100%;
 }
-.c_service__technology__flex__container div.c_card__img{
+
+.c_service__technology__flex__container div.c_card__img {
     float: left;
 }
-.c_service__technology__flex__container div.c_text_card{
+
+.c_service__technology__flex__container div.c_text_card {
     float: left;
     width: calc(100% - 145px);
     margin-left: 21px;
 }
+
 .c_service__technology__flex__container div.flex-item:nth-of-type(1) {
     margin-right: 23px;
 }
+
 .c_service__technology__flex__container div.flex-item:nth-of-type(3) {
     margin-right: 23px;
 }
-
-.c_service__technology__flex__container div.c_text_card h1{
+.c_service__technology__flex__container div.flex-item:nth-of-type(5) {
+    margin-right: 23px;
+}
+.c_service__technology__flex__container div.flex-item:nth-of-type(7) {
+    margin-right: 23px;
+}
+.c_service__technology__flex__container div.flex-item:nth-of-type(9) {
+    margin-right: 23px;
+}
+.c_service__technology__flex__container div.flex-item:nth-of-type(11) {
+    margin-right: 23px;
+}
+.c_service__technology__flex__container div.flex-item:nth-of-type(13) {
+    margin-right: 23px;
+}
+.c_service__technology__flex__container div.c_text_card h1 {
     margin-top: 0;
     margin-bottom: 20px;
     font-style: normal;
@@ -59,10 +79,11 @@
     line-height: 29px;
     color: #138690;
 }
+
 .c_service__technology__flex__container div.flex-item{
-    width: calc((100% - 60px - 23px)/2);
+    width: calc((100%  - 23px) / 2);
     margin-top: 23px;
-    background: #FFFFFF;    
+    background: #FFFFFF;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
     border-radius: 4px;
     padding: 15px;
@@ -74,45 +95,53 @@
         margin: auto;
     }
 }
+
 @media only screen and (max-width: 1366px) {
-    .l_service__technology__section{
+    .l_service__technology__section {
         margin: 0 90px;
         /* width: calc(100% - 180px); */
     }
 }
+
 @media only screen and (max-width: 980px) {
-    
-    .c_service__technology__flex__container div.center{
+
+    .c_service__technology__flex__container div.center {
         display: block;
         margin-top: 0;
     }
+
     .c_service__technology__flex__container div.flex-item:nth-of-type(1) {
         margin-right: 0;
     }
-    .c_service__technology__flex__container div.flex-item{
+
+    .c_service__technology__flex__container div.flex-item {
         width: calc(100% - 30px);
         display: inline-block;
         margin-top: 25px;
     }
 }
+
 @media only screen and (max-width: 768px) {
     .l_service__technology__section {
         margin: 0 20px;
     }
 }
+
 @media only screen and (max-width: 414px) {
     .c_service__technology__flex__container div.c_card__img {
         margin: auto;
         float: none;
     }
-    .c_service__technology__flex__container div.c_text_card{
+
+    .c_service__technology__flex__container div.c_text_card {
         float: none;
         width: auto;
         margin: 0;
         margin-top: 13px;
-        text-align: center  ;
+        text-align: center;
     }
-    .c_service__technology__flex__container div.c_text_card p{
-        text-align: left  ;
+
+    .c_service__technology__flex__container div.c_text_card p {
+        text-align: left;
     }
 }

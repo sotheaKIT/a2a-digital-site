@@ -1,0 +1,43 @@
+.l_solution__overall__container{
+    display: block;
+}
+.l_solution__overall__wrapper {
+    width: 100%;
+    display: block;
+}
+.l_solution__overall__wrapper header{
+    text-align: center;
+    margin-top: 80px;
+    margin-bottom: 40px;
+}
+/* ------------------------------------------format ------------------------------- */
+
+.c_solution__overall__header h1{
+    margin: 0px;
+    text-align: center;
+    font-family: SFProText-Bold;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 29px;
+    text-align: center;
+}
+
+.c_solution_overall_img {
+    margin: 0 90px;
+}
+.c_solution_overall_img img {
+    height: 481px;
+}
+
+@media only screen and (max-width: 768px) {
+    .c_solution_overall_img{
+        margin: 0 25px;
+    }
+}
+
+@media only screen and (max-width: 414px) {
+    .c_solution_overall_img{
+        margin: 0 14px;
+    }
+}

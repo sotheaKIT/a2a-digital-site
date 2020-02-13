@@ -3,63 +3,55 @@
     <div class="c_footer_service">
         <div class="c_footer_service_float">
             <ul>
-                <li class="c_title">SERVICES</a></router-link></li>
-                <li><router-link :to="{ name: 'servicedetail', params: { service: 'ai' } }" class="c_a_footer" >AI Development</router-link></li>
-                <li><router-link :to="{ name: 'servicedetail', params: { service: 'iot' } }" class="c_a_footer" >IoT Development</router-link></li>
-                <li><router-link :to="{ name: 'servicedetail', params: { service: 'cloud' } }" class="c_a_footer" >Cloud Computing</router-link></li>
-                <li><router-link :to="{ name: 'servicedetail', params: { service: 'rpa' } }" class="c_a_footer" >RPA Install Support</router-link></li>
-                <li><router-link :to="{ name: 'servicedetail', params: { service: 'blockchain' } }" class="c_a_footer" >Blockchain Development</router-link></li>
-                <li><router-link :to="{ name: 'servicedetail', params: { service: 'pwa' } }" class="c_a_footer" >PWA Development</router-link></li>
-                <li><router-link :to="{ name: 'servicedetail', params: { service: 'vr' } }" class="c_a_footer" >VR/AR Development</router-link></li>
-                <li><router-link :to="{ name: 'servicedetail', params: { service: 'erp' } }" class="c_a_footer" >Odoo ERP Customize</router-link></li>
-                <li><router-link :to="{ name: 'servicedetail', params: { service: 'digital' } }" class="c_a_footer" >Digital Marketing</router-link></li>
-                <li><router-link :to="{ name: 'servicedetail', params: { service: 'cyber' } }" class="c_a_footer" >Cyber Security</router-link></li>
+                <li class="c_title">SERVICES</a></a></li>
+                <li><a :href="$router.resolve({ name: 'servicedetail', params: { service: 'ai' }}).href" class="c_a_footer">AI Development</a></li>
+                <li><a :href="$router.resolve({ name: 'servicedetail', params: { service: 'iot' }}).href" class="c_a_footer" >IoT Development</a></li>
+                <li><a :href="$router.resolve({ name: 'servicedetail', params: { service: 'cloud' }}).href" class="c_a_footer" >Cloud Computing</a></li>
+                <li><a :href="$router.resolve({ name: 'servicedetail', params: { service: 'rpa' }}).href" class="c_a_footer" >RPA Install Support</a></li>
+                <li><a :href="$router.resolve({ name: 'servicedetail', params: { service: 'blockchain' }}).href" class="c_a_footer" >Blockchain Development</a></li>
+                <li><a :href="$router.resolve({ name: 'servicedetail', params: { service: 'pws' }}).href" class="c_a_footer" >PWA Development</a></li>
+                <li><a :href="$router.resolve({ name: 'servicedetail', params: { service: 'vr' }}).href" class="c_a_footer" >VR/AR Development</a></li>
+                <li><a :href="$router.resolve({ name: 'servicedetail', params: { service: 'erp' }}).href" class="c_a_footer" >Odoo ERP Customize</a></li>
+                <li><a :href="$router.resolve({ name: 'servicedetail', params: { service: 'marketing' }}).href" class="c_a_footer" >Digital Marketing</a></li>
+                <li><a :href="$router.resolve({ name: 'servicedetail', params: { service: 'cybersecurity' }}).href" class="c_a_footer" >Cyber Security</a></li>
             </ul>
         </div>
         <div class="c_footer_service_float" style="
         padding-bottom: 37px;">
             <ul>
-                <li class="c_title">SOLOTIONS</a></router-link></li>
-                <li><router-link :to="{ name: 'servicedetail', params: { service: 'iot' } }" class="c_a_footer" >Security System</router-link></li>
-                <li><router-link :to="{ name: 'servicedetail', params: { service: 'iot' } }" class="c_a_footer" >KPI dashboard system</router-link></li>
-                <li><router-link :to="{ name: 'servicedetail', params: { service: 'iot' } }" class="c_a_footer" >QR Code system</router-link></li>
-                <li><router-link :to="{ name: 'servicedetail', params: { service: 'iot' } }" class="c_a_footer" >Contact Cener</router-link></li>
-                <li><router-link :to="{ name: 'servicedetail', params: { service: 'iot' } }" class="c_a_footer" >Projection Mapping</router-link></li>
-                <li><router-link :to="{ name: 'servicedetail', params: { service: 'iot' } }" class="c_a_footer" >Human Resource Management</router-link></li>
-                <li><router-link :to="{ name: 'servicedetail', params: { service: 'iot' } }" class="c_a_footer" >logistic system</router-link></li>
-                <li><router-link :to="{ name: 'servicedetail', params: { service: 'iot' } }" class="c_a_footer" >School Management System</router-link></li>
+                <li class="c_title">SOLOTIONS</a></a></li>
+                <li><a :href="$router.resolve({ name: 'solutiondetail', params: { solution: 'security' }}).href" class="c_a_footer" >Security System</a></li>
+                <li><a :href="$router.resolve({ name: 'solutiondetail', params: { solution: 'kpi' }}).href" class="c_a_footer" >KPI dashboard system</a></li>
+                <li><a :href="$router.resolve({ name: 'solutiondetail', params: { solution: 'qrcode' }}).href" class="c_a_footer" >QR Code system</a></li>
+                <li><a :href="$router.resolve({ name: 'solutiondetail', params: { solution: 'mapping' }}).href" class="c_a_footer" >Contact Cener</a></li>
+                <li><a :href="$router.resolve({ name: 'solutiondetail', params: { solution: 'contactcenter' }}).href" class="c_a_footer" >Projection Mapping</a></li>
+                <li><a :href="$router.resolve({ name: 'solutiondetail', params: { solution: 'hrm' }}).href" class="c_a_footer" >Human Resource Management</a></li>
+                <li><a :href="$router.resolve({ name: 'solutiondetail', params: { solution: 'ls' }}).href" class="c_a_footer" >logistic system</a></li>
+                <li><a :href="$router.resolve({ name: 'solutiondetail', params: { solution: 'sms' }}).href"class="c_a_footer" >School Management System</a></li>
             </ul>
         </div>
         <div class="c_footer_service_float">
             <ul>
-                <li class="c_title">ABOUT</a></router-link></li>
-                <li><router-link :to="{ name: 'servicedetail', params: { service: 'iot' } }" class="c_a_footer" >What we do?</router-link></li>
-                <li><router-link :to="{ name: 'servicedetail', params: { service: 'iot' } }" class="c_a_footer" >History</router-link></li>
-                <li><router-link :to="{ name: 'servicedetail', params: { service: 'iot' } }" class="c_a_footer" >Mission and Vision</router-link></li>
-                <li><router-link :to="{ name: 'servicedetail', params: { service: 'iot' } }" class="c_a_footer" >Managers</router-link></li>
-                <li><router-link :to="{ name: 'servicedetail', params: { service: 'iot' } }" class="c_a_footer" >Advisors</router-link></li>
-                <li><router-link :to="{ name: 'servicedetail', params: { service: 'iot' } }" class="c_a_footer" >Teams</router-link></li>
-                <li><router-link :to="{ name: 'servicedetail', params: { service: 'iot' } }" class="c_a_footer" >Technologies</router-link></li>
-                <li><router-link :to="{ name: 'servicedetail', params: { service: 'iot' } }" class="c_a_footer" >FAQ</router-link></li>
-            </ul>
-        </div>
-        <div class="c_footer_service_float">
-            <ul>
-                <li class="c_title">CAREER</a></router-link></li>
-                <li><router-link :to="{ name: 'servicedetail', params: { service: 'iot' } }" class="c_a_footer" >Join our team</router-link></li>
-                <li><router-link :to="{ name: 'servicedetail', params: { service: 'iot' } }" class="c_a_footer" >Career opportunities</router-link></li>
+                <li class="c_title">ABOUT</a></a></li>
+                <li><a href="/about/#do" class="c_a_footer" >What we do?</a></li>
+                <li><a href="/about/#mission" class="c_a_footer" >Mission and Vision</a></li>
+                <li><a href="/about/#manager" class="c_a_footer" >Managers</a></li>
+                <li><a href="/about/#advisors" class="c_a_footer" >Advisors</a></li>
+                <li><a href="/about/#teams" class="c_a_footer" >Teams</a></li>
+                <li><a href="" class="c_a_footer" >Technologies</a></li>
+                <li><a href="" class="c_a_footer" >FAQ</a></li>
             </ul>
         </div>
     </div>
     <div class="c_footer">
         <section class="c_footer__logo">
             <div class="c_footer_layout">
-                <a class="c_a_footer" ><img class="c_logo_footer" src="../../assets/component/footer/logo_white.svg"></a>
+                <a class="c_a_footer" ><img class="c_logo_footer" src="../../../public/assets/component/footer/logo_white.svg"></a>
                 <div class="c_socialMedia_footer">
                     <p class="t_follow_us">Follow us on:</p>
-                    <a class="c_a_footer" ><img class="c_icon" src="../../assets/component/footer/facebook (2).svg"></a>
-                    <a class="c_a_footer" ><img class="c_icon" src="../../assets/component/footer/linkedin (1).svg"></a>
-                    <a class="c_a_footer" ><img class="c_icon" src="../../assets/component/footer/twitter (3).svg"></a>
+                    <a class="c_a_footer" ><img class="c_icon" src="../../../public/assets/component/footer/facebook.svg"></a>
+                    <a class="c_a_footer" ><img class="c_icon" src="../../../public/assets/component/footer/linkedin.svg"></a>
+                    <a class="c_a_footer" ><img class="c_icon" src="../../../public/assets/component/footer/twitter.svg"></a>
                 </div>
             </div>
         </section>

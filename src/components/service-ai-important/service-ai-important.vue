@@ -1,11 +1,20 @@
-<style src="./service-ai-important.css" scope></style>
+<style src="./service-ai-important.css"></style>
 <template src="./service-ai-important.html">
 </template>
 <script>
-export default {
-  name: 'ServiceAIImportant',
-  props : {
-    aiimportant : null
-  },
-}
+    export default {
+        name: 'ServiceAIImportant',
+        props: {
+            business: null
+        },
+        data: function() {
+            return {
+                route : String 
+            }
+        },
+
+        created : function(){
+           this.route = this.$route.params.service 
+        }
+    }
 </script>

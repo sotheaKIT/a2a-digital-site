@@ -5,13 +5,9 @@
 
 .c_jobspage_title {
     
-    /* width: 1385px; */
+    max-width: 1366px;
     padding-top: 28px;
     padding-bottom: 23px;
-    /* position: absolute; */
-    /* font-family: Roboto;
-    font-style: normal;
-    font-weight: normal; */
     font-size: 16px;
     line-height: 19px;
     border-bottom: 1px solid #BCCDD7;
@@ -20,10 +16,10 @@
     padding-left: 10px;
     color: #138690;
 }
-#c_icon {
+#c_icon_service {
     width: 7.52px;
     height: 10px;
-    padding-left: 10px;
+    margin-left: 10px;
 }
 .c_jobspage_container {
     width: 100%;

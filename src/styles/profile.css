@@ -1,40 +1,66 @@
-.l_profile-page{
-    position: relative ;
-    height: 100%;   
+.l_profile-page {
+    position: relative;
+    height: 100%;
+    margin: 90px 90px;
 }
 
-.l_profile__title{
-    font-size: 45px;
-    width: 80%;
+.l_profile__title {
+    font-size: 22.5px;
     text-align: center;
-    margin-left: 100px;
-    margin-right: 100px;
 }
 
-.l_profile__subtitle{
-    font-size: 45px;   
-    width: 80%;
+.l_profile__subtitle {
+    font-size: 22.5px;
     text-align: center;
-    margin-left: 100px;
-    margin-right: 100px;
 }
 
 .l_card__profile {
-    width: 100%;
+    margin: auto;
     display: flex;
-    align-items: center;
     text-align: justify;
 }
 
-.c_cart__text {
-    width: 80%;
-    height: 30%;
-    margin-left: 100px;
-    margin-right: 100px;
-    margin-top: 30px;
-    padding: 30px 90px 30px 90px;
+.l_card_detail {
+    margin: auto;
+    padding-bottom: 69px;
 }
 
+.c_cart__text {
+    width: 58%;
+    height: auto;
+}
+
+.c_cart__tex.text_right > p {
+    margin: 35px 0 0 0 !important;
+}
+
+.c_img_right {
+    float: right;
+    width: 38%;
+}
+
+.c_img_left {
+    float: left;
+    width: 38%;
+}
+
+.c_card__img {
+    margin-top: 40px;
+    width: 100%;
+    height: 350px;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.25);
+    border-radius: 4px;
+    float: left;
+    object-fit: cover;
+}
+
+.right {
+    margin-top: -120px;
+}
+
+.text_right {
+    float: right;
+}
 
 .l_profile-page h2 {
     font-size: 35px;
@@ -47,53 +73,114 @@
     color: #847F7F;
 }
 
+.l_profile-page h4 {
+    width: 100px;
+    border-bottom: 1px solid #138690;
+    margin: 0 !important;
+}
+
 .l_profile-page p {
     font-size: 16px;
     color: #000000;
+    margin-top: 30px;
 }
 
-.c_card__img{
-    width: 45%;
-    border-radius: 10px;
-    box-shadow: 0px 0px 10px grey;
-}
-
-.img_right {
+.float-right {
     float: right;
-    margin-left: 100px;
-    margin-bottom: 30px;
 }
 
-.img_left {
-    float: left;
-    margin-right: 100px;
-    margin-bottom: 30px;
+.container {
+    width: 100%;
+    padding: 12px;
+    margin-right: auto;
+    margin-left: auto;
 }
 
+@media (min-width: 960px) {
+    .container {
+        max-width: 900px;
+    }
+}
 
-@media screen and (max-width: 1023px) {
-    .l_profile__title{
+@media (min-width: 1264px) {
+    .container {
+        max-width: 1185px;
+    }
+}
+
+.container--fluid {
+    max-width: 100%;
+}
+
+@media screen and (max-width: 1024px) {
+    .l_profile__title {
+        font-size: 16px;
+        text-align: center;
+    }
+
+    .l_profile__subtitle {
         font-size: 32px;
         text-align: center;
     }
-    .l_profile__subtitle{
-        font-size: 32px;   
-        text-align: center;
-    }
-    .l_profile-page .img_right {
-        width: 100%;
-        margin-top: 25px;
-    }
-    .l_profile-page .img_left {
-        width: 100%;
-    }
+
     .l_profile-page h2 {
         font-size: 25px;
     }
+
     .l_profile-page h3 {
-        font-size: 16px;
-    }    
+        font-size: 14px;
+    }
+
+    .c_cart__text {
+        width: 100%;
+        height: auto;
+    }
+
+    .c_card__img {
+        margin: 30px 0 20px 0px;
+        height: auto;
+    }
+
+    .c_img_right {
+        float: right;
+        width: 100%;
+    }
+
+    .c_img_left {
+        float: left;
+        width: 100%;
+    }
+
+    .float-md-left {
+        float: left;
+    }
 }
 
+@media screen and (max-width: 768px) {
+    .l_profile-page {
+        /*margin: auto 20px;*/
+    }
 
+    .l_profile__title {
+        font-size: 16px;
+        text-align: center;
+    }
 
+    .l_profile__subtitle {
+        font-size: 16px;
+    }
+
+    .l_profile-page h2 {
+        font-size: 25px;
+    }
+
+    .l_profile-page h3 {
+        font-size: 12px;
+    }
+
+    .c_cart__text {
+        width: 100%;
+        height: auto;
+        text-align: initial;
+    }
+}

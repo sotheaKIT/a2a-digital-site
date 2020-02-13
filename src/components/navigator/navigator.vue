@@ -1,4 +1,4 @@
-<style src="./navigator1.css" scope></style>
+<style src="./navigator.css" scoped></style>
 <template src="./navigator.html"></template>
 
 <script>
@@ -18,7 +18,10 @@
                 color_click_serivce: '',
                 color_click_product: '',
                 rotate_click_service: '',
-                rotate_click_product: ''
+                rotate_click_product: '',
+                navigationActivate : "inactive",
+                activeColor : null,
+                activeShadow : null
             };
         },
         props: {
@@ -66,7 +69,14 @@
 
         },
         methods: {
-
+            handleScroll: function () {
+                    if (window.scrollY > 30) {
+                        this.navigationActivate = "inactive"
+                        this.activeColor = "white"
+                        this.activeShadow = "0px 4px 10px rgba(0, 0, 0, 0.1)"
+                    } 
+                 
+            },
             openMenu() {
                 this.$emit('openMenu');
                 this.isSideBarOpen = true;
@@ -145,10 +155,14 @@
         mounted() {
             if (!this.disableEsc) {
                 document.addEventListener('keyup', this.closeMenuOnEsc);
+            } else { 
+                this.activeColor = "white"
             }
         },
         created: function () {
             document.addEventListener('click', this.documentClick);
+            this.navigationActivate = "inactive"
+            this.activeColor = "white"
         },
         destroyed: function () {
             document.removeEventListener('keyup', this.closeMenuOnEsc);
@@ -203,15 +217,5 @@
             }
         }
     }
-    var prevScrollpos = window.pageYOffset;
-    window.onscroll = function() {
-        var currentScrollPos = window.pageYOffset;
-        if (prevScrollpos > currentScrollPos) {
-            document.getElementById("navigation").style.position = "fixed";
 
-        } else {
-            document.getElementById("navigation").style.position = "fixed";
-        }
-        prevScrollpos = currentScrollPos;
-    }
 </script>
