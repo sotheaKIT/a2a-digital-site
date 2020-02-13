@@ -21,6 +21,7 @@
                         Consulting Division. He has been engaged in management consulting for 13 years. Involved in this
                         project since 2017,
                         his responsible for corporate planning, global marketing, and launching new businesses. </p>
+                    <back-about/>
                 </div>
             </div>
         </section>
@@ -51,6 +52,7 @@
                         project management
                         for industry-academia collaboration projects, acquisition of scholarship sponsors and matching
                         support.</p>
+                    <back-about class="float-right float-md-left"/>
                 </div>
             </div>
         </section>
@@ -74,6 +76,7 @@
                         Project since 2015 and is in charge of the corporate office. As female management, she is also
                         the global
                         recruiting manager who promotes diversity adoption. </p>
+                    <back-about/>
                 </div>
             </div>
         </section>
@@ -96,13 +99,17 @@
                         as a transferred employee in charge of the finance data analyzing team. She is working A2A
                         Digital from February
                         2020. She lives in Cambodia.</p>
+                    <back-about class="float-right float-md-left"/>
                 </div>
             </div>
         </section>
     </div>
 </template>
 <script>
+    import BackAbout from "../components/back-about/back-about";
+
     export default {
-        name: "ProfilePage"
+        name: "ProfilePage",
+        components: {BackAbout}
     }
 </script>
