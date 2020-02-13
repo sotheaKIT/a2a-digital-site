@@ -1,5 +1,6 @@
+<style src="../styles/solution-detail.css" scoped></style>
 <template>
-    <div>
+    <div class="solution_container">
         <div v-for="solutionDetailContent in SolutionDetailContents" v-bind:key="solutionDetailContent.id">
             <vue-headful
                     :title="solutionDetailContent['meta'][0]['title'] + ' | A2A Digital'"
