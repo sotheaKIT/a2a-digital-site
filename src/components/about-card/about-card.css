@@ -1,3 +1,6 @@
+#about-card {
+    margin-bottom: 50px;
+}
 .c_profile__card__container{
     display: flex;
     margin-top: 30px;
@@ -12,7 +15,7 @@
     padding-top: 50px;
 }
 .l_card__about{
-    width: 281px;
+    width: 23.20%;
     position: relative;
     -webkit-box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.25);
     box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.25);
@@ -40,10 +43,11 @@ div .c_profile__card__container div.l_profile__card__center {
     font-size: 16px;
     line-height: 19px;
     color: #4E4D4D;
-    margin-bottom: 19px;
 }
 .l_card__about:hover{
-    box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.25);
+    box-shadow: 0 0 2rem rgba(0,0,0,.2);
+    transform: scale(1.02);
+    transition: transform 800ms cubic-bezier(.165,.84,.44,1);
 }
 .l_card__about:hover a{
     background-color: #138690;
@@ -53,10 +57,9 @@ div .c_profile__card__container div.l_profile__card__center {
     fill : white;
 }
 .l_card__about .c_profile__card__caption{
-    padding-left: 30px;
-    padding-right: 30px;
+    width: 100%;
+    padding: 30px 30px;
     line-height: 19px;
-    padding-top: 15px;
 }
 .c_profile__card__img {
     display: block;
@@ -71,17 +74,14 @@ div .c_profile__card__container div.l_profile__card__center {
 }
 
 .l_card__about a{
-    font-size: 24px;
-    padding-left: 30px;
-    padding-right: 30px;
-    padding-top: 15px;
-    padding-bottom: 15px;
+    font-size: 16px;
+    padding: 25px 30px;
     display: block;
     color: #138690;
 }
 .l_card__about a svg{
     width: 20px;
-    height: 34px;
+    /*height: 34px;*/
     fill: #138690;
     float: right;
 }
@@ -113,7 +113,7 @@ div .c_profile__card__container div.l_profile__card__center {
         padding-left: 15px;
         padding-right: 15px;
         line-height: 9px;
-        padding-top: 8px;
+        /*padding-top: 8px;*/
     }
     .l_card__about a {
         padding-left: 15px;
@@ -122,7 +122,7 @@ div .c_profile__card__container div.l_profile__card__center {
 }
 @media only screen and (min-width: 980px) { 
     div.c_profile__card__container div.l_profile__card__center {
-        max-width: 889.5px;
+        /*max-width: 889.5px;*/
     }
 }
 @media only screen and (min-width: 1187px) { 
