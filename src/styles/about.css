@@ -60,7 +60,7 @@ table, th, td {
 }
 
 table > tr {
-    border-bottom: 4px dotted #eee;
+    border-bottom: 1px solid #eee;
     margin-right: 15px;
 }
 
