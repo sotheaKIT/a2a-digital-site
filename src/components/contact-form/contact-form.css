@@ -146,6 +146,7 @@
 }
 
 .submit_btn {
+    margin-top:10px;
     /* color: black; */
     padding: 20px 20px;
     cursor: pointer;

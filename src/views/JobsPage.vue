@@ -1,4 +1,4 @@
-<style src="../styles/job.css" scope></style>
+<style src="../styles/job.css" scoped></style>
 <template>
   <div id="jobs-page">
     <div class="l_jobslide">

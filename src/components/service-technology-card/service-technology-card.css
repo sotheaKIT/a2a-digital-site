@@ -3,7 +3,6 @@
     margin-top: 50px;
 } */
 .c_service__section__header {
-    margin-bottom: 20px;
     margin-top: 50px;
 }
 
@@ -81,7 +80,7 @@
     color: #138690;
 }
 
-.c_service__technology__flex__container div.flex-item {
+.c_service__technology__flex__container div.flex-item{
     width: calc((100%  - 23px) / 2);
     margin-top: 23px;
     background: #FFFFFF;
