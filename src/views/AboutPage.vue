@@ -1,4 +1,4 @@
-<style src="../styles/about.css" scope></style>
+<style src="../styles/about.css" scoped></style>
 <template>
     <div id="about-page">
         <vue-headful

@@ -1,6 +1,5 @@
 .c_team__card__container{
     display: flex;
-    margin-top: 30px;
     /* padding-left: calc((100% - 1186px) / 2); */
     justify-content: center;
     margin-top: 20px;
@@ -40,7 +39,8 @@
     box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.25);
     border-radius: 4px;
     float: left;
-    margin: 4px;
+    margin-top: 4px;
+    margin-bottom: 4px;
     display: flex;
     flex-wrap: wrap;
     align-content: space-between;

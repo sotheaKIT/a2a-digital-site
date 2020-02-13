@@ -60,7 +60,7 @@ table, th, td {
 }
 
 table > tr {
-    border-bottom: 1px solid #eee;
+    border-bottom: 4px dotted #eee;
     margin-right: 15px;
 }
 
@@ -167,6 +167,12 @@ q:after {
     .pr-md-30 {
         padding-right: 30px;
     }
+    .text-md-left {
+        text-align: left;
+        text-align: -moz-left;
+        text-align: -webkit-left;
+    }
+
 }
 
 @media (min-width: 1264px) {
