@@ -1,6 +1,6 @@
 <style src="../styles/profile.css"></style>
 <template>
-    <div class="l_profile-page">
+    <div class="l_profile-page container">
         <div class="l_profile__title">
             <h1>Managment Team</h1>
         </div>
@@ -78,7 +78,7 @@
             </div>
         </section>
         <section id="mashima" class="l_card__profile">
-            <div class="l_card_detail">
+            <div class="l_card_detail" style="padding-bottom: 0 !important;">
                 <div class="c_cart__text text_right">
                     <h2>Yasue Mashima</h2>
                     <h3>Technology Team</h3>
