@@ -1,4 +1,4 @@
-<style src="./card-product.css" scope></style>
+<style src="./card-product.css" scoped></style>
 <template src="./card-product.html"></template>
 <script>
  
@@ -9,7 +9,7 @@
         swiperSlides: {
           initialSlide: 0,
           slidesPerView: 4,
-          slidesPerGroup: 4,
+          slidesPerGroup: 1,
           // spaceBetween: 15,
           loop: true,
           cssMode: true,
@@ -24,7 +24,7 @@
             prevEl: '.swiper-button-prev'
           },
           breakpoints: {
-            320: {
+            480: {
               slidesPerView: 1,
               slidesPerGroup: 1,
               speed:1000,

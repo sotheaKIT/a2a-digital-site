@@ -87,7 +87,7 @@
           {
             "imageUrls": [
               {
-                "imageUrl": "smart_lock/Smart_lock.png"
+                "imageUrl": "smart_locker/Smart_Locker.png"
               }
             ],
             "header": "Smart Locker",
@@ -96,7 +96,7 @@
           {
             "imageUrls": [
               {
-                "imageUrl": "smart_lock/Smart_lock.png"
+                "imageUrl": "home_smart_meter/Home_Smart_Meter.png"
               }
             ],
             "header": "Home Smart Meter",

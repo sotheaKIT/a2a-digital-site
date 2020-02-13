@@ -112,84 +112,81 @@
             "imageUrl": "12.svg",
             "description": "Node.js is an open-source server side runtime environment built on Chrome's V8 JavaScript engine. It provides an event driven, non-blocking (asynchronous) I/O and cross-platform runtime environment for building highly scalable server-side application using JavaScript."
           }
-        ]
-      }
-    ],
-    "results": [
-      {
-        "header": "Worked Results"
-      },
-      {
-        "cards": [
-          {
-            "imageUrls": [
-              {
-                "imageUrls": "Architecture-walkthrough/Media1.mp4"
-              }
-            ],
-            "header": "VR Architecture walkthrough",
-            "description": "VR Architecture walkthrough is an application that used for promoting Vkirirom Pine Resort Property in a modern way with the use of VR device and technology. Users can use this application with VR device anywhere, any time to experience the application interface with vKirirom environment."
-          },
-          {
-            "imageUrls": [
-              {
-                "imageUrls": "Golf-Course-Training/HoloLens_golf_training.wmv"
-              }
-            ],
-            "header": "Golf Course Training with Hololens",
-            "description": "Golf Course Training application is a holographic application developed to serve as golf training service for customer who wants to learn to play golf. By using this application user will be able to learn from the beginning without the help of a human instructor. We provide users different ways to interact with the application. Users can use their hand gestures or voice commands to manipulate the application."
-          },
-          {
-            "imageUrls": [
-              {
-                "imageUrls": "Golf-Course-Training/HoloLens_golf_training.wmv"
-              }
-            ],
-            "header": "AR Menu",
-            "description": "ARMenu is a mobile-ordering application enables users to see virtual 3D food on their table in the restaurant and when ordering online which is implemented with Augmented reality. This is a modern way to implement new technology with restaurants at vKirirom Pine Resort. This application reduces paper invoice and spend less time with order."
-          },
-          {
-            "imageUrls": [
-              {
-                "imageUrls": "Golf-Course-Training/HoloLens_golf_training.wmv"
-              }
-            ],
-            "header": "VR Monitoring",
-            "description": "A2A Digital brings a new and modern solution in security service, VR Monitoring, simply means a Web Application for monitoring all Security Surveillance Camera of vKirirom with Object Detection option to detect any unwanted events or entity."
-          }
-        ]
-      }
-    ],
-    "business": [
-      {
-        "header": "Why A2A Digital gives the best VR/AR service",
-        "description": "A2A Digital helps companies enhance their capabilities and strengthen business values with brand new perspectives on both process and product. Virtual & Augmented Reality continues to drive change everywhere from healthcare to education with new ways of interacting and experience. We help customers solve problems, with new technology. Some conceptual functionality can be very difficult to realise technically, VR is well-suited for both education and simulations. Due to high levels of immersion, the virtual worlds we design allow us real new perspectives."
-      },
-      {
-        "header": "VR/AR benefits for Business",
-        "imageUrl": "Business.jpeg",
-        "texts": [
-          {
-            "text": "AR gets more virality"
-          },
-          {
-            "text": "Personalized content is tailored to the user's particular needs and adopted fast"
-          },
-          {
-            "text": "AR/VR create rich, immersive and interactive user experience"
-          },
-          {
-            "text": "AR/VR allows readers to truly connect with the published content"
-          },
-          {
-            "text": "Brand awareness increase via social shares"
-          },
-          {
-            "text": "AR/VR helps in customers buying their decisions"
-          }
-        ]
-      }
-    ]
+          
+      ],
+     
+     "results":[
+           {
+                 "header":"Worked Results"
+           },
+           {
+                 "cards":[
+                  {
+                        "imageUrls":[
+                              {
+                                    "imageUrl":"Architecture-walkthrough/VR_vKirirom.png"
+                              }
+                        ],
+                        "header":"VR Architecture walkthrough",
+                        "description":"VR Architecture walkthrough is an application that used for promoting Vkirirom Pine Resort Property in a modern way with the use of VR device and technology. Users can use this application with VR device anywhere, any time to experience the application interface with vKirirom environment."
+                  },
+                  {
+                        "imageUrls":[
+                              {
+                                    "imageUrl":"Golf-Course-Training/Hololens.png"
+                              }
+                        ],
+                      "header":"Golf Course Training with Hololens",
+                      "description":"Golf Course Training application is a holographic application developed to serve as golf training service for customer who wants to learn to play golf. By using this application user will be able to learn from the beginning without the help of a human instructor. We provide users different ways to interact with the application. Users can use their hand gestures or voice commands to manipulate the application."
+                  },
+                  {
+                        "imageUrls":[
+                              {
+                                    "imageUrl":"AR-Menu/AR_Menu.png"
+                              },
+                              {
+                                    "imageUrl":"AR-Menu/Our_App.PNG"
+                              },
+                              {
+                                    "imageUrl":"AR-Menu/Sample.jpg"
+                              }
+                        ],
+                      "header":"AR Menu",
+                      "description":"ARMenu is a mobile-ordering application enables users to see virtual 3D food on their table in the restaurant and when ordering online which is implemented with Augmented reality. This is a modern way to implement new technology with restaurants at vKirirom Pine Resort. This application reduces paper invoice and spend less time with order."
+                  },
+                  {
+                        "imageUrls":[
+                              {
+                                    "imageUrl":"VR-Monitoring/IP_Streaming.png"
+                              }
+                        ],
+                     "header":"VR Monitoring",
+                     "description":"A2A Digital brings a new and modern solution in security service, VR Monitoring, simply means a Web Application for monitoring all Security Surveillance Camera of vKirirom with Object Detection option to detect any unwanted events or entity."
+                 }
+                 ]
+           }
+          
+     ],
+     "business":
+     [     
+           {
+                 "header":"Why A2A Digital gives the best VR/AR service",
+                 "description":"A2A Digital helps companies enhance their capabilities and strengthen business values with brand new perspectives on both process and product. Virtual & Augmented Reality continues to drive change everywhere from healthcare to education with new ways of interacting and experience. We help customers solve problems, with new technology. Some conceptual functionality can be very difficult to realise technically, VR is well-suited for both education and simulations. Due to high levels of immersion, the virtual worlds we design allow us real new perspectives."
+         },
+           {
+                 "header":"VR/AR benefits for Business",
+                 "imageUrl":"Business.jpeg",
+                 "texts":[
+                       {"text":"AR gets more virality"},
+                       {"text":"Personalized content is tailored to the user's particular needs and adopted fast"},
+                       {"text":"AR/VR create rich, immersive and interactive user experience"},
+                       {"text":"AR/VR allows readers to truly connect with the published content"},
+                       {"text":"Brand awareness increase via social shares"},
+                       {"text":"AR/VR helps in customers buying their decisions"}
+                 ]
+           }
+     ]
+    }
+   ]   
   }
 ]
-   

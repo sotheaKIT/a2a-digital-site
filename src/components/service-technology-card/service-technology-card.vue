@@ -1,4 +1,4 @@
-<style src="./service-technology-card.css" scope></style>
+<style src="./service-technology-card.css"></style>
 <template src="./service-technology-card.html"></template>
 
 <script>

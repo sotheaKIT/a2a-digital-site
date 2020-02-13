@@ -1,4 +1,4 @@
-<style src="./jobjointeam.css" scope></style>
+<style src="./jobjointeam.css" scoped></style>
 <template src="./jobjointeam.html"></template>
 
 <script>

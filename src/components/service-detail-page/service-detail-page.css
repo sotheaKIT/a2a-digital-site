@@ -48,7 +48,7 @@
     color: #303030;
 }
 .c_service__section__artical div.c_service__section__text p{
-    margin: 0;
+    margin-top:20px
 }
 .c_service__section__artical img{
     width: 100%;
@@ -85,7 +85,7 @@
 @media only screen and (max-width: 1366px) {
     .c_section__wrapper{
         padding: 0 90px;
-        width: calc(100% - 180px);
+        
     }
 }
 @media only screen and (max-width: 980px) {
@@ -106,7 +106,6 @@
     }
     .c_section__wrapper {
         padding: 0 20px;
-        width: calc(100% - 40px);
     }
    
 }
