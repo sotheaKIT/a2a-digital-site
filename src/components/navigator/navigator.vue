@@ -1,4 +1,4 @@
-<style src="./navigator.css" scope></style>
+<style src="./navigator1.css" scope></style>
 <template src="./navigator.html"></template>
 
 <script>
