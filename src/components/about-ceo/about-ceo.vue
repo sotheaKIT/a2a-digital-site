@@ -7,3 +7,4 @@
 </script>
 
 <style src="./about-ceo.css" scoped></style>
+<style src="../../styles/about.css" scoped></style>
