@@ -9,8 +9,6 @@
     max-width: 1186px;
     margin-left: auto;
     margin-right: auto;
-    padding-left: 90px;
-    padding-right: 90px;
     display: block;
 }
 
@@ -78,8 +76,6 @@
 
 .l_padding__left {
     max-width: 1186px;
-    padding-left: 90px;
-    padding-right: 90px;
     margin-left: auto;
     margin-right: auto;
 }
