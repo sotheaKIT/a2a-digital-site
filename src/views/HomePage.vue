@@ -10,6 +10,8 @@
       <div class="l_section">
         <ContentCard/>
         <CardProduct/>
+
+        
       </div>
   </div>
 </template>
@@ -20,12 +22,13 @@ import Slide from '../components/slide/slide.vue'
 import CardProduct from '../components/card-product/card-product.vue'
 import ContentCard from '../components/content-card/content-card.vue'
 
+
 export default {
   name: 'Home',
   components: {
     Slide,
     CardProduct,
-    ContentCard
+    ContentCard,
   },
     data() {
         return {

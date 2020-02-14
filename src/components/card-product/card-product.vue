@@ -9,7 +9,7 @@
         swiperSlides: {
           initialSlide: 0,
           slidesPerView: 4,
-          slidesPerGroup: 1,
+          slidesPerGroup: 4,
           // spaceBetween: 15,
           loop: true,
           cssMode: true,
