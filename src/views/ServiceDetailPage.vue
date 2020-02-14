@@ -1,20 +1,21 @@
 <style src="../styles/service-detail.css" scoped></style>
 <template>
-  <div id="">
-      <div v-for="serviceDetailContent in serviceDetailContents" v-bind:key="serviceDetailContent.id">
-        <!-- <div class="l_service__detail__container">
-          <div class="c_jobspage_detail l_padding__left">
-            <div class="c_jobspage_title">
-                <a>Services</a>
-                <img id="c_icon_service" src="../../public/assets/component/jobsdetailpage/arrow_right.svg">
-                <a id="c_text">{{serviceDetailContent['header'][0]['title']}}</a>
-            </div>
-          </div>
-        </div> -->
-            <ServiceDetailPageComp v-if="serviceDetailContent['header'] != null"
-                                   v-bind:header="serviceDetailContent['header']"></ServiceDetailPageComp>
+    <div id="services-page">
+        <div v-for="serviceDetailContent in serviceDetailContents" v-bind:key="serviceDetailContent.id">
+            <vue-headful
+                    :title="serviceDetailContent['meta'][0]['title'] + ' | A2A Digital'"
+                    :description="serviceDetailContent['meta'][0]['description']"
+                    :keywords="serviceDetailContent['meta'][0]['keywords']"
+            />
+            <tagline-hero
+                    :title="serviceDetailContent['header'][0]['title']"
+                    :short_desc="serviceDetailContent['header'][0]['shortDesc']"
+                    :imagePath="'service' + '/' + route + '.svg'"
+            />
             <ServiceDetailCard v-if="serviceDetailContent['cards'] != null"
                                :cards="serviceDetailContent['cards']"></ServiceDetailCard>
+            <ServiceDetailPageComp v-if="serviceDetailContent['header'] != null"
+                                   v-bind:header="serviceDetailContent['header']"></ServiceDetailPageComp>
             <ServiceTechnologyCard v-if="serviceDetailContent['tools'] != null"
                                    :tools="serviceDetailContent['tools']"></ServiceTechnologyCard>
             <ServiceWorkResult v-if="serviceDetailContent['results'] != null"
@@ -40,10 +41,12 @@
     import ServiceComapareComp from '../components/service-cloud-detail-page/service-cloud-detail-page.vue'
     import ServiceManagement from '../components/service-management/service-management'
     import {mapGetters, mapActions} from 'vuex'
+    import TaglineHero from "../components/tagline-hero/tagline-hero";
 
     export default {
         name: 'ServiceDetailPage',
         components: {
+            TaglineHero,
             ServiceDetailPageComp,
             ServiceDetailCard,
             ServiceTechnologyCard,
@@ -56,7 +59,8 @@
         data: function () {
             return {
                 service: String,
-                type: "service/service-content-"
+                type: "service/service-content-",
+                route: String
             }
         },
         computed: {
@@ -77,6 +81,7 @@
         },
         created() {
             this.service = this.type + this.$route.params.service;
+            this.route = this.$route.params.service;
         },
     }
 </script>

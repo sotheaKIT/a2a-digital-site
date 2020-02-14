@@ -10,7 +10,8 @@
     "header": [
       {
         "title": "Artificial Intelligence",
-        "question": "What is artificial intelligene ?",
+        "question": "What is Artificial Intelligence?",
+        "shortDesc": "We make the most reliable AI machine to help your business",
         "description": "Artificial intelligence (AI) is the simulation of human intelligence processes by machines, especially computer systems. It can be enhanced the customer experience in recognition object, chatbot for chat automation, voice detection with technology, GAN AI (Generative Adversarial Network) and more. With AI Services from A2A Digital solution, you can improve the business and automation the interaction with customers and increase work efficiency for business.",
         "imagePath": "chip.svg"
       }

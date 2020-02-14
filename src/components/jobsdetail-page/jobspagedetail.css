@@ -6,8 +6,7 @@
 .c_jobspage_title {
     margin-left: auto;
     margin-right: auto;
-    
-    max-width: 1186px; 
+    max-width: 1366px;
     padding-top: 28px;
     padding-bottom: 23px;
     font-size: 16px;
@@ -15,13 +14,13 @@
     border-bottom: 1px solid #BCCDD7;
 }
 #c_text {
+    padding-left: 10px;
     color: #138690;
 }
 #c_icon_service {
     width: 7.52px;
     height: 10px;
     margin-left: 10px;
-    margin-right: 10px;
 }
 .c_jobspage_container {
     width: 100%;

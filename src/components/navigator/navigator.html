@@ -153,14 +153,16 @@
                         <path d="M8.65039 8.74568L0.860939 16.8937C0.791212 16.9668 0.698244 17.0033 0.605276 17.0033C0.515626 17.0033 0.429298 16.9701 0.359571 16.9037C0.220118 16.7676 0.213478 16.5451 0.349611 16.4023L7.90664 8.49998L0.349609 0.597635C0.213476 0.458182 0.216797 0.2324 0.35957 0.0995878C0.502343 -0.0365449 0.724805 -0.0299043 0.860937 0.109549L8.65039 8.25427C8.7832 8.39041 8.7832 8.60623 8.65039 8.74568Z"/>
                       </svg>
                     <div class="bm_tree__product" v-bind:style="{ display: styleCheck_product}" >
-                      <li class="bm_tree_submenu"><a :href="$router.resolve({ name: 'solutiondetail', params: { solution: 'security' }}).href">Security System</a></li>
-                      <li class="bm_tree_submenu"><a :href="$router.resolve({ name: 'solutiondetail', params: { solution: 'kpi' }}).href">KPI Dashboard System</a></li>
-                      <li class="bm_tree_submenu"><a :href="$router.resolve({ name: 'solutiondetail', params: { solution: 'qrcode' }}).href">QR Code System</a></li>
-                      <li class="bm_tree_submenu"><a :href="$router.resolve({ name: 'solutiondetail', params: { solution: 'hrm' }}).href">Human Resource Management</a></li>
-                      <li class="bm_tree_submenu"><a :href="$router.resolve({ name: 'solutiondetail', params: { solution: 'ls' }}).href">Logistic System</a></li>
-                      <li class="bm_tree_submenu"><a :href="$router.resolve({ name: 'solutiondetail', params: { solution: 'sms' }}).href">School Management System</a></li>              
-                      <li class="bm_tree_submenu"><a :href="$router.resolve({ name: 'solutiondetail', params: { solution: 'mapping' }}).href">Projection Mapping</a></li>
-                      <li class="bm_tree_submenu"><a :href="$router.resolve({ name: 'solutiondetail', params: { solution: 'contactcenter' }}).href">Contact Center</a></li>
+                      <li class="bm_tree_submenu"><a :to="{ name: 'solutiondetail', params: { solution: 'security' } }">Security System</a></li>
+                      <li class="bm_tree_submenu"><a :to="{ name: 'solutiondetail', params: { solution: 'school' }}">School Management System</a></li>
+                      <li class="bm_tree_submenu"><a :to="{ name: 'solutiondetail', params: { solution: 'kpi' }}">KPI Dashboard</a></li>
+                      <li class="bm_tree_submenu"><a :to="{ name: 'solutiondetail', params: { solution: 'shuttle' }}">Shuttle Bus</a></li>
+                      <li class="bm_tree_submenu"><a :to="{ name: 'solutiondetail', params: { solution: 'qr' }}">QR Code System</a></li>
+                      <li class="bm_tree_submenu"><a :to="{ name: 'solutiondetail', params: { solution: 'contact' } }">Contact Center</a></li>
+                      <li class="bm_tree_submenu"><a :to="{ name: 'solutiondetail', params: { solution: 'projection' } }">Projection Mapping</a></li>
+                      <li class="bm_tree_submenu"><a :to="{ name: 'solutiondetail', params: { solution: 'hr' } }">HR Management</a></li>
+                      <li class="bm_tree_submenu"><a :to="{ name: 'solutiondetail', params: { solution: 'logistic' } }">Logistic System</a></li>
+                      <li class="bm_tree_submenu"><a :to="{ name: 'solutiondetail', params: { solution: 'digital' } }">Digital Marketing</a></li>
                   
                     </div>
 
@@ -168,12 +170,18 @@
 
 
                 <li class="bm_primary_scroller">
-                  <a href="/about" class="scroller_text"> <span>About</span></a>
+                  <a href="#" class="scroller_text"> <span>About</span></a>
                 </li>
 
                 <li class="bm_primary_scroller">
-                  <a href="/contact" class="scroller_text"> <span>Contact</span></a>
+                  <a href="#" class="scroller_text"> <span>Contact</span></a>
                 </li>
+
+                <li class="bm_primary_scroller">
+                  <a href="#" class="scroller_text"> <span>Jobs</span></a>
+                </li>
+
+
             </ul>
 
           </div>

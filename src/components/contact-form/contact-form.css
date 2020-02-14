@@ -94,11 +94,18 @@
     float: left;
     padding-top: 20px;
     color: #BABABA;
-    border-bottom: 1px solid #303030;
+}
+.text-danger {
+    color: red;
 }
 
 #c_form_username_mail {
     display: flex;
+}
+
+.form-control{
+    border-bottom: 1px solid #303030;
+
 }
 
 .c_form_mail {
@@ -109,7 +116,6 @@
     padding-top: 20px;
     color: #BABABA;
     float: left;
-    border-bottom: 1px solid #303030;
 }
 
 .c_form_country {
@@ -129,7 +135,13 @@
     padding-top: 20px;
     color: #BABABA;
     float: left;
-    border-bottom: 1px solid #303030;
+}
+#c_form_fb {
+   
+    resize: none; 
+    min-height: 110px;
+    font-size : 16px
+      
 }
 
 #input_username {
@@ -254,10 +266,14 @@ input {
         float: left;
         padding-top: 20px;
         color: #BABABA;
-        border-bottom: 1px solid #303030;
     }
     
     #c_form_username_mail {
         display: flex;
     }
+    .form-control{
+        border-bottom: 1px solid #303030;
+    
+    }
+    
 }

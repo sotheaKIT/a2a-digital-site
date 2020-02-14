@@ -7,12 +7,14 @@ import 'swiper/dist/css/swiper.css'
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 import vueHeadful from 'vue-headful';
+import VeeValidate from 'vee-validate';
+
 
 
 Vue.config.productionTip = false
 Vue.use(VueAwesomeSwiper, /* { default global options } */)
 Vue.component('vue-headful', vueHeadful);
-
+Vue.use(VeeValidate);
 Vue.directive('scroll', {
   inserted: function(el, binding) {
     let f = function(evt) {
