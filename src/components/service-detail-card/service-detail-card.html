@@ -3,12 +3,10 @@
         <header class="c_service__area__header">
             <h1> {{cards[0]['header']}}</h1>
         </header>
-        <section class="c_service__area___wrapper">
-                    <p>{{cards[0]['description']}}</p>
-        </section>
+            <p>{{cards[0]['description']}}</p>
     </div>
     <div class="flex-container">
-        <div class="center" v-for="card in cards[1]['component']">
+        <div class="item_center" v-for="card in cards[1]['component']">
             <div class="flex-item">
                 <img :src="'../assets/component/service/' + route + '/cards/' + card.imageUrl" >
                 <h1>{{card['title']}}</h1>

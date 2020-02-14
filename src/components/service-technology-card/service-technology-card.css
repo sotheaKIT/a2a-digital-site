@@ -81,7 +81,7 @@
 }
 
 .c_service__technology__flex__container div.flex-item{
-    width: calc((100%  - 23px) / 2);
+    width: calc((100%  - 83px) / 2);
     margin-top: 23px;
     background: #FFFFFF;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
