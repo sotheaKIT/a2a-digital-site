@@ -1,17 +1,12 @@
-<div class="l_solution__detail__container">
-    <div class="c_solution_detail l_padding__left">
-        <div class="c_jobspage_title">
+<div class="solution_container">
+        <div class="c_solution_title">
             <a>Solutions</a>
             <img id="c_icon_solution" src="../../../public/assets/component/jobsdetailpage/arrow_right.svg">
             <a id="c_text">{{header[0]['title']}}</a>
         </div>
-    </div>
-
     <div class="l_solution__section__wrapper">
-        <header class="c_solution__section__header">
             <h1>{{header[1]['title']}}</h1>
-        </header>
-        <section class="c_section__wrapper focus">
+        <section class="focus">
             <article class="c_solution__section__artical" v-for="text in header[1]['descriptions']">
                 <div class="c_solution__section__text" >
                     <p>{{text['description']}}</p>
