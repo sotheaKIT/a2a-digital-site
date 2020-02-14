@@ -1,0 +1,9 @@
+@font-face {
+  font-family: SFProText-Bold;
+  src: url("../assets/fonts/sf-pro-display-bold-webfont.woff") format("woff");
+}
+
+@font-face {
+  font-family: SFProText-Regular;
+  src: url("../assets/fonts/sfprotext-regular-webfont.woff") format("woff");
+}
