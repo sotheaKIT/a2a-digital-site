@@ -1,5 +1,6 @@
+<style src="../styles/solution-detail.css" scoped></style>
 <template>
-    <div id="solution-page">
+    <div id="solution_container">
         <div v-for="solutionDetailContent in SolutionDetailContents" v-bind:key="solutionDetailContent.id">
             <vue-headful
                     :title="solutionDetailContent['meta'][0]['title'] + ' | A2A Digital'"
@@ -15,8 +16,6 @@
                                   :header="solutionDetailContent['header']"/>
             <SolutionDetailCard v-if="solutionDetailContent['feature'] != null"
                                 :feature="solutionDetailContent['feature']"/>
-            <SolutionOverall v-if="solutionDetailContent['overall'] != null"
-                             :overall="solutionDetailContent['overall']"/>
             <Cardproduct/>
         </div>
     </div>
@@ -26,7 +25,6 @@
 
     import SolutionDetailHeader from '../components/solutions-detail/SolutionDetail.vue'
     import SolutionDetailCard from '../components/solutions-card/SolutionCard.vue'
-    import SolutionOverall from '../components/solution-overall/SolutionOverall.vue'
     import Cardproduct from '../components/card-product/card-product.vue'
     import {mapGetters, mapActions} from 'vuex'
     import TaglineHero from "../components/tagline-hero/tagline-hero";
@@ -38,7 +36,6 @@
             TaglineHero,
             SolutionDetailHeader,
             SolutionDetailCard,
-            SolutionOverall,
             Cardproduct
         },
         data: function () {

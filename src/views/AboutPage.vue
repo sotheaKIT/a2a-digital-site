@@ -9,14 +9,13 @@
         <about-overview/>
         <about-ceo/>
         <AboutCard></AboutCard>
-        <AboutCarousel></AboutCarousel>
+<!--        <AboutCarousel></AboutCarousel>-->
     </div>
 </template>
 
 <script>
 
     import AboutCard from '../components/about-card/about-card.vue'
-    import AboutCarousel from '../components/about-carousel/about-carousel'
     import AboutOverview from "../components/about-overview/about-overview";
     import AboutCeo from "../components/about-ceo/about-ceo";
 
@@ -26,7 +25,6 @@
             AboutCeo,
             AboutOverview,
             AboutCard,
-            AboutCarousel
         },
         data() {
             return {

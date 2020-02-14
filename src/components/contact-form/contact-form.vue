@@ -2,18 +2,15 @@
 <template src="./contact-form.html"></template>
 
 <script>
-import Vue from 'vue'
-import VeeValidate from 'vee-validate';
 
-Vue.use(VeeValidate);
- 
-  export default {
+export default {
     name: 'ContactForm',
    data () {
     return {
       email: '',
       name: '',
-      formSubmitted: false
+      formSubmitted: false,
+      Feedback : ""
     }
   },
   methods: {

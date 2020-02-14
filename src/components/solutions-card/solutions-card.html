@@ -1,12 +1,10 @@
 <div class="c_solution__card__container">
-    <div class="l_solution__card__wrapper">
         <header class="c_solution__card__header">
             <h1>{{feature[0]['title']}}</h1>
         </header>
-    </div>
-    <div class="flex-container">
+    <div class="l_solution__flex___container">
   
-      <div class="flex-item " v-for="card in feature[1]['cards']">
+      <div class="c_solution__flex___item " v-for="card in feature[1]['cards']">
         <img :src="'../assets/component/solutions/' + route + '/feature/' + card['imageUrl']">
         <h1>{{card['title']}} </h1>
         <p>{{card['description']}}</p>
