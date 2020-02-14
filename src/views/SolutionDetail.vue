@@ -10,8 +10,6 @@
                                   :header="solutionDetailContent['header']"/>
             <SolutionDetailCard v-if="solutionDetailContent['feature'] != null"
                                 :feature="solutionDetailContent['feature']"/>
-            <SolutionOverall v-if="solutionDetailContent['overall'] != null"
-                             :overall="solutionDetailContent['overall']"/>
             <Cardproduct/>
         </div>
     </div>
@@ -21,7 +19,6 @@
 
     import SolutionDetailHeader from '../components/solutions-detail/SolutionDetail.vue'
     import SolutionDetailCard from '../components/solutions-card/SolutionCard.vue'
-    import SolutionOverall from '../components/solution-overall/SolutionOverall.vue'
     import Cardproduct from '../components/card-product/card-product.vue'
     import {mapGetters, mapActions} from 'vuex'
 
@@ -31,7 +28,6 @@
         components: {
             SolutionDetailHeader,
             SolutionDetailCard,
-            SolutionOverall,
             Cardproduct
         },
         data: function () {

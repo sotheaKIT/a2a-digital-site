@@ -138,8 +138,9 @@
 }
 #c_form_fb {
    
-        resize: none; 
-        min-height: 110px;
+    resize: none; 
+    min-height: 110px;
+    font-size : 16px
       
 }
 
