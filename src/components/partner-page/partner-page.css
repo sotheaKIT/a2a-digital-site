@@ -3,6 +3,7 @@
   margin-top: 80px;
   margin-left: auto;
   margin-right: auto;
+  width: 80%;
 }
 
 .l_partnerPage .l_head h1 {
@@ -16,7 +17,6 @@
 .l_groupPartners {
   display: grid;
   grid-template-columns: repeat(2,1fr);
-  margin-left: calc((100% - 986px)/2);
 }
 
 
@@ -27,18 +27,6 @@
   padding-top: 30px;
 }
 
-@media screen and (max-width:1100px) {
-  .l_groupPartners {
-    margin-left: 100px;
-  }
-}
-
-@media screen and (max-width:980px) {
-  .l_groupPartners {
-    margin-left: 40px;
-  }
-
-}
 
 @media screen and (max-width:600px) {
   .l_groupPartners {

@@ -10,7 +10,8 @@
     "header": [
       {
         "title": "Cyber Security",
-        "question": null,
+        "question": "What is Cyber Security?",
+        "shortDesc": "Keep Your Information Safe and Secure",
         "description": "Cyber-security is the practice of defending computers, servers, mobile devices, electronic systems, networks, and data from malicious attacks. It's also known as information technology security or electronic information security.",
         "imagePath": "Cyber_main.svg"
       }

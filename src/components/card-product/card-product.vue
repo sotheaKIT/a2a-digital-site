@@ -9,7 +9,7 @@
         swiperSlides: {
           initialSlide: 0,
           slidesPerView: 4,
-          slidesPerGroup: 1,
+          slidesPerGroup: 4,
           // spaceBetween: 15,
           loop: true,
           cssMode: true,
@@ -24,16 +24,16 @@
             prevEl: '.swiper-button-prev'
           },
           breakpoints: {
-            480: {
+            660: {
               slidesPerView: 1,
               slidesPerGroup: 1,
               speed:1000,
             },
-            768: {
+            720: {
               slidesPerView: 2,
               slidesPerGroup: 2,
             },
-            980: {
+            1024: {
               slidesPerView: 3,
               slidesPerGroup: 3,
             }

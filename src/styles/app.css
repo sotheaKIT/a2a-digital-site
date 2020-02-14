@@ -20,7 +20,7 @@ a {
 .l_container {
     margin: auto;
     width: 100%;
-    min-width: 320px;
+    min-width: 250px;
 }
 
 #contact-page {
@@ -36,8 +36,8 @@ ul {
     height: 100vh;
 }
 
-#services-page {
-    margin-top: 100px;
+#services-page, #solution-page {
+    margin-top: 70px;
 }
 
 .l_navigator {
