@@ -36,20 +36,17 @@ export default {
               slidesPerGroup: 1,
             },
             768: {
-              slidesPerView: 2,
-              slidesPerGroup: 2,
+              slidesPerView: 1,
+              slidesPerGroup: 1,
             },
             980: {
-              slidesPerView: 3,
-              slidesPerGroup: 3,
+              slidesPerView: 1,
+              slidesPerGroup: 1,
             }
           },
-
-
         }
       }
     }
-
 }
 
 </script>
