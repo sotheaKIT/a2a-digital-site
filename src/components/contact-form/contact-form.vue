@@ -9,7 +9,8 @@ export default {
     return {
       email: '',
       name: '',
-      formSubmitted: false
+      formSubmitted: false,
+      Feedback : ""
     }
   },
   methods: {
