@@ -61,6 +61,9 @@
   <div id="c_form_right">
 
     <div id="c_form_title">
+
+      <form @submit.prevent="validateBeforeSubmit" v-if="!formSubmitted">
+
       <div id="c_form_massage">
         <h1>Send Us A Message</h1>
       </div>  
@@ -69,13 +72,17 @@
         <div id="c_form_username_mail">
 
             <div class="c_form_username">
-              <label for="username-login" class="form-label">Name*</label>
-              <input id="c_form_input" type="text" name="username" >
+              <label for="username-login" class="form-label">Name*</label>             
+              <input v-model="name" v-validate.initial="name" data-rules="required|alpha_spaces|min:3" class="form-control" type="text" >
+              <p class="text-danger" v-if="errors.has('name')">{{ errors.first('name') }}</p>
+
             </div>
             <div class="c_form_mail">
               <label for="Mail" class="form-label">Email*</label>
-              <input id="c_form_input" type="email" name="email">
-            </div>
+            <input v-model="email" v-validate.initial="email" data-rules="required|email" class="form-control" id="c_form_input" type="email" >
+            <p class="text-danger" v-if="errors.has('email')">{{ errors.first('email') }}</p>
+
+          </div>
         </div> 
 
         <div id="c_form_username_mail">
@@ -88,17 +95,24 @@
         <div id="c_form_username_mail">
           <div class="c_form_feedback">
               <label for="country" class="form-label">How can we help you ?*</label>
-              <input id="c_form_input" type="text" name="feedback" >
+              <textarea class="form-control vresize" id="c_form_fb" v-validate.initial="Feedback" data-rules="required|alpha_spaces|min:20"></textarea>
+              <p class="text-danger" v-if="errors.has('Feedback')">{{ errors.first('Feedback') }}</p>
+
           </div>  
         </div>
 
         <div id="c_form_username_mail">
             <div id="c_input_sumit">
-              <button type="button" class="submit_btn">Get In Touch</button>          
+              <button class="btn btn-primary btn-block submit_btn" type="submit">Get In Touch</button>
             </div>
         </div>
 
       </div>  
+
+      </form>
+      <div v-else>
+        <h1 class="submitted">Form submitted successfully!</h1>
+      </div>
 
     </div>
   

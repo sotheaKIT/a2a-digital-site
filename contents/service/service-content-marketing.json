@@ -10,7 +10,8 @@
     "header": [
       {
         "title": "Digital Marketing ",
-        "question": null,
+        "question": "What is Digital Marketing?",
+        "shortDesc": "Professional Digital Marketing Services That Drive Results",
         "description": "Digital marketing encompasses all marketing efforts that use an electronic device or the internet. Business leverage digital channels such as search engines, social media, email, and other websites to connect with current and prospective customers. It is simply means advertising delivered through digital channels.",
         "imagePath": "loudspeaker.svg"
       }

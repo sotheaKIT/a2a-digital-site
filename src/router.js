@@ -53,7 +53,7 @@ export default new Router({
       component: JobsSubmitPage
     },
     {
-      path: '/404',
+      path: '*',
       name: '404',
       component: ErrorPage
     },

@@ -1,4 +1,4 @@
-
+<style src="../../styles/about.css" scoped></style>
 <style src="./about-carousel.css" scoped></style>
 <template src="./about-carousel.html"></template>
 
@@ -13,14 +13,14 @@ export default {
           initialSlide: 0,
           slidesPerView: 4,
           slidesPerGroup: 4,
-          // spaceBetween: 20,
+          spaceBetween: 20,
           loop: true,
 
           cssMode: true,
           autoplay: {
             delay: 1500,
             disableOnInteraction: false
-          }, 
+          },
           speed:60000,
           pagination: {
             el: '.swiper-pagination',
@@ -36,20 +36,17 @@ export default {
               slidesPerGroup: 1,
             },
             768: {
-              slidesPerView: 2,
-              slidesPerGroup: 2,
+              slidesPerView: 1,
+              slidesPerGroup: 1,
             },
             980: {
-              slidesPerView: 3,
-              slidesPerGroup: 3,
+              slidesPerView: 1,
+              slidesPerGroup: 1,
             }
-          }, 
-
-          
+          },
         }
       }
     }
-          
 }
 
 </script>

@@ -30,6 +30,7 @@
   color: #303030;
   font-size: 35px;
   text-align: center;
+  font-family: SFProText-Bold;
 }
 .c_card_product {
   margin-top: 50px;
@@ -62,6 +63,14 @@
   text-align: center;
   padding: 10px;
 }
+
+.c_head__solution {
+  font-family: SFProText-Bold;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 21px;
+}
+
 .c_title__product a{
   color: #138690;
   margin: 10px;
