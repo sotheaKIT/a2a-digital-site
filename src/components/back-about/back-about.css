@@ -1,6 +1,6 @@
 #back-about span {
     color: #138690;
-    margin-left: 35px;;
+    margin-left: 15px;;
 }
 
 a {
@@ -25,4 +25,9 @@ a.fromRight:after {
 
 a.from-left:after {
     transform-origin: 0% 50%;
+}
+@media (min-width: 768px) {
+    #back-about span {
+        margin-left: 35px;;
+    }
 }
