@@ -220,7 +220,7 @@ input {
         /* overflow: hidden; */
         width: 100%;
         padding-top: 40px;
-        padding-left: 90px;
+        /* padding-left: 90px; */
     }
 
     #c_form_title {
