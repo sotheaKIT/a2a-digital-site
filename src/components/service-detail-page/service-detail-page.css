@@ -20,10 +20,10 @@
     background-color: #EEEEEE;
 }
 .c_service_content__header{
-    max-width: 1366px;
+    max-width: 1185px;
     margin-left: auto;
     margin-right: auto;
-   padding: 0px 90px;
+    padding:0px 13px;
 }
 
 .c_service__section__artical {
@@ -56,6 +56,12 @@
     float: left;
 }.c_service__section__artical img {
     width: 100%;
+}
+@media only screen and (max-width: 1366px){
+.c_service_content__header {
+    padding-left: 90px;
+    padding-right: 90px;
+}
 }
 @media only screen and (max-width: 1024px) and (min-width: 720px){
     .c_service_content__header{

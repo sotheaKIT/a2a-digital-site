@@ -1,25 +1,24 @@
-/* Change the screen size to see the content adapt but columns stay same height. By default, flexbox will do this unless you define a different align-items declaration on the flex container. */
-* {
-    -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    box-sizing: border-box;  
-  }
-
-  /* ------------------------service card detail header ----------------------------- */
-.l_service__section__wrapper {
-    width: 100%;
-    display: block;
-}
-.l_service__section__wrapper header{
-    text-align: center;
-}
-  
-  /* html, body {
-    margin: 0;
-    padding: 0;
-  } */
   .c_service__card__container{
+      max-width: 1366;
+      margin-left: auto;
+      margin-right: auto;
+      padding-left: 90px;
+      padding-right: 90px;
       margin-top: 50px;
+  }
+  .c_service__area__header h1{
+    font-family: SF Pro Text;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 35px;
+    line-height: 42px;
+    text-align: center;
+    color: #303030;
+    margin:0px;
+    margin-bottom: 20px;
+  }
+  .l_service__section__wrapper p{
+    max-width: 674x;
   }
   .c_service__card__container div.center{
     justify-content: center;
