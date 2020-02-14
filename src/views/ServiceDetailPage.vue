@@ -10,7 +10,7 @@
             <tagline-hero
                     :title="serviceDetailContent['header'][0]['title']"
                     :short_desc="serviceDetailContent['header'][0]['shortDesc']"
-                    :imagePath="'service' + '/' + route + '.svg'"
+                    :imagePath="'service' + '/' + route + '.png'"
             />
             <ServiceDetailCard v-if="serviceDetailContent['cards'] != null"
                                :cards="serviceDetailContent['cards']"></ServiceDetailCard>
