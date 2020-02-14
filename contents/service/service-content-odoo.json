@@ -10,7 +10,8 @@
     "header": [
       {
         "title": "Odoo ERP",
-        "question": "What is Odoo ERP? ",
+        "question": "What is Odoo ERP?",
+        "shortDesc": "Reduce the cost and facilitate the real-time decision-making system",
         "description": "Odoo is an open source ERP (Enterprise Resource Planning) was founded by Fabien Pinckaers in 2005. Odoo stand for On-Demand Open Object, it’s a large collection of business-related applications and it contains many modules and those modules collectively called ERP software. ERP is a multiple modules transaction based application software that helps organizations to manage the essential parts of the business. It collects, manages and distributes information across functional boundaries and helps break down information those barriers that stand in the way of full cooperation between production, materials, planning, engineering, finance and sales/marketing. ",
         "imagePath": "ERP.svg"
       }

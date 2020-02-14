@@ -382,7 +382,7 @@
 @media only screen and (max-width: 375px) {
 
     #navigation  {
-        position: relative;
+        /*position: relative;*/
         width: 100%;
     }
     .bm_primary_scroller {
