@@ -1,6 +1,6 @@
 <style src="../styles/solution-detail.css" scoped></style>
 <template>
-    <div id="solution_container">
+    <div id="solution-page">
         <div v-for="solutionDetailContent in SolutionDetailContents" v-bind:key="solutionDetailContent.id">
             <vue-headful
                     :title="solutionDetailContent['meta'][0]['title'] + ' | A2A Digital'"
@@ -12,11 +12,11 @@
                     :short_desc="solutionDetailContent['header'][0]['shortDesc']"
                     :imagePath="'solution' + '/' + route + '.svg'"
             />
-            <SolutionDetailHeader v-if="solutionDetailContent['header'] != null"
+            <SolutionDetailHeader class="container" v-if="solutionDetailContent['header'] != null"
                                   :header="solutionDetailContent['header']"/>
-            <SolutionDetailCard v-if="solutionDetailContent['feature'] != null"
+            <SolutionDetailCard class="container" v-if="solutionDetailContent['feature'] != null"
                                 :feature="solutionDetailContent['feature']"/>
-            <Cardproduct/>
+            <Cardproduct class="container"/>
         </div>
     </div>
 </template>
