@@ -10,7 +10,8 @@
     "header": [
       {
         "title": "RPA Install Support",
-        "question": null,
+        "question": "What is RPA?",
+        "shortDesc": "Automate the repetitive tasks that previously required human efforts",
         "description": "Robotic Process Automation is the use of automation technology with Artificial Intelligence (AI) and Machine Learning (ML) capabilities to handle and automate repetitive tasks that previously required human efforts. These tasks may involve query handling, calculations, record maintenance, transaction entries, etc. RPA can be applied for the automation of rules-based, repetitive, data-heavy, and high compliance tasks where structured data and clear predefined rules and parameters are used. The solutions are easily and quickly designed, tested and implemented. They are designed to require a relatively low investment or expenditure.",
         "imagePath": "rpa.svg"
       },

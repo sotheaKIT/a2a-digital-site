@@ -7,6 +7,7 @@
                   :description="serviceDetailContent['meta'][0]['description']"
                   :keywords="serviceDetailContent['meta'][0]['keywords']"
           />
+        <TaglineHero/>
        <ServiceDetailPageComp v-if="serviceDetailContent['header'] != null" v-bind:header="serviceDetailContent['header']" ></ServiceDetailPageComp>
         <ServiceDetailCard v-if="serviceDetailContent['cards'] != null" :cards="serviceDetailContent['cards']"></ServiceDetailCard>
         <ServiceTechnologyCard v-if="serviceDetailContent['tools'] != null" :tools = "serviceDetailContent['tools']"></ServiceTechnologyCard>
@@ -29,10 +30,12 @@
     import ServiceComapareComp from '../components/service-cloud-detail-page/service-cloud-detail-page.vue'
     import ServiceManagement from '../components/service-management/service-management'
     import {mapGetters, mapActions} from 'vuex'
+    import TaglineHero from "../components/tagline-hero/tagline-hero";
 
     export default {
         name: 'ServiceDetailPage',
         components: {
+            TaglineHero,
             ServiceDetailPageComp,
             ServiceDetailCard,
             ServiceTechnologyCard,
@@ -45,7 +48,8 @@
         data: function () {
             return {
                 service: String,
-                type: "service/service-content-"
+                type: "service/service-content-",
+                route: String
             }
         },
         computed: {
@@ -66,6 +70,7 @@
         },
         created() {
             this.service = this.type + this.$route.params.service;
+            this.route = this.$route.params.service;
         },
     }
 </script>

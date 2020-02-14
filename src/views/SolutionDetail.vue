@@ -7,6 +7,11 @@
                     :description="solutionDetailContent['meta'][0]['description']"
                     :keywords="solutionDetailContent['meta'][0]['keywords']"
             />
+            <tagline-hero
+                    :title="solutionDetailContent['header'][0]['title']"
+                    :short_desc="solutionDetailContent['header'][0]['shortDesc']"
+                    :imagePath="'solution' + '/' + route + '.svg'"
+            />
             <SolutionDetailHeader v-if="solutionDetailContent['header'] != null"
                                   :header="solutionDetailContent['header']"/>
             <SolutionDetailCard v-if="solutionDetailContent['feature'] != null"
@@ -22,11 +27,13 @@
     import SolutionDetailCard from '../components/solutions-card/SolutionCard.vue'
     import Cardproduct from '../components/card-product/card-product.vue'
     import {mapGetters, mapActions} from 'vuex'
+    import TaglineHero from "../components/tagline-hero/tagline-hero";
 
 
     export default {
         name: 'SolutionDetail',
         components: {
+            TaglineHero,
             SolutionDetailHeader,
             SolutionDetailCard,
             Cardproduct
@@ -34,7 +41,8 @@
         data: function () {
             return {
                 solution: String,
-                type: "solution/solution-content-"
+                type: "solution/solution-content-",
+                route: String
             }
         },
         computed: {
@@ -55,6 +63,7 @@
         },
         created() {
             this.solution = this.type + this.$route.params.solution;
+            this.route = this.$route.params.solution;
         }
     }
 </script>
