@@ -10,7 +10,7 @@
             <tagline-hero
                     :title="serviceDetailContent['header'][0]['title']"
                     :short_desc="serviceDetailContent['header'][0]['shortDesc']"
-                    imagePath="service"
+                    :imagePath="'service' + '/' + route + '.svg'"
             />
             <ServiceDetailCard v-if="serviceDetailContent['cards'] != null"
                                :cards="serviceDetailContent['cards']"></ServiceDetailCard>
@@ -59,7 +59,8 @@
         data: function () {
             return {
                 service: String,
-                type: "service/service-content-"
+                type: "service/service-content-",
+                route: String
             }
         },
         computed: {
@@ -80,6 +81,7 @@
         },
         created() {
             this.service = this.type + this.$route.params.service;
+            this.route = this.$route.params.service;
         },
     }
 </script>
