@@ -1,8 +1,8 @@
 <style src="../styles/service-detail.css" scoped></style>
 <template>
-  <div>
+  <div id="">
       <div v-for="serviceDetailContent in serviceDetailContents" v-bind:key="serviceDetailContent.id">
-        <div class="l_service__detail__container">
+        <!-- <div class="l_service__detail__container">
           <div class="c_jobspage_detail l_padding__left">
             <div class="c_jobspage_title">
                 <a>Services</a>
@@ -10,7 +10,7 @@
                 <a id="c_text">{{serviceDetailContent['header'][0]['title']}}</a>
             </div>
           </div>
-        </div>
+        </div> -->
             <ServiceDetailPageComp v-if="serviceDetailContent['header'] != null"
                                    v-bind:header="serviceDetailContent['header']"></ServiceDetailPageComp>
             <ServiceDetailCard v-if="serviceDetailContent['cards'] != null"
