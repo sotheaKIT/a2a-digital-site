@@ -26,7 +26,7 @@
             <div class="dropdown-content">
               <div class="drp1">
                 <ul>
-                  <li><a :href="$router.resolve({ name: 'servicedetail', params: { service: 'ai' }}).href">Artificial Intelligence</a></li>
+                  <li><router-link :to="{name: 'servicedetail', params: { service: 'ai' }}">Artificial Intelligence</router-link ></li>
                   <li><a :href="$router.resolve({ name: 'servicedetail', params: { service: 'iot' }}).href">IOT development</a></li>
                   <li><a :href="$router.resolve({ name: 'servicedetail', params: { service: 'cc' }}).href">Cloud Computing</a></li>
                   <li><a :href="$router.resolve({ name: 'servicedetail', params: { service: 'rpa' }}).href">RPA install support</a></li>

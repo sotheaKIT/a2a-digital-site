@@ -71,6 +71,7 @@
         },
 
         mounted: function () {
+            alert("dd")
             this.actionDetailLoadContent(this.service)
         },
 
