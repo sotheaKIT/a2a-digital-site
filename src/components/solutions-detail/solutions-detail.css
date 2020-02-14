@@ -1,9 +1,4 @@
 .solution_container {
-    max-width: 1366px;
-    margin-left: auto;
-    margin-right: auto;
-    padding-left:90px;
-    padding-right: 90px;
     display: block;
     margin-top: 100px;
 }
@@ -54,17 +49,4 @@
 .c_solution__section__text {
     float: left;
     width: 85%;
-}
-
-@media only screen and (max-width: 1024px) and (min-width: 720px){
-    .solution_container{
-        padding-left: 30px;
-        padding-right: 30px;
-    }
-}
-@media only screen and (max-width: 719px) and (min-width: 250px){
-    .solution_container{
-        padding-left: 13px;
-        padding-right: 13px;
-    }
 }

@@ -1,9 +1,4 @@
 .c_solution__card__container{
-  max-width: 1366px;
-  padding-left:90px;
-  padding-right: 90px;
-  margin-left: auto;
-  margin-right: auto;
   margin-top: 40px;
 }
 .l_solution__card__wrapper header{
@@ -65,10 +60,6 @@
   margin-right: 15px;
 }
 @media only screen and (max-width: 1024px) and (min-width: 680px){
-  .c_solution__card__container{
-    padding-right: 30px;
-    padding-left: 30px;
-  }
   .l_solution__flex___container{
     display: grid;
     grid-template-columns: repeat(2,1fr);
@@ -80,10 +71,6 @@
 }
 
 @media only screen and (max-width: 679px) and (min-width: 250px){
-  .c_solution__card__container{
-    padding-right: 13px;
-    padding-left: 13px;
-  }
   .l_solution__flex___container{
     display: grid;
     grid-template-columns: repeat(1,1fr);
