@@ -62,7 +62,7 @@
 
     <div id="c_form_title">
 
-      <form @submit.prevent="validateBeforeSubmit" v-if="!formSubmitted">
+      <form @submit.prevent="validateBeforeSubmit" v-if="!formSubmitted" v-else = "!formSubmitted">
 
       <div id="c_form_massage">
         <h1>Send Us A Message</h1>
@@ -79,12 +79,20 @@
             </div>
             <div class="c_form_mail">
               <label for="Mail" class="form-label">Email*</label>
-            <input v-model="email" v-validate.initial="email" data-rules="required|email" class="form-control" id="c_form_input" type="email" >
+            <input v-model="email" v-validate.initial="email" data-rules="required|email" class="form-control" type="email" >
             <p class="text-danger" v-if="errors.has('email')">{{ errors.first('email') }}</p>
-
+  
           </div>
         </div> 
+       
+        <div id="c_form_username_mail">
+          <div class="c_email__phone">
+            <label for="country" class="form-label">Email*</label>
+            <input v-model="email" v-validate.initial="email" data-rules="required|email" class="form-control" type="email" >
+            <p class="text-danger" v-if="errors.has('email')">{{ errors.first('email') }}</p>
 
+          </div>  
+        </div>
         <div id="c_form_username_mail">
             <div class="c_form_country">
               <label for="country" class="form-label">City, Country</label>
@@ -106,11 +114,14 @@
               <button class="btn btn-primary btn-block submit_btn" type="submit">Get In Touch</button>
             </div>
         </div>
-
+        
+     
+       
       </div>  
 
       </form>
       <div v-else>
+        
         <h1 class="submitted">Form submitted successfully!</h1>
       </div>
 
