@@ -30,7 +30,8 @@
     margin: auto;
 }
 .c_ai_important__container hr{
-margin-top:35px;
+    border: 0.5px solid #BCCDD7;
+    margin-top:35px;
 }
 .l_ai__impartant__wrapper {
     margin-bottom: 35px;
