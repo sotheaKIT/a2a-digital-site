@@ -3,20 +3,16 @@
         <header class="c_service__section__header">
             <h1> {{tool['header']}}</h1>
         </header>
-      
-            
-                <div class="l_center">
-                    <div class="flex-item" v-for="toolcard in tool['cards']">
-                        <div class="c_card__img">
-                            <img :src="'../assets/component/service/' + route + '/tools/' + toolcard.imageUrl">
-                        </div>
-                        <div class="c_text_card">
-                            <h1>{{toolcard['header']}}</h1>
-                            <p>{{toolcard['description']}}</p>
-                        </div>
-                    </div>
+        <div class="l_center">
+            <div class="flex-item" v-for="toolcard in tool['cards']">
+                <div class="c_card__img">
+                    <img :src="'../assets/component/service/' + route + '/tools/' + toolcard.imageUrl">
                 </div>
-          
-       
-    </div>
+                <div class="c_text_card">
+                    <h1>{{toolcard['header']}}</h1>
+                    <p>{{toolcard['description']}}</p>
+                </div>
+            </div>
+        </div>
+     </div>
 </div>
