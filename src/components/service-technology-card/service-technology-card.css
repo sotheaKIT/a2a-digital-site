@@ -7,10 +7,18 @@
     margin-top: 27px;
 }
 .c_service__section__header h1 {
+    font-family: SF Pro Text;
+    font-style: normal;
     font-weight: bold;
     font-size: 35px;
     line-height: 42px;
+    /* identical to box height */
+
     text-align: center;
+
+    /* text */
+
+    color: #303030;
     margin: 0;
 }
 .l_center {
