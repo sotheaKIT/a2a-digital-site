@@ -102,9 +102,14 @@
 #c_form_username_mail {
     display: flex;
 }
+#c_form_username_mail1 {
+    display: flex;
+
+}
 
 .form-control{
     border-bottom: 1px solid #303030;
+    border-radius: 0;
 
 }
 
@@ -128,6 +133,15 @@
     border-bottom: 1px solid #303030;
 }
 
+.c_email__phone {
+    display: none;
+    flex-direction: column;
+    width: 100%;
+    padding-top: 20px;
+    color: #BABABA;
+    float: left;
+}
+
 .c_form_feedback {
     display: flex;
     flex-direction: column;
@@ -140,6 +154,8 @@
    
         resize: none; 
         min-height: 110px;
+        outline: none;
+
       
 }
 
@@ -189,7 +205,9 @@ input {
     padding: 8px 1px;
     margin-top: 0.1em;
 }
-
+.form-label {
+    padding-bottom: 16px;
+}
 
 
 @media only screen and (max-width: 980px) {
@@ -210,7 +228,7 @@ input {
     }
 
     .c_information {
-        padding: 30px 110px;
+        padding: 100px 30px;
     }
     .c_map {
         padding: unset
@@ -239,9 +257,22 @@ input {
    
 }
 
+
+@media only screen and (max-width: 415px) {
+    .c_form_mail {
+        display: none;
+    }
+    .c_email {
+        display: inline;
+    }
+    .c_email__phone {
+        display: flex;
+    }
+}
+
 @media only screen and (max-width: 415px) {
     .c_information {
-        padding:unset;
+        padding: 100px 30px;
     }
     .infor_add {
         padding-left: 53px;  
@@ -269,9 +300,7 @@ input {
     #c_form_username_mail {
         display: flex;
     }
-    .form-control{
-        border-bottom: 1px solid #303030;
-    
+    #c_form_username_mail1 {
+        display: flex;
     }
-    
 }
