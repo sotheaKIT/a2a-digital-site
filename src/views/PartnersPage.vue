@@ -1,3 +1,4 @@
+<style scoped></style>
 <template>
   <PartnersPage/>
 </template>
