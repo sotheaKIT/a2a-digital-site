@@ -58,6 +58,7 @@
 .flex-item:nth-of-type(2n+1) {
     margin-right: 23px;
 }
+
 .flex-item{
     width: calc((100%  - 83px) / 2);
     margin-top: 23px;
