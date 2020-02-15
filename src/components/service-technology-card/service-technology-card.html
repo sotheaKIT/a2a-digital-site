@@ -3,9 +3,9 @@
         <header class="c_service__section__header">
             <h1> {{tool['header']}}</h1>
         </header>
-        <div class="l_service__technology__section">
-            <div class="c_service__technology__flex__container">
-                <div class="center">
+      
+            
+                <div class="l_center">
                     <div class="flex-item" v-for="toolcard in tool['cards']">
                         <div class="c_card__img">
                             <img :src="'../assets/component/service/' + route + '/tools/' + toolcard.imageUrl">
@@ -16,7 +16,7 @@
                         </div>
                     </div>
                 </div>
-            </div>
-        </div>
+          
+       
     </div>
 </div>

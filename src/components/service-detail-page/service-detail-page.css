@@ -10,9 +10,13 @@
     margin-bottom: 50px;
 }
 .c_service__section__header h1 {
+    font-family: SF Pro Text;
+    font-style: normal;
     font-weight: bold;
     font-size: 35px;
     line-height: 42px;
+    color: #303030;
+    margin: 0px;
     text-align: center;
 }
 .c_service__section___wrapper{
