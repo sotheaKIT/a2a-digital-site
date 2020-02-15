@@ -87,9 +87,6 @@
         width: calc(100% - 30px);
         display: inline-block;
     }
-    .c_card__img{
-        margin: 0px 0 20px 0px;
-    }
 }
 @media only screen and (max-width: 719px) and (min-width: 250px) {
     .l_service__technology__container {

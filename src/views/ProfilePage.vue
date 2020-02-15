@@ -1,4 +1,4 @@
-<style src="../styles/profile.css"></style>
+<style src="../styles/profile.css" scoped></style>
 <template>
     <div class="l_profile-page container">
         <div class="l_profile__title">
