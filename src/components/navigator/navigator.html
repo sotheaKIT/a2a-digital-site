@@ -1,215 +1,280 @@
-<div v-scroll="handleScroll" id ="navigation"  v-bind:style="{ background: activeColor,  boxShadow: activeShadow}"> 
-  <div id="nav"> 
-    <div v-if="navigationActivate === 'active'" id="nav_logo">
-      <a href="/"><img alt="Vue logo" class= "c_logo" src="../../../public/assets/component/navigator/logo_A2A.svg"></a>
-    </div>
-    <div v-else id="nav_logo">
-      <a href="/"><img alt="Vue logo" class= "c_logo" src="../../../public/assets/component/navigator/logo_color.svg"></a>
-    </div>
-      
-    
-    <div id="nav_right">
-        <div id="nav_only_button">
-          <div class="dropdown" id="nav_button">
-            <div v-if="navigationActivate === 'active'">
-              <a class="dropbtn c_navigate_right">Services
-                <svg class="c_dropdown" width="14" height="9" viewBox="0 0 14 9" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <path d="M11.873 0L6.73 5.143L1.587 0L0 1.587L6.73 8.317L13.46 1.587L11.873 0Z" fill="#ffffff"/></svg>
-              </a>
-            </div>
-            <div v-else>
-              <a class="dropbtn c_navigate_right" style="color:black"> Services
-                <svg class="c_dropdown" width="14" height="9" viewBox="0 0 14 9" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <path d="M11.873 0L6.73 5.143L1.587 0L0 1.587L6.73 8.317L13.46 1.587L11.873 0Z" fill="#000000"/></svg>
-              </a>
-            </div>
-            <div class="dropdown-content">
-              <div class="drp1">
-                <ul>
-                  <li><a :href="$router.resolve({ name: 'servicedetail', params: { service: 'ai' }}).href">Artificial Intelligence</a></li>
-                  <li><a :href="$router.resolve({ name: 'servicedetail', params: { service: 'iot' }}).href">IOT development</a></li>
-                  <li><a :href="$router.resolve({ name: 'servicedetail', params: { service: 'cc' }}).href">Cloud Computing</a></li>
-                  <li><a :href="$router.resolve({ name: 'servicedetail', params: { service: 'rpa' }}).href">RPA install support</a></li>
-                 
-                </ul>
-              </div>
-              <div class="drp2">
-                <ul>
-                  <li><a :href="$router.resolve({ name: 'servicedetail', params: { service: 'pwa' }}).href">PWA development</a></li>
-                  <li><a :href="$router.resolve({ name: 'servicedetail', params: { service: 'arvr' }}).href">VR/AR development</a></li>
-                  <li><a :href="$router.resolve({ name: 'servicedetail', params: { service: 'odoo' }}).href">Odoo ERP custormize</a></li>
-                  <li><a :href="$router.resolve({ name: 'servicedetail', params: { service: 'cybersecurity' }}).href">Cyber Security</a></li>
-                 </ul>
-              </div>
-              <div class="drp2" >
-                <ul>
-                  <li><a :href="$router.resolve({ name: 'servicedetail', params: { service: 'blockchain' }}).href">Block Chain development</a></li>
-                  <li><a :href="$router.resolve({ name: 'servicedetail', params: { service: 'marketing' }}).href">Digital Marketing</a></li>
-                 </ul>
-              </div>
-            </div>
-          </div>
-          <div class="dropdown" id="nav_button">
-            <div v-if="navigationActivate === 'active'">
-              <a class="dropbtn c_navigate_right">Solutions
-                <svg class="c_dropdown" width="14" height="9" viewBox="0 0 14 9" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <path d="M11.873 0L6.73 5.143L1.587 0L0 1.587L6.73 8.317L13.46 1.587L11.873 0Z" fill="#ffffff"/></svg>
-              </a>
-            </div>
-            <div v-else>
-              <a class="dropbtn c_navigate_right" style="color:black">Solutions
-                <svg class="c_dropdown" width="14" height="9" viewBox="0 0 14 9" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <path d="M11.873 0L6.73 5.143L1.587 0L0 1.587L6.73 8.317L13.46 1.587L11.873 0Z" fill="#000000"/></svg>
-              </a>
-            </div>
-           
-            <div class="dropdown-content">
-              <div class="drp1">
-                <ul>
-                  <li><a :href="$router.resolve({ name: 'solutiondetail', params: { solution: 'security' }}).href">Security System</a></li>
-                  <li><a :href="$router.resolve({ name: 'solutiondetail', params: { solution: 'kpi' }}).href">KPI Dashboard System</a></li>
-                  <li><a :href="$router.resolve({ name: 'solutiondetail', params: { solution: 'qrcode' }}).href">QR Code System</a></li>
-                </ul>
-              </div>
-              <div class="drp2">
-                <ul>
-                  <li><a :href="$router.resolve({ name: 'solutiondetail', params: { solution: 'hrm' }}).href">Human Resource Management</a></li>
-                  <li><a :href="$router.resolve({ name: 'solutiondetail', params: { solution: 'ls' }}).href">Logistic System</a></li>
-                  <li><a :href="$router.resolve({ name: 'solutiondetail', params: { solution: 'sms' }}).href">School Management System</a></li>              
-                </ul>
-              </div>
-              <div class="drp2">
-                <ul>
-                  <li><a :href="$router.resolve({ name: 'solutiondetail', params: { solution: 'mapping' }}).href">Projection Mapping</a></li>
-                  <li><a :href="$router.resolve({ name: 'solutiondetail', params: { solution: 'contactcenter' }}).href">Contact Center</a></li>
-                </ul>
-              </div>
-            </div>
-          </div>
-          <div id="nav_button">
-            <div v-if="navigationActivate === 'active'">
-              <a href="/about" class="c_navigate_right">About</a>
-            </div>
-            <div v-else>
-              <a href="/about" class="c_navigate_right" style="color:black">About</a>
-            </div>
-          
-          </div>
-          <div id="nav_button">
-            <div v-if="navigationActivate === 'active'">
-              <a href="/contact" class="c_navigate_right">Contact</a>
-            </div>
-            <div v-else>
-              <a href="/contact" class="c_navigate_right" style="color:black">Contact</a>
-            </div>
-          </div>
+<div v-scroll="handleScroll" id="navigation" v-bind:style="{ background: activeColor,  boxShadow: activeShadow}">
+    <div id="nav" class="container">
+        <div v-if="navigationActivate === 'active'" id="nav_logo">
+            <a href="/"><img alt="Vue logo" class="c_logo"
+                             src="../../../public/assets/component/navigator/logo_A2A.svg"></a>
         </div>
-        <div class="c_sideNav">
-
-          <div ref="sideNav" class="bm-menu">
-
-          <div id="sideNav_logo">
-            <a href="/"><img alt="Vue logo" class= "c_logo" src="../../../public/assets/component/navigator/logo_color.svg"></a>
-            <div id="bm_click">
-              <span class="bm-cross-button cross-style" @click="closeMenu" :class="{ hidden: !crossIcon }">
-                
-                  <svg width="20" height="20" class="bm-close" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <path d="M11.4887 10.001L19.6917 1.79796C20.1028 1.38686 20.1028 0.720381 19.6917 0.309327C19.2806 -0.101766 18.6141 -0.101766 18.2031 0.309327L9.99998 8.51236L1.79695 0.309327C1.38586 -0.101766 0.719374 -0.101766 0.30832 0.309327C-0.102734 0.72042 -0.102773 1.3869 0.30832 1.79796L8.51135 10.001L0.30832 18.204C-0.102773 18.6151 -0.102773 19.2816 0.30832 19.6926C0.719413 20.1037 1.3859 20.1037 1.79695 19.6926L9.99998 11.4896L18.203 19.6926C18.6141 20.1037 19.2806 20.1037 19.6916 19.6926C20.1027 19.2816 20.1027 18.6151 19.6916 18.204L11.4887 10.001Z" fill="#138690"/>
-                  </svg>
-                
-              </span>
-            </div>
-
-          </div>
-          <div id="bm_nav_scroller">
-            <ul class="bm_ul">
-
-                <li id="slide_service" class="bm_primary_scroller" v-bind:style="{background: background_service, color: color_service}" >
-
-                        Services
-                        <svg class="bm_list_down" width="9" height="17" viewBox="0 0 9 17" fill="#138690" xmlns="http://www.w3.org/2000/svg"v-bind:style="{fill: color_click_serivce, transform:rotate_click_service}">
-                          <path d="M8.65039 8.74568L0.860939 16.8937C0.791212 16.9668 0.698244 17.0033 0.605276 17.0033C0.515626 17.0033 0.429298 16.9701 0.359571 16.9037C0.220118 16.7676 0.213478 16.5451 0.349611 16.4023L7.90664 8.49998L0.349609 0.597635C0.213476 0.458182 0.216797 0.2324 0.35957 0.0995878C0.502343 -0.0365449 0.724805 -0.0299043 0.860937 0.109549L8.65039 8.25427C8.7832 8.39041 8.7832 8.60623 8.65039 8.74568Z" />
-                        </svg>
-
-                        <div class="bm_tree__service" v-bind:style="{ display: styleCheck_service }" >
-                          <li class="bm_tree_submenu"><a :href="$router.resolve({ name: 'servicedetail', params: { service: 'ai' }}).href">Artificial Intelligence</a></li>
-                          <li class="bm_tree_submenu"><a :href="$router.resolve({ name: 'servicedetail', params: { service: 'iot' }}).href">IOT development</a></li>
-                          <li class="bm_tree_submenu"><a :href="$router.resolve({ name: 'servicedetail', params: { service: 'cc' }}).href">Cloud Computing</a></li>
-                          <li class="bm_tree_submenu"><a :href="$router.resolve({ name: 'servicedetail', params: { service: 'rpa' }}).href">RPA install support</a></li>
-                          <li class="bm_tree_submenu"><a :href="$router.resolve({ name: 'servicedetail', params: { service: 'blockchain' }}).href">Block Chain development</a></li>
-                          <li class="bm_tree_submenu"><a :href="$router.resolve({ name: 'servicedetail', params: { service: 'pwa' }}).href">PWA development</a></li>
-                          <li class="bm_tree_submenu"><a :href="$router.resolve({ name: 'servicedetail', params: { service: 'arvr' }}).href">VR/AR development</a></li>
-                          <li class="bm_tree_submenu"><a :href="$router.resolve({ name: 'servicedetail', params: { service: 'odoo' }}).href">Odoo ERP custormize</a></li>
-                          <li class="bm_tree_submenu"><a :href="$router.resolve({ name: 'servicedetail', params: { service: 'cybersecurity' }}).href">Cyber Security</a></li>
-                          <li class="bm_tree_submenu"><a :href="$router.resolve({ name: 'servicedetail', params: { service: 'marketing' }}).href">Digital Marketing</a></li>
+        <div v-else id="nav_logo">
+            <a href="/"><img alt="Vue logo" class="c_logo"
+                             src="../../../public/assets/component/navigator/logo_color.svg"></a>
+        </div>
+        <div class="spacer"/>
+        <div id="nav_right">
+            <div id="nav_only_button">
+                <div class="dropdown" id="nav_button">
+                    <div v-if="navigationActivate === 'active'">
+                        <a class="dropbtn c_navigate_right">Services
+                            <svg class="c_dropdown" width="14" height="9" viewBox="0 0 14 9" fill="none"
+                                 xmlns="http://www.w3.org/2000/svg">
+                                <path d="M11.873 0L6.73 5.143L1.587 0L0 1.587L6.73 8.317L13.46 1.587L11.873 0Z"
+                                      fill="#ffffff"/>
+                            </svg>
+                        </a>
+                    </div>
+                    <div v-else>
+                        <a class="dropbtn c_navigate_right" style="color:black"> Services
+                            <svg class="c_dropdown" width="14" height="9" viewBox="0 0 14 9" fill="none"
+                                 xmlns="http://www.w3.org/2000/svg">
+                                <path d="M11.873 0L6.73 5.143L1.587 0L0 1.587L6.73 8.317L13.46 1.587L11.873 0Z"
+                                      fill="#000000"/>
+                            </svg>
+                        </a>
+                    </div>
+                    <div class="dropdown-content">
+                        <div class="drp1">
+                            <ul>
+                                <li>
+                                    <a :href="$router.resolve({ name: 'servicedetail', params: { service: 'ai' }}).href">Artificial
+                                        Intelligence</a></li>
+                                <li>
+                                    <a :href="$router.resolve({ name: 'servicedetail', params: { service: 'iot' }}).href">IOT
+                                        development</a></li>
+                                <li>
+                                    <a :href="$router.resolve({ name: 'servicedetail', params: { service: 'cc' }}).href">Cloud
+                                        Computing</a></li>
+                                <li>
+                                    <a :href="$router.resolve({ name: 'servicedetail', params: { service: 'rpa' }}).href">RPA
+                                        install support</a></li>
+                            </ul>
                         </div>
-                </li>
-
-
-
-                <li id="slide_product" class="bm_primary_scroller" v-bind:style="{background: background_product, color: color_product}">
-                      Solutions
-                      <svg class="bm_list_down"  width="9" height="17" viewBox="0 0 9 17" fill="#138690" xmlns="http://www.w3.org/2000/svg" v-bind:style="{fill: color_click_product, transform:rotate_click_product}">
-                        <path d="M8.65039 8.74568L0.860939 16.8937C0.791212 16.9668 0.698244 17.0033 0.605276 17.0033C0.515626 17.0033 0.429298 16.9701 0.359571 16.9037C0.220118 16.7676 0.213478 16.5451 0.349611 16.4023L7.90664 8.49998L0.349609 0.597635C0.213476 0.458182 0.216797 0.2324 0.35957 0.0995878C0.502343 -0.0365449 0.724805 -0.0299043 0.860937 0.109549L8.65039 8.25427C8.7832 8.39041 8.7832 8.60623 8.65039 8.74568Z"/>
-                      </svg>
-                    <div class="bm_tree__product" v-bind:style="{ display: styleCheck_product}" >
-                      <li class="bm_tree_submenu"><a :to="{ name: 'solutiondetail', params: { solution: 'security' } }">Security System</a></li>
-                      <li class="bm_tree_submenu"><a :to="{ name: 'solutiondetail', params: { solution: 'school' }}">School Management System</a></li>
-                      <li class="bm_tree_submenu"><a :to="{ name: 'solutiondetail', params: { solution: 'kpi' }}">KPI Dashboard</a></li>
-                      <li class="bm_tree_submenu"><a :to="{ name: 'solutiondetail', params: { solution: 'shuttle' }}">Shuttle Bus</a></li>
-                      <li class="bm_tree_submenu"><a :to="{ name: 'solutiondetail', params: { solution: 'qr' }}">QR Code System</a></li>
-                      <li class="bm_tree_submenu"><a :to="{ name: 'solutiondetail', params: { solution: 'contact' } }">Contact Center</a></li>
-                      <li class="bm_tree_submenu"><a :to="{ name: 'solutiondetail', params: { solution: 'projection' } }">Projection Mapping</a></li>
-                      <li class="bm_tree_submenu"><a :to="{ name: 'solutiondetail', params: { solution: 'hr' } }">HR Management</a></li>
-                      <li class="bm_tree_submenu"><a :to="{ name: 'solutiondetail', params: { solution: 'logistic' } }">Logistic System</a></li>
-                      <li class="bm_tree_submenu"><a :to="{ name: 'solutiondetail', params: { solution: 'digital' } }">Digital Marketing</a></li>
-                  
+                        <div class="drp2">
+                            <ul>
+                                <li>
+                                    <a :href="$router.resolve({ name: 'servicedetail', params: { service: 'pwa' }}).href">PWA
+                                        development</a></li>
+                                <li>
+                                    <a :href="$router.resolve({ name: 'servicedetail', params: { service: 'arvr' }}).href">VR/AR
+                                        development</a></li>
+                                <li>
+                                    <a :href="$router.resolve({ name: 'servicedetail', params: { service: 'odoo' }}).href">Odoo
+                                        ERP custormize</a></li>
+                                <li>
+                                    <a :href="$router.resolve({ name: 'servicedetail', params: { service: 'cybersecurity' }}).href">Cyber
+                                        Security</a></li>
+                            </ul>
+                        </div>
+                        <div class="drp2">
+                            <ul>
+                                <li>
+                                    <a :href="$router.resolve({ name: 'servicedetail', params: { service: 'blockchain' }}).href">Block
+                                        Chain development</a></li>
+                                <li>
+                                    <a :href="$router.resolve({ name: 'servicedetail', params: { service: 'marketing' }}).href">Digital
+                                        Marketing</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="dropdown" id="nav_button">
+                    <div v-if="navigationActivate === 'active'">
+                        <a class="dropbtn c_navigate_right">Solutions
+                            <svg class="c_dropdown" width="14" height="9" viewBox="0 0 14 9" fill="none"
+                                 xmlns="http://www.w3.org/2000/svg">
+                                <path d="M11.873 0L6.73 5.143L1.587 0L0 1.587L6.73 8.317L13.46 1.587L11.873 0Z"
+                                      fill="#ffffff"/>
+                            </svg>
+                        </a>
+                    </div>
+                    <div v-else>
+                        <a class="dropbtn c_navigate_right" style="color:black">Solutions
+                            <svg class="c_dropdown" width="14" height="9" viewBox="0 0 14 9" fill="none"
+                                 xmlns="http://www.w3.org/2000/svg">
+                                <path d="M11.873 0L6.73 5.143L1.587 0L0 1.587L6.73 8.317L13.46 1.587L11.873 0Z"
+                                      fill="#000000"/>
+                            </svg>
+                        </a>
+                    </div>
+                    <div class="dropdown-content">
+                        <div class="drp1">
+                            <ul>
+                                <li>
+                                    <a :href="$router.resolve({ name: 'solutiondetail', params: { solution: 'security' }}).href">Security
+                                        System</a></li>
+                                <li>
+                                    <a :href="$router.resolve({ name: 'solutiondetail', params: { solution: 'kpi' }}).href">KPI
+                                        Dashboard System</a></li>
+                                <li>
+                                    <a :href="$router.resolve({ name: 'solutiondetail', params: { solution: 'qrcode' }}).href">QR
+                                        Code System</a></li>
+                            </ul>
+                        </div>
+                        <div class="drp2">
+                            <ul>
+                                <li>
+                                    <a :href="$router.resolve({ name: 'solutiondetail', params: { solution: 'hrm' }}).href">Human
+                                        Resource Management</a></li>
+                                <li>
+                                    <a :href="$router.resolve({ name: 'solutiondetail', params: { solution: 'ls' }}).href">Logistic
+                                        System</a></li>
+                                <li>
+                                    <a :href="$router.resolve({ name: 'solutiondetail', params: { solution: 'sms' }}).href">School
+                                        Management System</a></li>
+                            </ul>
+                        </div>
+                        <div class="drp2">
+                            <ul>
+                                <li>
+                                    <a :href="$router.resolve({ name: 'solutiondetail', params: { solution: 'mapping' }}).href">Projection
+                                        Mapping</a></li>
+                                <li>
+                                    <a :href="$router.resolve({ name: 'solutiondetail', params: { solution: 'contactcenter' }}).href">Contact
+                                        Center</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div id="nav_button">
+                    <div v-if="navigationActivate === 'active'">
+                        <a href="/about" class="c_navigate_right">About</a>
+                    </div>
+                    <div v-else>
+                        <a href="/about" class="c_navigate_right" style="color:black">About</a>
                     </div>
 
-                </li>
-
-
-                <li class="bm_primary_scroller">
-                  <a href="#" class="scroller_text"> <span>About</span></a>
-                </li>
-
-                <li class="bm_primary_scroller">
-                  <a href="#" class="scroller_text"> <span>Contact</span></a>
-                </li>
-
-                <li class="bm_primary_scroller">
-                  <a href="#" class="scroller_text"> <span>Jobs</span></a>
-                </li>
-
-
-            </ul>
-
-          </div>
-
-          </div>
-
-          <div ref="bmBurgerButton" class="bm-burger-button" @click="openMenu" :class="{ hidden: !burgerIcon }">
-            <div v-if="navigationActivate === 'active'">
-              <span class="bm-burger-bars">
-                <svg width="25" height="15" viewBox="0 0 25 15" fill="none" xmlns="http://www.w3.org/2000/svg">
-                  <line x1="1.5" y1="1.5" x2="23.5" y2="1.5" stroke="#ffffff" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
-                  <line x1="1.5" y1="7.5" x2="23.5" y2="7.5" stroke="#ffffff" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
-                  <line x1="1.5" y1="13.5" x2="23.5" y2="13.5" stroke="#ffffff" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
-                  </svg>                  
-              </span>
+                </div>
+                <div id="nav_button">
+                    <div v-if="navigationActivate === 'active'">
+                        <a href="/contact" class="c_navigate_right">Contact</a>
+                    </div>
+                    <div v-else>
+                        <a href="/contact" class="c_navigate_right" style="color:black">Contact</a>
+                    </div>
+                </div>
             </div>
-            <div v-else>
-              <span class="bm-burger-bars">
-                <svg width="25" height="15" viewBox="0 0 25 15" fill="none" xmlns="http://www.w3.org/2000/svg">
-                  <line x1="1.5" y1="1.5" x2="23.5" y2="1.5" stroke="#138690" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
-                  <line x1="1.5" y1="7.5" x2="23.5" y2="7.5" stroke="#138690" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
-                  <line x1="1.5" y1="13.5" x2="23.5" y2="13.5" stroke="#138690" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
-                  </svg>                  
+            <div class="c_sideNav">
+
+                <div ref="sideNav" class="bm-menu">
+
+                    <div id="sideNav_logo">
+                        <a href="/"><img alt="Vue logo" class="c_logo"
+                                         src="../../../public/assets/component/navigator/logo_color.svg"></a>
+                        <div class="spacer"/>
+                        <div id="bm_click">
+              <span class="bm-cross-button cross-style" @click="closeMenu" :class="{ hidden: !crossIcon }">
+                
+                  <svg width="20" height="20" class="bm-close" viewBox="0 0 20 20" fill="none"
+                       xmlns="http://www.w3.org/2000/svg">
+                    <path d="M11.4887 10.001L19.6917 1.79796C20.1028 1.38686 20.1028 0.720381 19.6917 0.309327C19.2806 -0.101766 18.6141 -0.101766 18.2031 0.309327L9.99998 8.51236L1.79695 0.309327C1.38586 -0.101766 0.719374 -0.101766 0.30832 0.309327C-0.102734 0.72042 -0.102773 1.3869 0.30832 1.79796L8.51135 10.001L0.30832 18.204C-0.102773 18.6151 -0.102773 19.2816 0.30832 19.6926C0.719413 20.1037 1.3859 20.1037 1.79695 19.6926L9.99998 11.4896L18.203 19.6926C18.6141 20.1037 19.2806 20.1037 19.6916 19.6926C20.1027 19.2816 20.1027 18.6151 19.6916 18.204L11.4887 10.001Z"
+                          fill="#138690"/>
+                  </svg>
               </span>
+                        </div>
+                    </div>
+                    <div id="bm_nav_scroller">
+                        <div class="bm_ul">
+                            <div id="slide_service" class="bm_primary_scroller"
+                                 v-bind:style="{background: background_service, color: color_service}">
+                                Services
+                                <svg class="bm_list_down" width="9" height="17" viewBox="0 0 9 17" fill="#138690"
+                                     xmlns="http://www.w3.org/2000/svg"
+                                     v-bind:style="{fill: color_click_serivce, transform:rotate_click_service}">
+                                    <path d="M8.65039 8.74568L0.860939 16.8937C0.791212 16.9668 0.698244 17.0033 0.605276 17.0033C0.515626 17.0033 0.429298 16.9701 0.359571 16.9037C0.220118 16.7676 0.213478 16.5451 0.349611 16.4023L7.90664 8.49998L0.349609 0.597635C0.213476 0.458182 0.216797 0.2324 0.35957 0.0995878C0.502343 -0.0365449 0.724805 -0.0299043 0.860937 0.109549L8.65039 8.25427C8.7832 8.39041 8.7832 8.60623 8.65039 8.74568Z"/>
+                                </svg>
+                                <div class="bm_tree__service" v-bind:style="{ display: styleCheck_service }">
+                                    <span class="bm_tree_submenu"><a
+                                            :href="$router.resolve({ name: 'servicedetail', params: { service: 'ai' }}).href">Artificial Intelligence</a></span>
+                                    <span class="bm_tree_submenu"><a
+                                            :href="$router.resolve({ name: 'servicedetail', params: { service: 'iot' }}).href">IOT development</a></span>
+                                    <span class="bm_tree_submenu"><a
+                                            :href="$router.resolve({ name: 'servicedetail', params: { service: 'cc' }}).href">Cloud Computing</a></span>
+                                    <span class="bm_tree_submenu"><a
+                                            :href="$router.resolve({ name: 'servicedetail', params: { service: 'rpa' }}).href">RPA install support</a></span>
+                                    <span class="bm_tree_submenu"><a
+                                            :href="$router.resolve({ name: 'servicedetail', params: { service: 'blockchain' }}).href">Block Chain development</a></span>
+                                    <span class="bm_tree_submenu"><a
+                                            :href="$router.resolve({ name: 'servicedetail', params: { service: 'pwa' }}).href">PWA development</a></span>
+                                    <span class="bm_tree_submenu"><a
+                                            :href="$router.resolve({ name: 'servicedetail', params: { service: 'arvr' }}).href">VR/AR development</a></span>
+                                    <span class="bm_tree_submenu"><a
+                                            :href="$router.resolve({ name: 'servicedetail', params: { service: 'odoo' }}).href">Odoo ERP custormize</a></span>
+                                    <span class="bm_tree_submenu"><a
+                                            :href="$router.resolve({ name: 'servicedetail', params: { service: 'cybersecurity' }}).href">Cyber Security</a></span>
+                                    <span class="bm_tree_submenu"><a
+                                            :href="$router.resolve({ name: 'servicedetail', params: { service: 'marketing' }}).href">Digital Marketing</a></span>
+                                </div>
+                            </div>
+                            <div id="slide_product" class="bm_primary_scroller"
+                                 v-bind:style="{background: background_product, color: color_product}">
+                                Solutions
+                                <svg class="bm_list_down" width="9" height="17" viewBox="0 0 9 17" fill="#138690"
+                                     xmlns="http://www.w3.org/2000/svg"
+                                     v-bind:style="{fill: color_click_product, transform:rotate_click_product}">
+                                    <path d="M8.65039 8.74568L0.860939 16.8937C0.791212 16.9668 0.698244 17.0033 0.605276 17.0033C0.515626 17.0033 0.429298 16.9701 0.359571 16.9037C0.220118 16.7676 0.213478 16.5451 0.349611 16.4023L7.90664 8.49998L0.349609 0.597635C0.213476 0.458182 0.216797 0.2324 0.35957 0.0995878C0.502343 -0.0365449 0.724805 -0.0299043 0.860937 0.109549L8.65039 8.25427C8.7832 8.39041 8.7832 8.60623 8.65039 8.74568Z"/>
+                                </svg>
+                                <div class="bm_tree__product" v-bind:style="{ display: styleCheck_product}">
+                                    <span class="bm_tree_submenu"><a
+                                            :href="$router.resolve({ name: 'solutiondetail', params: { solution: 'security' } }).href">Security System</a></span>
+                                    <span class="bm_tree_submenu"><a
+                                            :href="$router.resolve({ name: 'solutiondetail', params: { solution: 'sms' }}).href">School Management System</a></span>
+                                    <span class="bm_tree_submenu"><a
+                                            :href="$router.resolve({ name: 'solutiondetail', params: { solution: 'kpi' }}).href">KPI Dashboard</a></span>
+                                    <span class="bm_tree_submenu"><a
+                                            :href="$router.resolve({ name: 'solutiondetail', params: { solution: 'qrcode' }}).href">QR Code System</a></span>
+                                    <span class="bm_tree_submenu"><a
+                                            :href="$router.resolve({ name: 'solutiondetail', params: { solution: 'contactcenter' }}).href">Contact Center</a></span>
+                                    <span class="bm_tree_submenu"><a
+                                            :href="$router.resolve({ name: 'solutiondetail', params: { solution: 'mapping' }}).href">Projection Mapping</a></span>
+                                    <span class="bm_tree_submenu"><a
+                                            :href="$router.resolve({ name: 'solutiondetail', params: { solution: 'hrm' }}).href">HR Management</a></span>
+                                    <span class="bm_tree_submenu"><a
+                                            :href="$router.resolve({ name: 'solutiondetail', params: { solution: 'ls' }}).href">Logistic System</a></span>
+                                </div>
+                            </div>
+                            <li class="bm_primary_scroller">
+                                <a href="/about" class="scroller_text"> <span>About</span></a>
+                            </li>
+                            <li class="bm_primary_scroller">
+                                <a href="/contact" class="scroller_text"> <span>Contact</span></a>
+                            </li>
+                            <!--                            <li class="bm_primary_scroller">-->
+                            <!--                                <a href="#" class="scroller_text"> <span>Jobs</span></a>-->
+                            <!--                            </li>-->
+                        </div>
+                    </div>
+                </div>
             </div>
-              
-          </div>
+            <div ref="bmBurgerButton" class="bm-burger-button" @click="openMenu" :class="{ hidden: !burgerIcon }">
+                <div v-if="navigationActivate === 'active'">
+                  <span class="bm-burger-bars">
+                    <svg width="25" height="15" viewBox="0 0 25 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <line x1="1.5" y1="1.5" x2="23.5" y2="1.5" stroke="#ffffff" stroke-width="3"
+                            stroke-linecap="round"
+                            stroke-linejoin="round"/>
+                      <line x1="1.5" y1="7.5" x2="23.5" y2="7.5" stroke="#ffffff" stroke-width="3"
+                            stroke-linecap="round"
+                            stroke-linejoin="round"/>
+                      <line x1="1.5" y1="13.5" x2="23.5" y2="13.5" stroke="#ffffff" stroke-width="3"
+                            stroke-linecap="round"
+                            stroke-linejoin="round"/>
+                      </svg>
+                  </span>
+                </div>
+                <div v-else>
+                  <span class="bm-burger-bars">
+                    <svg width="25" height="15" viewBox="0 0 25 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <line x1="1.5" y1="1.5" x2="23.5" y2="1.5" stroke="#138690" stroke-width="3"
+                            stroke-linecap="round"
+                            stroke-linejoin="round"/>
+                      <line x1="1.5" y1="7.5" x2="23.5" y2="7.5" stroke="#138690" stroke-width="3"
+                            stroke-linecap="round"
+                            stroke-linejoin="round"/>
+                      <line x1="1.5" y1="13.5" x2="23.5" y2="13.5" stroke="#138690" stroke-width="3"
+                            stroke-linecap="round"
+                            stroke-linejoin="round"/>
+                      </svg>
+                  </span>
+                </div>
+            </div>
         </div>
     </div>
-  </div>
 </div>
