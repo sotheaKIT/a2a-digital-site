@@ -1,11 +1,11 @@
 <div v-scroll="handleScroll" id="navigation" v-bind:style="{ background: activeColor,  boxShadow: activeShadow}">
     <div id="nav" class="container">
         <div v-if="navigationActivate === 'active'" id="nav_logo">
-            <a href="/"><img alt="Vue logo" class="c_logo"
+            <a href="/"><img alt="A2A Digital Logo" class="c_logo"
                              src="../../../public/assets/component/navigator/logo_A2A.svg"></a>
         </div>
         <div v-else id="nav_logo">
-            <a href="/"><img alt="Vue logo" class="c_logo"
+            <a href="/"><img alt="A2A Digital Logo" class="c_logo"
                              src="../../../public/assets/component/navigator/logo_color.svg"></a>
         </div>
         <div class="spacer"/>
@@ -34,43 +34,63 @@
                         <div class="drp1">
                             <ul>
                                 <li>
-                                    <a :href="$router.resolve({ name: 'servicedetail', params: { service: 'ai' }}).href">Artificial
-                                        Intelligence</a></li>
+                                    <a :href="$router.resolve({ name: 'servicedetail', params: { service: 'ai' }}).href">
+                                        Artificial Intelligence
+                                    </a>
+                                </li>
                                 <li>
-                                    <a :href="$router.resolve({ name: 'servicedetail', params: { service: 'iot' }}).href">IOT
-                                        development</a></li>
+                                    <a :href="$router.resolve({ name: 'servicedetail', params: { service: 'iot' }}).href">
+                                        IOT Development
+                                    </a>
+                                </li>
                                 <li>
-                                    <a :href="$router.resolve({ name: 'servicedetail', params: { service: 'cc' }}).href">Cloud
-                                        Computing</a></li>
+                                    <a :href="$router.resolve({ name: 'servicedetail', params: { service: 'cc' }}).href">
+                                        Cloud Computing
+                                    </a>
+                                </li>
                                 <li>
-                                    <a :href="$router.resolve({ name: 'servicedetail', params: { service: 'rpa' }}).href">RPA
-                                        install support</a></li>
+                                    <a :href="$router.resolve({ name: 'servicedetail', params: { service: 'rpa' }}).href">
+                                        RPA install support
+                                    </a>
+                                </li>
                             </ul>
                         </div>
                         <div class="drp2">
                             <ul>
                                 <li>
-                                    <a :href="$router.resolve({ name: 'servicedetail', params: { service: 'pwa' }}).href">PWA
-                                        development</a></li>
+                                    <a :href="$router.resolve({ name: 'servicedetail', params: { service: 'pwa' }}).href">
+                                        PWA Development
+                                    </a>
+                                </li>
                                 <li>
-                                    <a :href="$router.resolve({ name: 'servicedetail', params: { service: 'arvr' }}).href">VR/AR
-                                        development</a></li>
+                                    <a :href="$router.resolve({ name: 'servicedetail', params: { service: 'arvr' }}).href">
+                                        VR/AR development
+                                    </a>
+                                </li>
                                 <li>
-                                    <a :href="$router.resolve({ name: 'servicedetail', params: { service: 'odoo' }}).href">Odoo
-                                        ERP custormize</a></li>
+                                    <a :href="$router.resolve({ name: 'servicedetail', params: { service: 'odoo' }}).href">
+                                        Odoo ERP custormize
+                                    </a>
+                                </li>
                                 <li>
-                                    <a :href="$router.resolve({ name: 'servicedetail', params: { service: 'cybersecurity' }}).href">Cyber
-                                        Security</a></li>
+                                    <a :href="$router.resolve({ name: 'servicedetail', params: { service: 'cybersecurity' }}).href">
+                                        Cyber Security
+                                    </a>
+                                </li>
                             </ul>
                         </div>
                         <div class="drp2">
                             <ul>
                                 <li>
-                                    <a :href="$router.resolve({ name: 'servicedetail', params: { service: 'blockchain' }}).href">Block
-                                        Chain development</a></li>
+                                    <a :href="$router.resolve({ name: 'servicedetail', params: { service: 'blockchain' }}).href">
+                                        Block Chain Development\
+                                    </a>
+                                </li>
                                 <li>
-                                    <a :href="$router.resolve({ name: 'servicedetail', params: { service: 'marketing' }}).href">Digital
-                                        Marketing</a></li>
+                                    <a :href="$router.resolve({ name: 'servicedetail', params: { service: 'marketing' }}).href">
+                                        Digital Marketing
+                                    </a>
+                                </li>
                             </ul>
                         </div>
                     </div>
@@ -98,37 +118,53 @@
                         <div class="drp1">
                             <ul>
                                 <li>
-                                    <a :href="$router.resolve({ name: 'solutiondetail', params: { solution: 'security' }}).href">Security
-                                        System</a></li>
+                                    <a :href="$router.resolve({ name: 'solutiondetail', params: { solution: 'security' }}).href">
+                                        Security System
+                                    </a>
+                                </li>
                                 <li>
-                                    <a :href="$router.resolve({ name: 'solutiondetail', params: { solution: 'kpi' }}).href">KPI
-                                        Dashboard System</a></li>
+                                    <a :href="$router.resolve({ name: 'solutiondetail', params: { solution: 'kpi' }}).href">
+                                        KPI Dashboard System
+                                    </a>
+                                </li>
                                 <li>
-                                    <a :href="$router.resolve({ name: 'solutiondetail', params: { solution: 'qrcode' }}).href">QR
-                                        Code System</a></li>
+                                    <a :href="$router.resolve({ name: 'solutiondetail', params: { solution: 'qrcode' }}).href">
+                                        QR Code System
+                                    </a>
+                                </li>
                             </ul>
                         </div>
                         <div class="drp2">
                             <ul>
                                 <li>
-                                    <a :href="$router.resolve({ name: 'solutiondetail', params: { solution: 'hrm' }}).href">Human
-                                        Resource Management</a></li>
+                                    <a :href="$router.resolve({ name: 'solutiondetail', params: { solution: 'hrm' }}).href">
+                                        Human Resource Management
+                                    </a>
+                                </li>
                                 <li>
-                                    <a :href="$router.resolve({ name: 'solutiondetail', params: { solution: 'ls' }}).href">Logistic
-                                        System</a></li>
+                                    <a :href="$router.resolve({ name: 'solutiondetail', params: { solution: 'ls' }}).href">
+                                        Logistic System
+                                    </a>
+                                </li>
                                 <li>
-                                    <a :href="$router.resolve({ name: 'solutiondetail', params: { solution: 'sms' }}).href">School
-                                        Management System</a></li>
+                                    <a :href="$router.resolve({ name: 'solutiondetail', params: { solution: 'sms' }}).href">
+                                        School Management System
+                                    </a>
+                                </li>
                             </ul>
                         </div>
                         <div class="drp2">
                             <ul>
                                 <li>
-                                    <a :href="$router.resolve({ name: 'solutiondetail', params: { solution: 'mapping' }}).href">Projection
-                                        Mapping</a></li>
+                                    <a :href="$router.resolve({ name: 'solutiondetail', params: { solution: 'mapping' }}).href">
+                                        Projection Mapping
+                                    </a>
+                                </li>
                                 <li>
-                                    <a :href="$router.resolve({ name: 'solutiondetail', params: { solution: 'contactcenter' }}).href">Contact
-                                        Center</a></li>
+                                    <a :href="$router.resolve({ name: 'solutiondetail', params: { solution: 'contactcenter' }}).href">
+                                        Contact Center
+                                    </a>
+                                </li>
                             </ul>
                         </div>
                     </div>
@@ -140,7 +176,6 @@
                     <div v-else>
                         <a href="/about" class="c_navigate_right" style="color:black">About</a>
                     </div>
-
                 </div>
                 <div id="nav_button">
                     <div v-if="navigationActivate === 'active'">
@@ -152,22 +187,19 @@
                 </div>
             </div>
             <div class="c_sideNav">
-
                 <div ref="sideNav" class="bm-menu">
-
                     <div id="sideNav_logo">
                         <a href="/"><img alt="Vue logo" class="c_logo"
                                          src="../../../public/assets/component/navigator/logo_color.svg"></a>
                         <div class="spacer"/>
                         <div id="bm_click">
-              <span class="bm-cross-button cross-style" @click="closeMenu" :class="{ hidden: !crossIcon }">
-                
-                  <svg width="20" height="20" class="bm-close" viewBox="0 0 20 20" fill="none"
-                       xmlns="http://www.w3.org/2000/svg">
-                    <path d="M11.4887 10.001L19.6917 1.79796C20.1028 1.38686 20.1028 0.720381 19.6917 0.309327C19.2806 -0.101766 18.6141 -0.101766 18.2031 0.309327L9.99998 8.51236L1.79695 0.309327C1.38586 -0.101766 0.719374 -0.101766 0.30832 0.309327C-0.102734 0.72042 -0.102773 1.3869 0.30832 1.79796L8.51135 10.001L0.30832 18.204C-0.102773 18.6151 -0.102773 19.2816 0.30832 19.6926C0.719413 20.1037 1.3859 20.1037 1.79695 19.6926L9.99998 11.4896L18.203 19.6926C18.6141 20.1037 19.2806 20.1037 19.6916 19.6926C20.1027 19.2816 20.1027 18.6151 19.6916 18.204L11.4887 10.001Z"
-                          fill="#138690"/>
-                  </svg>
-              </span>
+                          <span class="bm-cross-button cross-style" @click="closeMenu" :class="{ hidden: !crossIcon }">
+                              <svg width="20" height="20" class="bm-close" viewBox="0 0 20 20" fill="none"
+                                   xmlns="http://www.w3.org/2000/svg">
+                                <path d="M11.4887 10.001L19.6917 1.79796C20.1028 1.38686 20.1028 0.720381 19.6917 0.309327C19.2806 -0.101766 18.6141 -0.101766 18.2031 0.309327L9.99998 8.51236L1.79695 0.309327C1.38586 -0.101766 0.719374 -0.101766 0.30832 0.309327C-0.102734 0.72042 -0.102773 1.3869 0.30832 1.79796L8.51135 10.001L0.30832 18.204C-0.102773 18.6151 -0.102773 19.2816 0.30832 19.6926C0.719413 20.1037 1.3859 20.1037 1.79695 19.6926L9.99998 11.4896L18.203 19.6926C18.6141 20.1037 19.2806 20.1037 19.6916 19.6926C20.1027 19.2816 20.1027 18.6151 19.6916 18.204L11.4887 10.001Z"
+                                      fill="#138690"/>
+                              </svg>
+                          </span>
                         </div>
                     </div>
                     <div id="bm_nav_scroller">
@@ -236,9 +268,6 @@
                             <li class="bm_primary_scroller">
                                 <a href="/contact" class="scroller_text"> <span>Contact</span></a>
                             </li>
-                            <!--                            <li class="bm_primary_scroller">-->
-                            <!--                                <a href="#" class="scroller_text"> <span>Jobs</span></a>-->
-                            <!--                            </li>-->
                         </div>
                     </div>
                 </div>
