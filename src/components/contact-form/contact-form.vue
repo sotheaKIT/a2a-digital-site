@@ -12,7 +12,7 @@ export default {
               email: '',
               country:'',
               formSubmitted: false,
-              Feedback: ''
+              feedback: ''
             };
     },
         
@@ -27,10 +27,10 @@ export default {
         submitForm() {
             this.formSubmitted = true
             let currentObj = this;
-            this.axios.post('http://172.16.0.64:4000/send-email', {
+            this.axios.post('https://fierce-escarpment-31981.herokuapp.com/send-email', {
                 name: this.name,
                 email: this.email,
-                Feedback: this.Feedback,
+                feedback: this.feedback,
                 country: this.country
             })
             .then(function (response) {
@@ -38,7 +38,6 @@ export default {
             })
             .catch(function (error) {
                 currentObj.output = error;
-                alert(currentObj.output)              
             });
             this.$router.push('success')
         }
