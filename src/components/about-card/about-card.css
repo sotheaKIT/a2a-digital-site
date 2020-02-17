@@ -1,11 +1,10 @@
-#about-card {
-    margin-bottom: 50px;
+#about-management, #about-team {
+    margin: 50px 0;
 }
 
 .c_profile__card__container {
     display: flex;
     margin-top: 30px;
-    /* padding-left: calc((100% - 1186px) / 2); */
     justify-content: center;
 }
 
@@ -55,6 +54,12 @@ div .c_profile__card__container div.l_profile__card__center {
     box-shadow: 0 0 15px rgba(0, 0, 0, 0.25);
     transform: scale(1.02);
     transition: transform 600ms cubic-bezier(.165, .84, .44, 1);
+}
+
+.no_hover:hover {
+    -webkit-box-shadow: 0 0 4px rgba(0, 0, 0, 0.25);
+    box-shadow: 0 0 4px rgba(0, 0, 0, 0.25);
+    transform: unset;
 }
 
 .l_card__about:hover a {
