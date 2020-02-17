@@ -10,6 +10,7 @@ import JobsSubmitPage from './views/JobsSubmitPage.vue'
 import ErrorPage from './views/ErrorPage.vue'
 import ServiceDetailPage from './views/ServiceDetailPage.vue'
 import ProfilePage from './views/ProfilePage.vue'
+import SuccessfulPage from './views/SuccessfulPage.vue'
 
 Vue.use(Router)
 
@@ -67,6 +68,12 @@ export default new Router({
       path: '/profile',
       name: 'profile',
       component: ProfilePage
+    },
+
+    {
+      path: '/success',
+      name: 'success',
+      component: SuccessfulPage
     },
 
   ]

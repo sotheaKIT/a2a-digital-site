@@ -143,22 +143,12 @@ q:after {
     text-align: -webkit-center;
 }
 
-.container {
-    width: 100%;
-    padding: 12px;
-    margin-right: auto;
-    margin-left: auto;
-}
-
 .xs12 {
     width: 100%;
 }
 
 /* ----------------------------------------------------mobile layout------------------------------------------ */
 @media (min-width: 960px) {
-    .container {
-        max-width: 900px;
-    }
 
     .md6 {
         width: 50%;
@@ -167,6 +157,7 @@ q:after {
     .pr-md-30 {
         padding-right: 30px;
     }
+
     .text-md-left {
         text-align: left;
         text-align: -moz-left;
@@ -175,11 +166,7 @@ q:after {
 
 }
 
-@media (min-width: 1264px) {
-    .container {
-        max-width: 1185px;
-    }
-}
+@media (min-width: 1264px) {}
 
 .container--fluid {
     max-width: 100%;

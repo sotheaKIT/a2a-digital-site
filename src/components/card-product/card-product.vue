@@ -4,6 +4,9 @@
  
   export default {
     name: 'CardProduct',
+    props:{
+      data: null
+    },
     data() {
       return {
         swiperSlides: {

@@ -5,6 +5,7 @@
     margin-bottom: 50px;
 }
 .c_sevice_form_caption h1{
+    font-family: SFProText-Bold;
     font-style: normal;
     font-weight: bold;
     font-size: 35px;
@@ -66,14 +67,9 @@
     box-sizing: border-box;
     border-radius: 4px;
 }
-.c_input_sumit:hover .submit_btn{
-    border: none;
-}
+
 .c_sevice_form_wrapper{
    margin-top: 50px;
-}
-.vresize{
-    padding-top: 20px;
 }
 @media only screen and (max-width: 980px) {
     .c_sevice_form_wrapper{

@@ -1,6 +1,6 @@
 <style src="../styles/solution-detail.css" scoped></style>
 <template>
-    <div >
+    <div id="solution-detail">
         <div v-for="solutionDetailContent in SolutionDetailContents" v-bind:key="solutionDetailContent.id">
             <vue-headful
                     :title="solutionDetailContent['meta'][0]['title'] + ' | A2A Digital'"
@@ -16,7 +16,7 @@
                                   :header="solutionDetailContent['header']"/>
             <SolutionDetailCard id="solution-page" v-if="solutionDetailContent['feature'] != null"
                                 :feature="solutionDetailContent['feature']"/>
-            <Cardproduct id="solution-page"/>
+            <Cardproduct id="solution-page" :data="solutionTitle"/>
         </div>
     </div>
 </template>
@@ -40,6 +40,7 @@
         },
         data: function () {
             return {
+                solutionTitle:"Other Solutions",
                 solution: String,
                 type: "solution/solution-content-",
                 route: String
