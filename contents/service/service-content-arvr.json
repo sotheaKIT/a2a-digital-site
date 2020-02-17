@@ -60,17 +60,17 @@
           },
           {
             "header": "C# Programming Language",
-            "imageUrl": "2.svg",
+            "imageUrl": "4.svg",
             "description": "C# is a strongly typed object-oriented programming language. C# is open source, simple, modern, flexible, and versatile. In this article, let’s learn what C# is, what C# can do, and how C# is different than C++ and other programming languages. Key characteristics of C# language including open source, modern, easy, fast, cross platform, safe, and versatile."
           },
           {
             "header": "Vuforia",
-            "imageUrl": "3.svg",
+            "imageUrl": "2.svg",
             "description": "Vuforia Engine is the most widely used platform for AR development, with support for leading phones, tablets, and eyewear. Developers can easily add advanced computer vision functionality to Android, iOS, and UWP apps, to create AR experiences that realistically interact with objects and the environment."
           },
           {
             "header": "Maya",
-            "imageUrl": "4.svg",
+            "imageUrl": "3.svg",
             "description": "Autodesk Maya is an industry leading 3D animation software application developed by Autodesk that enables video professionals who work with animated film, television programs, visual effects, and video games to create highly professional three-dimensional (3D) cinematic animations."
           },
           {
@@ -114,7 +114,9 @@
             "description": "Node.js is an open-source server side runtime environment built on Chrome's V8 JavaScript engine. It provides an event driven, non-blocking (asynchronous) I/O and cross-platform runtime environment for building highly scalable server-side application using JavaScript."
           }
           
-      ],
+      ]
+    }
+  ],
      
      "results":[
            {
@@ -188,6 +190,4 @@
            }
      ]
     }
-   ]   
-  }
-]
+   ] 
