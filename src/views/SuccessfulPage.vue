@@ -1,14 +1,12 @@
-<style scoped></style><template>
+<template>
     <div id="error-page">
         <div class="l_error_page">
             <div class="c_right">
-               <img class="c_errorpage_img" src="../../public/assets/component/views/errorpage/404door.png"> 
+               <!-- <img class="c_errorpage_img" src="../../public/assets/component/views/success/success.png">  -->
             </div>
             <div class="c_left">
-                <h1>404</h1>
-                <h2>This Page doesn't exist!</h2>
-                <p>The page you tring to access are not exist or has been removed.</p>
-                <p>Try going back to our homepage</p>  
+                <h1>Thank you</h1>
+                <h2>We will get back to you soon.</h2> 
             </div>
                    
         </div>
@@ -96,6 +94,6 @@
 </style>
 <script>
 export default {
-    name : "ErrorPage"
+    name : "SuccessfulPage"
 }
 </script>
