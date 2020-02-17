@@ -144,7 +144,6 @@ q:after {
 }
 
 .container {
-    width: 100%;
     padding: 0 15px;
     margin-right: auto;
     margin-left: auto;
@@ -165,8 +164,8 @@ q:after {
         width: 50%;
     }
 
-    .pr-md-30 {
-        padding-right: 30px;
+    .w-md-95 {
+        width: 95%;
     }
     .text-md-left {
         text-align: left;

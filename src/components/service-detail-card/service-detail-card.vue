@@ -1,4 +1,4 @@
-<style src="./service-detail-card.css" ></style>
+<style src="./service-detail-card.css" scoped></style>
 <template src="./service-detail-card.html"></template>
 
 <script>
@@ -16,7 +16,5 @@
         created : function(){
            this.route = this.$route.params.service 
         }
-
-
     }
 </script>

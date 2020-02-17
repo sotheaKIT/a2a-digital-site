@@ -34,11 +34,9 @@ export default {
             })
             .then(function (response) {
                 currentObj.output = response.data;
-                alert(currentObj.output)
             })
             .catch(function (error) {
                 currentObj.output = error;
-                alert(currentObj.output)              
             });
     }
   }

@@ -1,18 +1,14 @@
-<div class="c_ai_important__container">
-    <section class="c_ai__important__section">
-      
-        <div class="c_cloud__compare__container" v-for=" title in compare">
-            <header class="l_cloud__compare__header">
-                    <h1>{{title['header']}}</h1>
-                    <p>{{title['description']}}</p>
-            </header>
-            <article class="l_cloud__comparison__wrapper" v-for="type in title['components']">
-                <div class="l_cloud__type">
-                    <h1> {{type['header']}}</h1>
-                    <p>{{type['description']}}</p>
-                </div>
-            </article>
-           
-        </div>
-    </section>
+<div data-aos="zoom-in">
+    <div class="c_cloud__compare" v-for=" title in compare">
+        <header class="l_cloud__compare__header">
+                <h1>{{title['header']}}</h1>
+                <p>{{title['description']}}</p>
+        </header>
+        <article class="l_cloud__comparison__wrapper" v-for="type in title['components']">
+            <div class="l_cloud__type">
+                <h1> {{type['header']}}</h1>
+                <p>{{type['description']}}</p>
+            </div>
+        </article>  
+    </div>
 </div>

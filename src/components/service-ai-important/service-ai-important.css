@@ -26,15 +26,16 @@
 
 /* -----------------------------------important point part---------------------- */
 .c_ai__important__point__container {
-    max-width: 1186px;
+    max-width: 1185px;
     margin: auto;
 }
 .c_ai_important__container hr{
-margin-top:35px;
+    border: 0.5px solid #BCCDD7;
+    margin-top:35px;
 }
 .l_ai__impartant__wrapper {
     margin-bottom: 35px;
-    max-width: 1186px;
+    max-width: 1185px;
     margin: auto;
     display: flex;
     align-items: center;
@@ -88,14 +89,22 @@ margin-top:35px;
         padding: 0 90px;
     }
 }
-
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 1024px) {
     .c_ai__description__container {
-        padding: 80px 25px;
+        padding: 80px 30px;
     }
 
     .c_ai__important__point__container {
-        padding: 0 25px;
+        padding: 0 30px;
+    }
+}
+@media only screen and (max-width: 719px) {
+    .c_ai__description__container {
+        padding: 80px 15px;
+    }
+
+    .c_ai__important__point__container {
+        padding: 0 15px;
     }
 
     .l_ai__impartant__wrapper {

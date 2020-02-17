@@ -11,10 +11,7 @@
     "aos": "^3.0.0-beta.6",
     "axios": "^0.19.2",
     "core-js": "^3.4.4",
-    "dns": "^0.2.2",
-    "express-handlebars": "^3.1.0",
     "jquery": "^3.4.1",
-    "nodemailer": "^6.4.2",
     "require-context": "^1.1.0",
     "vee-validate": "^2.0.0-beta.14",
     "vue": "^2.6.10",
@@ -47,9 +44,7 @@
       "plugin:vue/essential",
       "eslint:recommended"
     ],
-    "rules": {
-      "no-console": "off"
-    },
+    "rules": {},
     "parserOptions": {
       "parser": "babel-eslint"
     }
