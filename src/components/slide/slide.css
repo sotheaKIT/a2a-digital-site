@@ -18,17 +18,17 @@
 }
 /* This is the share value of slide feature */
 
-.l_slide_info{
-    margin-left: 34%;
-}
-
 .l_slide_intro h1{
     font-family:SFProText-Bold;
     font-style: normal;
     font-weight: bold;
     font-size: 50px;
+    line-height: 60px;
+    text-align: center;
+
+    /* White */
+
     color: #FFFFFF;
-    margin : 0px;
 }
 .l_slide_intro p{
     font-style: normal;
@@ -42,7 +42,8 @@
 }
 /* Set value to contact button tage */
 .c_slide__contactbtn{
-    float: left;
+   margin-left: auto;
+   margin-right: auto;
     width: 250px;
     height: 47px;
     background-color:#A40505 ;
@@ -57,29 +58,11 @@
     font-size: 16px;
     line-height: 19px;
     color: #FFFFFF;
+    padding:14.3px 0px;
     margin-top: 12px;
     text-transform: uppercase;
 }
-/* Set value to video tage */
-.l_slide__video{
-    float: left;
-}
-.c_btn__playvideo{
 
-    margin-left: 20px;
-    width: 50px;
-    height: 50px;
-}
-.l_slide__video i{
-    padding-left: 10px;
-    padding-top: 16px;
-    float: right;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 19px;
-    color: #138690;
-} 
 @media only screen and (max-width: 1366px){
     .l_contrainer{
         padding: 0px 90px;
@@ -89,67 +72,18 @@
     .l_contrainer{
         padding: 0px 30px;
     }
-}@media only screen and (max-width: 719px){
+    .l_slide_intro h1{
+        font-size: 35px;
+        line-height: 42px;
+
+    }
+    .l_slide_intro p{
+        font-size: 18px;
+        line-height: 21px;
+    }
+}
+@media only screen and (max-width: 719px){
     .l_contrainer{
         padding: 0px 15px;
     }
-}
-@media only screen and (max-width: 980px) {
-    .l_slide_info{
-        margin-left: 16%;
-    }
-
-    .l_slide_intro h1 {
-        font-size: 34px;
-    }
-
-    .l_slide_intro p{
-        font-size: 18px;
-        line-height: 21px;
-    }
-}
-
-
-@media only screen and (max-width: 685px) {
-    .l_slide_info{
-        margin-left: 15%;
-    }
-
-    .l_slide_intro h1 {
-        font-size: 30px;
-        line-height: 40px;
-    }
-
-    .l_slide_intro p{
-        font-size: 18px;
-        line-height: 21px;
-     }
-
-     .slide .l_contrainer {
-        top: 20%;
-        width: 80%;
-    }
-
-}
-
-@media only screen and (max-width: 375px) {
-    .l_slide_intro h1 {
-        font-size: 25px;
-        line-height: 30px;
-    }
-
-    .slide .l_contrainer {
-        top: 20%;
-    }
-
-    .c_slide__contactbtn{
-        width: 100%;
-    }
-
-    .l_slide_info{
-        margin-left: 8%;
-    }
-
-
-
 }
