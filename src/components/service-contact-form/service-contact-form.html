@@ -24,6 +24,13 @@
             <p class="text-danger" v-if="errors.has('email')">{{ errors.first('email') }}</p>
 
             </div>
+
+            <div class="c_sevice_form_mail">
+              <label for="Mail" class="sevice_form-label">Country</label>
+              <input v-model="country"  data-rules="required|email" class="form-control c_sevice_form_input" id="c_form_input">
+            <p class="text-danger" v-if="errors.has('email')">{{ errors.first('email') }}</p>
+
+            </div>
         </div> 
 
         <div class="c_sevice_form_username_mail">

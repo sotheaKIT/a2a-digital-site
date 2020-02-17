@@ -12,6 +12,7 @@ export default {
     return {
       email: '',
       name: '',
+      country : '',
       feedback: '',
       formSubmitted: false
     }
@@ -31,6 +32,7 @@ export default {
                 name: this.name,
                 email: this.email,
                 feedback: this.feedback,
+                country : this.country
             })
             .then(function (response) {
                 currentObj.output = response.data;
