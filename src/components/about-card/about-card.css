@@ -87,7 +87,7 @@ div .c_profile__card__container div.l_profile__card__center {
 }
 
 /* ----------------------------------------------------mobile layout------------------------------------------ */
-@media only screen and (max-width: 980px) {       
+@media only screen and (max-width: 980px) {
 
     .c_profile__card__container {
         padding: 0;
@@ -95,18 +95,18 @@ div .c_profile__card__container div.l_profile__card__center {
     .c_about_title h1 {
         font-size: 32px;
     }
-    
+
     .l_card__about{
         width: calc(50% - 10px);
         margin: 0;
         margin-top: 20px;
     }
     .l_card__about:nth-child(1){
-        
+
         margin-right: 20px;
     }
     .l_card__about:nth-child(3){
-        
+
         margin-right: 20px;
     }
     .l_card__about .c_profile__card__caption{
@@ -120,12 +120,12 @@ div .c_profile__card__container div.l_profile__card__center {
         padding-right: 15px;
     }
 }
-@media only screen and (min-width: 980px) { 
+@media only screen and (min-width: 980px) {
     div.c_profile__card__container div.l_profile__card__center {
         /*max-width: 889.5px;*/
     }
 }
-@media only screen and (min-width: 1187px) { 
+@media only screen and (min-width: 1187px) {
     .c_profile__card__container {
         /* position: relative; */
         /* width: 100%; */
@@ -135,7 +135,7 @@ div .c_profile__card__container div.l_profile__card__center {
     }
 
 }
-@media only screen and (max-width: 980px) { 
+@media only screen and (max-width: 980px) {
     div.c_profile__card__container div.l_profile__card__center {
         max-width: 90%;
     }
@@ -143,11 +143,11 @@ div .c_profile__card__container div.l_profile__card__center {
         height: 300px;
     }
 }
-@media only screen and (max-width: 515px) { 
+@media only screen and (max-width: 515px) {
     .l_card__about{
         width: 100%;
         margin-right: 0 !important;
         /* margin-bottom: 20px; */
     }
-   
+
 }

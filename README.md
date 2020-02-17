@@ -38,7 +38,7 @@ https://www.figma.com/file/18HLoYfUa947LuFzkHJMj0/About%2F-Team?node-id=117%3A0
 
 ## Live demo:
 
-![image](https://github.com/A2A-Digital/a2a-digital-site/blob/master/static/home.png)
+![image](https://github.com/A2A-Digital/a2a-digital-site/blob/master/.../../../public/assets/home.png)
 Demo: https://a2a-digital-site.netlify.com/
 
 ## Frontend:

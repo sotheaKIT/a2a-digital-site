@@ -10,7 +10,7 @@
             <tagline-hero
                     :title="solutionDetailContent['header'][0]['title']"
                     :short_desc="solutionDetailContent['header'][0]['shortDesc']"
-                    :imagePath="'solution' + '/' + route + '.svg'"
+                    :imagePath="'solution' + '/' + route + '.png'"
             />
             <SolutionDetailHeader id="solution-page" v-if="solutionDetailContent['header'] != null"
                                   :header="solutionDetailContent['header']"/>
