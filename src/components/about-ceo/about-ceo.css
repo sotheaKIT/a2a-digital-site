@@ -1,9 +1,13 @@
 #about-ceo {
-    padding-top: 70px;
+    padding-top: 60px;
 }
 
 #about-ceo > p {
     margin-bottom: 30px;
+}
+
+#about-ceo > p:nth-last-child(1) {
+    margin-bottom: 0;
 }
 
 p.quote {
