@@ -2,7 +2,7 @@
     <div id="error-page">
         <div class="l_error_page">
             <div class="c_right">
-               <!-- <img class="c_errorpage_img" src="../../public/assets/component/views/success/success.png">  -->
+               <img class="c_errorpage_img" src="../../public/assets/component/views/success/thank-you.png"> 
             </div>
             <div class="c_left">
                 <h1>Thank you</h1>
@@ -50,7 +50,6 @@
 }
 .c_errorpage_img {
     float: right;
-    width: 170px;
     height: 350px;
 }
 
