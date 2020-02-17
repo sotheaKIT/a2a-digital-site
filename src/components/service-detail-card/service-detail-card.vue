@@ -16,7 +16,5 @@
         created : function(){
            this.route = this.$route.params.service 
         }
-
-
     }
 </script>
