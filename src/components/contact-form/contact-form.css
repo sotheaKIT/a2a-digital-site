@@ -151,7 +151,7 @@
     float: left;
 }
 #c_form_fb {
-   
+        font-size: 1em;
         resize: none; 
         min-height: 110px;
         outline: none;

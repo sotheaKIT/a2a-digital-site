@@ -38,7 +38,10 @@ export default {
             .catch(function (error) {
                 currentObj.output = error;
             });
-    }
+            alert("ddddd")
+           this.$router.push('success')
+        }
+
   }
 }
 </script>
