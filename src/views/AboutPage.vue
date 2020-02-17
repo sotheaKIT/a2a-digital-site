@@ -6,7 +6,7 @@
                 :description="description"
                 :keywords="keywords"
         />
-        <about-overview/>
+        <about-overview class="container"/>
         <about-ceo/>
         <AboutCard></AboutCard>
 <!--        <AboutCarousel></AboutCarousel>-->

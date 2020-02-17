@@ -144,8 +144,7 @@ q:after {
 }
 
 .container {
-    width: 100%;
-    padding: 12px;
+    padding: 0 15px;
     margin-right: auto;
     margin-left: auto;
 }
@@ -155,17 +154,18 @@ q:after {
 }
 
 /* ----------------------------------------------------mobile layout------------------------------------------ */
-@media (min-width: 960px) {
+@media (min-width: 768px) {
     .container {
         max-width: 900px;
+        padding: 0 30px;
     }
 
     .md6 {
         width: 50%;
     }
 
-    .pr-md-30 {
-        padding-right: 30px;
+    .w-md-95 {
+        width: 95%;
     }
     .text-md-left {
         text-align: left;
@@ -178,6 +178,7 @@ q:after {
 @media (min-width: 1264px) {
     .container {
         max-width: 1185px;
+        padding: 0;
     }
 }
 

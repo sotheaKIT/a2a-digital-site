@@ -13,7 +13,7 @@
                    
         </div>
         <div class="c_goHome_btn">
-            <button class="b_go_to_homepage">Go to Homepage</button>
+            <button class="b_go_to_homepage"><router-link to="/">Go to Homepage</router-link></button>
         </div>
     </div>
 </template>
