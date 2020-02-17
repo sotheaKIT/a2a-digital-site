@@ -16,7 +16,7 @@
                                   :header="solutionDetailContent['header']"/>
             <SolutionDetailCard id="solution-page" v-if="solutionDetailContent['feature'] != null"
                                 :feature="solutionDetailContent['feature']"/>
-            <Cardproduct id="solution-page"/>
+            <Cardproduct id="solution-page" :data="solutionTitle"/>
         </div>
     </div>
 </template>
@@ -40,6 +40,7 @@
         },
         data: function () {
             return {
+                solutionTitle:"Other Solutions",
                 solution: String,
                 type: "solution/solution-content-",
                 route: String

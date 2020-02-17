@@ -9,7 +9,7 @@
       <Slide/>
       <div class="l_section">
         <ContentCard/>
-        <CardProduct/>
+        <CardProduct :data="solutionTitle"/>
 
         
       </div>
@@ -32,6 +32,7 @@ export default {
   },
     data() {
         return {
+          solutionTitle:"Solutions",
             title: 'Home',
             description: 'A2A Digital provides you the best solution for AI Development, system development, enterprise development, digital marketing & film, graphic design, or other functionality, we have the services to help you build sophisticated applications.',
             site_name: 'A2A Digital',
