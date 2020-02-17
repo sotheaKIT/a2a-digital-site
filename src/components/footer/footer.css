@@ -143,3 +143,9 @@ li {
     text-align: center;
 }
 }
+@media only screen and (max-width: 480px){
+  .c_footer_service_float ul
+  {
+    max-width: 140px;
+  }
+}
