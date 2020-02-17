@@ -1,12 +1,12 @@
 <div v-scroll="handleScroll" id="navigation" v-bind:style="{ background: activeColor,  boxShadow: activeShadow}">
     <div id="nav" class="container">
         <div v-if="navigationActivate === 'active'" id="nav_logo">
-            <a href="/"><img alt="A2A Digital Logo" class="c_logo"
-                             src="../../../public/assets/component/navigator/logo_A2A.svg"></a>
+            <router-link to="/"><img alt="A2A Digital Logo" class="c_logo"
+                             src="../../../public/assets/component/navigator/logo_A2A.svg"></router-link>
         </div>
         <div v-else id="nav_logo">
-            <a href="/"><img alt="A2A Digital Logo" class="c_logo"
-                             src="../../../public/assets/component/navigator/logo_color.svg"></a>
+            <router-link to="/"><img alt="A2A Digital Logo" class="c_logo"
+                             src="../../../public/assets/component/navigator/logo_color.svg"></router-link>
         </div>
         <div class="spacer"/>
         <div id="nav_right">
@@ -171,26 +171,26 @@
                 </div>
                 <div id="nav_button">
                     <div v-if="navigationActivate === 'active'">
-                        <a href="/about" class="c_navigate_right">About</a>
+                        <router-link to="/about" class="c_navigate_right">About</router-link>
                     </div>
                     <div v-else>
-                        <a href="/about" class="c_navigate_right" style="color:black">About</a>
+                        <router-link to="/about" class="c_navigate_right" style="color:black">About</router-link>
                     </div>
                 </div>
                 <div id="nav_button">
                     <div v-if="navigationActivate === 'active'">
-                        <a href="/contact" class="c_navigate_right">Contact</a>
+                        <router-link to="/contact" class="c_navigate_right">Contact</router-link>
                     </div>
                     <div v-else>
-                        <a href="/contact" class="c_navigate_right" style="color:black">Contact</a>
+                        <router-link to="/contact" class="c_navigate_right" style="color:black">Contact</router-link>
                     </div>
                 </div>
             </div>
             <div class="c_sideNav">
                 <div ref="sideNav" class="bm-menu">
                     <div id="sideNav_logo">
-                        <a href="/"><img alt="Vue logo" class="c_logo"
-                                         src="../../../public/assets/component/navigator/logo_color.svg"></a>
+                        <router-link to="/"><img alt="A2A Digital Logo" class="c_logo"
+                                         src="../../../public/assets/component/navigator/logo_color.svg"></router-link>
                         <div class="spacer"/>
                         <div id="bm_click">
                           <span class="bm-cross-button cross-style" @click="closeMenu" :class="{ hidden: !crossIcon }">
@@ -263,10 +263,10 @@
                                 </div>
                             </div>
                             <li class="bm_primary_scroller">
-                                <a href="/about" class="scroller_text"> <span>About</span></a>
+                                <router-link to="/about" class="scroller_text"> <span>About</span></router-link>
                             </li>
                             <li class="bm_primary_scroller">
-                                <a href="/contact" class="scroller_text"> <span>Contact</span></a>
+                                <router-link to="/contact" class="scroller_text"> <span>Contact</span></router-link>
                             </li>
                         </div>
                     </div>
