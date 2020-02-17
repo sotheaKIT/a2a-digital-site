@@ -1,16 +1,16 @@
-.l_profile-page{
+.l_profile-page {
     position: relative;
     height: 100%;
-    margin: auto 90px;   
+    margin: 90px 90px;
 }
 
-.l_profile__title{
-    font-size: 45px;
+.l_profile__title {
+    font-size: 22.5px;
     text-align: center;
 }
 
-.l_profile__subtitle{
-    font-size: 45px;   
+.l_profile__subtitle {
+    font-size: 22.5px;
     text-align: center;
 }
 
@@ -22,34 +22,42 @@
 
 .l_card_detail {
     margin: auto;
-    padding-bottom: 110px;
+    padding-bottom: 69px;
 }
 
 .c_cart__text {
-    width: 48%;
+    width: 58%;
     height: auto;
+}
+
+.c_cart__tex.text_right > p {
+    margin: 35px 0 0 0 !important;
 }
 
 .c_img_right {
     float: right;
-    width: 48%;
-}
-.c_img_left {
-    float: left;
-    width: 48%;
+    width: 38%;
 }
 
-.c_card__img{
-    width: 100%;
-    height: auto;
+.c_img_left {
+    float: left;
+    width: 38%;
+}
+
+.c_card__img {
     margin-top: 40px;
+    width: 100%;
+    height: 350px;
     box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.25);
     border-radius: 4px;
-    float: inherit;
+    float: left;
+    object-fit: cover;
 }
+
 .right {
-    margin-top: -100px;
+    margin-top: -120px;
 }
+
 .text_right {
     float: right;
 }
@@ -57,7 +65,7 @@
 .l_profile-page h2 {
     font-size: 35px;
     font-weight: bold;
-    color:#000000;
+    color: #000000;
 }
 
 .l_profile-page h3 {
@@ -65,72 +73,114 @@
     color: #847F7F;
 }
 
+.l_profile-page h4 {
+    width: 100px;
+    border-bottom: 1px solid #138690;
+    margin: 0 !important;
+}
+
 .l_profile-page p {
     font-size: 16px;
     color: #000000;
+    margin-top: 30px;
 }
 
+.float-right {
+    float: right;
+}
 
+/*.container {*/
+/*    width: 100%;*/
+/*    padding: 12px;*/
+/*    margin-right: auto;*/
+/*    margin-left: auto;*/
+/*}*/
+
+/*@media (min-width: 960px) {*/
+/*    .container {*/
+/*        max-width: 900px;*/
+/*    }*/
+/*}*/
+
+/*@media (min-width: 1264px) {*/
+/*    .container {*/
+/*        max-width: 1185px;*/
+/*    }*/
+/*}*/
+
+/*.container--fluid {*/
+/*    max-width: 100%;*/
+/*}*/
 
 @media screen and (max-width: 1024px) {
-    .l_profile__title{
+    .l_profile__title {
+        font-size: 16px;
+        text-align: center;
+    }
+
+    .l_profile__subtitle {
         font-size: 32px;
         text-align: center;
     }
-    .l_profile__subtitle{
-        font-size: 32px;   
-        text-align: center;
-    }
+
     .l_profile-page h2 {
         font-size: 25px;
     }
+
     .l_profile-page h3 {
         font-size: 14px;
     }
+
     .c_cart__text {
         width: 100%;
         height: auto;
     }
+
     .c_card__img {
-        margin: 20px 0px ;
+        margin: 30px 0 20px 0px;
+        height: auto;
     }
+
     .c_img_right {
         float: right;
         width: 100%;
     }
-    .right {
-        margin: 40px 0px;
-    }
+
     .c_img_left {
         float: left;
         width: 100%;
-    }    
+    }
+
+    .float-md-left {
+        float: left;
+    }
 }
 
 @media screen and (max-width: 768px) {
-    .l_profile-page{
-        margin: auto 20px;   
+    .l_profile-page {
+        /*margin: auto 20px;*/
     }
-    .l_profile__title{
-        font-size: 32px;
+
+    .l_profile__title {
+        font-size: 16px;
         text-align: center;
     }
-    .l_profile__subtitle{
-        font-size: 32px;   
-        text-align: center;
+
+    .l_profile__subtitle {
+        font-size: 16px;
     }
+
     .l_profile-page h2 {
         font-size: 25px;
     }
+
     .l_profile-page h3 {
         font-size: 12px;
     }
+
     .c_cart__text {
         width: 100%;
         height: auto;
         text-align: initial;
     }
 }
-
-
-

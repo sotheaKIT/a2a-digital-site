@@ -11,6 +11,7 @@
       {
         "title": "PWA Development",
         "question": "What is PWA?",
+        "shortDesc": "Make your website look and feel like a mobile app; switch to PWA",
         "description": "Progressive Web Apps are web applications that load in a web browser just like web pages or websites. It gives you a rich mobile experience via native-like functionalities such as the ability to work offline, push notifications, and device hardware accessibility. It feels like a native app and offers the same experience as a native one. there is no requirement for developers or users to install the web apps via digital distribution systems like Apple App Store or Google Play.. It loads, runs, and functions in a web browser.",
         "imagePath": "pwa.png"
       }

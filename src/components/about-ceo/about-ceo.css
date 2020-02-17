@@ -1,0 +1,46 @@
+#about-ceo {
+    padding-bottom: 50px;
+}
+
+#about-ceo > p {
+    margin-bottom: 30px;
+}
+
+p.quote {
+    font-size: 24px;
+    line-height: 29px;
+    color: #138690;
+}
+
+.ceo-img-1 {
+    float: right;
+    width: 40%;
+    border-radius: 4px;
+    margin: 0 0 25px 25px;
+    display: none;
+}
+
+.ceo-img-2 {
+    width: 100%;
+    border-radius: 4px;
+    margin-bottom: 30px;
+}
+
+/* ----------------------------------------------------mobile layout------------------------------------------ */
+@media (min-width: 960px) {
+    .ceo-img-1 {
+        display: block;
+    }
+
+    .ceo-img-2 {
+        display: none;
+    }
+
+    .md-visible {
+        visibility: visible;
+        display: block;
+    }
+}
+
+@media (min-width: 1264px) {
+}

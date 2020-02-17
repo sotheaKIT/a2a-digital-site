@@ -2,41 +2,51 @@
 <template src="./contact-form.html"></template>
 
 <script>
- 
-  export default {
+
+export default {
     name: 'ContactForm',
-    mounted() {
-            console.log('Component mounted.')
-    },
-        data() {
+ 
+    data() {
             return {
-              username: '',
+              name: '',
               email: '',
               country:'',
-              feedback: ''
+              formSubmitted: false,
+              Feedback: ''
             };
-        },
+    },
         
-        methods: {
-            formSubmit(e) {
-              
-                e.preventDefault();
-                let currentObj = this;
-                this.axios.post('http://172.16.0.64:4000/send-email', {
-                    username: this.username,
-                    email: this.email,
-                    feedback: this.feedback,
-                    country: this.country
-                })
-                .then(function (response) {
-                    currentObj.output = response.data;
-                })
-                .catch(function (error) {
-                    currentObj.output = error;
-                });
+    methods: {
+        validateBeforeSubmit() {
+            this.$validator.validateAll();
+
+            if (!this.errors.any()) {
+                this.submitForm()
             }
+      },
+        submitForm() {
+          
+            this.formSubmitted = true
+            let currentObj = this;
+            this.axios.post('http://172.20.10.14:4000/send-email', {
+                name: this.name,
+                email: this.email,
+                Feedback: this.Feedback,
+                country: this.country
+            })
+            .then(function (response) {
+                currentObj.output = response.data;
+                alert(currentObj.output)
+            })
+            .catch(function (error) {
+                currentObj.output = error;
+                alert(currentObj.output)              
+            });
         }
+    }
    
   }
 
+  
+  
 </script>

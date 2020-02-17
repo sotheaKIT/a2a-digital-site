@@ -2,6 +2,7 @@ body, html {
     margin: 0;
     padding: 0;
     overflow-inline: hidden;
+    overflow-x: hidden;
 }
 
 #app {
@@ -19,7 +20,7 @@ a {
 .l_container {
     margin: auto;
     width: 100%;
-    min-width: 320px;
+    min-width: 250px;
 }
 
 #contact-page {
@@ -35,8 +36,8 @@ ul {
     height: 100vh;
 }
 
-#services-page {
-    margin-top: 100px;
+#services-page, #solution-page {
+    margin-top: 70px;
 }
 
 .l_navigator {
@@ -48,12 +49,28 @@ ul {
     max-width: 100%;
 }
 
-@font-face {
-    font-family: SFProText-Bold;
-    src: url("../assets/fonts/sf-pro-display-bold-webfont.woff") format("woff");
+.container {
+    width: 100%;
+    padding: 0 15px;
+    margin-right: auto;
+    margin-left: auto;
 }
 
-@font-face {
-    font-family: SFProText-Regular;
-    src: url("../assets/fonts/sfprotext-regular-webfont.woff") format("woff");
+/* ----------------------------------------------------mobile layout------------------------------------------ */
+@media (min-width: 768px) {
+    .container {
+        max-width: 900px;
+        padding: 0 30px;
+    }
+}
+
+@media (min-width: 1264px) {
+    .container {
+        max-width: 1185px;
+        padding: 0;
+    }
+}
+
+.container--fluid {
+    max-width: 100%;
 }

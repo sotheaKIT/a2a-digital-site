@@ -1,4 +1,4 @@
-<style src="./jobcard.css" scope></style>
+<style src="./jobcard.css" scoped></style>
 <template src="./jobcard.html"></template>
 
 <script>

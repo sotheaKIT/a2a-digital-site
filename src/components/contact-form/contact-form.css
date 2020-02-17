@@ -94,11 +94,23 @@
     float: left;
     padding-top: 20px;
     color: #BABABA;
-    border-bottom: 1px solid #303030;
+}
+.text-danger {
+    color: red;
 }
 
 #c_form_username_mail {
     display: flex;
+}
+#c_form_username_mail1 {
+    display: flex;
+
+}
+
+.form-control{
+    border-bottom: 1px solid #303030;
+    border-radius: 0;
+
 }
 
 .c_form_mail {
@@ -109,7 +121,6 @@
     padding-top: 20px;
     color: #BABABA;
     float: left;
-    border-bottom: 1px solid #303030;
 }
 
 .c_form_country {
@@ -122,6 +133,15 @@
     border-bottom: 1px solid #303030;
 }
 
+.c_email__phone {
+    display: none;
+    flex-direction: column;
+    width: 100%;
+    padding-top: 20px;
+    color: #BABABA;
+    float: left;
+}
+
 .c_form_feedback {
     display: flex;
     flex-direction: column;
@@ -129,7 +149,14 @@
     padding-top: 20px;
     color: #BABABA;
     float: left;
-    border-bottom: 1px solid #303030;
+}
+#c_form_fb {
+   
+        resize: none; 
+        min-height: 110px;
+        outline: none;
+
+      
 }
 
 #input_username {
@@ -146,6 +173,7 @@
 }
 
 .submit_btn {
+    margin-top:10px;
     /* color: black; */
     padding: 20px 20px;
     cursor: pointer;
@@ -177,7 +205,9 @@ input {
     padding: 8px 1px;
     margin-top: 0.1em;
 }
-
+.form-label {
+    padding-bottom: 16px;
+}
 
 
 @media only screen and (max-width: 980px) {
@@ -198,7 +228,7 @@ input {
     }
 
     .c_information {
-        padding: 30px 110px;
+        padding: 100px 30px;
     }
     .c_map {
         padding: unset
@@ -208,7 +238,7 @@ input {
         /* overflow: hidden; */
         width: 100%;
         padding-top: 40px;
-        padding-left: 90px;
+        /* padding-left: 90px; */
     }
 
     #c_form_title {
@@ -227,9 +257,22 @@ input {
    
 }
 
+
+@media only screen and (max-width: 415px) {
+    .c_form_mail {
+        display: none;
+    }
+    .c_email {
+        display: inline;
+    }
+    .c_email__phone {
+        display: flex;
+    }
+}
+
 @media only screen and (max-width: 415px) {
     .c_information {
-        padding:unset;
+        padding: 100px 30px;
     }
     .infor_add {
         padding-left: 53px;  
@@ -252,10 +295,12 @@ input {
         float: left;
         padding-top: 20px;
         color: #BABABA;
-        border-bottom: 1px solid #303030;
     }
     
     #c_form_username_mail {
+        display: flex;
+    }
+    #c_form_username_mail1 {
         display: flex;
     }
 }

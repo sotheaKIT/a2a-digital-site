@@ -61,66 +61,72 @@
   <div id="c_form_right">
 
     <div id="c_form_title">
+
+      <form @submit.prevent="validateBeforeSubmit" v-if="!formSubmitted" v-else = "!formSubmitted">
+
       <div id="c_form_massage">
         <h1>Send Us A Message</h1>
       </div>  
-      <form @submit.prevent="formSubmit" enctype="" >
-        <div id="c_form_register"> 
-          
-            <div id="c_form_username_mail">
+      <div id="c_form_register"> 
 
-                <div class="c_form_username">
-                  <label for="username-login" class="form-label">Name*</label>
-                  <input class="c_form_input" type="text" v-model="username" >
-                </div>
-                <div class="c_form_mail">
-                  <label for="Mail" class="form-label">Email*</label>
-                  <input class="c_form_input" type="email" v-model="email">
-                </div>
-            </div> 
+        <div id="c_form_username_mail">
 
-            <div id="c_form_username_mail">
-                <div class="c_form_country">
-                  <label for="country" class="form-label">City, Country</label>
-                  <input class="c_form_input" type="text" v-model="country" >
-                </div>  
+            <div class="c_form_username">
+              <label for="username-login" class="form-label">Name*</label>             
+              <input v-model="name" v-validate.initial="name" data-rules="required|alpha_spaces|min:3" class="form-control" type="text" >
+              <p class="text-danger" v-if="errors.has('name')">{{ errors.first('name') }}</p>
+
             </div>
+            <div class="c_form_mail">
+              <label for="Mail" class="form-label">Email*</label>
+            <input v-model="email" v-validate.initial="email" data-rules="required|email" class="form-control" type="email" >
+            <p class="text-danger" v-if="errors.has('email')">{{ errors.first('email') }}</p>
+  
+          </div>
+        </div> 
+       
+        <div id="c_form_username_mail">
+          <div class="c_email__phone">
+            <label for="country" class="form-label">Email*</label>
+            <input v-model="email" v-validate.initial="email" data-rules="required|email" class="form-control" type="email" >
+            <p class="text-danger" v-if="errors.has('email')">{{ errors.first('email') }}</p>
 
-            <div id="c_form_username_mail">
-              <div class="c_form_feedback">
-                  <label for="country" class="form-label">How can we help you ?*</label>
-                  <input class="c_form_input" type="text" v-model="feedback" >
-              </div>  
-            </div>
+          </div>  
+        </div>
+        <div id="c_form_username_mail">
+            <div class="c_form_country">
+              <label for="country" class="form-label">City, Country</label>
+              <input id="c_form_input" type="text" name="country" >
+            </div>  
+        </div>
 
-            <div id="c_form_username_mail">
-                <div id="c_input_sumit">
-                  <button class="submit_btn">Get In Touch</button>          
-                </div>
+        <div id="c_form_username_mail">
+          <div class="c_form_feedback">
+              <label for="country" class="form-label">How can we help you ?*</label>
+              <textarea class="form-control vresize" id="c_form_fb" v-validate.initial="Feedback" data-rules="required|alpha_spaces|min:20"></textarea>
+              <p class="text-danger" v-if="errors.has('Feedback')">{{ errors.first('Feedback') }}</p>
+
+          </div>  
+        </div>
+
+        <div id="c_form_username_mail">
+            <div id="c_input_sumit">
+              <button class="btn btn-primary btn-block submit_btn" type="submit">Get In Touch</button>
             </div>
-        </div>  
+        </div>
+        
+     
+       
+      </div>  
+
       </form>
+      <div v-else>
+        
+        <h1 class="submitted">Form submitted successfully!</h1>
+      </div>
+
     </div>
   
   </div>
 
 </div>
-
-<!-- <form>
-  <div id="c_input_info">
-    <label for="fname">Name*</label>
-      <input type="text" id="fname" name="firstname" placeholder="______________________________">
-
-    <label for="email">Email*</label>
-      <input type="text" id="email" name="Email" placeholder="______________________________">
-  </div>
-  <div id="c_input_city">      
-    <label for="country">City, Country</label>
-      <input type="text" id="country" name="country" placeholder="______________________________">
-  </div>
-  <div id="c_input_sumit">
-  <label for="text">Subject</label>
-  <textarea id="subject" name="subject" placeholder="Write something.." style="height:30px"></textarea>
-  <input type="submit" value="Submit">
-  </div>
-</form> -->

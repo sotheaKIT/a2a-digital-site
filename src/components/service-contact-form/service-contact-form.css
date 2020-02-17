@@ -1,6 +1,9 @@
 .c_sevice_form_right{
     width: 100%;
 }
+.c_sevice_form_caption{
+    margin-bottom: 50px;
+}
 .c_sevice_form_caption h1{
     font-style: normal;
     font-weight: bold;
@@ -23,8 +26,7 @@
     margin: auto;
 }
 .c_sevice_form_username,.c_sevice_form_mail,.c_sevice_form_country,.c_sevice_form_feedback{
-    border-bottom: 1px solid #BABABA;
-    margin-bottom: 50px;
+    margin-bottom: 35px;
 }
 .c_sevice_form_username input,.c_sevice_form_mail input,.c_sevice_form_country input,.c_sevice_form_feedback input{
     /* background-color: violet; */
@@ -43,9 +45,23 @@
     outline: 0;
     font-size: 1em;
     padding: 8px 1px;
+    border-bottom: 1px solid #303030;
+
     margin-top: 0.1em;
 
 }
+.form-control
+{
+    width: 100%;
+}
+#c_form_fb {
+   
+    resize: none; 
+    min-height: 110px;
+    font-size : 16px;
+  
+}
+
 .c_input_sumit{
     box-sizing: border-box;
     border-radius: 4px;
@@ -54,12 +70,14 @@
     border: none;
 }
 .c_sevice_form_wrapper{
-    padding-bottom: 50px;
+   margin-top: 50px;
 }
-
+.vresize{
+    padding-top: 20px;
+}
 @media only screen and (max-width: 980px) {
     .c_sevice_form_wrapper{
-        padding-left: 25px;
-        padding-right: 25px;
+        margin-left: 20px;
+        margin-right: 20px;
     }
 }

@@ -10,7 +10,8 @@
     "header": [
       {
         "title": "Internet of Thing (IOT)",
-        "question": null,
+        "question": "What is Internet of Thing?",
+        "shortDesc": "Remote monitoring is the future and the future is here",
         "description": "Internet of Things is a system of interrelated computing devices, mechanical and digital machines, objects, animals or people that are provided with unique identifiers and the ability to transfer data over a network without requiring human-to-human or human-to-computer interaction. The interconnection via the Internet of computing devices embedded in everyday objects, enabling them to send and receive data. A thing in the internet of things can be a person with a heart monitor implant, a farm animal with biochip transponder, an automobile that has built-in sensors to alert the driver when tire pressure is low or any other natural or man-made object that can be assigned an IP address and is able to transfer data over a network.",
         "imagePath": "iot.svg"
       }
@@ -87,7 +88,7 @@
           {
             "imageUrls": [
               {
-                "imageUrl": "smart_lock/Smart_lock.png"
+                "imageUrl": "smart_locker/Smart_Locker.png"
               }
             ],
             "header": "Smart Locker",
@@ -96,7 +97,7 @@
           {
             "imageUrls": [
               {
-                "imageUrl": "smart_lock/Smart_lock.png"
+                "imageUrl": "home_smart_meter/Home_Smart_Meter.png"
               }
             ],
             "header": "Home Smart Meter",
