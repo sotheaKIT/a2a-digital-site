@@ -1,8 +1,8 @@
 body, html {
     margin: 0;
     padding: 0;
-    overflow-inline: hidden;
-    overflow-x: hidden;
+    /*overflow-inline: hidden;*/
+    /*overflow-x: hidden;*/
 }
 
 #app {
