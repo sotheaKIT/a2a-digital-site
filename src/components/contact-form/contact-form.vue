@@ -23,6 +23,7 @@ export default {
       },
     submitForm(){
       this.formSubmitted = true
+      this.$router.push('success')
     }
   }
   }
