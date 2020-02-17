@@ -9,7 +9,7 @@
  
 }
 
-.slide .l_contrainer {
+.l_contrainer {
     margin: 0 auto;
     max-width: 1185px;
     position: relative;
@@ -80,7 +80,20 @@
     line-height: 19px;
     color: #138690;
 } 
-
+@media only screen and (max-width: 1366px){
+    .l_contrainer{
+        padding: 0px 90px;
+    }
+}
+@media only screen and (max-width: 1024px){
+    .l_contrainer{
+        padding: 0px 30px;
+    }
+}@media only screen and (max-width: 719px){
+    .l_contrainer{
+        padding: 0px 15px;
+    }
+}
 @media only screen and (max-width: 980px) {
     .l_slide_info{
         margin-left: 16%;

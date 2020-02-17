@@ -27,7 +27,7 @@
 .l_solution__focus div.c_solution__section__text {
     float: none;
     width: 100%;
-    text-align: justify;
+    text-align: left;
 }
 
 .c_solution__section__artical {
