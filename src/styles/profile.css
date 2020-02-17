@@ -89,28 +89,28 @@
     float: right;
 }
 
-.container {
-    width: 100%;
-    padding: 12px;
-    margin-right: auto;
-    margin-left: auto;
-}
+/*.container {*/
+/*    width: 100%;*/
+/*    padding: 12px;*/
+/*    margin-right: auto;*/
+/*    margin-left: auto;*/
+/*}*/
 
-@media (min-width: 960px) {
-    .container {
-        max-width: 900px;
-    }
-}
+/*@media (min-width: 960px) {*/
+/*    .container {*/
+/*        max-width: 900px;*/
+/*    }*/
+/*}*/
 
-@media (min-width: 1264px) {
-    .container {
-        max-width: 1185px;
-    }
-}
+/*@media (min-width: 1264px) {*/
+/*    .container {*/
+/*        max-width: 1185px;*/
+/*    }*/
+/*}*/
 
-.container--fluid {
-    max-width: 100%;
-}
+/*.container--fluid {*/
+/*    max-width: 100%;*/
+/*}*/
 
 @media screen and (max-width: 1024px) {
     .l_profile__title {
