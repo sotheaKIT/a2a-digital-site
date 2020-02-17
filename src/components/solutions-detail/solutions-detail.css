@@ -20,11 +20,11 @@
      margin:0px;
     font-style: normal;
     font-weight: bold;
-    font-size: 24px;
+    font-size: 35px;
     line-height: 29px;
     color: #000000;
 }
-.focus div.c_solution__section__text {
+.l_solution__focus div.c_solution__section__text {
     float: none;
     width: 100%;
     text-align: justify;

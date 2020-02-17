@@ -1,4 +1,4 @@
-<template>
+<style scoped></style><template>
     <div id="error-page">
         <div class="l_error_page">
             <div class="c_right">
