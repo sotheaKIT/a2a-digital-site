@@ -5,7 +5,7 @@
     background-position: bottom left;
     float: left;
     width: 48%;
-    height: 100vh;
+    height: 110vh;
     margin-top: -70px;
     opacity: 0.9;
     background-image: url(../../../public/assets/component/contact-form/ce2119628556c4b51e118d287fad05c8.jpeg);
@@ -151,7 +151,7 @@
     float: left;
 }
 #c_form_fb {
-   
+        font-size: 1em;
         resize: none; 
         min-height: 110px;
         outline: none;
