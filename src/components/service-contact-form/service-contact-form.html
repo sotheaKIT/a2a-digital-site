@@ -29,7 +29,7 @@
         <div class="c_sevice_form_username_mail">
           <div class="c_sevice_form_feedback">
               <label for="country" class="sevice_form-label">How can we help you ?*</label>
-              <textarea class="form-control vresize c_sevice_form_input" id="c_form_fb" v-validate.initial="Feedback" data-rules="required|alpha_spaces|min:20"></textarea>
+              <textarea v-model="feedback" class="form-control vresize c_sevice_form_input" id="c_form_fb" v-validate.initial="Feedback" data-rules="required|alpha_spaces|min:20"></textarea>
               <p class="text-danger" v-if="errors.has('Feedback')">{{ errors.first('Feedback') }}</p>
 
           </div>  
