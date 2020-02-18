@@ -61,6 +61,12 @@ ul {
 }
 
 /* ----------------------------------------------------mobile layout------------------------------------------ */
+@media (min-width: 768px) {
+    .container {
+        max-width: 900px;
+        padding: 0 30px;
+    }
+}
 @media (min-width: 1264px) {
     .container {
         max-width: 1185px;
@@ -68,12 +74,6 @@ ul {
     }
 }
 
-@media (min-width: 768px) {
-    .container {
-        max-width: 900px;
-        padding: 0 30px;
-    }
-}
 
 .container--fluid {
     max-width: 100%;
