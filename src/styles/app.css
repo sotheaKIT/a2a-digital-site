@@ -40,8 +40,8 @@ ul {
     height: 100vh;
 }
 
-#services-page, #solution-detail {
-    padding-top: 70px;
+#services-page{
+    margin-top: 80px;
 }
 
 .l_navigator {

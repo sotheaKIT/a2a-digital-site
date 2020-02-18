@@ -22,7 +22,7 @@
 }
 .c_footer_service_float {
   float: left;
-  width: 25%;
+  width: 33.33%;
 }
 .c_footer_service_float ul {
   list-style: none;
@@ -146,6 +146,6 @@ li {
 @media only screen and (max-width: 480px){
   .c_footer_service_float ul
   {
-    max-width: 140px;
+    max-width: 40%;
   }
 }
