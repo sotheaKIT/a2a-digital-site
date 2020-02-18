@@ -21,13 +21,14 @@
     font-style: normal;
     font-weight: bold;
     font-size: 35px;
-    line-height: 29px;
+    line-height: 42px;
+    text-align: center;
     color: #000000;
 }
 .l_solution__focus div.c_solution__section__text {
     float: none;
     width: 100%;
-    text-align: justify;
+    text-align: left;
 }
 
 .c_solution__section__artical {
