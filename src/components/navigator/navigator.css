@@ -1,5 +1,4 @@
 /* default  (Navigation) */
-
 #navigation {
     position: fixed;
     top: 0;
@@ -45,7 +44,7 @@
 }
 
 #nav_right {
-    /*float: right;*/
+    /*cursor: pointer;*/
 }
 
 .c_search {
@@ -76,7 +75,6 @@
 .cross-style {
     top: 20px;
     right: 30px;
-    cursor: pointer;
 }
 
 .bm_icon_close {
@@ -144,7 +142,7 @@
     opacity: 0.9;
     min-width: 850px;
     box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
-    left: -300%;
+    left: -330px;
     top: 45px;
     background-color: #ffffff;
 
@@ -268,13 +266,21 @@
 }
 
 .bm_primary_scroller {
+    font-family: SFProText-Bold;
     font-size: 18px;
     padding: 13px 30px;
     min-width: 768px;
     list-style: none;
-    font-family: SFProText-Bold;
     color: #138690;
+}
 
+.bm_primary_scroller:hover {
+    background-color: #138690;
+    color: #ffffff;
+}
+
+.bm_primary_scroller:hover .scroller_text {
+    color: #ffffff;
 }
 
 .bm_ul {
@@ -288,9 +294,8 @@
 }
 
 #bm_click {
-    height: 60px;
-    float: right;
-    width: 80px;
+    height: 70px;
+    width: 70px;
     border-left: 1px solid #BDFFF0;
 }
 
@@ -342,7 +347,7 @@
     }
 
     .c_logo {
-        padding-left: 10px;
+        /*padding-left: 10px;*/
     }
 }
 
@@ -369,7 +374,7 @@
 
 #sideNav_logo {
     padding-left: 15px;
-    height: 60px;
+    height: 70px;
     border-bottom: 1px solid #BDFFF0;
 }
 
@@ -380,8 +385,6 @@
 @media only screen and (max-width: 980px) {
     #sideNav_logo {
         padding-left: 30px;
-        height: 60px;
-        border-bottom: 1px solid #BDFFF0;
     }
 
     #nav_only_button {

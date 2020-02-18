@@ -10,8 +10,7 @@
       <div class="l_section">
         <ContentCard/>
         <CardProduct :data="solutionTitle"/>
-
-        
+        <PartnersPage/>
       </div>
   </div>
 </template>
@@ -21,6 +20,7 @@
 import Slide from '../components/slide/slide.vue'
 import CardProduct from '../components/card-product/card-product.vue'
 import ContentCard from '../components/content-card/content-card.vue'
+import PartnersPage from  '../components/partner-page/partner-page.vue'
 
 
 export default {
@@ -29,6 +29,7 @@ export default {
     Slide,
     CardProduct,
     ContentCard,
+    PartnersPage
   },
     data() {
         return {
