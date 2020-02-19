@@ -5,15 +5,18 @@
     text-align: center;
 }
 .c_service__title h1{
+
     color: #303030;
     font-size: 35px;
     font-family: SFProText-Bold;
-    margin-bottom: -40px;
+    margin: 0px;
 }
 /*--------------------------------------- Card Format----------------------------------------------- */
 .l_card__text h1 {
     color: #303030;
-    font-size: 40px;
+    font-weight: bold;
+    font-size: 50px;
+    line-height: 60px;
     font-family: SFProText-Bold;
     margin: 0;
     margin-bottom: 12px;
@@ -27,7 +30,7 @@
 
 .c_card__service {
     width: 100%;
-    padding-top: 100px;
+    padding-top: 50px;
     display: flex;
     align-items: center;
     
@@ -97,9 +100,6 @@ section.c_card__service.txt_right {
 }
 
 @media only screen and ( max-width : 980px){
-    /* .l_article__wrapper {
-        width: 100%;
-    } */
     div.l_article__wrapper{
         width: 100%;
     }
@@ -137,10 +137,15 @@ section.c_card__service.txt_right {
     .l_card__text{
         width: 100%;
     }
+    .l_card__text h1 {
+        font-size: 35px;
+        line-height: 42px;
+    }
     
 }   
 @media only screen and (max-width: 414px){
     .l_card__text h1{
-        font-size: 25px;
+        font-size: 32px;
+        line-height: 38px;
     }
 }

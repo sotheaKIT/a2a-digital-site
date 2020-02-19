@@ -3,7 +3,8 @@
   margin-top: 80px;
   margin-left: auto;
   margin-right: auto;
-  width: 80%;
+  width: 70%;
+  
 }
 
 .l_partnerPage .l_head h1 {
@@ -23,7 +24,7 @@
 .l_groupPartners > img {
   width: 75%;
   height: 130px;
-  padding-right: 15%;
+  padding-left: 15%;
   padding-top: 30px;
 }
 
@@ -39,6 +40,7 @@
   }
 
   .l_groupPartners > img {
-    padding-right: 100px;
+    padding-left: 60px;
+    padding-top: 50px;
   }
 }

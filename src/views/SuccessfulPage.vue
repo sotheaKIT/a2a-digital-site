@@ -6,7 +6,7 @@
             </div>
             <div class="c_left">
                 <h1>Thank you</h1>
-                <h2>We will get back to you soon.</h2> 
+                <h2>We ill get back to you soon.</h2> 
             </div>
                    
         </div>
