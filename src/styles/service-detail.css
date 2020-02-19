@@ -116,9 +116,6 @@ q:after {
     content: close-quote;
 }
 
-#about-page {
-    padding-top: 120px;
-}
 
 .flex {
     display: flex;

@@ -8,14 +8,11 @@
         />
         <about-overview class="container"/>
         <about-ceo/>
-        <AboutCard></AboutCard>
-<!--        <AboutCarousel></AboutCarousel>-->
     </div>
 </template>
 
 <script>
 
-    import AboutCard from '../components/about-card/about-card.vue'
     import AboutOverview from "../components/about-overview/about-overview";
     import AboutCeo from "../components/about-ceo/about-ceo";
 
@@ -24,7 +21,6 @@
         components: {
             AboutCeo,
             AboutOverview,
-            AboutCard,
         },
         data() {
             return {

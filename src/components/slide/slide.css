@@ -71,6 +71,7 @@
 @media only screen and (max-width: 1366px){
     .l_contrainer{
         padding: 0px 90px;
+        top: 20%;
     }
 }
 @media only screen and (max-width: 1024px){
