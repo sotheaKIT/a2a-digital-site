@@ -25,8 +25,29 @@
 #nav_button {
     float: left;
     margin-right: 30px;
-    color: #ffffff;
+}
 
+#nav_button svg {
+    width: 10px;
+}
+
+#nav_button > div > a, svg path {
+    font-family: SFProText-Bold;
+    font-weight: normal;
+    color: #303030;
+}
+
+#nav_button svg > path {
+    fill: #303030;
+}
+
+#nav_button:hover > div > a {
+    font-weight: bold;
+    color: #A40505;
+}
+
+#nav_button:hover svg path {
+    fill: #A40505;
 }
 
 #nav_button:nth-last-child(1) {
@@ -39,10 +60,6 @@
 
 .spacer {
     flex-grow: 1 !important;
-}
-
-#nav_right {
-    /*cursor: pointer;*/
 }
 
 .c_search {
@@ -60,7 +77,6 @@
     text-decoration: none;
     font-size: 16px;
     color: white
-
 }
 
 .line-style {
@@ -85,19 +101,16 @@
     width: 20px;
 }
 
-/* .bm-cross-button.hidden {
-  display: none;
-} */
 .bm-menu {
-    height: 100%; /* 100% Full-height */
-    width: 0; /* 0 width - change this with JavaScript */
-    position: fixed; /* Stay in place */
-    z-index: 1000; /* Stay on top */
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1000;
     top: 0;
     left: 0;
-    background-color: white; /* Black*/
-    overflow-x: hidden; /*Disable horizontal scroll */
-    transition: 0.5s; /*0.5 second transition effect to slide in the sidenav*/
+    background-color: white;
+    overflow-x: hidden;
+    transition: 0.5s;
 }
 
 .bm-overlay {
@@ -133,22 +146,11 @@
     display: inline-block;
 }
 
-/*!* Dropdown Content (Hidden by Default) *!*/
-/*.dropdown-content {*/
-/*    display: none;*/
-/*    position: absolute;*/
-/*    opacity: 0.9;*/
-/*    min-width: 850px;*/
-/*    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);*/
-/*    left: -330px;*/
-/*    top: 45px;*/
-/*    background-color: #ffffff;*/
-
-/*}*/
-
 /* Links inside the dropdown */
 .dropdown-content a {
-    color: black;
+    font-family: SFProText-Bold;
+    font-weight: normal;
+    color: #303030;
     padding: 12px 16px;
     text-decoration: none;
     display: inline-block;
@@ -168,8 +170,10 @@
 }
 
 .dropdown-content a:hover {
+    font-family: SFProText-Bold;
+    font-weight: bold;
     color: #A40505;
-    border-left: #A40505 solid 2px;
+    border-left: #A40505 solid 3px;
 }
 
 /* Show the dropdown menu on hover */
@@ -324,15 +328,10 @@
 
     .bm-burger-button {
         display: unset;
-
         width: 25px;
         height: 12px;
-        /* left: 36px; */
-        /* top: 36px; */
         cursor: pointer;
     }
-
-
 }
 
 @media only screen and (max-width: 375px) {
@@ -343,10 +342,6 @@
         color: #138690;
 
     }
-
-    .c_logo {
-        /*padding-left: 10px;*/
-    }
 }
 
 .bm_ul {
@@ -356,7 +351,6 @@
 
 #slide_content {
     float: left;
-
 }
 
 #bm_click {
@@ -398,12 +392,9 @@
 }
 
 @media only screen and (min-width: 980px) {
-
     .bm-burger-button {
         display: none;
     }
-
-
 }
 
 @media only screen and (max-width: 375px) {
@@ -416,7 +407,6 @@
         padding: 13px 20px;
         font-family: SFProText-Bold;
         color: #138690;
-
     }
 }
 
@@ -438,23 +428,23 @@
 @media (min-width: 768px) {
     .content-service {
         min-width: 900px;
-        right: -285px;
+        right: -265px;
     }
 
     .content-solution {
         min-width: 900px;
-        right: -165px;
+        right: -158px;
     }
 }
 
 @media (min-width: 1264px) {
     .content-service {
         width: 1185px;
-        right: -285px;
+        right: -265px;
     }
 
     .content-solution {
         width: 1185px;
-        right: -165px;
+        right: -158px;
     }
 }
