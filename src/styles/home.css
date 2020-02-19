@@ -1,6 +1,7 @@
 .l_section {
   max-width: 1186px;
   margin: auto;
+  margin-top: 80px;
 
 }
 @media only screen and (max-width : 1186px){

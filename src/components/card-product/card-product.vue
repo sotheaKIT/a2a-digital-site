@@ -14,8 +14,7 @@
           slidesPerView: 4,
           slidesPerGroup: 4,
           // spaceBetween: 15,
-          loop: true,
-          cssMode: true,
+          
           freeMode: true,
           speed:1000,
           pagination: {
