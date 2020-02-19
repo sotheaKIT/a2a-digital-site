@@ -25,6 +25,7 @@ a {
     margin: auto;
     width: 100%;
     min-width: 250px;
+    margin-top: 70px;
 }
 
 #contact-page {
@@ -38,10 +39,6 @@ ul {
 
 #jobs-page {
     height: 100vh;
-}
-
-#services-page{
-    margin-top: 80px;
 }
 
 .l_navigator {
