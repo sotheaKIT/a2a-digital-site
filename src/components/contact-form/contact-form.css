@@ -156,6 +156,8 @@
         min-height: 110px;
         outline: none;
         font-size: 1em;
+        border: 1px solid #303030;
+    border-radius: 4px;
       
 }
 

@@ -19,9 +19,9 @@
                 color_click_product: '',
                 rotate_click_service: '',
                 rotate_click_product: '',
-                navigationActivate : "inactive",
-                activeColor : null,
-                activeShadow : null
+                navigationActivate: "inactive",
+                activeColor: null,
+                activeShadow: null
             };
         },
         props: {
@@ -70,12 +70,12 @@
         },
         methods: {
             handleScroll: function () {
-                    if (window.scrollY > 30) {
-                        this.navigationActivate = "inactive"
-                        this.activeColor = "white"
-                        this.activeShadow = "0px 4px 10px rgba(0, 0, 0, 0.1)"
-                    } 
-                 
+                if (window.scrollY > 30) {
+                    this.navigationActivate = "inactive"
+                    this.activeColor = "white"
+                    this.activeShadow = "0px 4px 10px rgba(0, 0, 0, 0.1)"
+                }
+
             },
             openMenu() {
                 this.$emit('openMenu');
@@ -120,7 +120,6 @@
                     this.color_click_serivce = '#FFFFFF'
 
                 } else if (e.target.id === 'slide_service' && this.styleCheck_service == 'block') {
-
                     this.styleCheck_service = 'none'
                     this.background_service = 'unset'
                     this.color_service = '#138690'
@@ -148,14 +147,27 @@
                     this.rotate_click_product = 'rotate(0)'
                     this.color_click_product = '#138690'
                 }
+                if ((e.target.id === 'slide_about' || e.target.id === 'slide_contact') && this.styleCheck_product == 'block') {
+                    this.styleCheck_product = 'none'
+                    this.background_product = 'unset'
+                    this.color_product = '#138690'
+                    this.rotate_click_product = 'rotate(0)'
+                    this.color_click_product = '#138690'
 
+                } else if ((e.target.id === 'slide_about' || e.target.id === 'slide_contact') && this.styleCheck_service == 'block') {
+                    this.styleCheck_service = 'none'
+                    this.background_service = 'unset'
+                    this.color_service = '#138690'
+                    this.color_click_serivce = '#138690'
+                    this.rotate_click_service = 'rotate(0)'
+                }
             },
 
         },
         mounted() {
             if (!this.disableEsc) {
                 document.addEventListener('keyup', this.closeMenuOnEsc);
-            } else { 
+            } else {
                 this.activeColor = "white"
             }
         },
