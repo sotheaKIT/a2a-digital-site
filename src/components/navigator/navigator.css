@@ -53,6 +53,10 @@
     margin-right: 0;
 }
 
+#slide_service, #slide_product {
+    cursor: pointer !important;
+}
+
 .c_logo {
     height: 25px;
 }
@@ -264,10 +268,10 @@
 }
 
 .bm_primary_scroller {
+    display: block;
     font-size: 18px;
     padding: 13px 30px;
     min-width: 768px;
-    list-style: none;
     color: #138690;
 }
 

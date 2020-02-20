@@ -2,11 +2,11 @@
     <div id="nav" class="container">
         <div v-if="navigationActivate === 'active'" id="nav_logo">
             <router-link to="/"><img alt="A2A Digital Logo" class="c_logo"
-                             src="../../../public/assets/component/navigator/logo_A2A.svg"></router-link>
+                                     src="../../../public/assets/component/navigator/logo_A2A.svg"></router-link>
         </div>
         <div v-else id="nav_logo">
             <router-link to="/"><img alt="A2A Digital Logo" class="c_logo"
-                             src="../../../public/assets/component/navigator/logo_color.svg"></router-link>
+                                     src="../../../public/assets/component/navigator/logo_color.svg"></router-link>
         </div>
         <div class="spacer"/>
         <div id="nav_right">
@@ -192,7 +192,8 @@
                         <a href="/"><img alt="A2A Digital Logo" class="c_logo"
                                          src="../../../public/assets/component/navigator/logo_color.svg"></a>
                         <div class="spacer"/>
-                        <div id="bm_click" class="bm-cross-button cross-style" @click="closeMenu" :class="{ hidden: !crossIcon }">
+                        <div id="bm_click" class="bm-cross-button cross-style" @click="closeMenu"
+                             :class="{ hidden: !crossIcon }">
                           <span>
                               <svg width="20" height="20" class="bm-close" viewBox="0 0 20 20" fill="none"
                                    xmlns="http://www.w3.org/2000/svg">
@@ -262,12 +263,8 @@
                                             :href="$router.resolve({ name: 'solutiondetail', params: { solution: 'ls' }}).href">Logistic System</a></span>
                                 </div>
                             </div>
-                            <li class="bm_primary_scroller">
-                                <a href="/about" class="scroller_text"> <span>About</span></a>
-                            </li>
-                            <li class="bm_primary_scroller">
-                                <a href="/contact" class="scroller_text"> <span>Contact</span></a>
-                            </li>
+                            <a href="/about" id="slide_about" class="bm_primary_scroller scroller_text"><span>About</span></a>
+                            <a href="/contact" id="slide_contact" class="bm_primary_scroller scroller_text"><span>Contact</span></a>
                         </div>
                     </div>
                 </div>
