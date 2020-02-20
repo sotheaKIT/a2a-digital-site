@@ -16,7 +16,6 @@
 }
 
 .l_ai_description__wrapper p {
-    font-family: SFProText-Regular;
     font-style: normal;
     font-weight: normal;
     font-size: 16px;
@@ -47,7 +46,6 @@
 }
 
 .l_ai__important__header h1 {
-    font-family: SFProText-Bold;
     font-style: normal;
     font-weight: bold;
     font-size: 35px;

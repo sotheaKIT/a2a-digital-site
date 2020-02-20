@@ -32,8 +32,7 @@
 }
 
 #nav_button > div > a, svg path {
-    font-family: SFProText-Bold;
-    font-weight: normal;
+    font-weight: bold;
     color: #303030;
 }
 
@@ -148,8 +147,7 @@
 
 /* Links inside the dropdown */
 .dropdown-content a {
-    font-family: SFProText-Bold;
-    font-weight: normal;
+    font-weight: bold;
     color: #303030;
     padding: 12px 16px;
     text-decoration: none;
@@ -170,7 +168,6 @@
 }
 
 .dropdown-content a:hover {
-    font-family: SFProText-Bold;
     font-weight: bold;
     color: #A40505;
     border-left: #A40505 solid 3px;
@@ -246,7 +243,6 @@
 }
 
 .bm_tree_submenu {
-    font-family: SFProText-regular;
     padding-top: 12px;
     text-decoration: none;
     color: #138690;
@@ -264,11 +260,10 @@
     text-decoration: none;
     color: #138690;
     font-size: 16px;
-    font-family: SFProText-Regular;
+
 }
 
 .bm_primary_scroller {
-    font-family: SFProText-Bold;
     font-size: 18px;
     padding: 13px 30px;
     min-width: 768px;
@@ -338,7 +333,7 @@
     .bm_primary_scroller {
         font-size: 18px;
         padding: 13px 30px;
-        font-family: SFProText-Bold;
+        font-weight: bold;
         color: #138690;
 
     }
@@ -405,7 +400,7 @@
     .bm_primary_scroller {
         font-size: 18px;
         padding: 13px 20px;
-        font-family: SFProText-Bold;
+        font-weight: bold;
         color: #138690;
     }
 }
@@ -413,7 +408,7 @@
 .dropdown-content {
     position: absolute;
     box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
-    top: 45px;
+    top: 44px;
     background-color: #ffffff;
     transform: scaleY(0);
     transform-origin: center top;

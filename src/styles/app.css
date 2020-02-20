@@ -5,14 +5,15 @@ body, html {
 }
 
 #app {
-    font-family: SFProText-Regular;
+    font-family:SFProText;
     background-color: #ffffff;
     color: #303030;
     margin: 0 auto;
 }
 
 h1 {
-    font-family:SFProText-Bold ;
+    font-weight: bold;
+    font-family: SFProText;
 }
 
 
