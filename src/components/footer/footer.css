@@ -144,6 +144,6 @@ li {
 @media only screen and (max-width: 480px){
   .c_footer_service_float ul
   {
-    max-width: 40%;
+    max-width: 95%;
   }
 }
