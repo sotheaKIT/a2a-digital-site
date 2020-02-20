@@ -7,7 +7,7 @@
             <div class="c_left">
                 <h1>404</h1>
                 <h2>This Page doesn't exist!</h2>
-                <p>The page you tring to access are not exist or has been removed.</p>
+                <p>TThe page you're trying to access is not exist or has been removed.</p>
                 <p>Try going back to our homepage</p>  
             </div>
                    
