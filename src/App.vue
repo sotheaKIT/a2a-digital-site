@@ -4,6 +4,7 @@
         <component class="l_navigator" :is="currentMenu" :right="side === 'right' ? true: false"></component>
         <div class="l_container">
             <router-view/>
+            <vue-progress-bar></vue-progress-bar>
         </div>
         <Footer/>
     </div>
@@ -20,9 +21,18 @@
                 currentMenu: 'slide'
             };
         },
+        mounted () {
+            //  [App.vue specific] When App.vue is finish loading finish the progress bar
+            this.$Progress.finish()
+        },
         components: {
             Footer,
             slide,
+        },
+        created () {
+            //  [App.vue specific] When App.vue is first loaded start the progress bar
+            this.$Progress.start()
+           
         }
     }
 </script>
