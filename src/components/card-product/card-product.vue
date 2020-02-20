@@ -13,9 +13,6 @@
           initialSlide: 0,
           slidesPerView: 4,
           slidesPerGroup: 4,
-          // spaceBetween: 15,
-          
-          freeMode: true,
           speed:1000,
           pagination: {
             el: '.swiper-pagination',
