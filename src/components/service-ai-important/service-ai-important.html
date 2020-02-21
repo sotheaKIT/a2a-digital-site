@@ -15,7 +15,7 @@
             </header>
             <article class="l_ai__impartant__wrapper">
                 <div class="l_important__img">
-                    <img :src="'../assets/component/service/' + route + '/business/' + business[1]['imageUrl']" alt="ai benefit for besiness">
+                    <img :src="'../assets/component/service/' + $route.params.service  + '/business/' + business[1]['imageUrl']" alt="ai benefit for besiness">
                 </div>
                 <div class="l_why__ai">
                     <ul v-for="businessList in business[1]['texts']">

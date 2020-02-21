@@ -76,5 +76,8 @@ export default new Router({
       component: SuccessfulPage
     },
 
-  ]
+  ],
+  scrollBehavior() {
+    window.scrollTo(0,0);
+  }
 })

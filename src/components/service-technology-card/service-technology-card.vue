@@ -5,16 +5,8 @@
     export default {
         name: 'ServiceTechnologyCard',
         props: {
-            tools: null
+            tools: null,
+            route : String
         },
-        data: function() {
-            return {
-                route : String 
-            }
-        },
-
-        created : function(){
-           this.route = this.$route.params.service 
-        }
     }
 </script>

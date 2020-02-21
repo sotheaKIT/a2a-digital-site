@@ -30,16 +30,10 @@
                         prevEl: '.swiper-button-prev'
                     }
                 },
-                
-                route : String 
             }
         },
         props: {
             results: null
         },
-        
-        created : function(){
-           this.route = this.$route.params.service 
-        }
     }
 </script>

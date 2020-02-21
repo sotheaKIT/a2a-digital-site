@@ -18,20 +18,20 @@
     "route" : "iot"
   },
   {
-    "title":"Cloud computing", 
-    "cotent":"Cloud computing is the delivery of computing services including servers, storage, databases, networking, software, analytics, and intelligence over the Internet. We provide migration plans, technical assistance and credits available to make it easy for clients. We give partners to grow their businesses leveraging with our service.", 
-    "src":"../assets/component/content-card/cloud-computing.jpg",
-    "css" : "c_card__service txt_left",
-    "animation" : "fade-left",
-    "route" : "cc"
-  },
-  {
     "title":"Blockchain", 
     "cotent":"Blockchain is important to developing countries like Cambodia, we help clients explore every aspect of blockchain and build tailored solutions designed to deliver value. Through architecture, digital design and development, we serve clients in quest for innovative blockchain solutions that are market-ready and address real business issues.", 
     "src":"../assets/component/content-card/blockchain.jpg",
-    "css" : "c_card__service txt_right",
+    "css" : "c_card__service txt_left",
     "animation" : "fade-right",
     "route" : "blockchain"
+  },
+  {
+    "title":"Cloud computing", 
+    "cotent":"Cloud computing is the delivery of computing services including servers, storage, databases, networking, software, analytics, and intelligence over the Internet. We provide migration plans, technical assistance and credits available to make it easy for clients. We give partners to grow their businesses leveraging with our service.", 
+    "src":"../assets/component/content-card/cloud-computing.jpg",
+    "css" : "c_card__service txt_right",
+    "animation" : "fade-left",
+    "route" : "cc"
   },
   {
     "title":"RPA Support", 

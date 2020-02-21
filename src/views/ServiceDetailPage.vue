@@ -60,7 +60,8 @@
             return {
                 service: String,
                 type: "service/service-content-",
-                route: String
+                data : null,
+                route : this.$route.params.service 
             }
         },
         computed: {
@@ -74,14 +75,21 @@
             this.actionDetailLoadContent(this.service)
         },
 
+        watch: {
+            '$route.params.service': function (service) {
+                this.route = this.$route.params.service 
+                this.service = this.type + service
+                this.actionDetailLoadContent(this.service)
+            }
+        },
+    
         methods: {
             ...mapActions({
                 actionDetailLoadContent: 'serviceDetailContent/load'
             }),
         },
         created() {
-            this.service = this.type + this.$route.params.service;
-            this.route = this.$route.params.service;
+            this.service = this.type + this.$route.params.service 
         },
     }
 </script>

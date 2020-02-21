@@ -8,7 +8,7 @@
                 <swiper :options="swiperOption">
                     <swiper-slide v-for="(image, id) in resultCard.imageUrls" :key="id">
                         <div class="c_img__container">
-                            <img :src="'../assets/component/service/' + route + '/results/' + image.imageUrl" alt="">
+                            <img :src="'../assets/component/service/' + $route.params.service+ '/results/' + image.imageUrl" alt="">
                         </div>
                     </swiper-slide>
                     <div class="swiper-pagination" slot="pagination"></div>

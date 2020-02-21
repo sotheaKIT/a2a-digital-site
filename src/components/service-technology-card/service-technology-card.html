@@ -6,7 +6,7 @@
         <div class="l_center">
             <div class="flex-item" v-for="toolcard in tool['cards']">
                 <div class="c_card__img">
-                    <img :src="'../assets/component/service/' + route + '/tools/' + toolcard.imageUrl">
+                    <img :src="'../assets/component/service/' + $route.params.service + '/tools/' + toolcard.imageUrl">
                 </div>
                 <div class="c_text_card">
                     <h1>{{toolcard['header']}}</h1>

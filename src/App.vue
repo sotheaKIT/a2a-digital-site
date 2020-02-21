@@ -29,9 +29,22 @@
             Footer,
             slide,
         },
-        created () {
+        created () { 
             //  [App.vue specific] When App.vue is first loaded start the progress bar
             this.$Progress.start()
+            this.$router.beforeEach((to, from, next) => {
+                if (to.meta.progress !== undefined) {
+                    let meta = to.meta.progress
+                    // parse meta tags
+                    this.$Progress.parseMeta(meta)
+                }
+                this.$Progress.start()
+                next()
+            });
+            this.$router.afterEach(() => {
+                this.$Progress.finish()
+            })
+
            
         }
     }
