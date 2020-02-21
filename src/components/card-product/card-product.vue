@@ -27,6 +27,7 @@
                             slidesPerView: 1.2,
                             slidesPerGroup: 1,
                             speed: 1000,
+                            navigation: false
                         },
                         720: {
                             slidesPerView: 2,
