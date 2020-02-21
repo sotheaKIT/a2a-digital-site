@@ -2,7 +2,7 @@
   <div data-aos="fade-up" data-aos-anchor-placement="center-bottom"  class="l_card_product">
       <h1>{{data}}</h1>
       <div class="c_card_product">
-        <swiper :options="swiperSlides">
+        <swiper :options="swiperSlides" style="padding: 5px">
             <swiper-slide>
                 <div class="c_card_detail">
                     <img class="c_img_product" alt="" src="../../../public/assets/component/card-product/security.svg">
@@ -100,7 +100,6 @@
                 </div>
             </swiper-slide>
             <div class="swiper-pagination" slot="pagination"></div>
-            
         </swiper>
         <div class="swiper-button-prev" slot="button-prev"></div>
         <div class="swiper-button-next" slot="button-next"></div>
