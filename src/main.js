@@ -11,9 +11,10 @@ import 'aos/dist/aos.css';
 import vueHeadful from 'vue-headful';
 import VeeValidate from 'vee-validate';
 import VueProgressBar from 'vue-progressbar'
+import './registerServiceWorker'
 
 
-
+// navigator.serviceWorker.register('../../src/registerServiceWork.js');
 const options = {
   color: '#138690',
   failedColor: '#874b4b',
