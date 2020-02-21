@@ -54,16 +54,10 @@ export default new Router({
       component: JobsSubmitPage
     },
     {
-      path: '*',
-      name: '404',
-      component: ErrorPage
-    },
-    {
       path: '/servicedetail/:service',
       name: 'servicedetail',
       component: ServiceDetailPage,
     },
-
     {
       path: '/profile',
       name: 'profile',
@@ -75,7 +69,12 @@ export default new Router({
       name: 'success',
       component: SuccessfulPage
     },
-
+    {
+      path: '*',
+      name: '404',
+      component: ErrorPage
+    },
+    
   ],
   scrollBehavior() {
     window.scrollTo(0,0);
