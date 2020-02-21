@@ -8,9 +8,9 @@
                             <h1>{{serviceContent.title}}</h1>
                             <p>{{serviceContent.cotent}} 
                             </p>
-                            <a :href="$router.resolve({ name: 'servicedetail', params: { service: serviceContent.route }}).href">Read More 
+                            <router-link :to="{ name: 'servicedetail', params: { service: serviceContent.route}}">Read More 
                                 <img src="../../../public/assets/component/content-card/Arrow-right.svg">
-                            </a>
+                            </router-link >
                         </article>
                 </div> 
                 <div class="l_card__img">

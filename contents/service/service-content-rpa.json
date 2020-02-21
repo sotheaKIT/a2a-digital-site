@@ -16,12 +16,7 @@
         "imagePath": "rpa.svg"
       }
     ],
-    "cards": [
-      {
-        "header": "How does it work?",
-        "description": "Using UiPath is basically equal to adopting robots that automate tasks that are repetitive and manual-rules-based. The integration of robots into your business doesn’t have to alter the legacy system. And interestingly, all of this is achievable at a low cost, much lower than the robots’ human equivalent. You will be surprised to know that it is possible to train UiPath robots. Plus, these robots can view the interface just as a human being can. So, in short, they can act as your employees’ assistants. They will collaborate with them in a way to benefit them immensely. An added benefit- you will get permanent reporting on the progress. Since the robots stay at the backdrop of the workstation on which your employees work, the latter can do their job in an unhindered way. As a result of all of this, the productivity of your employee’s increases. And the handling of call center, service desk, and help desk activities becomes less time-consuming."
-      }
-    ],
+   
     "compare": [
       {
         "header": null,

@@ -1,4 +1,4 @@
-<div  data-aos="zoom-in" class="c_service_work_card">
+<div class="c_service_work_card">
     <div class="c_service__section__header">
         <h1> {{results[0]['header']}}</h1>
     </div>
@@ -8,7 +8,7 @@
                 <swiper :options="swiperOption">
                     <swiper-slide v-for="(image, id) in resultCard.imageUrls" :key="id">
                         <div class="c_img__container">
-                            <img :src="'../assets/component/service/' + route + '/results/' + image.imageUrl" alt="">
+                            <img :src="'../assets/component/service/' + $route.params.service+ '/results/' + image.imageUrl" alt="">
                         </div>
                     </swiper-slide>
                     <div class="swiper-pagination" slot="pagination"></div>

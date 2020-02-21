@@ -56,6 +56,13 @@
         mounted: function () {
             this.actionDetailLoadContent(this.solution)
         },
+        watch: {
+            '$route.params.solution': function (solution) {
+                this.route = this.$route.params.solution 
+                this.solution = this.type + solution
+                this.actionDetailLoadContent(this.solution)
+            }
+        },
 
         methods: {
             ...mapActions({

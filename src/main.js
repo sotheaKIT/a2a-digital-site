@@ -21,7 +21,8 @@ const options = {
   thickness: '5px',
   autoRevert: true,
   location: 'top',
-  inverse: false
+  inverse: false,
+  autoFinish : true
 }
 
 Vue.config.productionTip = false
@@ -41,9 +42,7 @@ Vue.directive('scroll', {
   },
 });
 
-router.beforeEach((to, from, next) => {
-  next()
-});
+
 
 new Vue({
   router,
