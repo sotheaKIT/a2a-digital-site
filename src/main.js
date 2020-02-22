@@ -11,10 +11,11 @@ import 'aos/dist/aos.css';
 import vueHeadful from 'vue-headful';
 import VeeValidate from 'vee-validate';
 import VueProgressBar from 'vue-progressbar'
-import './registerServiceWorker'
+import '@/misc/register-service-worker'
+import '@/misc/handle-apple-install-prompt'
+import 'pwacompat'
 
 
-// navigator.serviceWorker.register('../../src/registerServiceWork.js');
 const options = {
   color: '#138690',
   failedColor: '#874b4b',
@@ -41,8 +42,6 @@ Vue.directive('scroll', {
     window.addEventListener('scroll', f);
   },
 });
-
-
 
 new Vue({
   router,
