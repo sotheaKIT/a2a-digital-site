@@ -17,8 +17,7 @@ self.addEventListener('install', event => {
             .then(() => {
                 if (DEBUG) {
                     console.log('Cached assets: main', assetsToCache)
-                }
-            })
+                }            })
             .catch(error => {
                 console.error(error)
                 throw error
