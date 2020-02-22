@@ -7,7 +7,7 @@ import ContactPage from './views/ContactPage.vue'
 import JobsPage  from './views/JobsPage.vue'
 import JobsPageDetail from './views/JobsPageDetail.vue'
 import JobsSubmitPage from './views/JobsSubmitPage.vue'
-import ErrorPage from './views/ErrorPage.vue'
+// import ErrorPage from './views/ErrorPage.vue'
 import ServiceDetailPage from './views/ServiceDetailPage.vue'
 import ProfilePage from './views/ProfilePage.vue'
 import SuccessfulPage from './views/SuccessfulPage.vue'
@@ -69,11 +69,11 @@ export default new Router({
       name: 'success',
       component: SuccessfulPage
     },
-    {
-      path: '*',
-      name: '404',
-      component: ErrorPage
-    },
+    // {
+    //   path: '*',
+    //   name: '404',
+    //   component: ErrorPage
+    // },
     
   ],
   scrollBehavior() {
