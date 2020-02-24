@@ -1,5 +1,5 @@
 
-import api from '../API/APIClient'
+import api from '../../API/APIClient'
 
 export const ServiceStore = {
   namespaced: true,

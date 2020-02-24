@@ -3,7 +3,7 @@ import App from './App.vue'
 import axios from 'axios'
 import VueAxios from 'vue-axios'
 import router from './router'
-import store from './store'
+import store from './stores'
 import VueAwesomeSwiper from 'vue-awesome-swiper'
 import 'swiper/dist/css/swiper.css'
 import AOS from 'aos';
