@@ -11,8 +11,8 @@
                 isSideBarOpen: false,
                 styleCheck_service: 'none',
                 styleCheck_product: 'none',
-                background_service: 'unset',
-                background_product: 'unset',
+                background_service: 'white',
+                background_product: 'white',
                 color_service: '',
                 color_product: '',
                 color_click_serivce: '',
@@ -72,7 +72,6 @@
             handleScroll: function () {
                 if (window.scrollY > 30) {
                     this.navigationActivate = "inactive"
-                    this.activeColor = "white"
                     this.activeShadow = "0px 4px 10px rgba(0, 0, 0, 0.1)"
                 }
 
@@ -111,7 +110,7 @@
                     this.styleCheck_service = 'block'
                     this.background_service = '#138690'
                     this.styleCheck_product = 'none'
-                    this.background_product = 'unset'
+                    this.background_product = '#FFFFFF'
                     this.color_service = '#FFFFFF'
                     this.color_product = '#138690'
                     this.color_click_product = '#138690'
@@ -121,7 +120,7 @@
 
                 } else if (e.target.id === 'slide_service' && this.styleCheck_service == 'block') {
                     this.styleCheck_service = 'none'
-                    this.background_service = 'unset'
+                    this.background_service = '#FFFFFF'
                     this.color_service = '#138690'
                     this.color_click_serivce = '#138690'
                     this.rotate_click_service = 'rotate(0)'
@@ -131,7 +130,7 @@
                     this.styleCheck_product = 'block'
                     this.background_product = '#138690'
                     this.styleCheck_service = 'none'
-                    this.background_service = 'unset'
+                    this.background_service = '#FFFFFF'
                     this.color_product = '#FFFFFF'
                     this.rotate_click_product = 'rotate(90deg)'
                     this.color_service = '#138690'
@@ -142,14 +141,14 @@
 
                 } else if (e.target.id === 'slide_product' && this.styleCheck_product == 'block') {
                     this.styleCheck_product = 'none'
-                    this.background_product = 'unset'
+                    this.background_product = '#FFFFFF'
                     this.color_product = '#138690'
                     this.rotate_click_product = 'rotate(0)'
                     this.color_click_product = '#138690'
                 }
                 if ((e.target.id === 'slide_about' || e.target.id === 'slide_contact') && this.styleCheck_product == 'block') {
                     this.styleCheck_product = 'none'
-                    this.background_product = 'unset'
+                    this.background_product = '#FFFFFF'
                     this.color_product = '#138690'
                     this.rotate_click_product = 'rotate(0)'
                     this.color_click_product = '#138690'
