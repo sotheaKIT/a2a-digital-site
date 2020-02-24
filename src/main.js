@@ -11,9 +11,7 @@ import 'aos/dist/aos.css';
 import vueHeadful from 'vue-headful';
 import VeeValidate from 'vee-validate';
 import VueProgressBar from 'vue-progressbar'
-import '@/misc/register-service-worker'
-import '@/misc/handle-apple-install-prompt'
-import 'pwacompat'
+
 
 
 const options = {
