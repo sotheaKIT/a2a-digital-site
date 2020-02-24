@@ -25,7 +25,7 @@
       {
         "component": [
           {
-            "imageUrl": "Oculus-go.svg",
+            "imageUrl": "Oculus-Go.svg",
             "title": "Oculus Go Development",
             "description": "The Oculus Go is a standalone virtual reality headset design for everyone. It doesn’t need to connect to anything. It is the third headset from Oculus, and it’s meant to exist between the phone-powered Samsung Gear VR and PC-powered Oculus Rift. We can develop VR application for Oculus Go by 3 platforms: Native Platform,Unreal Integration and Unity Integration "
           },
