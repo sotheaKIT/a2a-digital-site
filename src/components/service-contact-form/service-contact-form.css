@@ -1,4 +1,4 @@
-.c_sevice_form_right{
+.l_sevice_form_right{
     width: 100%;
 }
 .c_sevice_form_caption{
@@ -21,7 +21,7 @@
     text-align: center;
     color: #303030;
 }
-.c_sevice_form_register{
+.l_sevice_form_register{
     max-width: 563px;
     margin: auto;
 }
@@ -33,7 +33,7 @@
     margin: auto;
     width: 100%;
 }
-.sevice_form-label{
+.c_sevice_form-label{
     font-style: normal;
     font-weight: normal;
     font-size: 16px;
