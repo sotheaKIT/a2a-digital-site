@@ -3,7 +3,7 @@
     padding: 0 90px;
 }
 
-.c_jobspage_title {
+.l_jobspage_title {
     
    max-width: 1366px; 
     padding-top: 28px;
@@ -18,7 +18,7 @@
 #c_text {
     color: #138690;
 }
-#c_icon {
+#l_icon {
     width: 24px;
     height: 11px;
 }
