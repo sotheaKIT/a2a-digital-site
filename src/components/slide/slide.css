@@ -1,5 +1,5 @@
 /* Applying value to the slide div tage */
-.slide {
+.l_slide {
     background-image: url("../../../public/assets/component/slide/background-desktop.png") ;
     background-color:  #E8E8EA;
     height: 100vh;
@@ -43,7 +43,7 @@
     padding-top: 20px;
 }
 /* Set value to contact button tage */
-.c_slide__contactbtn{
+.l_slide__contactbtn{
    margin-left: auto;
    margin-right: auto;
     width: 250px;
@@ -53,7 +53,7 @@
     border-radius: 3px;
     margin-top: 35px;
 }
-.c_slide__contactbtn p{
+.l_slide__contactbtn p{
     font-style: normal;
     text-align: center;
     font-weight: 500;
