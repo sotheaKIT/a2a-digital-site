@@ -1,4 +1,4 @@
-.c_cloud__compare {
+.l_cloud__compare {
     max-width: 1185px;
     margin: 50px auto;
     display: block;
@@ -60,19 +60,19 @@
 }
 
 @media only screen and (max-width: 1366px) {
-    .c_cloud__compare {
+    .l_cloud__compare {
         padding-left: 90px;
         padding-right: 90px;
     }
   }
   @media only screen and (max-width: 1024px) {
-    .c_cloud__compare {
+    .l_cloud__compare {
       padding-left: 30px;
       padding-right: 30px;
     }
   }
   @media only screen and (max-width: 719px) {
-    .c_cloud__compare {
+    .l_cloud__compare {
       padding-left: 15px;
       padding-right: 15px;
     }
