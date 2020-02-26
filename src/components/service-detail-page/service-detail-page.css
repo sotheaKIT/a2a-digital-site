@@ -18,23 +18,23 @@
     margin: 0px;
     text-align: center;
 }
-.c_service__section___wrapper{
+.l_service__section___wrapper{
     width: 100%;
     background-color: #EEEEEE;
 }
-.c_service_content__header{
+.l_service_content__header{
     max-width: 1185px;
     margin-left: auto;
     margin-right: auto;
     padding:0px 13px;
 }
 
-.c_service__section__artical {
+.l_service__section__artical {
     padding: 30px 0px;
     display: flex;
     align-items: center;
 }
-.c_service__section__artical h2 {
+.l_service__section__artical h2 {
     font-style: normal;
     font-weight: bold;
     font-size: 24px;
@@ -43,53 +43,53 @@
     margin: 0;
     margin-bottom: 20px;
 }
-.c_service__section__text {
+.l_service__section__text {
     float: left;
     width: 85%;
 }
-.c_service__section__text p{
+.l_service__section__text p{
     width: 100%;
     margin:0px;
 }
-.c_service__section__img {
+.l_service__section__img {
     margin-left: auto;
     margin-right: auto;
     width: 15%;
     padding-left: 5%;
     float: left;
-}.c_service__section__artical img {
+}.l_service__section__artical img {
     width: 100%;
 }
 @media only screen and (max-width: 1366px){
-.c_service_content__header {
+.l_service_content__header {
     padding-left: 90px;
     padding-right: 90px;
 }
 }
 @media only screen and (max-width: 1024px) and (min-width: 720px){
-    .c_service_content__header{
+    .l_service_content__header{
         padding: 0px 30px;
     }
-    .c_service__section__text{
+    .l_service__section__text{
         width: 80%;
     }
-    .c_service__section__img{
+    .l_service__section__img{
         width: 20%;
         padding-left: 5%;
     }
 }
 @media only screen and (max-width: 719px) and (min-width: 250px){
-    .c_service_content__header{
+    .l_service_content__header{
         padding: 0px 15px;
     }
-    .c_service__section__artical{
+    .l_service__section__artical{
         display: block;
     }
-    .c_service__section__text{
+    .l_service__section__text{
         float: none;
         width: 100%;
     }
-    .c_service__section__img{
+    .l_service__section__img{
         padding-top: 30px;
         float: none;
         width: 39%;
