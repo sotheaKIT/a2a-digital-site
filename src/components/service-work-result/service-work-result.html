@@ -1,13 +1,13 @@
-<div class="c_service_work_card">
+<div class="l_service_work_card">
     <div class="c_service__section__header">
         <h1> {{results[0]['header']}}</h1>
     </div>
-    <div class="center">
-        <div class="flex-item" v-for="resultCard in results[1]['cards']">
-            <div class="c_img__card">
+    <div class="l_center">
+        <div class="l_flex-item" v-for="resultCard in results[1]['cards']">
+            <div class="l_img__card">
                 <swiper :options="swiperOption">
                     <swiper-slide v-for="(image, id) in resultCard.imageUrls" :key="id">
-                        <div class="c_img__container">
+                        <div class="l_img__container">
                             <img :src="'../assets/component/service/' + $route.params.service+ '/results/' + image.imageUrl" alt="">
                         </div>
                     </swiper-slide>
