@@ -1,4 +1,4 @@
-<div class="c_sevice_form_right">
+<div class="l_sevice_form_right">
 
   <div class="c_sevice_form_wrapper">
     <form @submit.prevent="validateBeforeSubmit" v-if="!formSubmitted">
@@ -7,12 +7,12 @@
       <h1>Send Us a Message</h1>
       <p>Please fill the form below to get in touch with us.</p>
     </div>  
-    <div class="c_sevice_form_register"> 
+    <div class="l_sevice_form_register"> 
 
       <div class="c_sevice_form_username_mail">
 
           <div class="c_sevice_form_username">
-            <label for="username-login" class="sevice_form-label">Name*</label>
+            <label for="username-login" class="c_sevice_form-label">Name*</label>
             <!-- <input class="c_sevice_form_input" type="text" name="username" > -->
             <input v-model="name" v-validate.initial="name" data-rules="required|alpha_spaces|min:3" class="form-control c_sevice_form_input" type="text" >
             <p class="text-danger" v-if="errors.has('name')">{{ errors.first('name') }}</p>
