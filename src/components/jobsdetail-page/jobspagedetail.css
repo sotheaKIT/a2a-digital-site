@@ -3,7 +3,7 @@
     padding: 0 90px;
 }
 
-.c_jobspage_title {
+.l_jobspage_title {
     margin-left: auto;
     margin-right: auto;
     max-width: 1366px;
@@ -22,7 +22,7 @@
     height: 10px;
     margin-left: 10px;
 }
-.c_jobspage_container {
+.l_jobspage_container {
     width: 100%;
     padding-top: 150px;
     content: "";
@@ -30,7 +30,7 @@
     clear: both;
     display: inline-flex;
 }
-.c_jobspage_detail__left {
+.l_jobspage_detail__left {
     float: left;
     width: 65%;
     padding-right: 22px;
@@ -58,7 +58,7 @@
     line-height: 19px;
     color: #303030;
 }
-.b_apply_now {
+.l_b_apply_now {
     width: 277.63px;
     height: 50px;
     background-color: #138690;
@@ -110,7 +110,7 @@
     display: flex;
 }
 
-.c_icon__media {
+.l_icon__media {
     width: 40px;
     height: 40px;
     border-radius: 4px;
@@ -130,7 +130,7 @@
     margin: 0 auto;
     
 }
-.c_location {
+.l_location {
     width: auto;
     height: 350px;
 }
@@ -140,7 +140,7 @@
 
         padding: 0 20px;
     }
-    .c_jobspage_detail__left {
+    .l_jobspage_detail__left {
         width: 100%;
         border: none;
         padding-right: 0;
@@ -157,7 +157,7 @@
         border-radius: 4px;
         box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
     }
-    .b_apply_now {
+    .l_b_apply_now {
        display: block;
        margin: 0 auto;
     }
@@ -169,15 +169,15 @@
     .c_apply__right {
         display: none;
     }
-    .c_location {
+    .l_location {
         width: auto;
     }
-    .c_jobspage_container {
+    .l_jobspage_container {
         padding-top: 50px;
     }
 }
 @media screen and (max-width : 375px){
-    .c_jobspage_detail__left {
+    .l_jobspage_detail__left {
         width: 100%;
         border: none;
     }
@@ -193,7 +193,7 @@
         border-radius: 4px;
         box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
     }
-    .b_apply_now {
+    .l_b_apply_now {
        display: block;
        margin: 0 auto;
        width: 50%;
@@ -206,11 +206,11 @@
     .c_apply__right {
         display: none;
     }
-    .c_location {
+    .l_location {
         width: 250px;
         height: auto;
     }
-    .c_jobspage_container {
+    .l_jobspage_container {
         padding-top: 50px;
     }
 }
