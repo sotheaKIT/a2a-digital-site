@@ -14,24 +14,24 @@
    opacity: 0.5;
 }
 
-.c_jobform_col_25{
+.l_jobform_col_25{
     float: left;
     width: 25%;
     margin-top: 20px;
     margin-left: 50px;
 }
 
-.c_jobform_col_100 {
+.l_jobform_col_100 {
     display: flex;
     justify-content: center;
     width: 100%;
 }
 
-.c_jobform_col_25 > h2 {
+.l_jobform_col_25 > h2 {
     font-size: 20px;
 }
 
-.c_jobform_col_25 > label{
+.l_jobform_col_25 > label{
     font-style: normal;
     font-size: 16px;
     font-weight: bold;
@@ -39,7 +39,7 @@
     display: inline-block;
 }
 
-.c_jobform_col_25 > button {
+.l_jobform_col_25 > button {
     border-radius: 4px;
     background-color: #E6F0F6;
     box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.25);
@@ -52,7 +52,7 @@
     text-align: center;
 }
 
-.c_jobform_col_25 > textarea {
+.l_jobform_col_25 > textarea {
     resize: none;
     border-radius: 4px;
     border: 1px solid #BCCDD7;
@@ -65,7 +65,7 @@
     font-size: 16px;
 }
 
-.c_jobform_noted {
+.l_jobform_noted {
    width: 280px;
    margin-left: 20px;
 }
@@ -74,14 +74,14 @@
     color: red;
 }
 
-.c_jobform_col_25 > input[type=text] {
+.l_jobform_col_25 > input[type=text] {
     width: 400px;
     padding: 12px;
     border: 1px solid #BCCDD7;
     border-radius: 4px;
     resize: vertical;
 }
-.c_jobform_col_100 > input[type=submit] {
+.l_jobform_col_100 > input[type=submit] {
     background-color: #138690;
     color: white;
     text-align: center;
@@ -100,7 +100,7 @@
 }
 
 @media screen and (max-width: 768px) {
-  .c_jobform_col_25,.c_jobform_col_100, textarea, input[type=submit], input[type=text], .label {
+  .l_jobform_col_25,.l_jobform_col_100, textarea, input[type=submit], input[type=text], .label {
     width: 100%;
     margin-top: 0;
     margin-left: 0;
