@@ -57,7 +57,7 @@
     cursor: pointer !important;
 }
 
-.c_logo {
+.l_logo {
     height: 25px;
 }
 
@@ -89,7 +89,7 @@
     right: 0;
 }
 
-.cross-style {
+.l_cross-style {
     top: 20px;
     right: 30px;
 }
@@ -99,12 +99,12 @@
     height: 20px;
 }
 
-.bm-cross-button {
+.l_bm-cross-button {
     height: 20px;
     width: 20px;
 }
 
-.bm-menu {
+.l_bm-menu {
     height: 100%;
     width: 0;
     position: fixed;
@@ -120,13 +120,13 @@
     background: rgba(0, 0, 0, 0.3);
 }
 
-.slide_product {
+.c_slide_product {
     padding: 25px 30px;
     font-size: 18px;
     color: #138690;
 }
 
-.dropbtn {
+.c_dropbtn {
     border-radius: 4px;
     font-size: 16px;
     border: none;
@@ -134,7 +134,7 @@
     text-decoration: none;
 }
 
-.dropbtn:hover {
+.c_dropbtn:hover {
     padding-top: 20px;
     padding-bottom: 23px;
 }
@@ -150,7 +150,7 @@
 }
 
 /* Links inside the dropdown */
-.dropdown-content a {
+.c_dropdown-content a {
     font-weight: bold;
     color: #303030;
     padding: 12px 16px;
@@ -159,7 +159,7 @@
 }
 
 /* Change color of dropdown links on hover */
-.dropdown-content .dropbtn:hover {
+.c_dropdown-content .dropbtn:hover {
     background-color: black;
 }
 
@@ -171,7 +171,7 @@
     fill: #ffffff;
 }
 
-.dropdown-content a:hover {
+.c_dropdown-content a:hover {
     font-weight: bold;
     color: #A40505;
     border-left: #A40505 solid 3px;
@@ -188,22 +188,22 @@
     color: #A40505;
 }
 
-.drp1 {
+.l_drp1 {
     display: inline-flex;
     width: 30%;
 }
 
-.drp2 {
+.l_drp2 {
     width: 30%;
     float: left;
 }
 
-.drp3 {
+.l_drp3 {
     width: 30%;
     float: left;
 }
 
-.drp3 {
+.l_drp3 {
     width: 30%;
     float: left;
 }
@@ -216,12 +216,12 @@
 
 }
 
-.bm_list_down {
+.c_bm_list_down {
     position: absolute;
     right: 35px;
 }
 
-.scroller_text {
+.c_scroller_text {
     text-decoration: none;
     font-size: 18px;
     color: #138690;
@@ -231,7 +231,7 @@
     display: none;
 }
 
-.bm_tree__product {
+.l_bm_tree__product {
     display: none;
     width: 100%;
     float: left;
@@ -239,14 +239,14 @@
 
 }
 
-.bm_tree__service {
+.l_bm_tree__service {
     display: none;
     width: 100%;
     float: left;
     padding: 15px;
 }
 
-.bm_tree_submenu {
+.c_bm_tree_submenu {
     padding-top: 12px;
     text-decoration: none;
     color: #138690;
@@ -255,7 +255,7 @@
 
 }
 
-.bm_tree_submenu a {
+.c_bm_tree_submenu a {
     color: #138690;
 
 }
@@ -267,7 +267,7 @@
 
 }
 
-.bm_primary_scroller {
+.l_bm_primary_scroller {
     display: block;
     font-size: 18px;
     padding: 13px 30px;
@@ -275,16 +275,16 @@
     color: #138690;
 }
 
-.bm_primary_scroller:hover {
+.l_bm_primary_scroller:hover {
     background-color: #138690;
     color: #ffffff;
 }
 
-.bm_primary_scroller:hover .scroller_text {
+.l_bm_primary_scroller:hover .scroller_text {
     color: #ffffff;
 }
 
-.bm_ul {
+.c_bm_ul {
     padding: unset;
     margin: unset;
 }
@@ -300,7 +300,7 @@
     border-left: 1px solid #BDFFF0;
 }
 
-.bm-close {
+.c_bm-close {
     margin: 20px 30px;
 }
 
@@ -325,7 +325,7 @@
         display: none;
     }
 
-    .bm-burger-button {
+    .l_bm-burger-button {
         display: unset;
         width: 25px;
         height: 12px;
@@ -334,7 +334,7 @@
 }
 
 @media only screen and (max-width: 375px) {
-    .bm_primary_scroller {
+    .l_bm_primary_scroller {
         font-size: 18px;
         padding: 13px 30px;
         font-weight: bold;
@@ -343,7 +343,7 @@
     }
 }
 
-.bm_ul {
+.c_bm_ul {
     margin: unset;
 }
 
@@ -359,7 +359,7 @@
     border-left: 1px solid #BDFFF0;
 }
 
-.bm-close {
+.c_bm-close {
     margin: 20px 30px;
 }
 
@@ -382,7 +382,7 @@
         display: none;
     }
 
-    .bm-burger-button {
+    .l_bm-burger-button {
         display: unset;
         width: 25px;
         height: 12px;
@@ -391,7 +391,7 @@
 }
 
 @media only screen and (min-width: 980px) {
-    .bm-burger-button {
+    .l_bm-burger-button {
         display: none;
     }
 }
@@ -401,7 +401,7 @@
         width: 100%;
     }
 
-    .bm_primary_scroller {
+    .l_bm_primary_scroller {
         font-size: 18px;
         padding: 13px 20px;
         font-weight: bold;
@@ -425,24 +425,24 @@
 }
 
 @media (min-width: 768px) {
-    .content-service {
+    .l_content-service {
         min-width: 900px;
         right: -265px;
     }
 
-    .content-solution {
+    .l_content-solution {
         min-width: 900px;
         right: -158px;
     }
 }
 
 @media (min-width: 1264px) {
-    .content-service {
+    .l_content-service {
         width: 1185px;
         right: -265px;
     }
 
-    .content-solution {
+    .l_content-solution {
         width: 1185px;
         right: -158px;
     }
