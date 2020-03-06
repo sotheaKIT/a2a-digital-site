@@ -71,20 +71,20 @@ div .c_profile__card__container div.l_profile__card__center {
     fill: white;
 }
 
-.l_card__about .c_profile__card__caption {
+.l_card__about .l_profile__card__caption {
     width: 100%;
     padding: 30px 30px;
     line-height: 19px;
 }
 
-.c_profile__card__img {
+.l_profile__card__img {
     display: block;
     position: relative;
     overflow: hidden;
     margin-bottom: -5px;
 }
 
-.c_profile__card__img img {
+.l_profile__card__img img {
     width: 100%;
     height: 300px;
     object-fit: cover;
@@ -144,7 +144,7 @@ div .c_profile__card__container div.l_profile__card__center {
 }
 
 @media only screen and (max-width: 980px) {
-    .c_profile__card__img img {
+    .l_profile__card__img img {
         height: 300px;
     }
 }
