@@ -1,11 +1,11 @@
 <div v-scroll="handleScroll" id="navigation" v-bind:style="{ background: activeColor,  boxShadow: activeShadow}">
     <div id="nav" class="container">
         <div v-if="navigationActivate === 'active'" id="nav_logo">
-            <router-link to="/"><img alt="A2A Digital Logo" class="c_logo"
+            <router-link to="/"><img alt="A2A Digital Logo" class="l_logo"
                                      src="../../../public/assets/component/navigator/logo_A2A.svg"></router-link>
         </div>
         <div v-else id="nav_logo">
-            <router-link to="/"><img alt="A2A Digital Logo" class="c_logo"
+            <router-link to="/"><img alt="A2A Digital Logo" class="l_logo"
                                      src="../../../public/assets/component/navigator/logo_color.svg"></router-link>
         </div>
         <div class="spacer"/>
@@ -13,7 +13,7 @@
             <div id="nav_only_button">
                 <div class="dropdown" id="nav_button">
                     <div v-if="navigationActivate === 'active'">
-                        <a class="dropbtn c_navigate_right">Services
+                        <a class="c_dropbtn c_navigate_right">Services
                             <svg class="c_dropdown" width="14" height="9" viewBox="0 0 14 9" fill="none"
                                  xmlns="http://www.w3.org/2000/svg">
                                 <path d="M11.873 0L6.73 5.143L1.587 0L0 1.587L6.73 8.317L13.46 1.587L11.873 0Z"
@@ -22,7 +22,7 @@
                         </a>
                     </div>
                     <div v-else>
-                        <a class="dropbtn c_navigate_right"> Services
+                        <a class="c_dropbtn c_navigate_right"> Services
                             <svg class="c_dropdown" width="14" height="9" viewBox="0 0 14 9" fill="none"
                                  xmlns="http://www.w3.org/2000/svg">
                                 <path d="M11.873 0L6.73 5.143L1.587 0L0 1.587L6.73 8.317L13.46 1.587L11.873 0Z"
@@ -30,8 +30,8 @@
                             </svg>
                         </a>
                     </div>
-                    <div class="dropdown-content content-service">
-                        <div class="drp1">
+                    <div class="dropdown-content l_content-service">
+                        <div class="l_drp1">
                             <ul>
                                 <li>
                                     <router-link :to="{ name: 'servicedetail', params: { service: 'ai' }}">AI Development</router-link>
@@ -47,7 +47,7 @@
                                 </li>
                             </ul>
                         </div>
-                        <div class="drp2">
+                        <div class="l_drp2">
                             <ul>
                                 <li>
                                     <router-link :to="{ name: 'servicedetail', params: { service: 'rpa' }}">RPA Support</router-link>
@@ -63,7 +63,7 @@
                                 </li>
                             </ul>
                         </div>
-                        <div class="drp2">
+                        <div class="l_drp2">
                             <ul>
                                 <li>
                                     <router-link :to="{ name: 'servicedetail', params: { service: 'marketing' }}">  Digital Marketing</router-link>
@@ -77,7 +77,7 @@
                 </div>
                 <div class="dropdown" id="nav_button">
                     <div v-if="navigationActivate === 'active'">
-                        <a class="dropbtn c_navigate_right">Solutions
+                        <a class="c_dropbtn c_navigate_right">Solutions
                             <svg class="c_dropdown" width="14" height="9" viewBox="0 0 14 9" fill="none"
                                  xmlns="http://www.w3.org/2000/svg">
                                 <path d="M11.873 0L6.73 5.143L1.587 0L0 1.587L6.73 8.317L13.46 1.587L11.873 0Z"
@@ -86,7 +86,7 @@
                         </a>
                     </div>
                     <div v-else>
-                        <a class="dropbtn c_navigate_right">Solutions
+                        <a class="c_dropbtn c_navigate_right">Solutions
                             <svg class="c_dropdown" width="14" height="9" viewBox="0 0 14 9" fill="none"
                                  xmlns="http://www.w3.org/2000/svg">
                                 <path d="M11.873 0L6.73 5.143L1.587 0L0 1.587L6.73 8.317L13.46 1.587L11.873 0Z"
@@ -94,8 +94,8 @@
                             </svg>
                         </a>
                     </div>
-                    <div class="dropdown-content content-solution">
-                        <div class="drp1">
+                    <div class="c_dropdown-content l_content-solution">
+                        <div class="l_drp1">
                             <ul>
                                 <li>
                                     <router-link :to="{ name: 'solutiondetail', params: { solution: 'security' }}">  Security System</router-link>
@@ -108,7 +108,7 @@
                                 </li>
                             </ul>
                         </div>
-                        <div class="drp2">
+                        <div class="l_drp2">
                             <ul>
                                 <li>
                                     <router-link :to="{ name: 'solutiondetail', params: { solution: 'hrm' }}">  Human Resource Management</router-link>
@@ -121,7 +121,7 @@
                                 </li>
                             </ul>
                         </div>
-                        <div class="drp2">
+                        <div class="l_drp2">
                             <ul>
                                 <li>
                                     <router-link :to="{ name: 'solutiondetail', params: { solution: 'mapping' }}">   Projection Mapping</router-link>
@@ -151,15 +151,15 @@
                 </div>
             </div>
             <div class="c_sideNav">
-                <div ref="sideNav" class="bm-menu">
+                <div ref="sideNav" class="l_bm-menu">
                     <div id="sideNav_logo">
                         <a href="/"><img alt="A2A Digital Logo" class="c_logo"
                                          src="../../../public/assets/component/navigator/logo_color.svg"></a>
                         <div class="spacer"/>
-                        <div id="bm_click" class="bm-cross-button cross-style" @click="closeMenu"
+                        <div id="bm_click" class="l_bm-cross-button l_cross-style" @click="closeMenu"
                              :class="{ hidden: !crossIcon }">
                           <span>
-                              <svg width="20" height="20" class="bm-close" viewBox="0 0 20 20" fill="none"
+                              <svg width="20" height="20" class="c_bm-close" viewBox="0 0 20 20" fill="none"
                                    xmlns="http://www.w3.org/2000/svg">
                                 <path d="M11.4887 10.001L19.6917 1.79796C20.1028 1.38686 20.1028 0.720381 19.6917 0.309327C19.2806 -0.101766 18.6141 -0.101766 18.2031 0.309327L9.99998 8.51236L1.79695 0.309327C1.38586 -0.101766 0.719374 -0.101766 0.30832 0.309327C-0.102734 0.72042 -0.102773 1.3869 0.30832 1.79796L8.51135 10.001L0.30832 18.204C-0.102773 18.6151 -0.102773 19.2816 0.30832 19.6926C0.719413 20.1037 1.3859 20.1037 1.79695 19.6926L9.99998 11.4896L18.203 19.6926C18.6141 20.1037 19.2806 20.1037 19.6916 19.6926C20.1027 19.2816 20.1027 18.6151 19.6916 18.204L11.4887 10.001Z"
                                       fill="#138690"/>
@@ -168,55 +168,55 @@
                         </div>
                     </div>
                     <div id="bm_nav_scroller">
-                        <div class="bm_ul">
-                            <div id="slide_service" class="bm_primary_scroller"
+                        <div class="c_bm_ul">
+                            <div id="slide_service" class="l_bm_primary_scroller"
                                  v-bind:style="{background: background_service, color: color_service}">
                                 Services
-                                <svg class="bm_list_down" width="9" height="17" viewBox="0 0 9 17" fill="#138690"
+                                <svg class="c_bm_list_down" width="9" height="17" viewBox="0 0 9 17" fill="#138690"
                                      xmlns="http://www.w3.org/2000/svg"
                                      v-bind:style="{fill: color_click_serivce, transform:rotate_click_service}">
                                     <path d="M8.65039 8.74568L0.860939 16.8937C0.791212 16.9668 0.698244 17.0033 0.605276 17.0033C0.515626 17.0033 0.429298 16.9701 0.359571 16.9037C0.220118 16.7676 0.213478 16.5451 0.349611 16.4023L7.90664 8.49998L0.349609 0.597635C0.213476 0.458182 0.216797 0.2324 0.35957 0.0995878C0.502343 -0.0365449 0.724805 -0.0299043 0.860937 0.109549L8.65039 8.25427C8.7832 8.39041 8.7832 8.60623 8.65039 8.74568Z"/>
                                 </svg>
-                                <div @click="closeMenu" class="bm_tree__service" v-bind:style="{ display: styleCheck_service }">
-                                    <span  class="bm_tree_submenu"><router-link :to="{ name: 'servicedetail', params: { service: 'ai' }}">AI Development</router-link></span>
-                                    <span  class="bm_tree_submenu"><router-link :to="{ name: 'servicedetail', params: { service: 'iot' }}">IOT Development</router-link></span>
-                                    <span  class="bm_tree_submenu"><router-link :to="{ name: 'servicedetail', params: { service: 'blockchain' }}"> Blockchain Development</router-link></span>
-                                    <span  class="bm_tree_submenu"><router-link :to="{ name: 'servicedetail', params: { service: 'cc' }}"> Cloud Computing</router-link></span>
-                                    <span  class="bm_tree_submenu"> <router-link :to="{ name: 'servicedetail', params: { service: 'rpa' }}"> RPA Support</router-link></span>
-                                    <span  class="bm_tree_submenu"> <router-link :to="{ name: 'servicedetail', params: { service: 'pwa' }}">  PWA Development</router-link></span>
-                                    <span  class="bm_tree_submenu"><router-link :to="{ name: 'servicedetail', params: { service: 'arvr' }}"> VR/AR Development</router-link></span>
-                                    <span  class="bm_tree_submenu"> <router-link :to="{ name: 'servicedetail', params: { service: 'odoo' }}"> Odoo ERP custormize</router-link></span>
-                                    <span  class="bm_tree_submenu"><router-link :to="{ name: 'servicedetail', params: { service: 'marketing' }}">  Digital Marketing</router-link></span>
-                                    <span  class="bm_tree_submenu"><router-link :to="{ name: 'servicedetail', params: { service: 'cybersecurity' }}"> Cyber Security</router-link></span>
+                                <div @click="closeMenu" class="l_bm_tree__service" v-bind:style="{ display: styleCheck_service }">
+                                    <span  class="c_bm_tree_submenu"><router-link :to="{ name: 'servicedetail', params: { service: 'ai' }}">AI Development</router-link></span>
+                                    <span  class="c_bm_tree_submenu"><router-link :to="{ name: 'servicedetail', params: { service: 'iot' }}">IOT Development</router-link></span>
+                                    <span  class="c_bm_tree_submenu"><router-link :to="{ name: 'servicedetail', params: { service: 'blockchain' }}"> Blockchain Development</router-link></span>
+                                    <span  class="c_bm_tree_submenu"><router-link :to="{ name: 'servicedetail', params: { service: 'cc' }}"> Cloud Computing</router-link></span>
+                                    <span  class="c_bm_tree_submenu"> <router-link :to="{ name: 'servicedetail', params: { service: 'rpa' }}"> RPA Support</router-link></span>
+                                    <span  class="c_bm_tree_submenu"> <router-link :to="{ name: 'servicedetail', params: { service: 'pwa' }}">  PWA Development</router-link></span>
+                                    <span  class="c_bm_tree_submenu"><router-link :to="{ name: 'servicedetail', params: { service: 'arvr' }}"> VR/AR Development</router-link></span>
+                                    <span  class="c_bm_tree_submenu"> <router-link :to="{ name: 'servicedetail', params: { service: 'odoo' }}"> Odoo ERP custormize</router-link></span>
+                                    <span  class="c_bm_tree_submenu"><router-link :to="{ name: 'servicedetail', params: { service: 'marketing' }}">  Digital Marketing</router-link></span>
+                                    <span  class="c_bm_tree_submenu"><router-link :to="{ name: 'servicedetail', params: { service: 'cybersecurity' }}"> Cyber Security</router-link></span>
                                 </div>
                             </div>
-                            <div id="slide_product" class="bm_primary_scroller"
+                            <div id="c_slide_product" class="l_bm_primary_scroller"
                                  v-bind:style="{background: background_product, color: color_product}">
                                 Solutions
-                                <svg class="bm_list_down" width="9" height="17" viewBox="0 0 9 17" fill="#138690"
+                                <svg class="c_bm_list_down" width="9" height="17" viewBox="0 0 9 17" fill="#138690"
                                      xmlns="http://www.w3.org/2000/svg"
                                      v-bind:style="{fill: color_click_product, transform:rotate_click_product}">
                                     <path d="M8.65039 8.74568L0.860939 16.8937C0.791212 16.9668 0.698244 17.0033 0.605276 17.0033C0.515626 17.0033 0.429298 16.9701 0.359571 16.9037C0.220118 16.7676 0.213478 16.5451 0.349611 16.4023L7.90664 8.49998L0.349609 0.597635C0.213476 0.458182 0.216797 0.2324 0.35957 0.0995878C0.502343 -0.0365449 0.724805 -0.0299043 0.860937 0.109549L8.65039 8.25427C8.7832 8.39041 8.7832 8.60623 8.65039 8.74568Z"/>
                                 </svg>
-                                <div class="bm_tree__product" v-bind:style="{ display: styleCheck_product}">
-                                    <span  class="bm_tree_submenu"><router-link :to="{ name: 'solutiondetail', params: { solution: 'security' }}">  Security System</router-link></span>
-                                    <span  class="bm_tree_submenu"><router-link :to="{ name: 'solutiondetail', params: { solution: 'kpi' }}">   KPI Dashboard System</router-link></span>
-                                    <span  class="bm_tree_submenu"><router-link :to="{ name: 'solutiondetail', params: { solution: 'qrcode' }}">  QR Code System</router-link></span>
-                                    <span  class="bm_tree_submenu"><router-link :to="{ name: 'solutiondetail', params: { solution: 'hrm' }}">  Human Resource Management</router-link></span>
-                                    <span  class="bm_tree_submenu"><router-link :to="{ name: 'solutiondetail', params: { solution: 'ls' }}">  Logistic System</router-link></span>
-                                    <span  class="bm_tree_submenu"><router-link :to="{ name: 'solutiondetail', params: { solution: 'sms' }}">   School Management System</router-link></span>
-                                    <span  class="bm_tree_submenu"><router-link :to="{ name: 'solutiondetail', params: { solution: 'mapping' }}">   Projection Mapping</router-link></span>
-                                    <span  class="bm_tree_submenu"><a
+                                <div class="l_bm_tree__product" v-bind:style="{ display: styleCheck_product}">
+                                    <span  class="c_bm_tree_submenu"><router-link :to="{ name: 'solutiondetail', params: { solution: 'security' }}">  Security System</router-link></span>
+                                    <span  class="c_bm_tree_submenu"><router-link :to="{ name: 'solutiondetail', params: { solution: 'kpi' }}">   KPI Dashboard System</router-link></span>
+                                    <span  class="c_bm_tree_submenu"><router-link :to="{ name: 'solutiondetail', params: { solution: 'qrcode' }}">  QR Code System</router-link></span>
+                                    <span  class="c_bm_tree_submenu"><router-link :to="{ name: 'solutiondetail', params: { solution: 'hrm' }}">  Human Resource Management</router-link></span>
+                                    <span  class="c_bm_tree_submenu"><router-link :to="{ name: 'solutiondetail', params: { solution: 'ls' }}">  Logistic System</router-link></span>
+                                    <span  class="c_bm_tree_submenu"><router-link :to="{ name: 'solutiondetail', params: { solution: 'sms' }}">   School Management System</router-link></span>
+                                    <span  class="c_bm_tree_submenu"><router-link :to="{ name: 'solutiondetail', params: { solution: 'mapping' }}">   Projection Mapping</router-link></span>
+                                    <span  class="c_bm_tree_submenu"><a
                                             :href="$router.resolve({ name: 'solutiondetail', params: { solution: 'ls' }}).href">Logistic System</a></span>
                                 </div>
                             </div>
-                            <span ><router-link to="/about" id="slide_about" class="bm_primary_scroller scroller_text">About</router-link></span>
-                            <span ><router-link  to="/contact" id="slide_contact" class="bm_primary_scroller scroller_text">Contact</router-link></span>
+                            <span ><router-link to="/about" id="slide_about" class="l_bm_primary_scroller c_scroller_text">About</router-link></span>
+                            <span ><router-link  to="/contact" id="slide_contact" class="l_bm_primary_scroller c_scroller_text">Contact</router-link></span>
                         </div>
                     </div>
                 </div>
             </div>
-            <div ref="bmBurgerButton" class="bm-burger-button" @click="openMenu" :class="{ hidden: !burgerIcon }">
+            <div ref="bmBurgerButton" class="l_bm-burger-button" @click="openMenu" :class="{ hidden: !burgerIcon }">
                 <div v-if="navigationActivate === 'active'">
                   <span class="bm-burger-bars">
                     <svg width="25" height="15" viewBox="0 0 25 15" fill="none" xmlns="http://www.w3.org/2000/svg">
