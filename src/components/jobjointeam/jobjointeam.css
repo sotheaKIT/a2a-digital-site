@@ -2,7 +2,7 @@
   position: relative;
   
 }
-.l_job__fullbleed.job_blue__bg {
+.c_job__fullbleed.job_blue__bg {
   background-color: #138690;;
   color: #fff;
 }
@@ -12,10 +12,10 @@
   background-color: #fff;
 }
 
-.c_job_textcenter {
+.l_job_textcenter {
   text-align: center;
 }
-.c_job_textcenter h2 {
+.l_job_textcenter h2 {
   font-style: normal;
   font-weight: bold;
   font-size: 35px;
@@ -23,7 +23,7 @@
   color: #FFFFFF;
 }
 
-.c_job_textcenter p {
+.l_job_textcenter p {
   max-width: 571px;
   padding-top: 13px;
   margin: 0 auto;
@@ -46,18 +46,18 @@
   max-width: 1400px;
   margin: 0 auto;
 }
-.c_job__halfglyph {
+.l_job__halfglyph {
   height: 100%;
   text-align: left;
   padding: 1rem;
 }
-.c_job__halfglyph img {
+.l_job__halfglyph img {
   margin-top: 80px;
   margin-right: 31px;
   float: left;
 }
 
-.c_job__halfglyph p {
+.l_job__halfglyph p {
 max-width: 346px;
 margin-top: 85px;
 text-align: left;
@@ -71,42 +71,42 @@ overflow: hidden;
   .l_job__fullbleed{
     padding: 81px 49px;
   }
-.c_job__halfglyph {
+.l_job__halfglyph {
     margin-left: auto;
     margin-right: auto;
     padding: 1rem 2rem;
   }
-  .c_job_textcenter p {
+  .l_job_textcenter p {
     padding-bottom: 80px;
   }
-  .c_job__halfglyph img {
+  .l_job__halfglyph img {
     margin-top: 0px;
     margin-right: 38.88px;
     width: 88.12px;
     height: 88.12px;
   }
-  .c_job__halfglyph p {
+  .l_job__halfglyph p {
     margin-top: 26px;
   }
 }@media only screen and (max-width: 649px){
-  .c_job_textcenter p {
+  .l_job_textcenter p {
   max-width: 280px;
   }
   .l_job__row{
     margin-left: auto;
     margin-right: auto;
   }
-  .c_job_textcenter p {
+  .l_job_textcenter p {
     padding-bottom: 28px;
   }
-  .c_job__halfglyph img {
+  .l_job__halfglyph img {
     width: 100%;
     height: 88.12px;
     margin-top: 0px; 
     margin-right: 0;
     float: none;
   }
-  .c_job__halfglyph p{
+  .l_job__halfglyph p{
     max-width: 280px;
     margin-top: 15px;
     text-align: center;
