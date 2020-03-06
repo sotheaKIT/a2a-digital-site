@@ -1,10 +1,10 @@
 /* Title for one page topic*/
 /* One page topic locaion*/
-.c_service__title{
+.l_service__title{
     width: 100%;
     text-align: center;
 }
-.c_service__title h1{
+.l_service__title h1{
 
     color: #303030;
     font-size: 35px;
