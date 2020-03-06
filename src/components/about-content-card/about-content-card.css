@@ -23,7 +23,7 @@
     color: #303030
 }
 
-.c_card__service {
+.l_card__service {
     width: 100%;
     padding-top: 100px;
     display: flex;
@@ -31,7 +31,7 @@
     
 }
 /* For mobile the text after img will not shown */
-.c_card__service .l_card__img + .l_article__wrapper{ 
+.l_card__service .l_card__img + .l_article__wrapper{ 
     display: none; 
 }
 .l_card__text {
@@ -71,7 +71,7 @@ div.l_article__wrapper {
 .txt_right article.l_card__text {
     margin-left: 15%;
 }
-section.c_card__service.txt_right {
+section.l_card__service.txt_right {
     flex-direction: row-reverse;
 }
 /* Position for text to right  */
@@ -89,7 +89,7 @@ section.c_card__service.txt_right {
     clear: both;
 }
 @media only screen and (min-width: 1367px) {
-    .c_card__service{
+    .l_card__service{
         margin-left: calc((100% - 1186px)/2);
         width: 1186px;
     }
@@ -130,18 +130,18 @@ section.c_card__service.txt_right {
         padding-bottom: 35px;
         padding-top: 35px;
     }
-    .c_card__service{
+    .l_card__service{
         flex-direction: column-reverse;
         padding-top: 0;
     }
-    .c_card__service div.l_article__wrapper{
+    .l_card__service div.l_article__wrapper{
         width: 100%;
         padding-top: 30px;
     }
-    .c_card__service div.l_card__img{
+    .l_card__service div.l_card__img{
         width: 100%;
     }
-    .c_card__service .l_card__img + .l_article__wrapper{ 
+    .l_card__service .l_card__img + .l_article__wrapper{ 
         display: inline-block; /* For mobile the text after img will show up */
         width: 100%;
     }
@@ -153,10 +153,10 @@ section.c_card__service.txt_right {
     }
     /* text befor img will not show */
  
-    section.c_card__service.txt_right {
+    section.l_card__service.txt_right {
         flex-direction: column-reverse;
     }
-    section.c_card__service article.l_card__text {
+    section.l_card__service article.l_card__text {
         width: 100%;
         margin-left: 0% ;
     }  
