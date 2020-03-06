@@ -1,22 +1,22 @@
-#about-ceo {
+#l_about-ceo {
     padding-top: 60px;
 }
 
-#about-ceo > p {
+#l_about-ceo > p {
     margin-bottom: 30px;
 }
 
-#about-ceo > p:nth-last-child(1) {
+#l_about-ceo > p:nth-last-child(1) {
     margin-bottom: 0;
 }
 
-p.quote {
+p.l_quote {
     font-size: 24px;
     line-height: 29px;
     color: #138690;
 }
 
-.ceo-img-1 {
+.l_ceo-img-1 {
     float: right;
     width: 40%;
     border-radius: 4px;
@@ -24,7 +24,7 @@ p.quote {
     display: none;
 }
 
-.ceo-img-2 {
+.l_ceo-img-2 {
     width: 100%;
     border-radius: 4px;
     margin-bottom: 30px;
@@ -32,11 +32,11 @@ p.quote {
 
 /* ----------------------------------------------------mobile layout------------------------------------------ */
 @media (min-width: 960px) {
-    .ceo-img-1 {
+    .l_ceo-img-1 {
         display: block;
     }
 
-    .ceo-img-2 {
+    .l_ceo-img-2 {
         display: none;
     }
 
